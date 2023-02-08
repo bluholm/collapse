@@ -24,6 +24,8 @@
 		0ED3C4FB29932080005910CF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4FA29932080005910CF /* DetailViewController.swift */; };
 		0ED3C4FD299326B1005910CF /* Topic+Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4FC299326B1005910CF /* Topic+Json.swift */; };
 		0ED3C4FF29932A4C005910CF /* JsonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4FE29932A4C005910CF /* JsonService.swift */; };
+		0ED3C5012993303C005910CF /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C5002993303C005910CF /* TopicTableViewCell.swift */; };
+		0ED3C50329937A7D005910CF /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C50229937A7D005910CF /* ItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		0ED3C4FA29932080005910CF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		0ED3C4FC299326B1005910CF /* Topic+Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Topic+Json.swift"; sourceTree = "<group>"; };
 		0ED3C4FE29932A4C005910CF /* JsonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonService.swift; sourceTree = "<group>"; };
+		0ED3C5002993303C005910CF /* TopicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		0ED3C50229937A7D005910CF /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				0ED3C4C62992056E005910CF /* Main.storyboard */,
 				0ED3C4F12992F768005910CF /* ProjectUIView.swift */,
 				0ED3C4F52993065B005910CF /* LongTopicUIView.swift */,
+				0ED3C5002993303C005910CF /* TopicTableViewCell.swift */,
+				0ED3C50229937A7D005910CF /* ItemTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -266,8 +272,10 @@
 				0ED3C4F22992F768005910CF /* ProjectUIView.swift in Sources */,
 				0ED3C4F929931FF9005910CF /* TopicViewController.swift in Sources */,
 				0ED3C4CB2992056E005910CF /* collapse.xcdatamodeld in Sources */,
+				0ED3C50329937A7D005910CF /* ItemTableViewCell.swift in Sources */,
 				0ED3C4FF29932A4C005910CF /* JsonService.swift in Sources */,
 				0ED3C4C52992056E005910CF /* MainViewController.swift in Sources */,
+				0ED3C5012993303C005910CF /* TopicTableViewCell.swift in Sources */,
 				0ED3C4FD299326B1005910CF /* Topic+Json.swift in Sources */,
 				0ED3C4C12992056E005910CF /* AppDelegate.swift in Sources */,
 				0ED3C4C32992056E005910CF /* SceneDelegate.swift in Sources */,
