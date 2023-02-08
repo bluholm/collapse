@@ -1,0 +1,74 @@
+[
+    {
+        "uid": "1",
+        "title": "Eau potable",
+        "subtitle": "",
+        "image": "",
+        "description": "Des items importants pour vous assurer une source d'eau potable en cas d'urgence.",
+        "items": [
+            {
+                "title": "Bouteille d'eau potable",
+                "isChecked": false,
+                "subtitle": "",
+                "image": "",
+                "description": "Une bouteille d'eau potable pour une utilisation en cas d'urgence."
+            },
+            {
+                "title": "Filtre à eau portable",
+                "isChecked": false,
+                "subtitle": "",
+                "image": "",
+                "description": "Un filtre à eau portable pour purifier l'eau en cas d'urgence."
+            }
+        ],
+        "isPremium": false
+    },
+    {
+        "uid": "2",
+        "title": "Premiers secours",
+        "subtitle": "",
+        "image": "",
+        "description": "Des items importants pour être prêt à faire face à une situation d'urgence.",
+        "items": [
+            {
+                "title": "Kit de premiers secours",
+                "isChecked": false,
+                "subtitle": "",
+                "image": "",
+                "description": "Un kit de premiers secours pour faire face à une situation d'urgence."
+            },
+            {
+                "title": "Livre de premiers secours",
+                "isChecked": false,
+                "subtitle": "",
+                "image": "",
+                "description": "Un livre de premiers secours pour avoir des instructions en cas d'urgence."
+            }
+        ],
+        "isPremium": false
+    },
+    {
+        "uid": "3",
+        "title": "Nourriture",
+        "subtitle": "",
+        "image": "",
+        "description": "Des items importants pour avoir une source de nourriture en cas d'urgence.",
+        "items": [
+            {
+                "title": "Barres céréalières",
+                "isChecked": false,
+                "subtitle": "",
+                "image": "",
+                "description": "Des barres céréalières pour avoir une source de nourriture en cas d'urgence."
+            },
+            {
+                "title": "Rations de survie",
+                "isChecked": false,
+                "subtitle": "",
+                "image": "",
+                "description": "Des rations de survie pour avoir une source de nourriture en cas d'urgence."
+            }
+        ],
+        "isPremium": true
+    }
+]
