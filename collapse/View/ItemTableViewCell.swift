@@ -16,8 +16,8 @@ final class ItemCustomTableViewCell: UITableViewCell {
         super.awakeFromNib()
     }
     
-    func configure(item: Item) {
-        itemLabel.text = item.title
+    func configure(with: Item) {
+        itemLabel.text = with.title
     }
 
 }

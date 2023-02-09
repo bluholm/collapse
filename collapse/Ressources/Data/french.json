@@ -4,29 +4,36 @@
         "title": "Eau potable",
         "subtitle": "stockage, filtre , et bien plus ",
         "image": "water",
+        "links": [
+            {
+            "url": "https://fr.wikipedia.org/wiki/Programmation",
+            "description": "Compete water books"
+            },
+            {
+            "url": "https://www.w3schools.com/js/",
+            "description": "News on how to save water"
+            }
+            ],
         "descriptionShort": "En cas d'effondrement, il peut être difficile de trouver de l'eau potable. Pour s'assurer que l'eau est saine à boire, il est important de la filtrer correctement. Voici quelques étapes pour filtrer l'eau: Trouvez une source d'eau claire et propre, comme une rivière ou un lac, à distance de toutes les sources de pollution.\n \n Recueillez de l'eau dans un récipient propre, comme un bidon ou un seau. Filtrez l'eau avec un filtre à eau portable. Assurez-vous que le filtre est en bon état et capable de filtrer les impuretés et les bactéries. Si vous n'avez pas de filtre, vous pouvez utiliser du charbon de bois pour fabriquer un filtre maison. ",
         "descriptionLong": "En cas d'effondrement, il peut être difficile de trouver de l'eau potable. Pour s'assurer que l'eau est saine à boire, il est important de la filtrer correctement. Voici quelques étapes pour filtrer l'eau: Trouvez une source d'eau claire et propre, comme une rivière ou un lac, à distance de toutes les sources de pollution.\n \n Recueillez de l'eau dans un récipient propre, comme un bidon ou un seau. Filtrez l'eau avec un filtre à eau portable. Assurez-vous que le filtre est en bon état et capable de filtrer les impuretés et les bactéries. Si vous n'avez pas de filtre, vous pouvez utiliser du charbon de bois pour fabriquer un filtre maison.En cas d'effondrement, il peut être difficile de trouver de l'eau potable. Pour s'assurer que l'eau est saine à boire, il est important de la filtrer correctement. Voici quelques étapes pour filtrer l'eau: Trouvez une source d'eau claire et propre, comme une rivière ou un lac, à distance de toutes les sources de pollution.\n \n Recueillez de l'eau dans un récipient propre, comme un bidon ou un seau. Filtrez l'eau avec un filtre à eau portable. Assurez-vous que le filtre est en bon état et capable de filtrer les impuretés et les bactéries. Si vous n'avez pas de filtre, vous pouvez utiliser du charbon de bois pour fabriquer un filtre maison.",
         "items": [
             {
                 "title": "Bouteille d'eau potable",
-                "mode": "regular",
-                "isChecked": false,
+                "mode": "advanced",
                 "subtitle": "",
                 "image": "",
                 "description": "Une bouteille d'eau potable pour une utilisation en cas d'urgence."
             },
             {
                 "title": "Filtre à eau portable",
-                "mode": "regular",
-                "isChecked": false,
+                "mode": "advanced",
                 "subtitle": "",
                 "image": "",
                 "description": "Un filtre à eau portable pour purifier l'eau en cas d'urgence."
             },
             {
-                "title": "GOupille electrique",
-                "mode": "advanced",
-                "isChecked": true,
+                "title": "Goupille electrique",
+                "mode": "essential",
                 "subtitle": "",
                 "image": "",
                 "description": "Bah ouais quoi ! nameho ! ."
@@ -39,21 +46,25 @@
         "title": "Premiers secours",
         "subtitle": "premiers soins, médecine, herbal...",
         "image": "health",
+        "links": [
+            {
+            "url": "https://fr.wikipedia.org/wiki/Programmation",
+            "description": "Compete water books"
+            }
+            ],
         "descriptionShort": "Des items importants pour être prêt à faire face à une situation d'urgence.",
         "descriptionLong": "",
         "items": [
             {
                 "title": "Kit de premiers secours",
-                "mode": "",
-                "isChecked": false,
+                "mode": "intermediate",
                 "subtitle": "",
                 "image": "",
                 "description": "Un kit de premiers secours pour faire face à une situation d'urgence."
             },
             {
                 "title": "Livre de premiers secours",
-                "mode": "",
-                "isChecked": false,
+                "mode": "essential",
                 "subtitle": "",
                 "image": "",
                 "description": "Un livre de premiers secours pour avoir des instructions en cas d'urgence."
@@ -66,21 +77,20 @@
         "title": "Construction",
         "subtitle": "de la construction simple aux plus élaborées",
         "image": "building",
+        "links": [],
         "descriptionShort": "Des items importants pour avoir une source de nourriture en cas d'urgence.",
-        "descriptionLong": "",
+        "descriptionLong": "En cas d'effondrement, il peut être difficile de trouver de l'eau potable. Pour s'assurer que l'eau est saine à boire, il est important de la filtrer correctement. Voici quelques étapes pour filtrer l'eau: Trouvez une source d'eau claire et propre, comme une rivière ou un lac, à distance de toutes les sources de pollution.\n \n Recueillez de l'eau dans un récipient propre, comme un bidon ou un seau. Filtrez l'eau avec un filtre à eau portable. Assurez-vous que le filtre est en bon état et capable de filtrer les impuretés et les bactéries. Si vous n'avez pas de filtre, vous pouvez utiliser du charbon de bois pour fabriquer un filtre maison.En cas d'effondrement, il peut être difficile de trouver de l'eau potable. Pour s'assurer que l'eau est saine à boire, il est important de la filtrer correctement. Voici quelques étapes pour filtrer l'eau: Trouvez une source d'eau claire et propre, comme une rivière ou un lac, à distance de toutes les sources de pollution.\n \n Recueillez de l'eau dans un récipient propre, comme un bidon ou un seau. Filtrez l'eau avec un filtre à eau portable. Assurez-vous que le filtre est en bon état et capable de filtrer les impuretés et les bactéries. Si vous n'avez pas de filtre, vous pouvez utiliser du charbon de bois pour fabriquer un filtre maison.",
         "items": [
             {
                 "title": "Barres céréalières",
-                "mode": "",
-                "isChecked": false,
+                "mode": "advanced",
                 "subtitle": "",
                 "image": "",
                 "description": "Des barres céréalières pour avoir une source de nourriture en cas d'urgence."
             },
             {
                 "title": "Rations de survie",
-                "mode": "",
-                "isChecked": false,
+                "mode": "intermediate",
                 "subtitle": "",
                 "image": "",
                 "description": "Des rations de survie pour avoir une source de nourriture en cas d'urgence."

@@ -1,3 +1,4 @@
+
 //
 //  TopicViewController.swift
 //  collapse
@@ -8,7 +9,7 @@
 import UIKit
 
 final class TopicViewController: UIViewController {
-    
+
     // MARK: - Porperties
     @IBOutlet var contentView: UIView!
     @IBOutlet var scrollView: UIScrollView!
@@ -25,10 +26,10 @@ final class TopicViewController: UIViewController {
     @IBOutlet var tableHeight: NSLayoutConstraint!
     @IBOutlet var shortDescriptionHeightConstraint: NSLayoutConstraint!
     
-    private var contentSizeObserver: NSKeyValueObservation?
-    private var filteredItems = [[Item]]()
-    private var modes = ["essential", "intermediate", "advanced"]
+    var contentSizeObserver: NSKeyValueObservation?
     var topic: TopicElement!
+    var filteredItems = [[Item]]()
+    var modes = ["essential", "intermediate", "advanced"]
     
     // MARK: - Lifecycle
     override func viewDidLoad() {
@@ -36,31 +37,29 @@ final class TopicViewController: UIViewController {
         self.loadingTopic()
         self.tableHeightAddObserver()
         self.autoSizeContentView()
-        self.loadFilteredItemsForTableView()
-    }
+        
+        /*let modess = Set(topic.items.map { $0.mode })
+        modes = Array(modess)*/
+        
+        let regularItems = topic.items.filter { $0.mode == "essential" }.sorted { $0.title < $1.title }
+        let intermediateItems = topic.items.filter { $0.mode == "intermediate" }.sorted { $0.title < $1.title }
+        let advancedItems = topic.items.filter { $0.mode == "advanced" }.sorted { $0.title < $1.title }
+
+            // Append the filtered items to the filteredItems array
+            filteredItems.append(regularItems)
+        filteredItems.append(intermediateItems)
+            filteredItems.append(advancedItems)
+        
+        tableViewRegular.reloadData()
+        
+        }
     
     override func viewWillDisappear(_ animated: Bool) {
-        contentSizeObserver = nil
-        super.viewWillDisappear(true)
-    }
+            contentSizeObserver = nil
+            super.viewWillDisappear(true)
+        }
     
     // MARK: - Privates
-    private func loadFilteredItemsForTableView() {
-        let regularItems = topic.items.filter { $0.mode == modes[0] }.sorted { $0.title < $1.title }
-        let intermediateItems = topic.items.filter { $0.mode == modes[1] }.sorted { $0.title < $1.title }
-        let advancedItems = topic.items.filter { $0.mode == modes[2] }.sorted { $0.title < $1.title }
-        
-        if !regularItems.isEmpty {
-            filteredItems.append(regularItems)
-        }
-        if !intermediateItems.isEmpty {
-            filteredItems.append(intermediateItems)
-        }
-        if !advancedItems.isEmpty {
-            filteredItems.append(advancedItems)
-        }
-        tableViewRegular.reloadData()
-    }
     
     private func textViewHeightCalcultate(textView: UITextView) -> CGFloat {
         let fixedWidth = textView.frame.size.width
@@ -91,10 +90,10 @@ final class TopicViewController: UIViewController {
         contentSizeObserver = tableViewRegular.observe(\UITableView.contentSize,
                                                         options: [NSKeyValueObservingOptions.new],
                                                         changeHandler: { _, change in
-            if let contentSize = change.newValue {
-                self.tableHeight.constant = contentSize.height
-            }
-        })
+                    if let contentSize = change.newValue {
+                        self.tableHeight.constant = contentSize.height
+                    }
+                })
     }
     
     private func loadingTopic() {
@@ -140,8 +139,11 @@ extension TopicViewController: UITableViewDelegate, UITableViewDataSource {
         if tableView == tableViewRegular {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "itemCell", for: indexPath) as? ItemCustomTableViewCell else { return UITableViewCell() }
             
+            
+                    
             guard indexPath.row < filteredItems.count else { return UITableViewCell() }
             let item = filteredItems[indexPath.section][indexPath.row]
+            
             cell.configure(with: item)
             return cell
             
@@ -167,6 +169,18 @@ extension TopicViewController: UITableViewDelegate, UITableViewDataSource {
             vc.item = topic.items[indexPath.row]
             self.navigationController?.pushViewController(vc, animated: true)
         }
+        
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+            return 50
+    }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        if tableView == tableViewRegular {
+            return 60
+        }
+        return 20
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
@@ -177,14 +191,4 @@ extension TopicViewController: UITableViewDelegate, UITableViewDataSource {
         
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 50
-    }
-    
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        if tableView == tableViewRegular {
-            return 60
-        }
-        return 20
-    }
 }

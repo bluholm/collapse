@@ -13,6 +13,7 @@ struct TopicElement: Decodable {
     let uid, title, subtitle, image: String
     let descriptionShort, descriptionLong: String
     let items: [Item]
+    let links: [Link]
     let isPremium: Bool
 }
 
@@ -20,6 +21,12 @@ struct TopicElement: Decodable {
 struct Item: Decodable {
     
     let title: String
-    let isChecked: Bool
     let subtitle, image, description, mode: String
+}
+
+// MARK: - Link
+struct Link: Codable, Hashable {
+    
+    let url: String
+    let description: String
 }
