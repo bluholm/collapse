@@ -1,14 +1,21 @@
 ##Version 1.0
-- Project Sscore calculé en pourcentage sur le nombre total de topic disponible dans son mode choisit ( le score peut etre > 100% si on coche normal , mais qu'on a fait des trucs en adavenced ')
-- possibilté de choisir son mode 
-        - Normal
-        - Rude
-        - Extreme 
+A faire :  
+- les constraintes.... 
+- les links 
+- choix des 3 topics a afficher 
+- la recherche 
+- le changement de mode
+- basculer les calculs de score dans le modèle !!  
+- le score prend t'il en compte le mode ? pas encore :)
+- la collection view 
+- les remerciements 
+- test fonction qui vérifie le json 
+- le mode payant :   
+
+ - 5 topcis gratuit ( mais pas tous les items ) : 3 visibles dans l'entrée : 
+        => forcement parmis ceux qui sont en cours ou pas teerminé . 
+        => ne peux pas etre des topics premium si le gars est en free sauf si il a deja fait . 
  
-- Userdefault va sauvegarder : 
-    le mode
-    les checks ou non
-    si premiums ou non
 
 - ecran d'accueil : 
     => la liste des activités en cours ( soit topic non terminé )
@@ -35,3 +42,11 @@ Sur la page principale :
     
 => un lien vers une liste tableview avec tous les topic ( avec zone d recherche 
     
+##Version 1.2
+- mode payant
+
+##Version 2.0
+- ajouter des "news" : pour pouvoir fideliser et surtout apporter des infomations complemtnaire . 
+- parler du truc a decocher dans apple pour garder l'app 
+- geolocalisation pour savoir si oui ou non t'es sur un spot safe ? 
+- simulateur pour plein de truc (blé , or etc... )

@@ -20,6 +20,8 @@ struct TopicElement: Decodable {
 // MARK: - Item
 struct Item: Decodable {
     
+    let id: String
+    let links: [Link]
     let title: String
     let subtitle, image, description, mode: String
 }

@@ -7,8 +7,9 @@
 
 import UIKit
 
-class LongTopicUIView: UIView {
+final class LongTopicUIView: UIView {
 
+    // MARK: - drawings
     override func draw(_ rect: CGRect) {
         self.layer.cornerRadius = 8
         self.clipsToBounds = true

@@ -9,26 +9,59 @@ import UIKit
 
 final class DetailViewController: UIViewController {
 
-    var item: Item!
+    // MARK: - Properties
     @IBOutlet var linksTitleLabel: UILabel!
+    @IBOutlet var descriptionTextView: UITextView!
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var tableHeightConstraint: NSLayoutConstraint!
+    @IBOutlet var tableviewLinks: UITableView!
+    private var contentSizeObserver: NSKeyValueObservation?
+    var item: Item!
     
+    // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableHeightAddObserver()
+        tableviewLinks.reloadData()
         
-        func createLink(link: String, description: String) -> NSAttributedString {
-          let text = NSAttributedString(string: description)
-          let attachment = NSTextAttachment()
-          attachment.image = UIImage(systemName: "link")
-          let attachmentString = NSAttributedString(attachment: attachment)
-          let finalString = NSMutableAttributedString(attributedString: text)
-          finalString.append(attachmentString)
-          let range = NSRange(location: text.length, length: attachmentString.length)
-          finalString.addAttribute(.link, value: link, range: range)
-          return finalString
+        if item.links.isEmpty {
+            linksTitleLabel.isHidden = true
+            tableviewLinks.isHidden = true
         }
-
-        linksTitleLabel.attributedText = createLink(link: "http://google.com", description: "mark")
-
+        linksTitleLabel.text = "Links"
+        titleLabel.text = item.title
+        descriptionTextView.text = item.description
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        contentSizeObserver = nil
+        super.viewWillDisappear(true)
+    }
+    
+    // MARK: - Privates
+    private func tableHeightAddObserver() {
+        contentSizeObserver = tableviewLinks.observe(\UITableView.contentSize,
+                                                        options: [NSKeyValueObservingOptions.new],
+                                                        changeHandler: { _, change in
+            if let contentSize = change.newValue {
+                self.tableHeightConstraint.constant = contentSize.height
+            }
+        })
     }
 
+}
+
+// MARK: - UITableViewDelegate, UITableViewDataSource
+extension DetailViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return item.links.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "linkCell", for: indexPath)
+        cell.textLabel?.text = item.links[indexPath.row].url
+        cell.detailTextLabel?.text = item.links[indexPath.row].description
+        return cell
+    }
 }

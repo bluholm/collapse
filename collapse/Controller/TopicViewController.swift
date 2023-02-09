@@ -10,21 +10,24 @@ import UIKit
 final class TopicViewController: UIViewController {
     
     // MARK: - Porperties
+    //Outlets
     @IBOutlet var contentView: UIView!
     @IBOutlet var scrollView: UIScrollView!
     @IBOutlet var imageView: UIImageView!
+    @IBOutlet var scoreProgressView: UIProgressView!
     @IBOutlet var shortDescriptionTextView: UITextView!
     @IBOutlet var longDescriptionTextView: UITextView!
     @IBOutlet var subtitleLabel: UILabel!
     @IBOutlet var tableViewLink: UITableView!
     @IBOutlet var tableViewRegular: UITableView!
-    
+    @IBOutlet var scorePercentLabel: UILabel!
     @IBOutlet var linkTitleLabel: UILabel!
+    //Constraints
     @IBOutlet var longDescriptionConstraintHeight: NSLayoutConstraint!
     @IBOutlet var contentViewConstraintHeight: NSLayoutConstraint!
     @IBOutlet var tableHeight: NSLayoutConstraint!
     @IBOutlet var shortDescriptionHeightConstraint: NSLayoutConstraint!
-    
+    //constants and variables
     private var contentSizeObserver: NSKeyValueObservation?
     private var filteredItems = [[Item]]()
     private var modes = ["essential", "intermediate", "advanced"]
@@ -44,7 +47,37 @@ final class TopicViewController: UIViewController {
         super.viewWillDisappear(true)
     }
     
+    // MARK: - Actions
+    
+    @IBAction func didSwitchedItem(_ sender: UISwitch) {
+        guard let cell = sender.superview?.superview as? ItemCustomTableViewCell, let itemId = cell.itemId else { return }
+        if sender.isOn {
+            SettingsRepository.checkItem[itemId] = true
+        } else {
+            SettingsRepository.checkItem.removeValue(forKey: itemId)
+        }
+        updateScorePercent()
+    }
+    
     // MARK: - Privates
+    private func updateScorePercent() {
+        let scorePercent = Int(calculateScore()*100)
+        scorePercentLabel.text = "\(scorePercent)%"
+        scoreProgressView.progress = calculateScore()
+    }
+    
+    private func calculateScore() -> Float {
+        let total = topic.items.count
+        var check = 0
+        for item in topic.items {
+            for (key, _) in SettingsRepository.checkItem where item.id == key {
+                        check += 1
+                    }
+        }
+        let result = Double(check)/Double(total)
+        return Float(result)
+    }
+    
     private func loadFilteredItemsForTableView() {
         let regularItems = topic.items.filter { $0.mode == modes[0] }.sorted { $0.title < $1.title }
         let intermediateItems = topic.items.filter { $0.mode == modes[1] }.sorted { $0.title < $1.title }
@@ -102,6 +135,7 @@ final class TopicViewController: UIViewController {
         imageView.image = UIImage(named: topic.image)
         shortDescriptionTextView.text = loadDescriptionWithDots(description: topic.descriptionShort)
         longDescriptionTextView.text = topic.descriptionLong
+        updateScorePercent()
         if topic.links.isEmpty {
             linkTitleLabel.isHidden = true
             tableViewLink.isHidden = true
@@ -130,8 +164,7 @@ extension TopicViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if tableView == tableViewRegular {
-            // swiftlint: disable empty_count
-            return filteredItems[section].count > 0 ? filteredItems[section].count : 0
+            return filteredItems[section].isEmpty ? 0 : filteredItems[section].count
         }
         return topic.links.count
     }
@@ -143,6 +176,7 @@ extension TopicViewController: UITableViewDelegate, UITableViewDataSource {
             guard indexPath.row < filteredItems.count else { return UITableViewCell() }
             let item = filteredItems[indexPath.section][indexPath.row]
             cell.configure(with: item)
+            cell.itemId = item.id
             return cell
             
         } else {
@@ -164,7 +198,7 @@ extension TopicViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if tableView == tableViewRegular {
             guard let vc = storyboard?.instantiateViewController(withIdentifier: "detailViewController") as? DetailViewController else { return }
-            vc.item = topic.items[indexPath.row]
+            vc.item = filteredItems[indexPath.section][indexPath.row]
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }

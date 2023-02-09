@@ -8,7 +8,7 @@
 import Foundation
 
 final class JsonService {
-    
+   
     static func parse(file: String, callback: @escaping(Result<[TopicElement], Error>) -> Void) {
         guard let url = Bundle.main.url(forResource: file, withExtension: "json"),
               let data = try? Data(contentsOf: url) else { return  }

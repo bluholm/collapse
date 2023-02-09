@@ -7,8 +7,9 @@
 
 import UIKit
 
-class ProjectUIView: UIView {
+final class ProjectUIView: UIView {
 
+    // MARK: - drawings
     override func draw(_ rect: CGRect) {
         self.layer.cornerRadius = 10
         self.clipsToBounds = true

@@ -15,6 +15,7 @@ final class TopicTableViewCell: UITableViewCell {
     @IBOutlet var imageTopic: UIImageView!
     @IBOutlet var preparationLabel: UILabel!
     @IBOutlet var percentLabel: UILabel!
+    @IBOutlet var percentageCircle: PercentCircleUIView!
     
     // MARK: - Override
     override func awakeFromNib() {
@@ -23,10 +24,15 @@ final class TopicTableViewCell: UITableViewCell {
     }
 
     // MARK: - Public
-    func configure(topic: TopicElement) {
+    func configure(topic: TopicElement, percentage: CGFloat) {
         titleLabel.text = topic.title
         imageTopic.image = UIImage(named: topic.image)
         subtitleLabel.text = topic.subtitle
+        percentLabel.text = "\(String(Int(percentage*100)))%"
+        
+        percentageCircle.percentage = percentage*100
+        percentageCircle.setNeedsDisplay()
+        percentageCircle.layoutIfNeeded()
     }
 
 }
