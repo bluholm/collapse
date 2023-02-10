@@ -1,0 +1,39 @@
+{
+    "uid": "1",
+    "title": "Eau potable",
+    "subtitle": "stockage, filtration, utilité ",
+    "image": "water",
+    "links": [],
+    "descriptionShort": "En cas d'effondrement, il peut être difficile de trouver de l'eau potable. Pour s'assurer que l'eau est saine à boire, il est important de la filtrer correctement. Voici quelques étapes pour filtrer l'eau: Trouvez une source d'eau claire et propre, comme une rivière ou un lac, à distance de toutes les sources de pollution.\n \n Recueillez de l'eau dans un récipient propre, comme un bidon ou un seau. Filtrez l'eau avec un filtre à eau portable. Assurez-vous que le filtre est en bon état et capable de filtrer les impuretés et les bactéries. Si vous n'avez pas de filtre, vous pouvez utiliser du charbon de bois pour fabriquer un filtre maison. ",
+    "descriptionLong": "",
+    "items": [
+        {
+            "id": "AAA",
+            "title": "Sotcker des bouteille d'eau potable",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "description": "il vous faut au moins 3 jours à 30 jours d'eau potable entreposés ou accessible . "
+        },
+        {
+            "id": "AAB",
+            "title": "Filtre à eau portable",
+            "mode": "advanced",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "description": "Un filtre à eau portable pour purifier l'eau en cas d'urgence."
+        },
+        {
+            "id": "AAC",
+            "title": "Accès à l'eau",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "description": "un point d'eau facile , puits , une rivière , unlac que vous pourrez alors filtrer et utiliser."
+        }
+    ],
+    "isPremium": false
+}

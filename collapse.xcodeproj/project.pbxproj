@@ -11,6 +11,12 @@
 		0E0350BA2994E40300AEC8A2 /* french.json in Resources */ = {isa = PBXBuildFile; fileRef = 0ED3C4E629920F4F005910CF /* french.json */; };
 		0E0350BE29950B1A00AEC8A2 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0350BD29950B1A00AEC8A2 /* Settings.swift */; };
 		0E0350C02995A2A900AEC8A2 /* PercentCircleUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0350BF2995A2A900AEC8A2 /* PercentCircleUIView.swift */; };
+		0E0350C22995B27A00AEC8A2 /* empty.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E0350C12995B27A00AEC8A2 /* empty.json */; };
+		0E0350C62995B52100AEC8A2 /* AllTopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0350C52995B52100AEC8A2 /* AllTopicsViewController.swift */; };
+		0E0350C92995DD7700AEC8A2 /* Class+WebLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0350C82995DD7700AEC8A2 /* Class+WebLink.swift */; };
+		0E0350CB2995E33A00AEC8A2 /* ScoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0350CA2995E33A00AEC8A2 /* ScoreService.swift */; };
+		0E0350CD2996350E00AEC8A2 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0350CC2996350E00AEC8A2 /* SettingsTableViewController.swift */; };
+		0E18B32E2996D8C5000F1A1F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E18B32D2996D8C5000F1A1F /* Constants.swift */; };
 		0ED3C4C12992056E005910CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4C02992056E005910CF /* AppDelegate.swift */; };
 		0ED3C4C32992056E005910CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4C22992056E005910CF /* SceneDelegate.swift */; };
 		0ED3C4C52992056E005910CF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4C42992056E005910CF /* MainViewController.swift */; };
@@ -47,6 +53,12 @@
 		0E0350B32994E14C00AEC8A2 /* collapseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collapseTests.swift; sourceTree = "<group>"; };
 		0E0350BD29950B1A00AEC8A2 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		0E0350BF2995A2A900AEC8A2 /* PercentCircleUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentCircleUIView.swift; sourceTree = "<group>"; };
+		0E0350C12995B27A00AEC8A2 /* empty.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = empty.json; sourceTree = "<group>"; };
+		0E0350C52995B52100AEC8A2 /* AllTopicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllTopicsViewController.swift; sourceTree = "<group>"; };
+		0E0350C82995DD7700AEC8A2 /* Class+WebLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Class+WebLink.swift"; sourceTree = "<group>"; };
+		0E0350CA2995E33A00AEC8A2 /* ScoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreService.swift; sourceTree = "<group>"; };
+		0E0350CC2996350E00AEC8A2 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		0E18B32D2996D8C5000F1A1F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0ED3C4BD2992056E005910CF /* collapse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collapse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED3C4C02992056E005910CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ED3C4C22992056E005910CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +108,14 @@
 			path = collapseTests;
 			sourceTree = "<group>";
 		};
+		0E0350C72995DCA400AEC8A2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0E18B32D2996D8C5000F1A1F /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		0ED3C4B42992056E005910CF = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +139,7 @@
 		0ED3C4BF2992056E005910CF /* collapse */ = {
 			isa = PBXGroup;
 			children = (
+				0E0350C72995DCA400AEC8A2 /* Helpers */,
 				0ED3C4F729931FE7005910CF /* Controller */,
 				0ED3C4E1299207D7005910CF /* Model */,
 				0ED3C4DE299207AF005910CF /* Extensions */,
@@ -167,6 +188,7 @@
 		0ED3C4DE299207AF005910CF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				0E0350C82995DD7700AEC8A2 /* Class+WebLink.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -176,6 +198,7 @@
 			children = (
 				0ED3C4E629920F4F005910CF /* french.json */,
 				0ED3C4E829920F62005910CF /* english.json */,
+				0E0350C12995B27A00AEC8A2 /* empty.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -193,6 +216,7 @@
 				0ED3C4FC299326B1005910CF /* Topic+Json.swift */,
 				0ED3C4FE29932A4C005910CF /* JsonService.swift */,
 				0E0350BD29950B1A00AEC8A2 /* Settings.swift */,
+				0E0350CA2995E33A00AEC8A2 /* ScoreService.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -203,6 +227,8 @@
 				0ED3C4C42992056E005910CF /* MainViewController.swift */,
 				0ED3C4F829931FF9005910CF /* TopicViewController.swift */,
 				0ED3C4FA29932080005910CF /* DetailViewController.swift */,
+				0E0350C52995B52100AEC8A2 /* AllTopicsViewController.swift */,
+				0E0350CC2996350E00AEC8A2 /* SettingsTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -298,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ED3C4EE2992ECF8005910CF /* .swiftlint.yml in Resources */,
+				0E0350C22995B27A00AEC8A2 /* empty.json in Resources */,
 				0ED3C4E929920F62005910CF /* english.json in Resources */,
 				0ED3C4D02992056F005910CF /* LaunchScreen.storyboard in Resources */,
 				0ED3C4E729920F4F005910CF /* french.json in Resources */,
@@ -343,14 +370,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0350C92995DD7700AEC8A2 /* Class+WebLink.swift in Sources */,
+				0E18B32E2996D8C5000F1A1F /* Constants.swift in Sources */,
 				0ED3C4FB29932080005910CF /* DetailViewController.swift in Sources */,
 				0ED3C4F62993065B005910CF /* LongTopicUIView.swift in Sources */,
 				0E0350BE29950B1A00AEC8A2 /* Settings.swift in Sources */,
 				0ED3C4F22992F768005910CF /* ProjectUIView.swift in Sources */,
 				0ED3C4F929931FF9005910CF /* TopicViewController.swift in Sources */,
+				0E0350CB2995E33A00AEC8A2 /* ScoreService.swift in Sources */,
 				0ED3C4CB2992056E005910CF /* collapse.xcdatamodeld in Sources */,
+				0E0350CD2996350E00AEC8A2 /* SettingsTableViewController.swift in Sources */,
 				0ED3C50329937A7D005910CF /* ItemTableViewCell.swift in Sources */,
 				0ED3C4FF29932A4C005910CF /* JsonService.swift in Sources */,
+				0E0350C62995B52100AEC8A2 /* AllTopicsViewController.swift in Sources */,
 				0ED3C4C52992056E005910CF /* MainViewController.swift in Sources */,
 				0ED3C5012993303C005910CF /* TopicTableViewCell.swift in Sources */,
 				0E0350C02995A2A900AEC8A2 /* PercentCircleUIView.swift in Sources */,

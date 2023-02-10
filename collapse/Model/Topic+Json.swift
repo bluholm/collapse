@@ -30,5 +30,6 @@ struct Item: Decodable {
 struct Link: Codable, Hashable {
     
     let url: String
+    let title: String
     let description: String
 }

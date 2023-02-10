@@ -10,7 +10,7 @@ import UIKit
 final class TopicViewController: UIViewController {
     
     // MARK: - Porperties
-    //Outlets
+    // Outlets
     @IBOutlet var contentView: UIView!
     @IBOutlet var scrollView: UIScrollView!
     @IBOutlet var imageView: UIImageView!
@@ -22,15 +22,14 @@ final class TopicViewController: UIViewController {
     @IBOutlet var tableViewRegular: UITableView!
     @IBOutlet var scorePercentLabel: UILabel!
     @IBOutlet var linkTitleLabel: UILabel!
-    //Constraints
+    // Constraints
     @IBOutlet var longDescriptionConstraintHeight: NSLayoutConstraint!
     @IBOutlet var contentViewConstraintHeight: NSLayoutConstraint!
     @IBOutlet var tableHeight: NSLayoutConstraint!
     @IBOutlet var shortDescriptionHeightConstraint: NSLayoutConstraint!
-    //constants and variables
+    // Constants and Variables
     private var contentSizeObserver: NSKeyValueObservation?
     private var filteredItems = [[Item]]()
-    private var modes = ["essential", "intermediate", "advanced"]
     var topic: TopicElement!
     
     // MARK: - Lifecycle
@@ -39,7 +38,8 @@ final class TopicViewController: UIViewController {
         self.loadingTopic()
         self.tableHeightAddObserver()
         self.autoSizeContentView()
-        self.loadFilteredItemsForTableView()
+        filteredItems =  ScoreService.loadFilteredItemsForTableView(with: topic)
+        tableViewRegular.reloadData()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -61,38 +61,10 @@ final class TopicViewController: UIViewController {
     
     // MARK: - Privates
     private func updateScorePercent() {
-        let scorePercent = Int(calculateScore()*100)
+        let score = ScoreService.calculateScoreForOneTopic(with: topic)
+        let scorePercent = Int(score*100)
         scorePercentLabel.text = "\(scorePercent)%"
-        scoreProgressView.progress = calculateScore()
-    }
-    
-    private func calculateScore() -> Float {
-        let total = topic.items.count
-        var check = 0
-        for item in topic.items {
-            for (key, _) in SettingsRepository.checkItem where item.id == key {
-                        check += 1
-                    }
-        }
-        let result = Double(check)/Double(total)
-        return Float(result)
-    }
-    
-    private func loadFilteredItemsForTableView() {
-        let regularItems = topic.items.filter { $0.mode == modes[0] }.sorted { $0.title < $1.title }
-        let intermediateItems = topic.items.filter { $0.mode == modes[1] }.sorted { $0.title < $1.title }
-        let advancedItems = topic.items.filter { $0.mode == modes[2] }.sorted { $0.title < $1.title }
-        
-        if !regularItems.isEmpty {
-            filteredItems.append(regularItems)
-        }
-        if !intermediateItems.isEmpty {
-            filteredItems.append(intermediateItems)
-        }
-        if !advancedItems.isEmpty {
-            filteredItems.append(advancedItems)
-        }
-        tableViewRegular.reloadData()
+        scoreProgressView.progress = score
     }
     
     private func textViewHeightCalcultate(textView: UITextView) -> CGFloat {
@@ -118,6 +90,7 @@ final class TopicViewController: UIViewController {
         total += blocTableViewRowsHeight+blocTableViewSectionsHeight+blocLongDecriptionHeight
         total += blocTableViewLinksRowsHeight+blocTableViewLinksSectionHeight
         contentViewConstraintHeight.constant = total
+        
     }
     
     private func tableHeightAddObserver() {
@@ -133,7 +106,7 @@ final class TopicViewController: UIViewController {
     private func loadingTopic() {
         subtitleLabel.text = topic.subtitle
         imageView.image = UIImage(named: topic.image)
-        shortDescriptionTextView.text = loadDescriptionWithDots(description: topic.descriptionShort)
+        shortDescriptionTextView.text = topic.descriptionShort
         longDescriptionTextView.text = topic.descriptionLong
         updateScorePercent()
         if topic.links.isEmpty {
@@ -143,13 +116,6 @@ final class TopicViewController: UIViewController {
         }
     }
     
-    private func loadDescriptionWithDots(description: String) -> String {
-        if description.count >= 500 {
-            return description+"slide bottom too see more "
-        } else {
-            return description
-        }
-    }
 }
 
 // MARK: - UITableViewDelegate - UITableViewDataSource
@@ -181,7 +147,10 @@ extension TopicViewController: UITableViewDelegate, UITableViewDataSource {
             
         } else {
             let cell = tableView.dequeueReusableCell(withIdentifier: "linkCell", for: indexPath)
-            cell.textLabel?.text = topic.links[indexPath.row].url
+            cell.textLabel?.attributedText = WebLink.createLink(link: topic.links[indexPath.row].url,
+                                                        title: topic.links[indexPath.row].title)
+            cell.detailTextLabel?.text = topic.links[indexPath.row].description
+            
             return cell
         }
     }
@@ -200,12 +169,17 @@ extension TopicViewController: UITableViewDelegate, UITableViewDataSource {
             guard let vc = storyboard?.instantiateViewController(withIdentifier: "detailViewController") as? DetailViewController else { return }
             vc.item = filteredItems[indexPath.section][indexPath.row]
             self.navigationController?.pushViewController(vc, animated: true)
+        } else {
+            let link = topic.links[indexPath.row].url
+                if let url = URL(string: link) {
+                    UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                }
         }
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         if tableView == tableViewRegular {
-            return modes[section].capitalized
+            return Constants.modes[section].capitalized
         }
         return ""
         

@@ -39,6 +39,7 @@ final class DetailViewController: UIViewController {
     }
     
     // MARK: - Privates
+
     private func tableHeightAddObserver() {
         contentSizeObserver = tableviewLinks.observe(\UITableView.contentSize,
                                                         options: [NSKeyValueObservingOptions.new],
@@ -60,8 +61,16 @@ extension DetailViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "linkCell", for: indexPath)
-        cell.textLabel?.text = item.links[indexPath.row].url
-        cell.detailTextLabel?.text = item.links[indexPath.row].description
+        cell.textLabel?.attributedText = WebLink.createLink(link: item.links[indexPath.row].url,
+                                                    title: item.links[indexPath.row].title)
+        
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let link = item.links[indexPath.row].url
+            if let url = URL(string: link) {
+                UIApplication.shared.open(url, options: [:], completionHandler: nil)
+            }
     }
 }

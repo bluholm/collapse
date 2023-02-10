@@ -10,12 +10,12 @@ import UIKit
 final class MainViewController: UIViewController {
     
     // MARK: - Properties
-    @IBOutlet var didTappedTopic: [UITapGestureRecognizer]!
     @IBOutlet var scrollViewVertical: UIScrollView!
     @IBOutlet var scoreProgressView: UIProgressView!
     @IBOutlet var scorePercentLabel: UILabel!
     @IBOutlet var tableView: UITableView!
     private var topicList = [TopicElement]()
+    private var topichighlight = [TopicElement]()
     
     // MARK: - Lifecycle
     override func viewDidLoad() {
@@ -26,10 +26,12 @@ final class MainViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        topichighlight = ScoreService.loadHighlightTopics(with: topicList, for: 3)
         updateScorePercent()
         if let selectedIndexPath = tableView.indexPathForSelectedRow {
                 tableView.deselectRow(at: selectedIndexPath, animated: true)
             }
+        tableView.reloadData()
     }
     
     // MARK: - Actions
@@ -39,31 +41,12 @@ final class MainViewController: UIViewController {
     }
     
     // MARK: - Privates
-    private func calculateScoreForOneTopic(topic: TopicElement) -> Float {
-        let total = topic.items.count
-        var check = 0
-        for item in topic.items {
-            for (key, _) in SettingsRepository.checkItem where item.id == key {
-                        check += 1
-                    }
-        }
-        let result = Double(check)/Double(total)
-        return Float(result)
-    }
     
-    private func calculateScore() -> Float {
-        var totalItems = 0
-        for topic in topicList {
-            totalItems += topic.items.count
-        }
-        let checkItemsCount = SettingsRepository.checkItem.count
-        let result = Double(checkItemsCount) / Double(totalItems)
-        return Float(result)
-    }
     private func updateScorePercent() {
-        let scorePercent = Int(calculateScore()*100)
+        let score = ScoreService.calculateTotalScore(with: topichighlight)
+        let scorePercent = Int(score*100)
         scorePercentLabel.text = "\(scorePercent)%"
-        scoreProgressView.progress = calculateScore()
+        scoreProgressView.progress = score
     }
     
     private func loadDataFromJson() {
@@ -95,7 +78,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        3
+        topichighlight.count
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 15
@@ -108,8 +91,8 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "topicTableViewCell", for: indexPath) as? TopicTableViewCell else { return UITableViewCell() }
         
-        let topic = topicList[indexPath.section]
-        let percentage = calculateScoreForOneTopic(topic: topic)
+        let topic = topichighlight[indexPath.section]
+        let percentage = ScoreService.calculateScoreForOneTopic(with: topic)
         cell.configure(topic: topic, percentage: CGFloat(percentage))
         return cell
                 
@@ -117,7 +100,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
-            vc.topic = topicList[indexPath.section]
+            vc.topic = topichighlight[indexPath.section]
             navigationController?.pushViewController(vc, animated: true)
         }
     }

@@ -49,6 +49,7 @@ identifier_name:
     - uid
     - vc
     - key
+    - for
     - url
     - app
     - URL
