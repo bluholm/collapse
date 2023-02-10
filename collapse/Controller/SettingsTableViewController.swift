@@ -24,4 +24,10 @@ class SettingsTableViewController: UITableViewController {
         return 3
     }
 
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if indexPath.row == 1 {
+            guard let vc = storyboard?.instantiateViewController(withIdentifier: "disclaimerViewController") as? DisclaimerViewController else { return }
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+    }
 }

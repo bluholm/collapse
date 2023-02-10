@@ -1,0 +1,248 @@
+[
+    {
+        "uid": "1",
+        "title": "Water",
+        "subtitle": "stockage, filtre , et bien plus ",
+        "image": "water",
+        "links": [
+            {
+            "url": "https://fr.wikipedia.org/wiki/Programmation",
+            "description": "Livre complet sur les ressources de l'eau.",
+            "title": "livre sur l'eau"
+            },
+            {
+            "url": "https://www.w3schools.com/js/",
+            "description": "News on how to save water",
+            "title": "Liens complet"
+            }
+            ],
+        "descriptionShort": "En cas d'effondrement, il peut être difficile de trouver de l'eau potable. Pour s'assurer que l'eau est saine à boire, il est important de la filtrer correctement. Voici quelques étapes pour filtrer l'eau: Trouvez une source d'eau claire et propre, comme une rivière ou un lac, à distance de toutes les sources de pollution.\n \n Recueillez de l'eau dans un récipient propre, comme un bidon ou un seau. Filtrez l'eau avec un filtre à eau portable. Assurez-vous que le filtre est en bon état et capable de filtrer les impuretés et les bactéries. Si vous n'avez pas de filtre, vous pouvez utiliser du charbon de bois pour fabriquer un filtre maison. ",
+        "descriptionLong": "En cas d'effondrement, il peut être difficile de trouver de l'eau potable. Pour s'assurer que l'eau est saine à boire, il est important de la filtrer correctement. Voici quelques étapes pour filtrer l'eau: Trouvez une source d'eau claire et propre, comme une rivière ou un lac, à distance de toutes les sources de pollution.\n \n Recueillez de l'eau dans un récipient propre, comme un bidon ou un seau. Filtrez l'eau avec un filtre à eau portable. Assurez-vous que le filtre est en bon état et capable de filtrer les impuretés et les bactéries. Si vous n'avez pas de filtre, vous pouvez utiliser du charbon de bois pour fabriquer un filtre maison.En cas d'effondrement, il peut être difficile de trouver de l'eau potable. Pour s'assurer que l'eau est saine à boire, il est important de la filtrer correctement. Voici quelques étapes pour filtrer l'eau: Trouvez une source d'eau claire et propre, comme une rivière ou un lac, à distance de toutes les sources de pollution.\n \n Recueillez de l'eau dans un récipient propre, comme un bidon ou un seau. Filtrez l'eau avec un filtre à eau portable. Assurez-vous que le filtre est en bon état et capable de filtrer les impuretés et les bactéries. Si vous n'avez pas de filtre, vous pouvez utiliser du charbon de bois pour fabriquer un filtre maison.",
+        "items": [
+            {
+                "id": "AAA",
+                "title": "Bouteille d'eau potable",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [
+                    {
+                    "url": "https://fr.wikipedia.org/wiki/Programmation",
+                    "description": "Compete water books",
+                    "title": "Compete water books"
+                    },
+                    {
+                    "url": "https://www.w3schools.com/js/",
+                    "description": "News on how to save water",
+                    "title": "link website free to print"
+                    }
+                    ],
+                "description": "Une bouteille d'eau potable pour une utilisation en cas d'urgence."
+            },
+            {
+                "id": "AAB",
+                "title": "Filtre à eau portable",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "description": "Un filtre à eau portable pour purifier l'eau en cas d'urgence."
+            },
+            {
+                "id": "AAC",
+                "title": "Goupille electrique",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "description": "Bah ouais quoi ! nameho ! ."
+            }
+        ],
+        "isPremium": false
+    },
+    {
+        "uid": "2",
+        "title": "HealthCare",
+        "subtitle": "premiers soins, médecine, herbal...",
+        "image": "health",
+        "links": [
+            {
+            "url": "https://fr.wikipedia.org/wiki/Programmation",
+            "description": "Compete water books",
+            "title": "Compete water books"
+            }
+            ],
+        "descriptionShort": "Des items importants pour être prêt à faire face à une situation d'urgence.",
+        "descriptionLong": "",
+        "items": [
+            {
+                "id": "AAD",
+                "title": "Kit de premiers secours",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "description": "Un kit de premiers secours pour faire face à une situation d'urgence."
+            },
+            {
+                "id": "AAE",
+                "title": "Livre de premiers secours",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "description": "Un livre de premiers secours pour avoir des instructions en cas d'urgence."
+            }
+        ],
+        "isPremium": false
+    },
+    {
+        "uid": "3",
+        "title": "Constructions and building",
+        "subtitle": "de la construction simple aux plus élaborées",
+        "image": "building",
+        "links": [],
+        "descriptionShort": "Des items importants pour avoir une source de nourriture en cas d'urgence.",
+        "descriptionLong": "En cas d'effondrement, il peut être difficile de trouver de l'eau potable. Pour s'assurer que l'eau est saine à boire, il est important de la filtrer correctement. Voici quelques étapes pour filtrer l'eau: Trouvez une source d'eau claire et propre, comme une rivière ou un lac, à distance de toutes les sources de pollution.\n \n Recueillez de l'eau dans un récipient propre, comme un bidon ou un seau. Filtrez l'eau avec un filtre à eau portable. Assurez-vous que le filtre est en bon état et capable de filtrer les impuretés et les bactéries. Si vous n'avez pas de filtre, vous pouvez utiliser du charbon de bois pour fabriquer un filtre maison.En cas d'effondrement, il peut être difficile de trouver de l'eau potable. Pour s'assurer que l'eau est saine à boire, il est important de la filtrer correctement. Voici quelques étapes pour filtrer l'eau: Trouvez une source d'eau claire et propre, comme une rivière ou un lac, à distance de toutes les sources de pollution.\n \n Recueillez de l'eau dans un récipient propre, comme un bidon ou un seau. Filtrez l'eau avec un filtre à eau portable. Assurez-vous que le filtre est en bon état et capable de filtrer les impuretés et les bactéries. Si vous n'avez pas de filtre, vous pouvez utiliser du charbon de bois pour fabriquer un filtre maison.",
+        "items": [
+            {
+                "id": "AAF",
+                "title": "Barres céréalières",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "description": "Des barres céréalières pour avoir une source de nourriture en cas d'urgence."
+            },
+            {
+                "id": "AAG",
+                "title": "Rations de survie",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "description": "Des rations de survie pour avoir une source de nourriture en cas d'urgence."
+            }
+        ],
+        "isPremium": true
+    },
+    {
+        "uid": "4",
+        "title": "durable buidling maintenance",
+        "subtitle": "Matériaux, techniques, durabilité",
+        "image": "construction",
+        "links": [],
+        "descriptionShort": "En cas d'effondrement, il est important d'avoir une construction durable pour se protéger et se sentir en sécurité. Il est donc important de choisir des matériaux durables et de connaître les bonnes techniques de construction pour assurer la longévité de la structure. ",
+        "descriptionLong": "",
+        "items": [
+            {
+                "id": "AAH",
+                "title": "Matériaux durables",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "description": "Choisir des matériaux tels que la pierre, le bois dur ou le béton pour construire des structures durables et résistantes aux intempéries."
+            },
+            {
+                "id": "AAI",
+                "title": "Techniques de construction",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "description": "Connaître les bonnes techniques de construction, telles que la pose de fondations solides et la mise en place de poutres en bois pour assurer la durabilité de la structure."
+            },
+            {
+                "id": "AAJ",
+                "title": "Durabilité",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "description": "Planifier la durabilité à long terme en utilisant des matériaux qui ne se dégradent pas facilement, en construisant des structures en forme de toit qui ne s'effondrent pas facilement et en installant des systèmes de collecte d'eau de pluie pour réduire les besoins en eau."
+            }
+        ],
+        "isPremium": false
+    },{
+        "uid": "5",
+        "title": "power Line",
+        "subtitle": "Génération d'énergie, stockage, utilisation",
+        "image": "electricity",
+        "links": [],
+        "descriptionShort": "En cas d'effondrement, l'accès à l'électricité peut devenir difficile. Il est important de savoir comment générer et stocker de l'énergie pour alimenter vos appareils électroniques et autres équipements. Il existe plusieurs options pour générer de l'électricité, telles que les panneaux solaires, les générateurs à essence et les turbines à eau.",
+        "descriptionLong": "",
+        "items": [
+            {
+                "id": "AAK",
+                "title": "Panneaux solaires",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "description": "Des panneaux solaires peuvent être utilisés pour générer de l'électricité à partir de l'énergie solaire."
+            },
+            {
+                "id": "AAL",
+                "title": "Générateur à essence",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "description": "Un générateur à essence peut être utilisé pour générer de l'électricité en cas de panne de courant."
+            },
+            {
+                "id": "AAM",
+                "title": "Batteries de stockage d'énergie",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "description": "Des batteries de stockage d'énergie peuvent être utilisées pour stocker de l'électricité générée pour une utilisation ultérieure."
+            }
+        ],
+        "isPremium": false
+    },
+    {
+        "uid": "6",
+        "title": "La pêche",
+        "subtitle": "Matériel de base, techniques, connaissances",
+        "image": "fishing",
+        "links": [],
+        "descriptionShort": "La pêche est une compétence importante en cas d'effondrement pour se procurer de la nourriture. Il est important de comprendre les différents types de matériel et les techniques de pêche. Il est également utile de connaître les différents types de poissons et comment les piéger.",
+        "descriptionLong": "La pêche peut être un moyen très utile de se procurer de la nourriture en cas de survie. Les poissons sont une source de protéines et peuvent être pêchés dans les rivières, les lacs ou la mer.\n\nIl est important de connaître les techniques de pêche appropriées en fonction de l'environnement et des poissons que vous voulez attraper. Les méthodes de pêche les plus courantes comprennent la pêche à la ligne, le filetage, le piégeage et le harponnage. Il est également important de connaître les lois et réglementations locales en matière de pêche et de s'assurer de respecter les tailles et les limites de prise.\n\nEn cas de survie, il peut être judicieux d'avoir une variété de méthodes de pêche dans son kit de survie, ainsi que des appâts, des hameçons, des lignes, etc. Il peut également être utile d'avoir une connaissance des habitudes alimentaires des poissons dans la région pour maximiser les chances de succès.\n\nEn gros, la pêche peut être une compétence précieuse en cas de survie et peut aider à fournir une source de nourriture saine et abondante.",
+        "items": [
+            {
+                "id": "AAN",
+                "title": "Matériel de base",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "description": "Il vous faut une canne à pêche, un moulinet, de la ligne, des hameçons et des appâts pour pouvoir commencer à pêcher."
+            },
+            {
+                "id": "AAO",
+                "title": "Filet en cas de plan B",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "description": "Il est utile d'avoir un filet de secours en cas de panne de matériel ou de difficulté à capturer du poisson avec la canne à pêche."
+            },
+            {
+                "id": "AAP",
+                "title": "Connaissances sur les pièges à poissons",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "description": "Il est important de connaître les différents types de pièges à poissons pour pouvoir les fabriquer soi-même et les utiliser efficacement dans les rivières."
+            }
+        ],
+        "isPremium": false
+    }
+
+
+
+]

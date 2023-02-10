@@ -20,6 +20,7 @@ final class MainViewController: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         scrollViewVertical.delegate = self
         loadDataFromJson()
     }
@@ -50,7 +51,7 @@ final class MainViewController: UIViewController {
     }
     
     private func loadDataFromJson() {
-        JsonService.parse(file: "french") { result in
+        JsonService.parse(file: SettingScheme.loadLangageScheme()) { result in
             switch result {
             case .success(let table):
                 self.topicList = table

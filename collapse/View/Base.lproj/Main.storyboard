@@ -603,8 +603,8 @@
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowshape.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="mOA-v7-AP8">
-                                                                    <rect key="frame" x="332" y="16.333333333333329" width="21" height="17.666666666666671"/>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="mOA-v7-AP8">
+                                                                    <rect key="frame" x="340.33333333333331" y="17" width="12.666666666666686" height="16.666666666666664"/>
                                                                 </imageView>
                                                             </subviews>
                                                             <constraints>
@@ -891,8 +891,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disclaimer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcZ-gp-Nqi">
-                                                    <rect key="frame" x="28" y="11.333333333333336" width="80" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remerciements" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rcZ-gp-Nqi">
+                                                    <rect key="frame" x="28" y="11.333333333333336" width="119" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -922,8 +922,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Politique de données" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GCZ-dh-qvb">
-                                                    <rect key="frame" x="28" y="11.333333333333336" width="160" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disclaimer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GCZ-dh-qvb">
+                                                    <rect key="frame" x="28" y="11.333333333333336" width="80" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -960,7 +960,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ike-GN-qGQ">
-                                                    <rect key="frame" x="185" y="-59.333333333333336" width="200" height="162.33333333333334"/>
+                                                    <rect key="frame" x="185" y="-59" width="200" height="162"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="200" id="5Xa-et-dBw"/>
                                                     </constraints>
@@ -988,14 +988,70 @@
             </objects>
             <point key="canvasLocation" x="4507.6335877862593" y="-1231.6901408450706"/>
         </scene>
+        <!--Disclaimer View Controller-->
+        <scene sceneID="f6a-OU-3FJ">
+            <objects>
+                <viewController storyboardIdentifier="disclaimerViewController" id="Nr7-ZY-AtW" customClass="DisclaimerViewController" customModule="collapse" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hO3-M0-cb8">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disclaimer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcC-F8-aQe">
+                                <rect key="frame" x="122" y="107" width="149" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wdg-NG-YMW">
+                                <rect key="frame" x="24" y="237" width="345" height="549"/>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <mutableString key="text">Ce site/application a pour but de fournir des conseils sur la survie et l'autonomie. Les informations contenues dans ce site sont fournies à titre indicatif et ne doivent pas être considérées comme des conseils professionnels.
+
+Nous ne garantissons pas l'exactitude, la complétude, l'actualité ou la fiabilité des informations contenues sur ce site. L'utilisation de ce site se fait à vos propres risques.
+
+En aucun cas, nous ne serons tenus responsables des pertes ou dommages découlant de l'utilisation des informations fournies sur ce site. Nous vous conseillons de vérifier l'exactitude des informations avant de les utiliser.
+
+Veuillez noter que les situations d'urgence peuvent changer rapidement et que les conseils donnés peuvent ne pas être adaptés à chaque situation. Il est de votre responsabilité de prendre les mesures appropriées pour assurer votre sécurité et celle de ceux qui vous entourent.
+</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xmark.octagon.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="4he-zc-IIj">
+                                <rect key="frame" x="161.66666666666666" y="152" width="70" height="68.333333333333314"/>
+                                <color key="tintColor" name="SecondColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="VZO-ng-0GL"/>
+                                    <constraint firstAttribute="width" constant="70" id="fhM-fQ-dmJ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="faX-c4-Ubj"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstItem="wdg-NG-YMW" firstAttribute="leading" secondItem="faX-c4-Ubj" secondAttribute="leading" constant="24" id="JeI-I7-bvr"/>
+                            <constraint firstItem="faX-c4-Ubj" firstAttribute="bottom" secondItem="wdg-NG-YMW" secondAttribute="bottom" constant="32" id="MUi-pP-Fdq"/>
+                            <constraint firstItem="wdg-NG-YMW" firstAttribute="top" secondItem="4he-zc-IIj" secondAttribute="bottom" constant="16" id="QO5-e6-g7A"/>
+                            <constraint firstItem="4he-zc-IIj" firstAttribute="top" secondItem="lcC-F8-aQe" secondAttribute="bottom" constant="8" id="RGf-9T-4dS"/>
+                            <constraint firstItem="wdg-NG-YMW" firstAttribute="centerX" secondItem="hO3-M0-cb8" secondAttribute="centerX" id="Wdp-Zo-llM"/>
+                            <constraint firstItem="lcC-F8-aQe" firstAttribute="top" secondItem="faX-c4-Ubj" secondAttribute="top" constant="48" id="aAD-JV-aTP"/>
+                            <constraint firstItem="4he-zc-IIj" firstAttribute="centerX" secondItem="hO3-M0-cb8" secondAttribute="centerX" id="mpx-5L-NIw"/>
+                            <constraint firstItem="lcC-F8-aQe" firstAttribute="centerX" secondItem="hO3-M0-cb8" secondAttribute="centerX" id="oOd-Qb-fpT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g1u-bL-a7F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5158.0152671755723" y="-1132.3943661971832"/>
+        </scene>
     </scenes>
     <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
-        <image name="arrowshape.right" catalog="system" width="128" height="104"/>
         <image name="chevron.right" catalog="system" width="97" height="128"/>
         <image name="gearshape" catalog="system" width="128" height="123"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="mainPicture" width="2000" height="1333.3333740234375"/>
+        <image name="xmark.octagon.fill" catalog="system" width="128" height="112"/>
         <namedColor name="SecondColor">
             <color red="0.20784313725490197" green="0.50196078431372548" blue="0.54509803921568623" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
