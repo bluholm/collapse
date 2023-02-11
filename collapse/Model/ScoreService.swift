@@ -57,9 +57,9 @@ class ScoreService {
     
     static func loadFilteredItemsForTableView(with: TopicElement) -> [[Item]] {
         var filteredItems = [[Item]]()
-        let regularItems = with.items.filter { $0.mode == Constants.modes[0] }.sorted { $0.title < $1.title }
-        let intermediateItems = with.items.filter { $0.mode == Constants.modes[1] }.sorted { $0.title < $1.title }
-        let advancedItems = with.items.filter { $0.mode == Constants.modes[2] }.sorted { $0.title < $1.title }
+        let regularItems = with.items.filter { $0.mode == Mode.essential.stringValue }.sorted { $0.title < $1.title }
+        let intermediateItems = with.items.filter { $0.mode == Mode.intermediate.stringValue }.sorted { $0.title < $1.title }
+        let advancedItems = with.items.filter { $0.mode == Mode.advanced.stringValue }.sorted { $0.title < $1.title }
         
         if !regularItems.isEmpty {
             filteredItems.append(regularItems)

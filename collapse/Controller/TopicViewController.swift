@@ -179,7 +179,17 @@ extension TopicViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         if tableView == tableViewRegular {
-            return Constants.modes[section].capitalized
+            switch section {
+            case 0:
+                return Mode.essential.stringValue.capitalized
+            case 1:
+                return Mode.intermediate.stringValue.capitalized
+            case 2:
+                return Mode.advanced.stringValue.capitalized
+            default:
+                return ""
+            }
+            
         }
         return ""
         
