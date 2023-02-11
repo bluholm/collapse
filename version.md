@@ -1,7 +1,6 @@
 ##Version 1.0
 A faire :  
-- la recherche 
-- le changement de mode ( le score prend compte le mode) 
+- la recherche  
 - la collection view  
 - 1 message possible pour moi au centre en jaune
 - test fonction qui vérifie le json 

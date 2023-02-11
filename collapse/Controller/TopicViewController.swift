@@ -49,6 +49,12 @@ final class TopicViewController: UIViewController {
     
     // MARK: - Actions
     
+    @IBAction func didTappedInformationButton(_ sender: Any) {
+        // swiftlint: disable line_length
+        let message = "Les calculs de score sont effectués en fonction des modes sélectionnés pour chaque sujet. Si vous avez coché tous les éléments dans le mode avancé, vous obtiendrez un score de 100%. il faut donc être en mode advanced pour obtenir le score maximal"
+        self.presentSimpleAlert(message: message, title: "Informations", actionTitle: "Ok")
+    }
+    
     @IBAction func didSwitchedItem(_ sender: UISwitch) {
         guard let cell = sender.superview?.superview as? ItemCustomTableViewCell, let itemId = cell.itemId else { return }
         if sender.isOn {
