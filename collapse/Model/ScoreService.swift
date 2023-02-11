@@ -31,16 +31,16 @@ class ScoreService {
         return Float(result)
     }
     
-    static func loadHighlightTopics(with: [TopicElement], for: Int) -> [TopicElement] {
+    static func loadHighlightTopics(with: [TopicElement], using: Int) -> [TopicElement] {
         var table = [String: Float]()
         for topicElement in with {
             table[topicElement.uid] = calculateScoreForOneTopic(with: topicElement)
         }
         table = table.filter { $0.value != 1.0 }
         let sortedDict = sortDictionaryByValue(dictionary: table, isOrderedBefore: { $0 > $1 })
-        let firstThree = sortedDict.prefix(3)
+        let selectUnion = sortedDict.prefix(using)
         var newDictionary = [String: Float]()
-        for (key, value) in firstThree {
+        for (key, value) in selectUnion {
             newDictionary[key] = value
         }
         return with.filter { newDictionary.keys.contains($0.uid) }

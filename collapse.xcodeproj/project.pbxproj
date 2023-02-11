@@ -24,6 +24,7 @@
 		0E18B33829975399000F1A1F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E18B33729975399000F1A1F /* SettingsViewController.swift */; };
 		0E18B33A29975741000F1A1F /* ThanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E18B33929975741000F1A1F /* ThanksViewController.swift */; };
 		0E18B33C29975F4D000F1A1F /* Class+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E18B33B29975F4D000F1A1F /* Class+Alert.swift */; };
+		0ED2E7D629983EE800BD5B0F /* TopicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2E7D529983EE800BD5B0F /* TopicCollectionViewCell.swift */; };
 		0ED3C4C12992056E005910CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4C02992056E005910CF /* AppDelegate.swift */; };
 		0ED3C4C32992056E005910CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4C22992056E005910CF /* SceneDelegate.swift */; };
 		0ED3C4C52992056E005910CF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4C42992056E005910CF /* MainViewController.swift */; };
@@ -73,6 +74,7 @@
 		0E18B33729975399000F1A1F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0E18B33929975741000F1A1F /* ThanksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanksViewController.swift; sourceTree = "<group>"; };
 		0E18B33B29975F4D000F1A1F /* Class+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Class+Alert.swift"; sourceTree = "<group>"; };
+		0ED2E7D529983EE800BD5B0F /* TopicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCollectionViewCell.swift; sourceTree = "<group>"; };
 		0ED3C4BD2992056E005910CF /* collapse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collapse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED3C4C02992056E005910CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ED3C4C22992056E005910CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				0ED3C5002993303C005910CF /* TopicTableViewCell.swift */,
 				0ED3C50229937A7D005910CF /* ItemTableViewCell.swift */,
 				0E0350BF2995A2A900AEC8A2 /* PercentCircleUIView.swift */,
+				0ED2E7D529983EE800BD5B0F /* TopicCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				0E0350BE29950B1A00AEC8A2 /* SettingsRepository.swift in Sources */,
 				0ED3C4F22992F768005910CF /* ProjectUIView.swift in Sources */,
 				0ED3C4F929931FF9005910CF /* TopicViewController.swift in Sources */,
+				0ED2E7D629983EE800BD5B0F /* TopicCollectionViewCell.swift in Sources */,
 				0E0350CB2995E33A00AEC8A2 /* ScoreService.swift in Sources */,
 				0E18B33629974D69000F1A1F /* Mode.swift in Sources */,
 				0ED3C4CB2992056E005910CF /* collapse.xcdatamodeld in Sources */,

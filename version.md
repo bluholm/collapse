@@ -1,8 +1,7 @@
 ##Version 1.0
 A faire :  
-- la recherche  
 - la collection view  
-- 1 message possible pour moi au centre en jaune
+- la recherche  
 - test fonction qui vérifie le json 
 - le mode payant : (- 5 topcis gratuit ( mais pas tous les items ) : 3 visibles dans l'entrée : 
         => forcement parmis ceux qui sont en cours ou pas teerminé . 
@@ -13,6 +12,7 @@ A faire :
 - mode payant
 - le cas ou il y aurait zerotopic d'init ... 
 - 1 bouton telecharger la page ? 
+- 1 message possible pour moi au centre en jaune
 
 ##Version 2.0
 - ajouter des "news" : pour pouvoir fideliser et surtout apporter des infomations complemtnaire . 

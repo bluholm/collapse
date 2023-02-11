@@ -15,5 +15,8 @@ final class CollapseTests: XCTestCase {
            let modes = ["essential", "intermediate", "advanced"]
     }
     
-    // test si il n'y a pas de settings repository par exemple AAA mais que cela n'existe pas ou plus dans le json ! 
+    // test si il n'y a pas de settings repository par exemple AAA mais que cela n'existe pas ou plus dans le json !
+    // test si pas 2 code identique de items
+    // test si pas 2 id identique dans le json
+    
 }

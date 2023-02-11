@@ -10,7 +10,6 @@ import UIKit
 final class MainViewController: UIViewController {
     
     // MARK: - Properties
-    @IBOutlet var scrollViewVertical: UIScrollView!
     @IBOutlet var scoreProgressView: UIProgressView!
     @IBOutlet var scorePercentLabel: UILabel!
     @IBOutlet var tableView: UITableView!
@@ -20,14 +19,12 @@ final class MainViewController: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        scrollViewVertical.delegate = self
         loadDataFromJson()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        topichighlight = ScoreService.loadHighlightTopics(with: topicList, for: 3)
+        topichighlight = ScoreService.loadHighlightTopics(with: topicList, using: 3)
         updateScorePercent()
         if let selectedIndexPath = tableView.indexPathForSelectedRow {
                 tableView.deselectRow(at: selectedIndexPath, animated: true)
@@ -109,6 +106,29 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
             vc.topic = topichighlight[indexPath.section]
+            navigationController?.pushViewController(vc, animated: true)
+        }
+    }
+    
+}
+
+extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return topicList.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "topicCell", for: indexPath) as? TopicCollectionViewCell else { return UICollectionViewCell() }
+        let topic = topicList[indexPath.row]
+        let percentage = ScoreService.calculateScoreForOneTopic(with: topic)
+        cell.configure(with: topicList[indexPath.row], percentage: CGFloat(percentage))
+        return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
+            vc.topic = topicList[indexPath.row]
             navigationController?.pushViewController(vc, animated: true)
         }
     }
