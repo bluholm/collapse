@@ -64,7 +64,7 @@
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3z8-8g-AFv">
                                                                 <rect key="frame" x="325" y="0.0" width="20" height="20"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="width" constant="20" id="OB0-BE-LUr"/>
+                                                                    <constraint firstAttribute="width" secondItem="3z8-8g-AFv" secondAttribute="height" multiplier="1:1" id="LXe-Pz-QrL"/>
                                                                     <constraint firstAttribute="height" constant="20" id="kB3-6Q-Zsn"/>
                                                                 </constraints>
                                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -618,7 +618,7 @@
                                                                 <rect key="frame" x="325" y="0.0" width="20" height="20"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="20" id="Zhf-4C-vCe"/>
-                                                                    <constraint firstAttribute="width" constant="20" id="qUZ-bK-mNv"/>
+                                                                    <constraint firstAttribute="width" secondItem="ZJm-cz-RQk" secondAttribute="height" multiplier="1:1" id="ZpH-D6-wqK"/>
                                                                 </constraints>
                                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
