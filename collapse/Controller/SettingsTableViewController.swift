@@ -69,6 +69,11 @@ final class SettingsTableViewController: UITableViewController {
             guard let vc = storyboard?.instantiateViewController(withIdentifier: "disclaimerViewController") as? DisclaimerViewController else { return }
             self.navigationController?.pushViewController(vc, animated: true)
         }
+        if indexPath.row == 0 {
+            print("cliqc")
+            guard let vc = storyboard?.instantiateViewController(withIdentifier: "thanksViewController") as? ThanksViewController else { return }
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
     }
     
 }
