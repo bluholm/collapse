@@ -2,8 +2,7 @@
 A faire :  
 - la recherche 
 - le changement de mode ( le score prend compte le mode) 
-- la collection view 
-- les remerciements 
+- la collection view  
 - 1 message possible pour moi au centre en jaune
 - test fonction qui vérifie le json 
 - le mode payant : (- 5 topcis gratuit ( mais pas tous les items ) : 3 visibles dans l'entrée : 

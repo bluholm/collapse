@@ -36,6 +36,13 @@ final class MainViewController: UIViewController {
     }
     
     // MARK: - Actions
+    
+    @IBAction func didTappedButtonInformation(_ sender: Any) {
+        // swiftlint: disable line_length
+        let message = "Les calculs de score sont effectués en fonction des modes sélectionnés pour chaque sujet. Si vous avez coché tous les éléments dans le mode avancé, vous obtiendrez un score de 100%. il faut donc être en mode advanced pour obtenir le score maximal"
+        self.presentSimpleAlert(message: message, title: "Informations", actionTitle: "Ok")
+    }
+    
     @IBAction func test(_ sender: UITapGestureRecognizer) {
         guard let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController else { return }
         self.navigationController?.pushViewController(vc, animated: true)

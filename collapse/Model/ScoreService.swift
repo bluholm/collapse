@@ -64,10 +64,10 @@ class ScoreService {
         if !regularItems.isEmpty {
             filteredItems.append(regularItems)
         }
-        if !intermediateItems.isEmpty {
+        if !intermediateItems.isEmpty && (SettingsRepository.mode == Mode.advanced.stringValue || SettingsRepository.mode == Mode.intermediate.stringValue ) {
             filteredItems.append(intermediateItems)
         }
-        if !advancedItems.isEmpty {
+        if !advancedItems.isEmpty && SettingsRepository.mode == Mode.advanced.stringValue {
             filteredItems.append(advancedItems)
         }
         return filteredItems

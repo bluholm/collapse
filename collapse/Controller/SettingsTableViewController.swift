@@ -17,6 +17,7 @@ final class SettingsTableViewController: UITableViewController {
         super.viewDidLoad()
         loadSegmentedControls()
         loadMode()
+        self.tableView.rowHeight = 44
     }
     
     // MARK: - Actions

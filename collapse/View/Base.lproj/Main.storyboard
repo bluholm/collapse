@@ -45,16 +45,42 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.40000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="j3k-Ei-o8n">
-                                                        <rect key="frame" x="8" y="217.66666666666666" width="298" height="4"/>
-                                                        <color key="progressTintColor" name="SecondColor"/>
-                                                    </progressView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4l-9L-YFE">
-                                                        <rect key="frame" x="314" y="209.66666666666666" width="38" height="18"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
-                                                        <color key="textColor" name="SecondColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
+                                                    <stackView opaque="NO" contentMode="center" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="31w-1k-DLs">
+                                                        <rect key="frame" x="8" y="217.66666666666666" width="345" height="20"/>
+                                                        <subviews>
+                                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.40000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="j3k-Ei-o8n">
+                                                                <rect key="frame" x="0.0" y="8.0000000000000284" width="269" height="4"/>
+                                                                <color key="progressTintColor" name="SecondColor"/>
+                                                            </progressView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4l-9L-YFE">
+                                                                <rect key="frame" x="277" y="1" width="40" height="18"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="4zf-kF-fu7"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                                                                <color key="textColor" name="SecondColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3z8-8g-AFv">
+                                                                <rect key="frame" x="325" y="0.0" width="20" height="20"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="20" id="OB0-BE-LUr"/>
+                                                                    <constraint firstAttribute="height" constant="20" id="kB3-6Q-Zsn"/>
+                                                                </constraints>
+                                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" title="Button" image="info.circle.fill" catalog="system">
+                                                                    <color key="titleColor" name="SecondColor"/>
+                                                                </state>
+                                                                <buttonConfiguration key="configuration" style="plain" image="info.circle.fill" catalog="system">
+                                                                    <color key="baseForegroundColor" name="SecondColor"/>
+                                                                </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="didTappedButtonInformation:" destination="wIF-iD-Wpf" eventType="touchUpInside" id="5Od-f6-6O4"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
@@ -62,15 +88,13 @@
                                                     <constraint firstItem="lyx-iU-KEz" firstAttribute="leading" secondItem="b5Z-mH-DXa" secondAttribute="leading" constant="8" id="A55-Rj-Xbz"/>
                                                     <constraint firstItem="30O-dU-mAN" firstAttribute="leading" secondItem="b5Z-mH-DXa" secondAttribute="leading" id="Baj-D6-njO"/>
                                                     <constraint firstItem="30O-dU-mAN" firstAttribute="top" secondItem="b5Z-mH-DXa" secondAttribute="top" id="IPC-zF-eOM"/>
-                                                    <constraint firstItem="H4l-9L-YFE" firstAttribute="top" secondItem="rBf-xs-BlE" secondAttribute="bottom" constant="8" id="KAW-qw-Lyo"/>
                                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="lyx-iU-KEz" secondAttribute="trailing" constant="20" symbolic="YES" id="MnF-Qe-564"/>
-                                                    <constraint firstAttribute="trailing" secondItem="H4l-9L-YFE" secondAttribute="trailing" constant="9" id="Nab-QX-8BM"/>
                                                     <constraint firstItem="lyx-iU-KEz" firstAttribute="top" secondItem="30O-dU-mAN" secondAttribute="bottom" constant="16" id="W2m-eW-N0K"/>
-                                                    <constraint firstItem="j3k-Ei-o8n" firstAttribute="top" secondItem="rBf-xs-BlE" secondAttribute="bottom" constant="16" id="W68-48-zoh"/>
-                                                    <constraint firstItem="j3k-Ei-o8n" firstAttribute="leading" secondItem="b5Z-mH-DXa" secondAttribute="leading" constant="8" id="aGs-eh-NpT"/>
                                                     <constraint firstItem="rBf-xs-BlE" firstAttribute="top" secondItem="lyx-iU-KEz" secondAttribute="bottom" constant="8" id="cOP-6a-920"/>
-                                                    <constraint firstItem="H4l-9L-YFE" firstAttribute="leading" secondItem="j3k-Ei-o8n" secondAttribute="trailing" constant="8" id="dHS-vW-pme"/>
+                                                    <constraint firstItem="31w-1k-DLs" firstAttribute="top" secondItem="rBf-xs-BlE" secondAttribute="bottom" constant="16" id="ffY-ZC-hDK"/>
                                                     <constraint firstAttribute="height" constant="250" id="mQm-pm-aHp"/>
+                                                    <constraint firstItem="31w-1k-DLs" firstAttribute="leading" secondItem="b5Z-mH-DXa" secondAttribute="leading" constant="8" id="nca-V2-xxB"/>
+                                                    <constraint firstItem="31w-1k-DLs" firstAttribute="centerX" secondItem="b5Z-mH-DXa" secondAttribute="centerX" id="qH6-83-vja"/>
                                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="rBf-xs-BlE" secondAttribute="trailing" constant="20" symbolic="YES" id="una-1g-yKR"/>
                                                     <constraint firstItem="rBf-xs-BlE" firstAttribute="leading" secondItem="b5Z-mH-DXa" secondAttribute="leading" constant="8" id="y0f-17-1vB"/>
                                                 </constraints>
@@ -358,7 +382,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2309.5999999999999" y="-1024.1379310344828"/>
+            <point key="canvasLocation" x="2309.1603053435115" y="-1024.6478873239437"/>
         </scene>
         <!--All Topics View Controller-->
         <scene sceneID="QA0-8u-l1E">
@@ -1152,6 +1176,7 @@ Veuillez noter que les situations d'urgence peuvent changer rapidement et que le
     <resources>
         <image name="chevron.right" catalog="system" width="97" height="128"/>
         <image name="gearshape" catalog="system" width="128" height="123"/>
+        <image name="info.circle.fill" catalog="system" width="128" height="123"/>
         <image name="lightbulb.fill" catalog="system" width="92" height="128"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="mainPicture" width="2000" height="1333.3333740234375"/>

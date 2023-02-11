@@ -23,6 +23,7 @@
 		0E18B33629974D69000F1A1F /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E18B33529974D69000F1A1F /* Mode.swift */; };
 		0E18B33829975399000F1A1F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E18B33729975399000F1A1F /* SettingsViewController.swift */; };
 		0E18B33A29975741000F1A1F /* ThanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E18B33929975741000F1A1F /* ThanksViewController.swift */; };
+		0E18B33C29975F4D000F1A1F /* Class+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E18B33B29975F4D000F1A1F /* Class+Alert.swift */; };
 		0ED3C4C12992056E005910CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4C02992056E005910CF /* AppDelegate.swift */; };
 		0ED3C4C32992056E005910CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4C22992056E005910CF /* SceneDelegate.swift */; };
 		0ED3C4C52992056E005910CF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4C42992056E005910CF /* MainViewController.swift */; };
@@ -71,6 +72,7 @@
 		0E18B33529974D69000F1A1F /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
 		0E18B33729975399000F1A1F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0E18B33929975741000F1A1F /* ThanksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThanksViewController.swift; sourceTree = "<group>"; };
+		0E18B33B29975F4D000F1A1F /* Class+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Class+Alert.swift"; sourceTree = "<group>"; };
 		0ED3C4BD2992056E005910CF /* collapse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = collapse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ED3C4C02992056E005910CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ED3C4C22992056E005910CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 			children = (
 				0E0350C82995DD7700AEC8A2 /* Class+WebLink.swift */,
 				0E18B333299707D3000F1A1F /* String+Extension.swift */,
+				0E18B33B29975F4D000F1A1F /* Class+Alert.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				0ED3C4CB2992056E005910CF /* collapse.xcdatamodeld in Sources */,
 				0E0350CD2996350E00AEC8A2 /* SettingsTableViewController.swift in Sources */,
 				0ED3C50329937A7D005910CF /* ItemTableViewCell.swift in Sources */,
+				0E18B33C29975F4D000F1A1F /* Class+Alert.swift in Sources */,
 				0E18B334299707D3000F1A1F /* String+Extension.swift in Sources */,
 				0ED3C4FF29932A4C005910CF /* JsonService.swift in Sources */,
 				0E18B33A29975741000F1A1F /* ThanksViewController.swift in Sources */,
