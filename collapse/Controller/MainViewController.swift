@@ -10,6 +10,7 @@ import UIKit
 final class MainViewController: UIViewController {
     
     // MARK: - Properties
+    @IBOutlet var premiumTipsView: UIView!
     @IBOutlet var scoreProgressView: UIProgressView!
     @IBOutlet var scorePercentLabel: UILabel!
     @IBOutlet var tableView: UITableView!
@@ -19,7 +20,11 @@ final class MainViewController: UIViewController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.backgroundColor = .white
         loadDataFromJson()
+        checkIfPremium()
+        NotificationCenter.default.addObserver(self, selector: #selector(handleNotification), name: NSNotification.Name("dismissModal"), object: nil)
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -30,9 +35,20 @@ final class MainViewController: UIViewController {
                 tableView.deselectRow(at: selectedIndexPath, animated: true)
             }
         tableView.reloadData()
+        
     }
     
     // MARK: - Actions
+    
+    @objc func handleNotification() {
+       checkIfPremium()
+    }
+     
+    @IBAction func didTapPremium(_ sender: Any) {
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "premiumViewController") as? PremiumViewController {
+            present(vc, animated: true)
+        }
+    }
     
     @IBAction func didTappedButtonInformation(_ sender: Any) {
         // swiftlint: disable line_length
@@ -46,6 +62,15 @@ final class MainViewController: UIViewController {
     }
     
     // MARK: - Privates
+    
+    private func checkIfPremium() {
+        if SettingsRepository.userIsPremium {
+            premiumTipsView.isHidden = true
+        } else {
+            premiumTipsView.isHidden = false
+        }
+        tableView.reloadData()
+    }
     
     private func updateScorePercent() {
         let score = ScoreService.calculateTotalScore(with: topichighlight)
@@ -104,10 +129,24 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
-            vc.topic = topichighlight[indexPath.section]
-            navigationController?.pushViewController(vc, animated: true)
+       let selectedtopic = topichighlight[indexPath.section]
+        
+        if !selectedtopic.isPremium || ( SettingsRepository.userIsPremium && selectedtopic.isPremium) {
+            if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
+                vc.topic = selectedtopic
+                navigationController?.pushViewController(vc, animated: true)
+            }
+        } else {
+            if let vc = storyboard?.instantiateViewController(withIdentifier: "premiumViewController") as? PremiumViewController {
+                present(vc, animated: true)
+            }
         }
+    }
+    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        let backgroundView = UIView()
+        backgroundView.backgroundColor = .white
+        cell.selectedBackgroundView = backgroundView
     }
     
 }

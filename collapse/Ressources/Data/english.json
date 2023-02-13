@@ -58,7 +58,7 @@
                 "description": "Bah ouais quoi ! nameho ! ."
             }
         ],
-        "isPremium": false
+        "isPremium": true
     },
     {
         "uid": "2",
@@ -94,7 +94,7 @@
                 "description": "Un livre de premiers secours pour avoir des instructions en cas d'urgence."
             }
         ],
-        "isPremium": false
+        "isPremium": true
     },
     {
         "uid": "3",
@@ -163,7 +163,7 @@
                 "description": "Planifier la durabilité à long terme en utilisant des matériaux qui ne se dégradent pas facilement, en construisant des structures en forme de toit qui ne s'effondrent pas facilement et en installant des systèmes de collecte d'eau de pluie pour réduire les besoins en eau."
             }
         ],
-        "isPremium": false
+        "isPremium": true
     },{
         "uid": "5",
         "title": "power Line",

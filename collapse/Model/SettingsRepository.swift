@@ -28,9 +28,9 @@ final class SettingsRepository {
         }
     }
     
-    static var userIsPremium: String {
+    static var userIsPremium: Bool {
         get {
-            return userDefault.string(forKey: Keys.userIsPremium) ?? ""
+            return userDefault.bool(forKey: Keys.userIsPremium)
         }
         set {
             userDefault.set(newValue, forKey: Keys.userIsPremium)

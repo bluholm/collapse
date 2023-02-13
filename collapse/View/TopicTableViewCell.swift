@@ -15,18 +15,25 @@ final class TopicTableViewCell: UITableViewCell {
     @IBOutlet var imageTopic: UIImageView!
     @IBOutlet var preparationLabel: UILabel!
     @IBOutlet var percentLabel: UILabel!
+    @IBOutlet var premiumLabel: UILabel!
     @IBOutlet var percentageCircle: PercentCircleUIView!
     
     // MARK: - Override
     override func awakeFromNib() {
         super.awakeFromNib()
-        
         preparationLabel.text = "En préparation"
     }
 
     // MARK: - Public
     func configure(topic: TopicElement, percentage: CGFloat) {
         titleLabel.text = topic.title
+        
+        if !topic.isPremium || ( SettingsRepository.userIsPremium && topic.isPremium) {
+            premiumLabel.isHidden = true
+        } else {
+            premiumLabel.isHidden = false
+        }
+        
         imageTopic.image = UIImage(named: topic.image)
         subtitleLabel.text = topic.subtitle
         percentLabel.text = "\(String(Int(percentage*100)))%"

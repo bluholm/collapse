@@ -94,7 +94,7 @@
                 "description": "Un livre de premiers secours pour avoir des instructions en cas d'urgence."
             }
         ],
-        "isPremium": false
+        "isPremium": true
     },
     {
         "uid": "3",
@@ -201,7 +201,7 @@
                 "description": "Des batteries de stockage d'énergie peuvent être utilisées pour stocker de l'électricité générée pour une utilisation ultérieure."
             }
         ],
-        "isPremium": false
+        "isPremium": true
     },
     {
         "uid": "6",
@@ -240,7 +240,7 @@
                 "description": "Il est important de connaître les différents types de pièges à poissons pour pouvoir les fabriquer soi-même et les utiliser efficacement dans les rivières."
             }
         ],
-        "isPremium": false
+        "isPremium": true
     }
 
 
