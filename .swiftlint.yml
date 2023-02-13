@@ -62,4 +62,3 @@ custom_rules:
     regex: '(class|struct|enum|extension)((?-s)\s.*\{$\n)(?!^\s*$)'
     message: "Empty line required after main declarations"
     severity: warning
-

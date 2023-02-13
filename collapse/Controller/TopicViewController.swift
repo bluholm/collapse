@@ -163,7 +163,7 @@ extension TopicViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
         if tableView == tableViewRegular {
-            view.tintColor = .systemGray6
+            view.tintColor = .white
             guard let header = view as? UITableViewHeaderFooterView else { return }
             header.textLabel?.textColor = .black
             header.textLabel?.font = UIFont.boldSystemFont(ofSize: 17)

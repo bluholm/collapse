@@ -10,7 +10,7 @@ import UIKit
 final class MainViewController: UIViewController {
     
     // MARK: - Properties
-    @IBOutlet var premiumTipsView: UIView!
+    @IBOutlet var premiumButton: UIButton!
     @IBOutlet var scoreProgressView: UIProgressView!
     @IBOutlet var scorePercentLabel: UILabel!
     @IBOutlet var tableView: UITableView!
@@ -65,9 +65,9 @@ final class MainViewController: UIViewController {
     
     private func checkIfPremium() {
         if SettingsRepository.userIsPremium {
-            premiumTipsView.isHidden = true
+            premiumButton.isHidden = true
         } else {
-            premiumTipsView.isHidden = false
+            premiumButton.isHidden = false
         }
         tableView.reloadData()
     }
