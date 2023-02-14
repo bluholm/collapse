@@ -49,6 +49,22 @@ final class TopicViewController: UIViewController {
     
     // MARK: - Actions
     
+    @IBAction func didTappedSharedButton(_ sender: Any) {
+        var text = topic.title+"\n\n"
+        text += topic.subtitle+"\n\n"
+        for item in topic.items {
+            text += "-"+item.title+"\n"
+        }
+        text += topic.descriptionShort+"\n\n"
+        text += "links"
+        for link in topic.links {
+            text += "-"+link.title+"\n"
+        }
+        
+        text += topic.descriptionLong+"\n\n"
+        sharePicture(text: [text])
+    }
+    
     @IBAction func didTappedInformationButton(_ sender: Any) {
         // swiftlint: disable line_length
         let message = "Les calculs de score sont effectués en fonction des modes sélectionnés pour chaque sujet. Si vous avez coché tous les éléments dans le mode avancé, vous obtiendrez un score de 100%. il faut donc être en mode advanced pour obtenir le score maximal"
@@ -172,7 +188,7 @@ extension TopicViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if tableView == tableViewRegular {
-            guard let vc = storyboard?.instantiateViewController(withIdentifier: "detailViewController") as? DetailViewController else { return }
+            guard let vc = storyboard?.instantiateViewController(withIdentifier: "detailViewController") as? ItemViewController else { return }
             vc.item = filteredItems[indexPath.section][indexPath.row]
             self.navigationController?.pushViewController(vc, animated: true)
         } else {

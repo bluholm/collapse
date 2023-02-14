@@ -1,13 +1,12 @@
 ##Version 1.0
 A faire :  
-- la recherche   
+
 - le mode payant : (- 5 topcis gratuit ( mais pas tous les items ) : 3 visibles dans l'entrée : 
         => forcement parmis ceux qui sont en cours ou pas teerminé . 
         => ne peux pas etre des topics premium si le gars est en free sauf si il a deja fait .   
 - test fonction qui vérifie le json
 - sharing button on top 
-- changer la police 
--localisations . 
+-localisation pour les traductions. 
 
     
 ##Version 1.2

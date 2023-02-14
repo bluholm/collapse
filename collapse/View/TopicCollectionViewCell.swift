@@ -16,7 +16,7 @@ class TopicCollectionViewCell: UICollectionViewCell {
     
     func configure(with: TopicElement, percentage: CGFloat) {
         progressLabel.text = "En préparation"
-        titleLabel.text = with.title
+        titleLabel.text = with.title.uppercased()
         subTitleLabel.text = with.subtitle
         image.image = UIImage(named: with.image)
         

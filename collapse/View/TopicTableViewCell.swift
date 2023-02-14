@@ -26,7 +26,7 @@ final class TopicTableViewCell: UITableViewCell {
 
     // MARK: - Public
     func configure(topic: TopicElement, percentage: CGFloat) {
-        titleLabel.text = topic.title
+        titleLabel.text = topic.title.uppercased()
         
         if !topic.isPremium || ( SettingsRepository.userIsPremium && topic.isPremium) {
             premiumLabel.isHidden = true

@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class DetailViewController: UIViewController {
+final class ItemViewController: UIViewController {
 
     // MARK: - Properties
     @IBOutlet var linksTitleLabel: UILabel!
@@ -18,7 +18,7 @@ final class DetailViewController: UIViewController {
     private var contentSizeObserver: NSKeyValueObservation?
     var item: Item!
     
-    // MARK: - LifeCycle
+    // MARK: - Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
         tableHeightAddObserver()
@@ -38,6 +38,20 @@ final class DetailViewController: UIViewController {
         super.viewWillDisappear(true)
     }
     
+    // MARK: - Actions
+    
+    @IBAction func didTappedSharedButton(_ sender: Any) {
+        var text = item.title+"\n\n"
+        text += item.subtitle+"\n\n"
+        text += item.description+"\n\n"
+        text += "links"
+        for link in item.links {
+            text += "-"+link.title+"\n"
+            text += "-"+link.description+"\n"
+        }
+        sharePicture(text: [text])
+    }
+    
     // MARK: - Privates
 
     private func tableHeightAddObserver() {
@@ -53,7 +67,7 @@ final class DetailViewController: UIViewController {
 }
 
 // MARK: - UITableViewDelegate, UITableViewDataSource
-extension DetailViewController: UITableViewDelegate, UITableViewDataSource {
+extension ItemViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return item.links.count
