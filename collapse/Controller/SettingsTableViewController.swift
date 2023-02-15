@@ -11,17 +11,17 @@ final class SettingsTableViewController: UITableViewController {
     
     // MARK: - Properties
     @IBOutlet var modeSegmentedControl: UISegmentedControl!
+    @IBOutlet var disclaimerLabel: UILabel!
+    @IBOutlet var thanksLabel: UILabel!
     
     // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         loadSegmentedControls()
         loadMode()
-        self.tableView.rowHeight = 44
     }
     
     // MARK: - Actions
-    
     @IBAction func didChangedSegmentedControlState(_ sender: UISegmentedControl) {
         switch sender.selectedSegmentIndex {
         case 0:
@@ -33,10 +33,14 @@ final class SettingsTableViewController: UITableViewController {
         default:
             break
         }
-        
     }
     
     // MARK: - Privates
+    private func loadTexts() {
+        disclaimerLabel.text = "DISCLAIMER_MENU".localized()
+        thanksLabel.text = "THANKS_MENU".localized()
+    }
+    
     private func loadMode() {
         switch SettingsRepository.mode {
         case Mode.essential.stringValue:
@@ -57,6 +61,10 @@ final class SettingsTableViewController: UITableViewController {
     }
     
     // MARK: - Table view data source
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 44
+    }
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }

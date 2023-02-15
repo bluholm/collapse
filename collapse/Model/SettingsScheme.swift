@@ -7,7 +7,7 @@
 
 import Foundation
 
-class SettingScheme {
+final class SettingScheme {
     
     static func loadLangageScheme() -> String {
         guard let langage = UserDefaults.standard.stringArray(forKey: "AppleLanguages"),

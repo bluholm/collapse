@@ -1,12 +1,22 @@
 ##Version 1.0
 A faire :  
-
 - le mode payant : (- 5 topcis gratuit ( mais pas tous les items ) : 3 visibles dans l'entrée : 
         => forcement parmis ceux qui sont en cours ou pas teerminé . 
         => ne peux pas etre des topics premium si le gars est en free sauf si il a deja fait .   
 - test fonction qui vérifie le json
-- sharing button on top 
 -localisation pour les traductions. 
+- test unitiaure 
+-refactoring
+-revoir le bouton premium qui est moche : sur 2 ligne + icone peut etre ?! 
+
+Bugs : 
+b le cercle de percentage 
+b couleur dans all topics 
+b premium a changer 
+b logo premium ?! 
+b collection affiche premium 
+b selection dans settings du mode couleur 
+b code promo pour tester 
 
     
 ##Version 1.2

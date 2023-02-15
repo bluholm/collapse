@@ -21,7 +21,7 @@ final class TopicTableViewCell: UITableViewCell {
     // MARK: - Override
     override func awakeFromNib() {
         super.awakeFromNib()
-        preparationLabel.text = "En préparation"
+        preparationLabel.text = "STATUS_IN_PROGRESS".localized()
     }
 
     // MARK: - Public
@@ -43,7 +43,7 @@ final class TopicTableViewCell: UITableViewCell {
         percentageCircle.layoutIfNeeded()
         
         if percentage == 1 {
-            preparationLabel.text = "complete"
+            preparationLabel.text = "STATUS_DONE".localized()
             
             preparationLabel.textColor = UIColor(named: "success")
         }

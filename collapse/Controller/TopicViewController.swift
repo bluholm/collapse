@@ -11,6 +11,10 @@ final class TopicViewController: UIViewController {
     
     // MARK: - Porperties
     // Outlets
+    @IBOutlet var descriptionTitleLabel: UILabel!
+    @IBOutlet var linksTitleLabel: UILabel!
+    @IBOutlet var itemsTitleLabel: UILabel!
+    @IBOutlet var scoreTitleLabel: UILabel!
     @IBOutlet var contentView: UIView!
     @IBOutlet var scrollView: UIScrollView!
     @IBOutlet var imageView: UIImageView!
@@ -30,6 +34,9 @@ final class TopicViewController: UIViewController {
     // Constants and Variables
     private var contentSizeObserver: NSKeyValueObservation?
     private var filteredItems = [[Item]]()
+    private var alertMessage: String!
+    private var alertTitle: String!
+    private var alertAction: String!
     var topic: TopicElement!
     
     // MARK: - Lifecycle
@@ -38,6 +45,7 @@ final class TopicViewController: UIViewController {
         self.loadingTopic()
         self.tableHeightAddObserver()
         self.autoSizeContentView()
+        self.setupView()
         filteredItems =  ScoreService.loadFilteredItemsForTableView(with: topic)
         tableViewRegular.reloadData()
     }
@@ -48,7 +56,6 @@ final class TopicViewController: UIViewController {
     }
     
     // MARK: - Actions
-    
     @IBAction func didTappedSharedButton(_ sender: Any) {
         var text = topic.title+"\n\n"
         text += topic.subtitle+"\n\n"
@@ -56,7 +63,7 @@ final class TopicViewController: UIViewController {
             text += "-"+item.title+"\n"
         }
         text += topic.descriptionShort+"\n\n"
-        text += "links"
+        text += "ITEM_LINK_TITLE".localized()
         for link in topic.links {
             text += "-"+link.title+"\n"
         }
@@ -66,9 +73,7 @@ final class TopicViewController: UIViewController {
     }
     
     @IBAction func didTappedInformationButton(_ sender: Any) {
-        // swiftlint: disable line_length
-        let message = "Les calculs de score sont effectués en fonction des modes sélectionnés pour chaque sujet. Si vous avez coché tous les éléments dans le mode avancé, vous obtiendrez un score de 100%. il faut donc être en mode advanced pour obtenir le score maximal"
-        self.presentSimpleAlert(message: message, title: "Informations", actionTitle: "Ok")
+        self.presentSimpleAlert(message: alertMessage, title: alertTitle, actionTitle: alertAction)
     }
     
     @IBAction func didSwitchedItem(_ sender: UISwitch) {
@@ -82,6 +87,16 @@ final class TopicViewController: UIViewController {
     }
     
     // MARK: - Privates
+    private func setupView() {
+        alertMessage = "MAIN_INFORMATION_BUTTON_MESSAGE".localized()
+        alertTitle = "MAIN_INFORMATION_TITLE_MESSAGE".localized()
+        alertAction = "MAIN_INFORMATION_ACTION_BUTTON".localized()
+        scoreTitleLabel.text = "TOPIC_SCORE_TITLE".localized().capitalized
+        descriptionTitleLabel.text = "TOPIC_DESCRIPTION_TITLE".localized()
+        itemsTitleLabel.text = "TOPIC_ITEMS_TITLE".localized()
+        linksTitleLabel.text = "TOPIC_LINKS_TITLE".localized()
+        
+    }
     private func updateScorePercent() {
         let score = ScoreService.calculateScoreForOneTopic(with: topic)
         let scorePercent = Int(score*100)
@@ -211,10 +226,8 @@ extension TopicViewController: UITableViewDelegate, UITableViewDataSource {
             default:
                 return ""
             }
-            
         }
         return ""
-        
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

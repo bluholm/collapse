@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ScoreService {
+final class ScoreService {
     
     static func calculateScoreForOneTopic(with: TopicElement) -> Float {
         let total = with.items.count

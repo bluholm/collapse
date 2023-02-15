@@ -1,0 +1,59 @@
+// Modes.swift
+"ESSENTIAL" = "essentiel";
+"INTERMEDIATE" = "intermediaire";
+"ADVANCED" = "avancé";
+
+// Misc
+"STATUS_IN_PROGRESS" = "En cours";
+"STATUS_DONE" = "termminé";
+
+
+// MainViewController.swift
+"MAIN_PROJECT_TITLE" = "SCORE";
+"MAIN_PROJECT_SUBTITLE" = "Êtes vous prêt pour l'effondrement?";
+"MAIN_BUTTON_PREMIUM_TITLE" = "Pas encore Premium ? clique ici!";
+"MAIN_INFORMATION_BUTTON_MESSAGE" = "Les calculs de score sont effectués en fonction des modes sélectionnés pour chaque sujet. Si vous avez coché tous les éléments dans le mode avancé, vous obtiendrez un score de 100%. il faut donc être en mode advanced pour obtenir le score maximal.";
+"MAIN_PROJECT_GENERAL_TITLE" = "Vos sujets";
+"MAIN_PROJECT_FIRST_SECTION_TITLE" = "En cours";
+"MAIN_PROJECT_SECOND_SECTION_TITLE" = "À faire";
+"MAIN_BUTTON_VIEW_ALL" = "Voir tout (%d)";
+"MAIN_INFORMATION_TITLE_MESSAGE" = "Informations";
+"MAIN_INFORMATION_ACTION_BUTTON" = "OK";
+
+// Disclaimer.swift
+"DISCLAIMER_TITLE" = "Non-responsabilité";
+"DISCLAIMER_TEXT" = "Ce site/application a pour but de fournir des conseils sur la survie et l'autonomie. Les informations contenues dans ce site sont fournies à titre indicatif et ne doivent pas être considérées comme des conseils professionnels.
+
+Nous ne garantissons pas l'exactitude, la complétude, l'actualité ou la fiabilité des informations contenues sur ce site. L'utilisation de ce site se fait à vos propres risques.
+
+En aucun cas, nous ne serons tenus responsables des pertes ou dommages découlant de l'utilisation des informations fournies sur ce site. Nous vous conseillons de vérifier l'exactitude des informations avant de les utiliser.
+
+Veuillez noter que les situations d'urgence peuvent changer rapidement et que les conseils donnés peuvent ne pas être adaptés à chaque situation. Il est de votre responsabilité de prendre les mesures appropriées pour assurer votre sécurité et celle de ceux qui vous entourent.";
+
+// ItemViewController.swift
+"ITEM_LINK_TITLE" = "Liens";
+
+// SettingsViewController.swift
+"SETTING_ALL_TITLE" = "Les Modes";
+"SETTING_ALL_TEXT" = "Lors de l'utilisation de l'application pour savoir si vous êtes prêt à faire face à un effondrement, vous rencontrerez des sujets divisés en trois modes différents : essentiel, intermédiaire et avancé. Le mode essentiel comprend les éléments les plus importants pour une préparation de base, qui sont faciles à mettre en œuvre et peu coûteux. Le mode intermédiaire comprend des éléments supplémentaires qui peuvent vous aider à vous préparer davantage à un effondrement. Le mode avancé comprend des éléments qui nécessitent plus de temps, d'argent ou de compétences pour être mis en œuvre. \n \n Par défaut, le mode avancé est sélectionné pour chaque sujet.";
+
+// SettingsTableViewViewController.swift
+"DISCLAIMER_MENU" = "Non-responsabilité";
+"THANKS_MENU" = "Remerciements";
+
+// TopicViewController.swift
+"TOPIC_SCORE_TITLE" = "SCORE";
+"TOPIC_DESCRIPTION_TITLE" = "Informations";
+"TOPIC_ITEMS_TITLE" = "Listes";
+"TOPIC_LINKS_TITLE" = "Liens";
+
+// PremiumViewController.swift
+"PREMIUM_TITLE" = "Accès à tout le contenu";
+"FIRST_LINE_TITLE" = "45 Sujets prêt et complets";
+"SECOND_LINE_TITLE" = "300  sous catégories";
+"THIRD_LINE_TITLE" = "250 liens , livres et références";
+"TITLE_BOX_ONE" = "/ semaine";
+"TITLE_BOX_TWO" = "/ mois";
+"TITLE_BOX_THREE" = "pour la vie";
+"PURCHASE_BUTTON_TITLE" = "Bientôt";
+"RESTORE_BUTTON_TITLE" = "restaurer mon achat";

@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class WebLink {
+final class WebLink {
     
     static func createLink(link: String, title: String) -> NSAttributedString {
         let color: UIColor = .systemBlue

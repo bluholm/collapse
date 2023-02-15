@@ -9,11 +9,9 @@ import Foundation
 
 extension String {
     
-    /// Localize at tableName "Localizable" on "bundle.main"
-    /// "hello %@! you are %d years old".localized("Mike", 25)/// How to use
     func localized() -> String {
         return NSLocalizedString(self,
-                                 tableName: "Localizable",
+                                 tableName: "localized",
                                  bundle: .main,
                                  value: self,
                                  comment: self)

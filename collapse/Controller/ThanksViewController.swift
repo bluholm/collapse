@@ -7,11 +7,4 @@
 
 import UIKit
 
-final class ThanksViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-    }
- 
-}
+final class ThanksViewController: UIViewController { }

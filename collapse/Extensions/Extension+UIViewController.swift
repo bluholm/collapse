@@ -11,10 +11,8 @@ import UIKit
 extension UIViewController {
     
     func sharePicture(text: [String]) {
-    
         let activityController = UIActivityViewController(activityItems: text, applicationActivities: nil)
         activityController.popoverPresentationController?.sourceView = self.view
         present(activityController, animated: true)
     }
-    
 }

@@ -11,6 +11,18 @@ import UIKit
 final class PremiumViewController: UIViewController {
     
     // MARK: - properties
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var firstLineLabel: UILabel!
+    @IBOutlet var secondLineLabel: UILabel!
+    @IBOutlet var thirdLineLabel: UILabel!
+    @IBOutlet var titleBoxOneLabel: UILabel!
+    @IBOutlet var titleBoxTwoLabel: UILabel!
+    @IBOutlet var titleBoxThreeLabel: UILabel!
+    @IBOutlet var priceBocOneLabel: UILabel!
+    @IBOutlet var priceBoxTwoLabel: UILabel!
+    @IBOutlet var priceBoxThreeLabel: UILabel!
+    @IBOutlet var purchaseButton: UIButton!
+    @IBOutlet var restoreButton: UIButton!
     @IBOutlet var imageTop: UIImageView!
     @IBOutlet var viewBackground: UIView!
     // weekly
@@ -29,11 +41,11 @@ final class PremiumViewController: UIViewController {
     @IBOutlet var ifdebugLabel: UILabel!
     @IBOutlet var fakePremiumDebugSegment: UISegmentedControl!
     
-    // MARK: - LifeCycle Methods
+    // MARK: - Override
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setupView()
-        
+        self.setupTextView()
         #if DEBUG
         ifdebugLabel.isHidden = false
         fakePremiumDebugSegment.isHidden = false
@@ -49,7 +61,6 @@ final class PremiumViewController: UIViewController {
     }
     
     // MARK: - Actions
-    
     #if DEBUG
     @IBAction func didChanagePremium(_ sender: UISegmentedControl) {
         if sender.selectedSegmentIndex == 0 {
@@ -69,7 +80,22 @@ final class PremiumViewController: UIViewController {
         }
     }
     
-    // MARK: - SetupView
+    // MARK: - Privates
+    private func setupTextView() {
+        titleLabel.text = "PREMIUM_TITLE".localized()
+        firstLineLabel.text = "FIRST_LINE_TITLE".localized()
+        secondLineLabel.text = "SECOND_LINE_TITLE".localized()
+        thirdLineLabel.text = "THIRD_LINE_TITLE".localized()
+        priceBocOneLabel.text = "0,99$"
+        priceBoxTwoLabel.text = "3,99$"
+        priceBoxThreeLabel.text = "14,99$"
+        titleBoxOneLabel.text = "TITLE_BOX_ONE".localized().capitalized
+        titleBoxTwoLabel.text = "TITLE_BOX_TWO".localized().capitalized
+        titleBoxThreeLabel.text = "TITLE_BOX_THREE".localized().capitalized
+        purchaseButton.setTitle("PURCHASE_BUTTON_TITLE".localized(), for: .normal)
+        restoreButton.setTitle("RESTORE_BUTTON_TITLE".localized(), for: .normal)
+        
+    }
     private func setupView() {
         viewBackground.layer.cornerRadius = 20
         

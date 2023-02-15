@@ -16,9 +16,9 @@ extension Mode {
     
     var stringValue: String {
         switch self {
-        case .essential: return "essential"
-        case .intermediate: return "intermediate"
-        case .advanced: return "advanced"
+        case .essential: return "ESSENTIAL".localized()
+        case .intermediate: return "INTERMEDIATE".localized()
+        case .advanced: return "ADVANCED".localized()
         }
     }
     

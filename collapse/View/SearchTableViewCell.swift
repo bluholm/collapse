@@ -19,11 +19,9 @@ final class SearchTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
     }
     
     // MARK: - Publics
-    
     func configure(with: TopicElement, word: String) {
 
         titleLabel.text = with.title.uppercased()
@@ -82,5 +80,4 @@ final class SearchTableViewCell: UITableViewCell {
       attributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.boldSystemFont(ofSize: 14), range: range)
       return attributedString
     }
-
 }

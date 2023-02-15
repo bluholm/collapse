@@ -7,14 +7,14 @@
 
 import UIKit
 
-class SearchViewController: UIViewController {
+final class SearchViewController: UIViewController {
 
     // MARK: - Properties
+    @IBOutlet var tableView: UITableView!
     private var topicList = [TopicElement]()
     private var filteredTopic = [TopicElement]()
     private var searchWord: String!
     
-    @IBOutlet var tableView: UITableView!
     // MARK: - Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +34,7 @@ class SearchViewController: UIViewController {
     }
 }
 
+// MARK: - UITableViewDelegate, UITableViewDataSource
 extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -49,8 +50,7 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
        let selectedtopic = filteredTopic[indexPath.row]
-        
-        if !selectedtopic.isPremium || ( SettingsRepository.userIsPremium && selectedtopic.isPremium) {
+        if PremiumService.isTopicAccessible(topic: selectedtopic) {
             if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
                 vc.topic = selectedtopic
                 navigationController?.pushViewController(vc, animated: true)
@@ -64,6 +64,7 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
     
 }
 
+// MARK: - UISearchBarDelegate
 extension SearchViewController: UISearchBarDelegate {
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {

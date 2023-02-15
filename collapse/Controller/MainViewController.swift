@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  collapse
 //
 //  Created by Marc-Antoine BAR on 2023-02-07.
@@ -10,21 +10,31 @@ import UIKit
 final class MainViewController: UIViewController {
     
     // MARK: - Properties
+    // IBoutlets
+    @IBOutlet var scorePercentLabel: UILabel!
+    @IBOutlet var projectTitleLabel: UILabel!
+    @IBOutlet var projectSubtitleLabel: UILabel!
+    @IBOutlet var projectGeneralTitleLabel: UILabel!
+    @IBOutlet var projectFirstSectionLabel: UILabel!
+    @IBOutlet var projectSecondSectionLabel: UILabel!
+    @IBOutlet var projectViewAllButton: UIButton!
     @IBOutlet var premiumButton: UIButton!
     @IBOutlet var scoreProgressView: UIProgressView!
-    @IBOutlet var scorePercentLabel: UILabel!
     @IBOutlet var tableView: UITableView!
+    // variables & constants
     private var topicList = [TopicElement]()
     private var topichighlight = [TopicElement]()
+    private var alertMessage: String!
+    private var alertTitle: String!
+    private var alertAction: String!
     
-    // MARK: - Lifecycle
+    // MARK: - Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.backgroundColor = .white
         loadDataFromJson()
-        checkIfPremium()
-        NotificationCenter.default.addObserver(self, selector: #selector(handleNotification), name: NSNotification.Name("dismissModal"), object: nil)
-        
+        loadActionsPremium()
+        setUpView()
+        NotificationCenter.default.addObserver(self, selector: #selector(handleNotificationWhenDismiss), name: NSNotification.Name("dismissModal"), object: nil)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -39,31 +49,22 @@ final class MainViewController: UIViewController {
     }
     
     // MARK: - Actions
-    
-    @objc func handleNotification() {
-       checkIfPremium()
+    @objc func handleNotificationWhenDismiss() {
+       loadActionsPremium()
     }
      
-    @IBAction func didTapPremium(_ sender: Any) {
+    @IBAction func didTapPremiumButton(_ sender: Any) {
         if let vc = storyboard?.instantiateViewController(withIdentifier: "premiumViewController") as? PremiumViewController {
             present(vc, animated: true)
         }
     }
     
-    @IBAction func didTappedButtonInformation(_ sender: Any) {
-        // swiftlint: disable line_length
-        let message = "Les calculs de score sont effectués en fonction des modes sélectionnés pour chaque sujet. Si vous avez coché tous les éléments dans le mode avancé, vous obtiendrez un score de 100%. il faut donc être en mode advanced pour obtenir le score maximal"
-        self.presentSimpleAlert(message: message, title: "Informations", actionTitle: "Ok")
-    }
-    
-    @IBAction func test(_ sender: UITapGestureRecognizer) {
-        guard let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController else { return }
-        self.navigationController?.pushViewController(vc, animated: true)
+    @IBAction func didTappedInformationButton(_ sender: Any) {
+        self.presentSimpleAlert(message: alertMessage, title: alertTitle, actionTitle: alertAction)
     }
     
     // MARK: - Privates
-    
-    private func checkIfPremium() {
+    private func loadActionsPremium() {
         if SettingsRepository.userIsPremium {
             premiumButton.isHidden = true
         } else {
@@ -90,6 +91,18 @@ final class MainViewController: UIViewController {
         }
     }
     
+    private func setUpView() {
+        projectTitleLabel.text = "MAIN_PROJECT_TITLE".localized()
+        projectSubtitleLabel.text = "MAIN_PROJECT_SUBTITLE".localized()
+        premiumButton.setTitle("MAIN_BUTTON_PREMIUM_TITLE".localized(), for: .normal)
+        projectTitleLabel.text = "MAIN_PROJECT_GENERAL_TITLE".localized()
+        projectFirstSectionLabel.text = "MAIN_PROJECT_FIRST_SECTION_TITLE".localized()
+        projectSecondSectionLabel.text = "MAIN_PROJECT_SECOND_SECTION_TITLE".localized()
+        projectViewAllButton.setTitle("MAIN_BUTTON_VIEW_ALL".localized(topicList.count), for: .normal)
+        alertMessage = "MAIN_INFORMATION_BUTTON_MESSAGE".localized()
+        alertTitle = "MAIN_INFORMATION_TITLE_MESSAGE".localized()
+        alertAction = "MAIN_INFORMATION_ACTION_BUTTON".localized()
+    }
 }
 
 // MARK: - UIScrollViewDelegate
@@ -130,8 +143,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
        let selectedtopic = topichighlight[indexPath.section]
-        
-        if !selectedtopic.isPremium || ( SettingsRepository.userIsPremium && selectedtopic.isPremium) {
+        if PremiumService.isTopicAccessible(topic: selectedtopic) {
             if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
                 vc.topic = selectedtopic
                 navigationController?.pushViewController(vc, animated: true)
@@ -151,6 +163,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     
 }
 
+// MARK: - Extension UICollectionViewDelegate, UICollectionViewDataSource
 extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -171,5 +184,4 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
             navigationController?.pushViewController(vc, animated: true)
         }
     }
-    
 }

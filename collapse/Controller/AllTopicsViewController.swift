@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AllTopicsViewController: UIViewController {
+final class AllTopicsViewController: UIViewController {
 
     // MARK: - Properties
     private var topicList = [TopicElement]()
@@ -28,9 +28,8 @@ class AllTopicsViewController: UIViewController {
     }
     
     // MARK: - Privates
-    
     private func loadDataFromJson() {
-        JsonService.parse(file: "french") { result in
+        JsonService.parse(file: SettingScheme.loadLangageScheme()) { result in
             switch result {
             case .success(let table):
                 self.topicList = table

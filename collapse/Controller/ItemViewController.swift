@@ -11,26 +11,19 @@ final class ItemViewController: UIViewController {
 
     // MARK: - Properties
     @IBOutlet var linksTitleLabel: UILabel!
-    @IBOutlet var descriptionTextView: UITextView!
     @IBOutlet var titleLabel: UILabel!
-    @IBOutlet var tableHeightConstraint: NSLayoutConstraint!
+    @IBOutlet var descriptionTextView: UITextView!
     @IBOutlet var tableviewLinks: UITableView!
+    @IBOutlet var tableHeightConstraint: NSLayoutConstraint!
     private var contentSizeObserver: NSKeyValueObservation?
     var item: Item!
     
     // MARK: - Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadData()
         tableHeightAddObserver()
         tableviewLinks.reloadData()
-        
-        if item.links.isEmpty {
-            linksTitleLabel.isHidden = true
-            tableviewLinks.isHidden = true
-        }
-        linksTitleLabel.text = "Links"
-        titleLabel.text = item.title
-        descriptionTextView.text = item.description
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -39,12 +32,11 @@ final class ItemViewController: UIViewController {
     }
     
     // MARK: - Actions
-    
     @IBAction func didTappedSharedButton(_ sender: Any) {
         var text = item.title+"\n\n"
         text += item.subtitle+"\n\n"
         text += item.description+"\n\n"
-        text += "links"
+        text += "ITEM_LINK_TITLE".localized()
         for link in item.links {
             text += "-"+link.title+"\n"
             text += "-"+link.description+"\n"
@@ -53,7 +45,17 @@ final class ItemViewController: UIViewController {
     }
     
     // MARK: - Privates
-
+    private func loadData() {
+        linksTitleLabel.text = "ITEM_LINK_TITLE".localized()
+        if item.links.isEmpty {
+            linksTitleLabel.isHidden = true
+            tableviewLinks.isHidden = true
+        }
+        
+        titleLabel.text = item.title
+        descriptionTextView.text = item.description
+    }
+    
     private func tableHeightAddObserver() {
         contentSizeObserver = tableviewLinks.observe(\UITableView.contentSize,
                                                         options: [NSKeyValueObservingOptions.new],

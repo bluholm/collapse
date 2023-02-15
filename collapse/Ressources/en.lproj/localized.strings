@@ -1,0 +1,59 @@
+// Modes.swift
+"ESSENTIAL" = "essential";
+"INTERMEDIATE" = "intermediate";
+"ADVANCED" = "advanced";
+
+//Misc
+"STATUS_IN_PROGRESS" = "In progress";
+"STATUS_DONE" = "Done";
+
+
+// MainViewController.swift
+"MAIN_PROJECT_TITLE" = "SCORE";
+"MAIN_PROJECT_SUBTITLE" = "Are you ready for the collapse?";
+"MAIN_BUTTON_PREMIUM_TITLE" = "Start and unlock all topics and features !";
+"MAIN_INFORMATION_BUTTON_MESSAGE" = "Score calculations are performed based on the selected modes for each subject. If you have checked all the items in the advanced mode, you will receive a score of 100%. Therefore, you must be in advanced mode to achieve the maximum score.";
+"MAIN_PROJECT_GENERAL_TITLE" = "Your topics";
+"MAIN_PROJECT_FIRST_SECTION_TITLE" = "In progress";
+"MAIN_PROJECT_SECOND_SECTION_TITLE" = "To do";
+"MAIN_BUTTON_VIEW_ALL" = "View All (%d)";
+"MAIN_INFORMATION_TITLE_MESSAGE" = "Informations";
+"MAIN_INFORMATION_ACTION_BUTTON" = "Ok";
+
+// Disclaimer.swift
+"DISCLAIMER_TITLE" = "DISCLAIMER";
+"DISCLAIMER_TEXT" = "This site/application aims to provide advice on survival and self-sufficiency. The information contained on this site is provided for informational purposes only and should not be considered professional advice.
+
+We do not guarantee the accuracy, completeness, timeliness, or reliability of the information contained on this site. The use of this site is at your own risk.
+
+In no event shall we be liable for any losses or damages arising from the use of the information provided on this site. We advise you to verify the accuracy of the information before using it.
+
+Please note that emergency situations can change rapidly and the advice given may not be suitable for every situation. It is your responsibility to take appropriate measures to ensure your safety and the safety of those around you.";
+
+// ItemViewController.swift
+"ITEM_LINK_TITLE" = "Links";
+
+// SettingsViewController.swift
+"SETTING_ALL_TITLE" = "Modes";
+"SETTING_ALL_TEXT" = "When using the application to assess your readiness for a collapse, you will encounter topics divided into three different modes: essential, intermediate, and advanced. The essential mode includes the most important elements for basic preparation, which are easy to implement and inexpensive. The intermediate mode includes additional elements that can help you further prepare for a collapse. The advanced mode includes elements that require more time, money, or skills to implement. \n \n By default, the advanced mode is selected for each topic.";
+
+// SettingsTableViewViewController.swift
+"DISCLAIMER_MENU" = "Disclaimer";
+"THANKS_MENU" = "Thanks";
+
+// TopicViewController.swift
+"TOPIC_SCORE_TITLE" = "SCORE";
+"TOPIC_DESCRIPTION_TITLE" = "Informations";
+"TOPIC_ITEMS_TITLE" = "CheckList";
+"TOPIC_LINKS_TITLE" = "Links";
+
+// PremiumViewController.swift
+"PREMIUM_TITLE" = "Unlock All features";
+"FIRST_LINE_TITLE" = "45 topics ready to serve you";
+"SECOND_LINE_TITLE" = "300 checklists items";
+"THIRD_LINE_TITLE" = "250 links , books , references";
+"TITLE_BOX_ONE" = "weekly";
+"TITLE_BOX_TWO" = "montlhy";
+"TITLE_BOX_THREE" = "lifetime";
+"PURCHASE_BUTTON_TITLE" = "Coming soon";
+"RESTORE_BUTTON_TITLE" = "restore purchase";
