@@ -42,7 +42,7 @@ final class SearchTableViewCell: UITableViewCell {
             descriptionLabel.attributedText = NSAttributedString(string: with.subtitle)
         }
         
-        if !with.isPremium || ( SettingsRepository.userIsPremium && with.isPremium) {
+        if PremiumService.isTopicAccessible(topic: with) {
             premiumImage.isHidden = true
         } else {
             premiumImage.isHidden = false

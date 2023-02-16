@@ -10,8 +10,7 @@ A faire :
 -implenter car il reste des isTopicAccessible 
 
 Bugs :  
-b collection affiche premium 
-b selection dans settings du mode couleur 
+b collection affiche premium  
 b code promo pour tester 
 
     

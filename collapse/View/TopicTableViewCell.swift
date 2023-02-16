@@ -28,7 +28,7 @@ final class TopicTableViewCell: UITableViewCell {
     func configure(topic: TopicElement, percentage: CGFloat) {
         titleLabel.text = topic.title.uppercased()
         
-        if !topic.isPremium || ( SettingsRepository.userIsPremium && topic.isPremium) {
+        if PremiumService.isTopicAccessible(topic: topic) {
             premiumImage.isHidden = true
         } else {
             premiumImage.isHidden = false

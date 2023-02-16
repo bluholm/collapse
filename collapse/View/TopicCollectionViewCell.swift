@@ -13,8 +13,16 @@ final class TopicCollectionViewCell: UICollectionViewCell {
     @IBOutlet var subTitleLabel: UILabel!
     @IBOutlet var progressLabel: UILabel!
     @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var premiumImage: UIImageView!
     
     func configure(with: TopicElement, percentage: CGFloat) {
+        
+        if PremiumService.isTopicAccessible(topic: with) {
+            premiumImage.isHidden = true
+        } else {
+            premiumImage.isHidden = false
+        }
+        
         progressLabel.text = "STATUS_IN_PROGRESS".localized()
         titleLabel.text = with.title.uppercased()
         subTitleLabel.text = with.subtitle

@@ -70,7 +70,7 @@ extension AllTopicsViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedtopic = topicList[indexPath.section]
-        if !selectedtopic.isPremium || ( SettingsRepository.userIsPremium && selectedtopic.isPremium) {
+        if PremiumService.isTopicAccessible(topic: selectedtopic) {
             if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
                 vc.topic = topicList[indexPath.section]
                 navigationController?.pushViewController(vc, animated: true)
