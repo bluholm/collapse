@@ -22,4 +22,12 @@ extension Mode {
         }
     }
     
+    var jsonReferenceName: String {
+        switch self {
+        case .essential: return "essential".localized()
+        case .intermediate: return "intermediate".localized()
+        case .advanced: return "advanced".localized()
+        }
+    }
+    
 }

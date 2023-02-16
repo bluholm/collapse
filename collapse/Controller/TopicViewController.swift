@@ -43,11 +43,11 @@ final class TopicViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.loadingTopic()
+        filteredItems =  ScoreService.loadFilteredItemsForTableView(with: topic)
+        tableViewRegular.reloadData()
         self.tableHeightAddObserver()
         self.autoSizeContentView()
         self.setupView()
-        filteredItems =  ScoreService.loadFilteredItemsForTableView(with: topic)
-        tableViewRegular.reloadData()
     }
     
     override func viewWillDisappear(_ animated: Bool) {

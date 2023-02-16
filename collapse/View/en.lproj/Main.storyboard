@@ -378,6 +378,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" largeTitleDisplayMode="never" id="TtG-QA-ku1">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="line.3.horizontal.decrease.circle" catalog="system" id="c8w-FU-B9O">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="PgM-XX-BYX" kind="show" id="tgB-I8-H0C"/>
+                            </connections>
+                        </barButtonItem>
                         <rightBarButtonItems>
                             <barButtonItem image="gearshape" catalog="system" id="Xon-qc-tN1">
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1789,6 +1795,7 @@ Veuillez noter que les situations d'urgence peuvent changer rapidement et que le
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="IV2-PC-IIp"/>
+        <segue reference="ANz-5u-59f"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
@@ -1796,6 +1803,7 @@ Veuillez noter que les situations d'urgence peuvent changer rapidement et que le
         <image name="chevron.right" catalog="system" width="97" height="128"/>
         <image name="gearshape" catalog="system" width="128" height="123"/>
         <image name="info.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="line.3.horizontal.decrease.circle" catalog="system" width="128" height="123"/>
         <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <image name="mainPicture" width="2000" height="1333.3333740234375"/>
         <image name="note.text" catalog="system" width="128" height="107"/>

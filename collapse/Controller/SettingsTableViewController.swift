@@ -25,11 +25,11 @@ final class SettingsTableViewController: UITableViewController {
     @IBAction func didChangedSegmentedControlState(_ sender: UISegmentedControl) {
         switch sender.selectedSegmentIndex {
         case 0:
-            SettingsRepository.mode = Mode.essential.stringValue
+            SettingsRepository.mode = Mode.essential.jsonReferenceName
         case 1:
-            SettingsRepository.mode = Mode.intermediate.stringValue
+            SettingsRepository.mode = Mode.intermediate.jsonReferenceName
         case 2:
-            SettingsRepository.mode = Mode.advanced.stringValue
+            SettingsRepository.mode = Mode.advanced.jsonReferenceName
         default:
             break
         }
