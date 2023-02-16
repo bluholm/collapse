@@ -5,7 +5,7 @@
 
 // Misc
 "STATUS_IN_PROGRESS" = "En cours";
-"STATUS_DONE" = "termminé";
+"STATUS_DONE" = "terminé";
 
 
 // MainViewController.swift

@@ -15,7 +15,7 @@ final class TopicTableViewCell: UITableViewCell {
     @IBOutlet var imageTopic: UIImageView!
     @IBOutlet var preparationLabel: UILabel!
     @IBOutlet var percentLabel: UILabel!
-    @IBOutlet var premiumLabel: UILabel!
+    @IBOutlet var premiumImage: UIImageView!
     @IBOutlet var percentageCircle: PercentCircleUIView!
     
     // MARK: - Override
@@ -29,9 +29,9 @@ final class TopicTableViewCell: UITableViewCell {
         titleLabel.text = topic.title.uppercased()
         
         if !topic.isPremium || ( SettingsRepository.userIsPremium && topic.isPremium) {
-            premiumLabel.isHidden = true
+            premiumImage.isHidden = true
         } else {
-            premiumLabel.isHidden = false
+            premiumImage.isHidden = false
         }
         
         imageTopic.image = UIImage(named: topic.image)

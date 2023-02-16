@@ -39,7 +39,7 @@ final class MainViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        topichighlight = ScoreService.loadHighlightTopics(with: topicList, using: 3)
+        topichighlight = SettingsRepository.userIsPremium ? ScoreService.sortTopicsByScore(with: topicList, using: 3) : ScoreService.sortTopicElementsByIsPremium(topicList)
         updateScorePercent()
         if let selectedIndexPath = tableView.indexPathForSelectedRow {
                 tableView.deselectRow(at: selectedIndexPath, animated: true)

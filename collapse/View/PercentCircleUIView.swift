@@ -28,8 +28,14 @@ final class PercentCircleUIView: UIView {
                                 endAngle: endAngle,
                                 clockwise: true)
         path.lineWidth = 2
-        UIColor(named: "MainColor")!.setStroke()
 
+        if percentage == 0 {
+                UIColor(named: "MainGray5")!.setStroke()
+                path.addArc(withCenter: center, radius: radius, startAngle: startAngle, endAngle: startAngle + 2 * .pi, clockwise: true)
+            } else {
+                UIColor(named: "MainColor")!.setStroke()
+            }
+        
         path.stroke()
     }
 }

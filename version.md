@@ -6,14 +6,10 @@ A faire :
 - test fonction qui vérifie le json
 -localisation pour les traductions. 
 - test unitiaure 
--refactoring
 -revoir le bouton premium qui est moche : sur 2 ligne + icone peut etre ?! 
+-implenter car il reste des isTopicAccessible 
 
-Bugs : 
-b le cercle de percentage 
-b couleur dans all topics 
-b premium a changer 
-b logo premium ?! 
+Bugs :  
 b collection affiche premium 
 b selection dans settings du mode couleur 
 b code promo pour tester 

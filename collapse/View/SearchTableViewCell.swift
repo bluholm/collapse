@@ -13,7 +13,7 @@ final class SearchTableViewCell: UITableViewCell {
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var descriptionLabel: UILabel!
     @IBOutlet var imageUIImageView: UIImageView!
-    @IBOutlet var premiumLabel: UILabel!
+    @IBOutlet var premiumImage: UIImageView!
     
     // MARK: - Overrides
     
@@ -43,9 +43,9 @@ final class SearchTableViewCell: UITableViewCell {
         }
         
         if !with.isPremium || ( SettingsRepository.userIsPremium && with.isPremium) {
-            premiumLabel.isHidden = true
+            premiumImage.isHidden = true
         } else {
-            premiumLabel.isHidden = false
+            premiumImage.isHidden = false
         }
     }
     

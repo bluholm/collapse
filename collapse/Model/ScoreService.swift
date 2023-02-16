@@ -9,6 +9,7 @@ import Foundation
 
 final class ScoreService {
     
+    ///calculate score for 1 topic including all his items.
     static func calculateScoreForOneTopic(with: TopicElement) -> Float {
         let total = with.items.count
         var check = 0
@@ -21,6 +22,7 @@ final class ScoreService {
         return Float(result)
     }
     
+    ///calculate score for all topics and all items in all apps .
     static func calculateTotalScore(with: [TopicElement]) -> Float {
         var totalItems = 0
         for topic in with {
@@ -31,7 +33,7 @@ final class ScoreService {
         return Float(result)
     }
     
-    static func loadHighlightTopics(with: [TopicElement], using: Int) -> [TopicElement] {
+    static func sortTopicsByScore(with: [TopicElement], using: Int) -> [TopicElement] {
         var table = [String: Float]()
         for topicElement in with {
             table[topicElement.uid] = calculateScoreForOneTopic(with: topicElement)
@@ -46,6 +48,12 @@ final class ScoreService {
         return with.filter { newDictionary.keys.contains($0.uid) }
     }
     
+    static func sortTopicElementsByIsPremium(_ topicElements: [TopicElement]) -> [TopicElement] {
+        let nonPremiumElements = topicElements.filter { $0.isPremium == false }
+        let premiumElements = topicElements.filter { $0.isPremium == true }
+        return nonPremiumElements + premiumElements
+    }
+    
     static func sortDictionaryByValue<Key, Value>(dictionary: [Key: Value], isOrderedBefore: (Value, Value) -> Bool) -> [Key: Value] {
         let sortedTable = dictionary.sorted(by: { isOrderedBefore($0.value, $1.value) })
         var sortedDict: [Key: Value] = [:]
@@ -55,23 +63,4 @@ final class ScoreService {
         return sortedDict
     }
     
-    static func loadFilteredItemsForTableView(with: TopicElement) -> [[Item]] {
-        print("here")
-        var filteredItems = [[Item]]()
-        let regularItems = with.items.filter { $0.mode == Mode.essential.jsonReferenceName }.sorted { $0.title < $1.title }
-        let intermediateItems = with.items.filter { $0.mode == Mode.intermediate.jsonReferenceName }.sorted { $0.title < $1.title }
-        let advancedItems = with.items.filter { $0.mode == Mode.advanced.jsonReferenceName }.sorted { $0.title < $1.title }
-        
-        if !regularItems.isEmpty {
-            filteredItems.append(regularItems)
-        }
-        if !intermediateItems.isEmpty && (SettingsRepository.mode == Mode.advanced.jsonReferenceName || SettingsRepository.mode == Mode.intermediate.jsonReferenceName ) {
-            filteredItems.append(intermediateItems)
-        }
-        if !advancedItems.isEmpty && SettingsRepository.mode == Mode.advanced.jsonReferenceName {
-            filteredItems.append(advancedItems)
-        }
-        return filteredItems
-    }
-
 }

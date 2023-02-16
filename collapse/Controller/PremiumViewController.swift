@@ -86,9 +86,15 @@ final class PremiumViewController: UIViewController {
         firstLineLabel.text = "FIRST_LINE_TITLE".localized()
         secondLineLabel.text = "SECOND_LINE_TITLE".localized()
         thirdLineLabel.text = "THIRD_LINE_TITLE".localized()
+        #if DEBUG
         priceBocOneLabel.text = "0,99$"
         priceBoxTwoLabel.text = "3,99$"
         priceBoxThreeLabel.text = "14,99$"
+        #else
+        priceBocOneLabel.text = ""
+        priceBoxTwoLabel.text = ""
+        priceBoxThreeLabel.text = ""
+        #endif
         titleBoxOneLabel.text = "TITLE_BOX_ONE".localized().capitalized
         titleBoxTwoLabel.text = "TITLE_BOX_TWO".localized().capitalized
         titleBoxThreeLabel.text = "TITLE_BOX_THREE".localized().capitalized

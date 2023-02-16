@@ -43,7 +43,7 @@ final class TopicViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.loadingTopic()
-        filteredItems =  ScoreService.loadFilteredItemsForTableView(with: topic)
+        filteredItems =  PremiumService.loadFilteredItemsForTableView(with: topic)
         tableViewRegular.reloadData()
         self.tableHeightAddObserver()
         self.autoSizeContentView()

@@ -15,4 +15,22 @@ final class PremiumService {
         }
         return false
     }
+    
+    static func loadFilteredItemsForTableView(with: TopicElement) -> [[Item]] {
+        var filteredItems = [[Item]]()
+        let regularItems = with.items.filter { $0.mode == Mode.essential.jsonReferenceName }.sorted { $0.title < $1.title }
+        let intermediateItems = with.items.filter { $0.mode == Mode.intermediate.jsonReferenceName }.sorted { $0.title < $1.title }
+        let advancedItems = with.items.filter { $0.mode == Mode.advanced.jsonReferenceName }.sorted { $0.title < $1.title }
+        
+        if !regularItems.isEmpty {
+            filteredItems.append(regularItems)
+        }
+        if !intermediateItems.isEmpty && (SettingsRepository.mode == Mode.advanced.jsonReferenceName || SettingsRepository.mode == Mode.intermediate.jsonReferenceName ) {
+            filteredItems.append(intermediateItems)
+        }
+        if !advancedItems.isEmpty && SettingsRepository.mode == Mode.advanced.jsonReferenceName {
+            filteredItems.append(advancedItems)
+        }
+        return filteredItems
+    }
 }
