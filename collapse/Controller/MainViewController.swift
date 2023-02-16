@@ -21,6 +21,9 @@ final class MainViewController: UIViewController {
     @IBOutlet var premiumButton: UIButton!
     @IBOutlet var scoreProgressView: UIProgressView!
     @IBOutlet var tableView: UITableView!
+    
+    @IBOutlet var collectionView: UICollectionView!
+    @IBOutlet var premiumBarItem: UIBarButtonItem!
     // variables & constants
     private var topicList = [TopicElement]()
     private var topichighlight = [TopicElement]()
@@ -70,6 +73,7 @@ final class MainViewController: UIViewController {
         } else {
             premiumButton.isHidden = false
         }
+        collectionView.reloadData()
         tableView.reloadData()
     }
     
@@ -102,6 +106,12 @@ final class MainViewController: UIViewController {
         alertMessage = "MAIN_INFORMATION_BUTTON_MESSAGE".localized()
         alertTitle = "MAIN_INFORMATION_TITLE_MESSAGE".localized()
         alertAction = "MAIN_INFORMATION_ACTION_BUTTON".localized()
+        if #available(iOS 16.0, *) {
+            premiumBarItem.isHidden =  SettingsRepository.userIsPremium ? true : false
+        } else {
+            premiumBarItem.isEnabled =  SettingsRepository.userIsPremium ? true : false
+        }
+        
     }
 }
 

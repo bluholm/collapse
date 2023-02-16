@@ -1,17 +1,4 @@
-##Version 1.0
-A faire :  
-- le mode payant : (- 5 topcis gratuit ( mais pas tous les items ) : 3 visibles dans l'entrée : 
-        => forcement parmis ceux qui sont en cours ou pas teerminé . 
-        => ne peux pas etre des topics premium si le gars est en free sauf si il a deja fait .   
-- test fonction qui vérifie le json
--localisation pour les traductions. 
-- test unitiaure 
--revoir le bouton premium qui est moche : sur 2 ligne + icone peut etre ?! 
--implenter car il reste des isTopicAccessible 
-
-Bugs :  
-b code promo pour tester 
-
+##Version 1.0  
     
 ##Version 1.2
 - mode payant

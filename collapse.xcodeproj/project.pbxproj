@@ -28,6 +28,8 @@
 		0E18B33829975399000F1A1F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E18B33729975399000F1A1F /* SettingsViewController.swift */; };
 		0E18B33A29975741000F1A1F /* ThanksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E18B33929975741000F1A1F /* ThanksViewController.swift */; };
 		0E18B33C29975F4D000F1A1F /* Class+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E18B33B29975F4D000F1A1F /* Class+Alert.swift */; };
+		0E900623299DC89F00683094 /* JsonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4FE29932A4C005910CF /* JsonService.swift */; };
+		0E900624299DC8D600683094 /* Topic+Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4FC299326B1005910CF /* Topic+Json.swift */; };
 		0ED2E7D629983EE800BD5B0F /* TopicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2E7D529983EE800BD5B0F /* TopicCollectionViewCell.swift */; };
 		0ED2E7F82998C95200BD5B0F /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2E7F72998C95200BD5B0F /* Extension+UILabel.swift */; };
 		0ED3390729999642006260AC /* PremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3390629999642006260AC /* PremiumViewController.swift */; };
@@ -402,7 +404,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E900624299DC8D600683094 /* Topic+Json.swift in Sources */,
 				0E0350B42994E14C00AEC8A2 /* collapseTests.swift in Sources */,
+				0E900623299DC89F00683094 /* JsonService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

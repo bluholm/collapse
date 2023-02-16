@@ -413,6 +413,8 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="collectionView" destination="vju-G3-MLj" id="iZR-vt-EFC"/>
+                        <outlet property="premiumBarItem" destination="g6s-UH-lSu" id="YCe-nC-s8C"/>
                         <outlet property="premiumButton" destination="fpX-aB-0b4" id="75A-vk-Gl9"/>
                         <outlet property="projectFirstSectionLabel" destination="4fS-ze-vl4" id="xjf-ig-xay"/>
                         <outlet property="projectGeneralTitleLabel" destination="SQP-jb-fzl" id="XEf-ea-Z1N"/>

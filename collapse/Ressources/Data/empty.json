@@ -1,6 +1,6 @@
 {
-    "uid": "1",
-    "title": "Eau potable",
+    "uid": "",
+    "title": "",
     "subtitle": "stockage, filtration, utilité ",
     "image": "water",
     "links": [],
@@ -35,5 +35,5 @@
             "description": "un point d'eau facile , puits , une rivière , unlac que vous pourrez alors filtrer et utiliser."
         }
     ],
-    "isPremium": false
+    "isPremium": 
 }
