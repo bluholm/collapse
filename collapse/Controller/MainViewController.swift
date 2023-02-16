@@ -179,9 +179,16 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
-            vc.topic = topicList[indexPath.row]
-            navigationController?.pushViewController(vc, animated: true)
+        let selectedtopic = topicList[indexPath.row]
+        if PremiumService.isTopicAccessible(topic: selectedtopic) {
+            if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
+                vc.topic = selectedtopic
+                navigationController?.pushViewController(vc, animated: true)
+            }
+        } else {
+            if let vc = storyboard?.instantiateViewController(withIdentifier: "premiumViewController") as? PremiumViewController {
+                present(vc, animated: true)
+            }
         }
     }
 }

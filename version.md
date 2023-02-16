@@ -10,7 +10,6 @@ A faire :
 -implenter car il reste des isTopicAccessible 
 
 Bugs :  
-b collection affiche premium  
 b code promo pour tester 
 
     

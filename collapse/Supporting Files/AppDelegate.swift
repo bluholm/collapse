@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
         if !launchedBefore {
-            SettingsRepository.mode = Mode.advanced.stringValue
+            SettingsRepository.mode = Mode.advanced.jsonReferenceName
             UserDefaults.standard.set(true, forKey: "launchedBefore")
         }
         
