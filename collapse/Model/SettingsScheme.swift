@@ -13,7 +13,7 @@ final class SettingScheme {
         guard let langage = UserDefaults.standard.stringArray(forKey: "AppleLanguages"),
               langage.indices.contains(0) else { return "english" }
         
-        if langage[0] == "fr" {
+        if langage[0].contains("fr") {
            return "french"
         }
         return "english"

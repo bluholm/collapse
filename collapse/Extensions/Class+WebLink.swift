@@ -12,7 +12,8 @@ final class WebLink {
     
     static func createLink(link: String, title: String) -> NSAttributedString {
         let color: UIColor = .systemBlue
-        let linkString = NSMutableAttributedString(string: "[\(link.components(separatedBy: ".")[1]).com] ")
+        let url: String = extractDomainName(from: link)
+        let linkString = NSMutableAttributedString(string: "[\(url)] ")
         let linkImage = NSTextAttachment()
         linkImage.image = UIImage(systemName: "link")
         linkString.append(NSAttributedString(attachment: linkImage))
@@ -24,4 +25,19 @@ final class WebLink {
         return linkString
     }
     
+    static func extractDomainName(from url: String) -> String {
+        guard let url = URL(string: url) else {
+            return ""
+        }
+        if let host = url.host {
+            let components = host.components(separatedBy: ".")
+            if components.count >= 2 {
+                return components[components.count - 2] + "." + components[components.count - 1]
+            } else {
+                return host
+            }
+        }
+        return ""
+    }
+
 }

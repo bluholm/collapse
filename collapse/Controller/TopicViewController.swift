@@ -69,7 +69,7 @@ final class TopicViewController: UIViewController {
         }
         
         text += topic.descriptionLong+"\n\n"
-        sharePicture(text: [text])
+        shareContent(text: [text])
     }
     
     @IBAction func didTappedInformationButton(_ sender: Any) {
@@ -176,7 +176,6 @@ extension TopicViewController: UITableViewDelegate, UITableViewDataSource {
         if tableView == tableViewRegular {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "itemCell", for: indexPath) as? ItemCustomTableViewCell else { return UITableViewCell() }
             
-            guard indexPath.row < filteredItems.count else { return UITableViewCell() }
             let item = filteredItems[indexPath.section][indexPath.row]
             cell.configure(with: item)
             cell.itemId = item.id
@@ -203,7 +202,7 @@ extension TopicViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if tableView == tableViewRegular {
-            guard let vc = storyboard?.instantiateViewController(withIdentifier: "detailViewController") as? ItemViewController else { return }
+            guard let vc = storyboard?.instantiateViewController(withIdentifier: "newItemVc") as? NewItemViewController else { return }
             vc.item = filteredItems[indexPath.section][indexPath.row]
             self.navigationController?.pushViewController(vc, animated: true)
         } else {

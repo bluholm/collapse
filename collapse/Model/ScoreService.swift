@@ -9,7 +9,7 @@ import Foundation
 
 final class ScoreService {
     
-    ///calculate score for 1 topic including all his items.
+    /// Calculate score for 1 topic including all his items.
     static func calculateScoreForOneTopic(with: TopicElement) -> Float {
         let total = with.items.count
         var check = 0
@@ -22,7 +22,7 @@ final class ScoreService {
         return Float(result)
     }
     
-    ///calculate score for all topics and all items in all apps .
+    /// Calculate score for all topics and all items in all apps .
     static func calculateTotalScore(with: [TopicElement]) -> Float {
         var totalItems = 0
         for topic in with {

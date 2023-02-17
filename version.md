@@ -1,5 +1,7 @@
 ##Version 1.0  
-    
+itemsizeViewScrool view a ajouter dynamique 
+-bug dans les modes affiché lorsque l'on change
+
 ##Version 1.2
 - mode payant
 - le cas ou il y aurait zerotopic d'init ... 

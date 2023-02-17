@@ -1,92 +1,85 @@
 //
-//  DetailViewController.swift
+//  NewItemViewController.swift
 //  collapse
 //
-//  Created by Marc-Antoine BAR on 2023-02-08.
+//  Created by Marc-Antoine BAR on 2023-02-16.
 //
 
 import UIKit
+import WebKit
 
-final class ItemViewController: UIViewController {
-
+final class NewItemViewController: UIViewController {
+    
     // MARK: - Properties
-    @IBOutlet var linksTitleLabel: UILabel!
     @IBOutlet var titleLabel: UILabel!
-    @IBOutlet var descriptionTextView: UITextView!
-    @IBOutlet var tableviewLinks: UITableView!
-    @IBOutlet var tableHeightConstraint: NSLayoutConstraint!
-    private var contentSizeObserver: NSKeyValueObservation?
+    @IBOutlet var tableView: UITableView!
     var item: Item!
     
-    // MARK: - Overrides
+    // MARK: - Override
     override func viewDidLoad() {
         super.viewDidLoad()
-        loadData()
-        tableHeightAddObserver()
-        tableviewLinks.reloadData()
+        tableView.separatorStyle = .none
+        tableView.allowsSelection = false
+        titleLabel.text = item.title
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-        contentSizeObserver = nil
-        super.viewWillDisappear(true)
-    }
-    
-    // MARK: - Actions
-    @IBAction func didTappedSharedButton(_ sender: Any) {
+    @IBAction func didSharedButtonTapped(_ sender: Any) {
         var text = item.title+"\n\n"
         text += item.subtitle+"\n\n"
-        text += item.description+"\n\n"
+        for content in item.content {
+            text += "-"+content.value+"\n"
+        }
         text += "ITEM_LINK_TITLE".localized()
         for link in item.links {
             text += "-"+link.title+"\n"
             text += "-"+link.description+"\n"
         }
-        sharePicture(text: [text])
+        shareContent(text: [text])
     }
-    
-    // MARK: - Privates
-    private func loadData() {
-        linksTitleLabel.text = "ITEM_LINK_TITLE".localized()
-        if item.links.isEmpty {
-            linksTitleLabel.isHidden = true
-            tableviewLinks.isHidden = true
-        }
-        
-        titleLabel.text = item.title
-        descriptionTextView.text = item.description
-    }
-    
-    private func tableHeightAddObserver() {
-        contentSizeObserver = tableviewLinks.observe(\UITableView.contentSize,
-                                                        options: [NSKeyValueObservingOptions.new],
-                                                        changeHandler: { _, change in
-            if let contentSize = change.newValue {
-                self.tableHeightConstraint.constant = contentSize.height
-            }
-        })
-    }
-
 }
 
-// MARK: - UITableViewDelegate, UITableViewDataSource
-extension ItemViewController: UITableViewDelegate, UITableViewDataSource {
+extension NewItemViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return item.links.count
+        item.content.count
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        if item.content[indexPath.row].type == "image" {
+            return 300
+        }
+        if item.content[indexPath.row].type == "text" || item.content[indexPath.row].type == "bullet" {
+            let text = item.content[indexPath.row].value
+            let font = UIFont.systemFont(ofSize: 17)
+            let constraintRect = CGSize(width: tableView.bounds.width - 30, height: .greatestFiniteMagnitude)
+            let boundingBox = text.boundingRect(with: constraintRect, options: .usesLineFragmentOrigin, attributes: [.font: font], context: nil)
+            let height = ceil(boundingBox.height) + 30
+            return height
+        } else {
+            return 44
+        }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "linkCell", for: indexPath)
-        cell.textLabel?.attributedText = WebLink.createLink(link: item.links[indexPath.row].url,
-                                                    title: item.links[indexPath.row].title)
         
-        return cell
+        if item.content[indexPath.row].type == "bullet" {
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "bulletCell", for: indexPath) as? BulletItemTableViewCell else { return UITableViewCell() }
+            cell.configure(with: item.content[indexPath.row].value)
+            return cell
+        }
+        if item.content[indexPath.row].type == "text" {
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "textCell", for: indexPath) as? TextItemTableViewCell  else { return UITableViewCell() }
+            cell.configure(with: item.content[indexPath.row].value)
+            return cell
+        }
+        if item.content[indexPath.row].type == "image" {
+            guard let cell = tableView.dequeueReusableCell(withIdentifier: "imageCell", for: indexPath) as? ImageItemTableViewCell  else { return UITableViewCell() }
+            cell.configure(with: item.content[indexPath.row].value)
+            return cell
+        } else {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+            return UITableViewCell()
+        }
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let link = item.links[indexPath.row].url
-            if let url = URL(string: link) {
-                UIApplication.shared.open(url, options: [:], completionHandler: nil)
-            }
-    }
 }

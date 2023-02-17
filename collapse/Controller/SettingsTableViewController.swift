@@ -43,11 +43,11 @@ final class SettingsTableViewController: UITableViewController {
     
     private func loadMode() {
         switch SettingsRepository.mode {
-        case Mode.essential.stringValue:
+        case Mode.essential.jsonReferenceName:
             modeSegmentedControl.selectedSegmentIndex = 0
-        case Mode.intermediate.stringValue:
+        case Mode.intermediate.jsonReferenceName:
             modeSegmentedControl.selectedSegmentIndex = 1
-        case Mode.advanced.stringValue:
+        case Mode.advanced.jsonReferenceName:
             modeSegmentedControl.selectedSegmentIndex = 2
         default:
             modeSegmentedControl.selectedSegmentIndex = 0

@@ -23,7 +23,8 @@ struct Item: Decodable {
     let id: String
     let links: [Link]
     let title: String
-    let subtitle, image, description, mode: String
+    let content: [Content]
+    let subtitle, image, mode: String
 }
 
 // MARK: - Link
@@ -32,4 +33,10 @@ struct Link: Codable, Hashable {
     let url: String
     let title: String
     let description: String
+}
+
+struct Content: Codable {
+    
+    let type: String
+    let value: String
 }

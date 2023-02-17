@@ -9,7 +9,7 @@ import XCTest
 @testable import collapse
 
 final class CollapseTests: XCTestCase {
-    
+     
     let modes = ["essential", "intermediate", "advanced"]
     
     func loadFiles(langage: String) -> [TopicElement] {
