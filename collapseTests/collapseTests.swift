@@ -25,6 +25,34 @@ final class CollapseTests: XCTestCase {
         return topicList
     }
     
+    func testIfSameTopicCountInFrenchAndInEnglish() {
+        var topicListFrench = [TopicElement]()
+        topicListFrench = loadFiles(langage: "french")
+        var topicListEnglish = [TopicElement]()
+        topicListEnglish = loadFiles(langage: "english")
+        XCTAssertEqual(topicListFrench.count, topicListEnglish.count)
+    }
+    
+    func testIfSameItemCountInFrenchAndInEnglish() {
+        var topicListFrench = [TopicElement]()
+        topicListFrench = loadFiles(langage: "french")
+        var topicListEnglish = [TopicElement]()
+        topicListEnglish = loadFiles(langage: "english")
+        
+        var frenchCountItems = 0
+        for topic in topicListFrench {
+            frenchCountItems += topic.items.count
+        }
+        
+        var englishCountItems = 0
+        for topic in topicListEnglish {
+            englishCountItems += topic.items.count
+        }
+        
+        XCTAssertEqual(englishCountItems, frenchCountItems)
+       
+    }
+    
     func testIfModeIsCorrectInFrenchFiles() {
         var topicList = [TopicElement]()
         topicList = loadFiles(langage: "french")
@@ -115,7 +143,6 @@ final class CollapseTests: XCTestCase {
                 idItemList.append(item.id)
             }
         }
-        
         XCTAssertEqual(idItemList.count, Set(idItemList).count)
     }
     
@@ -128,8 +155,41 @@ final class CollapseTests: XCTestCase {
                 idItemList.append(item.id)
             }
         }
-        
         XCTAssertEqual(idItemList.count, Set(idItemList).count)
+    }
+    
+    func testIfContentTypeIsOkFrench() {
+        var topicListFrench = [TopicElement]()
+        topicListFrench = loadFiles(langage: "french")
+        for topic in topicListFrench {
+            for item in topic.items {
+                for text in item.content {
+                    if text.type == "bullet" || text.type == "text" || text.type == "image" {
+                        
+                    } else {
+                        
+                        XCTFail("fail in beacause:\(text.type) FALSE$ \(topic.title) : \(item.title) = \(text.value)")
+                    }
+                }
+            }
+        }
+    }
+    
+    func testIfContentTypeIsOkEnglish() {
+        var topicListFrench = [TopicElement]()
+        topicListFrench = loadFiles(langage: "english")
+        for topic in topicListFrench {
+            for item in topic.items {
+                for text in item.content {
+                    if text.type == "bullet" || text.type == "text" || text.type == "image" {
+                        
+                    } else {
+                        
+                        XCTFail("fail in beacause:\(text.type) FALSE$ \(topic.title) : \(item.title) = \(text.value)")
+                    }
+                }
+            }
+        }
     }
     
 }

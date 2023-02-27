@@ -9,20 +9,9 @@ import UIKit
 
 class BulletItemTableViewCell: UITableViewCell {
 
-    
-    
     let bulletImageView = UIImageView()
     let myTextLabel = UILabel()
             
-    
-        
-    
-    
-    
-    
-    
-    
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         bulletImageView.translatesAutoresizingMaskIntoConstraints = false
@@ -53,6 +42,5 @@ class BulletItemTableViewCell: UITableViewCell {
     func configure(with text: String) {
         myTextLabel.text = text
     }
-
 
 }

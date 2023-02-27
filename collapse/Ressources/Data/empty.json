@@ -5,7 +5,22 @@
     "image": "",
     "links": [],
     "descriptionShort": "",
+    "descriptionLong": "",
     "items": [
+        {
+            "id": "",
+            "title": "",
+            "mode": "",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+                {
+                    "type": "",
+                    "value": ""
+                }
+            ]
+        },
         {
             "id": "",
             "title": "",
@@ -25,7 +40,7 @@
 }
 
 
-
+// LINKS 
 {
     "url": "",
     "description": "",

@@ -102,6 +102,7 @@ final class PremiumViewController: UIViewController {
         restoreButton.setTitle("RESTORE_BUTTON_TITLE".localized(), for: .normal)
         
     }
+    
     private func setupView() {
         viewBackground.layer.cornerRadius = 20
         

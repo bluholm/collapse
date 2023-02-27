@@ -51,6 +51,10 @@ final class MainViewController: UIViewController {
         
     }
     
+    deinit {
+            NotificationCenter.default.removeObserver(self)
+        }
+    
     // MARK: - Actions
     @objc func handleNotificationWhenDismiss() {
        loadActionsPremium()
@@ -79,7 +83,8 @@ final class MainViewController: UIViewController {
     
     private func updateScorePercent() {
         let score = ScoreService.calculateTotalScore(with: topichighlight)
-        let scorePercent = Int(score*100)
+        var scorePercent = 0
+        scorePercent = Int(score*100)
         scorePercentLabel.text = "\(scorePercent)%"
         scoreProgressView.progress = score
     }

@@ -47,7 +47,7 @@
                     },
                     {
                         "type": "image",
-                        "value": "filter_fr"
+                        "value": "filter_en"
                     },
                     {
                         "type": "bullet",
@@ -217,7 +217,7 @@
                     },
                     {
                         "type": "image",
-                        "value": "eauDePluie_fr"
+                        "value": "eauDePluie_en"
                     },
                     {
                         "type": "bullet",
@@ -282,6 +282,1437 @@
                         "value": "It is important to note that these natural methods are not always sufficient to eliminate all water contaminants, especially chemicals. If you are in a survival situation where clean drinking water is scarce, it is recommended to use several of these methods in combination to ensure safe drinking water."
                     }
                 ]
+            },
+            {
+                "id": "AAH",
+                "title": "Collecting in Nature",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "There are several methods for collecting rainwater. The first is to use any containers you may have on you. The second is to tie the corners of a poncho or tarp around trees located a few meters off the ground, place a small rock in the center to create a depression, and let the water drip down."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Collecting rainwater"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Collecting and drinking rainwater is one of the safest ways to hydrate without risk of bacterial infection. This is particularly true in rural and wilderness areas (in urban centers, rain first passes through pollution, emissions, etc.)"
+                    },
+                    {
+                        "type": "text",
+                        "value": "There are two main methods for collecting rainwater. The first is to use any containers you may have on you. The second is to tie the corners of a poncho or tarp around trees located a few meters off the ground, place a small rock in the center to create a depression, and let the water drip down."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Collecting morning dew"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Looking for a way to collect up to a liter of water per hour? Tie absorbent clothing or fine grass clumps around your ankles, and take a walk before sunrise through tall grass, meadows, etc. Squeeze the water out when the fabric is saturated, and repeat. Just make sure you're not collecting dew from a toxic plant."
+                    },
+                    {
+                        "type": "image",
+                        "value": "collecter_rosee_fr_en"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Fruits/vegetation"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Fruits, vegetables, cacti, succulent/pulpy plants, and even roots all contain a lot of water. In all of these cases, just pick the plants, put them in any container, and mash them into a pulp with a rock to collect their liquid. It's not much, but in desperate situations, every little bit counts."
+                    },
+                    {
+                        "type": "text",
+                        "value": "This method is particularly useful in tropical environments where fruits and vegetation are abundant. Coconuts can be an excellent source of hydration. However, it's best to consume green, immature coconuts rather than mature ones, as the milk from ripe coconuts acts as a laxative, which will only dehydrate you further."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Collecting plant transpiration"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Water is collected from plant transpiration in an illustration of a jar."
+                    },
+                    {
+                        "type": "image",
+                        "value": "collectwater_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "This is the process by which moisture is transported from a plant's roots to the underside of its leaves. From there, it evaporates into the atmosphere, but you can collect the water before it does so."
+                    },
+                    {
+                        "type": "text",
+                        "value": "In the morning, at the first hour, tie a bag (or something that can be turned into a bag; the bigger, the better) around a branch of a leafy green tree or shrub. Place a stone in the bag to weigh it down a bit so that the water has a place to accumulate. Throughout the day, the plant transpires and produces moisture. But instead of evaporating into the atmosphere, it accumulates at the bottom of your bag. Never do this with a toxic plant."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Tree bark/rock crevices"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Like fruits and vegetation, this is another source that won't provide much water, but it's something to do when conditions are tough - especially when you're stranded in a desert. The crotch of tree branches or crevices in rocks can be small places to collect water. In an arid area, bird droppings around a rock crevice can indicate the presence of water inside, even if it's not visible. To remove water from hollows and fissures, put a piece of clothing or fabric inside, let it absorb all the moisture, and wring it out. Repeat if you can, and come back after a rain to replenish."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Dig an underground well"
+                    },
+                    {
+                        "type": "image",
+                        "value": "water_hole_fr"
+                    },
+                    {
+                        "type": "text",
+                        "value": "The advantage of creating a still is that it provides a reliable and fairly large source of water (compared to other methods), and you have a rough idea of how much you'll get, allowing you to better plan and ration yourself."
+                    },
+                    {
+                        "type": "text",
+                        "value": "There are two types of wells: underground wells and surface wells. Surface wells are the most effective because they collect more water, but surface wells can be useful if you're extremely low on energy and can't dig a big hole."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Supplies: Container (the largest you have), Transparent plastic sheet, Digging tool, Rocks"
+                    }
+                ]
+            }
+        ],
+        "isPremium": true
+    },
+    {
+        "uid": "2",
+        "title": "Electricity in survival situations",
+        "subtitle": "Preparing for prolonged power outages",
+        "image": "electricity",
+        "links": [],
+        "descriptionShort": "Electricity is vital for our daily lives, and this is especially true in survival situations. Whether it is to power heating, cooking, lighting, or communication devices, electricity can make the difference between life and death. In this section, you will learn why electricity is so important in survival situations and how you can prepare for a prolonged power outage.",
+        "descriptionLong": "Electricity is a crucial element of our daily lives, allowing us to heat our homes, cook our meals, light our surroundings, communicate with others, work, and even entertain ourselves. However, in survival situations, electricity can make the difference between life and death.\n\nDuring a crisis or natural disaster, such as a hurricane, snowstorm, or flood, power lines can be damaged or cut, depriving people of access to electricity. In these situations, it is important to have alternative sources of energy to meet your basic needs.\n\nLack of electricity can also cause security problems, as security systems such as alarms, cameras, and electric gates may no longer function. Without electricity, pharmacies, hospitals, and long-term care facilities may be unable to provide adequate care, which can lead to dramatic consequences for patients.\n\nTo be prepared for a prolonged power outage, it is important to equip yourself with a portable power generator, solar panels, energy storage batteries, and other alternative energy sources. Solar lamps and rechargeable lanterns are also essential for lighting, while car battery chargers can be used to recharge your electronic devices.\n\nIn addition to having alternative energy sources, it is important to know the necessary skills to repair simple electrical circuits, install solar panels and charge controllers, and use electrical measuring tools such as a voltmeter and an ammeter. It is also important to learn how to save energy to maximize the autonomy of your electrical systems.\n\nIn conclusion, electricity is a crucial element in survival situations, as it can meet our basic needs and ensure our safety. It is therefore important to prepare for a prolonged power outage by having alternative energy sources and acquiring the necessary skills to repair and maintain these systems.",
+        
+        "items": [
+            {
+                "id": "AAI",
+                "title": "Portable Electric Generator",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "A portable electric generator is an essential equipment for anyone who wishes to prepare for a prolonged power outage in case of survival."
+                    },
+                    {
+                        "type": "image",
+                        "value": "generator_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "A portable electric generator works by burning fuel, usually gasoline or diesel, to produce electricity."
+                    },
+                    {
+                        "type": "text",
+                        "value": "The power of a portable electric generator is measured in watts, and there are models ranging from a few hundred watts to several thousand watts."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Portable electric generators can power a wide range of appliances, including refrigerators, air conditioners, power tools, lights, computers, and communication equipment."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Portable electric generators are available at a range of prices, from a few hundred to several thousand dollars, depending on the power, quality, and brand."
+                    },
+                    {
+                        "type": "text",
+                        "value": "It is important to store enough fuel to operate your portable electric generator for an extended period, as well as to store gasoline or diesel safely and securely."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Portable electric generators should be used in a well-ventilated area, outside the home, to avoid the risk of fire and carbon monoxide poisoning."
+                    }
+                ]
+            },
+            {
+                "id": "AAJ",
+                "title": "Solar Panels",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Solar panels and charge controllers are important equipment for any off-grid survival base. Here's some information about them:"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Why equip your survival base with solar panels?"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Solar panels are a reliable and renewable source of energy that can provide electricity in case of prolonged power outages. They are also useful for outdoor survival situations where there are no other energy sources available. Solar panels can be used to power devices such as lights, battery chargers, radios, fans, and even refrigerators."
+                    },
+                    {
+                        "type": "image",
+                        "value": "solar_fr_en"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "How many solar panels do you need for a survival base?"
+                    },
+                    {
+                        "type": "text",
+                        "value": "The number of solar panels needed depends on the amount of energy you need to power your devices. It is recommended to estimate your electrical consumption and choose the solar panels accordingly. In general, solar panels have an output power ranging from 100 to 400 watts, and you can install several of them to increase the output power."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "What is the lifespan of solar panels?"
+                    },
+                    {
+                        "type": "text",
+                        "value": "The lifespan of solar panels depends on several factors such as the quality of materials used, weather conditions, and regular maintenance. In general, solar panels have an average lifespan of around 25 to 30 years. It is important to keep solar panels clean and maintain them regularly to maximize their efficiency and lifespan."
+                    }
+                ]
+            },
+            {
+                "id": "AAK",
+                "title": "Batteries & Energy Storage",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Batteries and energy storage are important elements to consider in survival and collapse scenarios, as they allow for the storage of energy produced by renewable sources such as solar panels or wind turbines, or by electric generators. Here are some reasons why batteries and energy storage can be important in collapse scenarios:"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Autonomy: Batteries and energy storage allow you to have an autonomous and reliable source of energy, which can allow you to continue using electrical devices even in case of prolonged power outage."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Mobility: Portable batteries can be used to power communication devices, navigation devices, lamps or electric tools during travel or outdoor activities."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Safety: In case of emergency, batteries and energy storage can be used to power emergency equipment such as radios, mobile phone chargers, emergency lighting, or even to power water pumps."
+                    },
+                    {
+                        "type": "text",
+                        "value": "As for battery types, there are several, each with its own advantages and disadvantages. Here are some examples of battery types that you may consider:"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Lead-acid batteries: They are economical and have a long lifespan, but they are also heavy and require regular maintenance."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Lithium-ion batteries: They are lighter and have a higher energy density, but they can be more expensive and require additional safety precautions."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Nickel-cadmium (NiCad) batteries: They are cheaper than lithium-ion batteries, have a long lifespan, and can be quickly recharged, but they are also heavier and can have memory problems."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Finally, as for battery lifespan, this will depend on the type of battery you use, how you use it, and how you maintain it. In general, batteries have a lifespan that can vary from a few years to several decades depending on the type and conditions of use. It is important to follow the manufacturer's instructions to maximize the lifespan of your battery and keep it in good working order."
+                    }
+                ]
+            },
+            {
+                "id": "AAL",
+                "title": "Must-Have Items",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "bullet",
+                        "value": "Solar lamps and rechargeable lanterns: During a prolonged power outage, lamps and lanterns are essential for lighting, especially at night. Solar lamps are an excellent option because they do not require electricity to operate - they simply recharge from the sun's light. Rechargeable lanterns can also be a good option if they can be charged from an alternative power source, such as a generator or solar panel."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Electric cables and connectors: If you need to create an electrical system in case of collapse or survival, you will need cables and connectors to connect the different components together. Electrical cables of different sizes and thicknesses can be used for the transmission of electrical energy, while connectors allow you to connect different components, such as solar panels and batteries. It is important to choose quality cables and connectors to ensure reliable and safe transmission of energy."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Car battery chargers: Batteries can be a valuable source of energy in case of collapse or survival, as they can be used to power a variety of devices. However, to use a battery, you will need a battery charger. Car battery chargers can be a good option because they can be powered from a generator or solar panel, and they are designed to quickly charge car batteries. You may also want to consider buying a portable battery charger for use on the go."
+                    }
+                ]
+            },
+            {
+                "id": "AAM",
+                "title": "Some Skills",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "These skills are important to ensure the availability of a reliable source of electricity for an extended period in survival situations. Here's why each of these skills is important."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Install solar panels and charge controllers"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Solar panels are a renewable energy source that can be used to generate electricity. However, it is important to know how to install them correctly and how to use charge controllers to prevent damage or overcharging."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Identify different types of electrical wiring"
+                    },
+                    {
+                        "type": "text",
+                        "value": "This is essential to understand how different electrical components are connected to each other. It also helps to know what type of wiring is needed for a specific electrical project, understand how an electrical circuit works, and how to repair it in case of failure."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Understand basic electronics principles"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Understanding basic electronics principles helps to understand how electrical components work and how to repair them in case of failure."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Use electrical measuring tools, such as a voltmeter and ammeter"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Knowing how to use these tools allows you to measure electrical voltage and current, which can be useful in determining whether an electrical circuit is working properly and identifying any failures."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Save energy to maximize the autonomy of your electrical systems"
+                    },
+                    {
+                        "type": "text",
+                        "value": "By learning how to save energy, you can maximize the autonomy of your electrical systems and extend the life of your batteries or other energy sources. This can be crucial in a survival situation where energy sources may be limited."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Repair simple electrical circuits"
+                    },
+                    {
+                        "type": "text",
+                        "value": "By knowing how to repair simple electrical circuits, you can save money by avoiding professional help and be able to quickly restore a source of electricity if needed."
+                    }
+                ]
+            }
+        ],
+        "isPremium": true
+        
+    },
+    {
+        "uid": "3",
+        "title": "Hunting and Trapping",
+        "subtitle": "Prepare for Hunting and Trapping",
+        "image": "hunting",
+        "links": [
+            {
+                "url": "",
+                "description": "Website",
+                "title": "Making Ammunition"
+            },
+            {
+                "url": "",
+                "description": "Website",
+                "title": "How to Shoot a Rifle"
+            },
+            {
+                "url": "",
+                "description": "Website",
+                "title": "How to Hunt Rabbits"
+            },
+            {
+                "url": "",
+                "description": "????????????????????????????????",
+                "title": "Learning to Make Traps"
+            },
+            {
+                "url": "",
+                "description": "Website",
+                "title": "How to Hunt Deer"
+            }
+        ],
+        "descriptionShort": "In a survival situation, hunting can be a vital skill for obtaining food and surviving in the wild. Meat is an important source of protein, nutrients, and calories needed to maintain energy and health. Learning to hunt and build traps can also help to avoid hunger and malnutrition during times of food scarcity.",
+        "descriptionLong": "In case of survival, hunting can become a vital skill to obtain food and survive in the wild. When food and water are scarce, hunting can be one of the only ways to obtain the nutrients and energy necessary to maintain health and physical strength.\n\nMeat is an important source of protein, nutrients, and calories necessary for the body. Hunted animals can provide meat, offal, and bones for making broth. Fish can also be an important source of protein and nutrients and can be found in rivers, lakes, and ponds.\n\nBy learning how to hunt and build traps, you can increase your chances of survival and avoid hunger and malnutrition in case of food shortages. Traps can be built to capture animals such as rabbits, squirrels, birds, fish, rats, and mice. Traps can be simple or complex and can include snares, collar traps, pit traps, and net traps.\n\nHowever, hunting can be dangerous and requires proper training to be practiced safely. Firearms and crossbows are commonly used tools for hunting, but they must be used with care. It is important to know firearm safety rules and learn how to handle these weapons safely. Skills such as knowledge of hunting techniques, silent approach, camouflage, tracking, and ammunition making are also important to succeed in hunting safely.\n\nIn addition to the tools and skills necessary for hunting, it is also important to prepare by purchasing appropriate hunting clothing. Hunting clothing should be durable, weather-resistant, and comfortable for extended use. Sturdy boots, gloves, and hunting hats may also be necessary to protect against the elements.",
+        "items": [
+            {
+                "id": "AAN",
+                "title": "Bows & Crossbows",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Advantages of bows:"
+                    },
+                    {
+                        "type": "image",
+                        "value": "bow_en"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Bows are generally lighter than crossbows, making them easier to carry over long distances or difficult terrain."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Bows are quieter than crossbows, which can be an advantage when hunting, as it avoids frightening nearby animals."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Bows are often less expensive than crossbows, as they do not require as much material and components for their manufacture."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Advantages of crossbows:"
+                    },
+                    {
+                        "type": "image",
+                        "value": "crossbow_en"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Crossbows are generally more accurate than bows, as they have better stability and more precise aiming."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Crossbows are easier to use than bows for beginners, as they require less physical strength and skills to maneuver and aim."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Crossbows have a longer range than bows, which can be an advantage when hunting at greater distances."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Advantages of compound bows:"
+                    },
+                    {
+                        "type": "image",
+                        "value": "compound_bow_en"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Compound bows have pulleys that reduce the effort required to hold the string at full extension. This makes aiming easier and allows for greater accuracy when shooting."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Compound bows also have a greater draw weight than traditional bows, meaning they can shoot arrows faster and with more force."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Compound bows are often equipped with stabilizers, sights, and triggers, making them easier to use and more precise for beginners."
+                    },
+                    {
+                        "type": "text",
+                        "value": "However, compound bows also have some potential disadvantages:\nThey are heavier than traditional bows and can be more difficult to carry over long distances.\nThey are often more expensive than traditional bows due to their complexity and additional equipment."
+                    }
+                ]
+            }
+            ,
+            {
+                "id": "AAO",
+                "title": "Ammunition",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Ammunition is a crucial element for hunting, as it provides the necessary energy to effectively and quickly take down animals. In the event of a collapse, ammunition can become scarce, making storage and production important for hunters."
+                    },
+                    {
+                        "type": "text",
+                        "value": "The amount of ammunition you should store depends on your level of preparedness and hunting skills. It is recommended to have at least 100-200 rounds of common caliber ammunition (such as .22LR, 12 gauge, .308 Win, etc.) to be prepared in case of an emergency. If you plan to hunt frequently, you should store more ammunition."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Ammunition production is an important skill for hunters in the event of an ammunition shortage. However, this requires specific skills, equipment, and appropriate raw materials. It is important to note that ammunition production can be dangerous if done improperly. Therefore, it is strongly recommended to receive appropriate training before attempting to produce ammunition."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Ammunition Production:"
+                    },
+                    {
+                        "type": "image",
+                        "value": "munitions_en"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Choosing the appropriate caliber: The choice of caliber depends on the type of weapon you own and the animal you are hunting."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Selecting components: Ammunition is composed of three main elements: the casing, primer, and bullet (or shot). You will need to select each element based on your needs and skills."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Preparing the casing: The casing is the brass part that contains the powder and bullet. It must be cleaned, stretched, and cut to the correct length."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Installing the primer: The primer is a small capsule that creates a spark to ignite the powder. It must be installed precisely in the casing."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Adding the powder: Powder is added to the casing using a powder dispenser. The amount of powder must be precise to ensure the safety and effectiveness of the ammunition."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Installing the bullet: The bullet must be precisely installed on the casing. This can be done using a tool called a sizer."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Crimping the bullet: Crimping involves squeezing the neck of the casing around the bullet. This ensures that the bullet stays in place when fired."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Inspecting the ammunition: Once the ammunition is assembled, it is important to inspect it to ensure that it is correctly assembled and safe to use."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "This also requires a fair amount of equipment!"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Reloading press: This is the basic equipment for ammunition manufacturing. It allows for the primers to be fixed, powder to be measured, and bullets to be crimped.\nPress tool set: This set of tools includes tools for preparing casings, crimping, and installing bullets.\nPowder dispenser: This equipment allows for the precise measurement of powder to be placed in each casing.\nReloading scale: It allows for the precise weighing of the amount of powder for each casing.\nNeck caliper: It allows for the measurement of the length and diameter of the casing for precise ammunition manufacturing.\nStorage boxes: These are necessary for storing ammunition components such as casings, bullets, and primers.\nRaw materials: The components necessary for ammunition manufacturing, such as casings, primers, bullets, and powder, must be purchased separately."
+                    }
+                ]
+            }
+            ,
+            {
+                "id": "AAP",
+                "title": "Basic Equipment",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Here is a list of basic equipment for hunting and setting traps:"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Wire for traps."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "A compass is essential for orienting oneself in nature and avoiding getting lost in the forest or mountains."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "A flashlight is important for illuminating one's path in case of nighttime movement or for searching dark areas for food or survival tools."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Binoculars are a valuable tool for observing wildlife and spotting potential prey from a distance, without having to get too close and risk scaring them away. They also allow for observing animal movements at dawn and dusk, times when hunting is often most fruitful. Binoculars are therefore a key element in increasing the chances of success during hunting or survival in natural environments."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "A knife is a versatile tool that can be used for both hunting (cutting meat), preparing food, and making survival tools."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "An axe is useful for cutting wood and building shelter, starting a fire, or making survival tools."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "A small saw is useful for cutting branches or tree trunks that are thicker than what a knife allows, in order to make tools or build a shelter."
+                    }
+                ]
+            }
+            ,
+            {
+                "id": "AAU",
+                "title": "Building Traps",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Traps: Traps are useful for catching small animals, such as rabbits, squirrels, and raccoons. There are many types of traps:"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "snares"
+                    },
+                    {
+                        "type": "image",
+                        "value": "trap_2_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Snare traps are traps that capture animals by blocking their neck. They are often used to catch small animals such as rabbits, hares, and squirrels. Here are the steps to set up a snare trap:\nFind a suitable location: Snare traps should be placed in areas where animals pass regularly, such as along a walking path, near a burrow, or a water source.\nPrepare the snare: The snare should be made with a strong wire, such as wire, and be long enough to wrap around the animal's neck. The snare should be attached to a tree or a stake in the ground to prevent the animal from escaping with the trap.\nInstall the trap: Bury the snare in the ground or place it on a flat surface for the animal to pass through.\nWait: Wait for the animal to be caught by the trap. Snares are designed to tighten when an animal passes through, trapping the animal by the neck.\nRelease the animal: If you catch an animal, it is important to release it quickly and carefully. Hold the animal with a glove, remove the snare, and release it."
+                    },
+                    {
+                        "type": "image",
+                        "value": "trap_1_fr_en"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "jaw traps"
+                    },
+                    {
+                        "type": "image",
+                        "value": "trap_3_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Jaw traps are hunting traps that work by capturing the animal between two metal jaws. The trap is typically placed on a trail frequented by the targeted animal, and once triggered, the jaws snap shut quickly and forcefully on the animal's limbs or body, holding it captive. Jaw traps have been used for centuries to capture animals such as foxes, coyotes, weasels, raccoons, and wolves, and are still used today for hunting and wildlife management. However, their use is often controversial due to the suffering inflicted on the captured animal."
+                    },
+                    {
+                        "type": "text",
+                        "value": "It is possible to make jaw traps yourself, but this requires advanced skills in mechanics and trap making, as well as in-depth knowledge of the targeted animals and local hunting regulations. Additionally, it's important to note that in many places, the use of jaw traps is regulated or prohibited for animal welfare reasons. Before attempting to make a jaw trap, it is therefore essential to research local regulations and consider more humane and ethical hunting alternatives."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "snare traps"
+                    },
+                    {
+                        "type": "image",
+                        "value": "trap_4_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Lace traps are simple hunting traps that work by capturing the animal by the neck or leg using a metal wire or cord. The traps are often set up on trails or areas where animals frequently pass by, and are triggered when an animal puts its leg or head in the trap. When the trap is triggered, it tightens the metal wire or cord around the animal's leg or neck, thus keeping it captive.\nLace traps are often used to capture small animals such as rabbits, hares, rats, and squirrels. However, their use is regulated or prohibited in many places due to the suffering they can inflict on the captured animal. It is therefore important to check local regulations before using lace traps for hunting or wildlife management."
+                    }
+                ]
+            }
+            ,
+            {
+                "id": "AAQ",
+                "title": "Meat and Cutting",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "When faced with a survival situation, hunting can be a vital source of food. However, once the animal is killed, it's important to know how to properly prepare and store the meat so that it can be safely consumed. In this section, we will explore techniques for cutting, deboning, preserving, drying, and smoking meat, as well as practical tips for effectively using each part of the animal. Whether you're a novice in butchery or looking to improve your skills, this section will provide you with the necessary knowledge to maximize your meat harvest and store it under optimal conditions."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "How to dry or smoke meat"
+                    },
+                    {
+                        "type": "image",
+                        "value": "smoke_fr"
+                    },
+                    {
+                        "type": "text",
+                        "value": ": To dry meat, simply hang it in a cool, dry place and let it dry for several weeks until it's completely dry. To smoke meat, use a smoker and expose the meat to wood smoke for several hours until it's well smoked."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "The way to cut meat"
+                    },
+                    {
+                        "type": "text",
+                        "value": ": It's recommended to cut meat after it's been allowed to mature for several days to allow the meat enzymes to break down and make it more tender. The maturation period will depend on the type of meat and the storage conditions, but it can range from a few days to several weeks. It's also important to keep the meat fresh and cool during the cutting process. To do this, it's advised to work with the meat in a cool place or even in a refrigerator."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Deboning and preparing"
+                    },
+                    {
+                        "type": "text",
+                        "value": ": It's important to remove the organs, skin, and feathers from the meat to allow for quick cooling and to prevent contamination. It's also advised to clean the meat with cold water to remove any remaining dirt and blood. Then, it's recommended to let the meat rest in a cool place for a few hours so that the temperature of the meat reaches that of the environment."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Preservation"
+                    },
+                    {
+                        "type": "text",
+                        "value": ": There are different methods for preserving meat, including salt preservation, cold preservation, and dried or smoked preservation. For salt preservation, simply cover the meat with salt and let it rest for several weeks until it's well preserved. For cold preservation, it's recommended to keep the meat at a temperature of 0 to 5 degrees Celsius. For dried or smoked preservation, the meat should be hung in a cool, dry place and exposed to smoke to help prevent bacterial growth."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "How to use different parts of the animal"
+                    },
+                    {
+                        "type": "text",
+                        "value": "It is recommended to know the different cuts of meat and how to prepare them for specific dishes. For example, the most tender parts of the animal (such as the fillet) are ideal for grilling, while tougher parts can be used for stews or soups. It is also important to know how to use bones and meat leftovers to make broths or soups."
+                    }
+                ]
+            }
+            ,
+            {
+            "id":"AAR",
+            "title":"Clothing",
+            "mode":"intermediate",
+            "subtitle":"",
+            "image":"",
+            "links":[],
+            "content":[
+            {
+            "type":"text",
+            "value":"Whether you're an experienced hunter or new to the field, choosing the appropriate clothing is essential for a successful hunting experience. Hunting clothes are not just ordinary outdoor clothing; they are designed to provide you with comfort, protection, and concealment in nature. In this section, we will introduce you to the different types of hunting clothes, their features and benefits, as well as practical tips to help you choose the appropriate clothing based on your hunting environment and weather conditions."
+            },
+            {
+            "type":"image",
+            "value":"gear_fr_en"
+            },
+            {
+            "type":"bullet",
+            "value":"Hunting Jacket"
+            },
+            {
+            "type":"text",
+            "value":"The hunting jacket should be waterproof and breathable to protect against inclement weather and allow for quick sweat evaporation."
+            },
+            {
+            "type":"bullet",
+            "value":"Hunting Pants"
+            },
+            {
+            "type":"text",
+            "value":"Hunting pants should also be waterproof and breathable, with reinforcements at the knees and buttocks for increased durability."
+            },
+            {
+            "type":"bullet",
+            "value":"Hunting Boots"
+            },
+            {
+            "type":"text",
+            "value":"Hunting boots should be comfortable, durable, and waterproof to keep your feet dry and warm."
+            },
+            {
+            "type":"bullet",
+            "value":"Hunting Gloves"
+            },
+            {
+            "type":"text",
+            "value":"Hunting gloves should be tough and waterproof, with good grip for handling weapons and traps."
+            },
+            {
+            "type":"bullet",
+            "value":"Hunting Cap or Hat"
+            },
+            {
+            "type":"text",
+            "value":"The hunting cap or hat should provide sun protection and increased visibility by wearing a bright color to be easily visible to other hunters."
+            },
+            {
+            "type":"bullet",
+            "value":"Technical Underwear"
+            },
+            {
+            "type":"text",
+            "value":"Technical underwear is important for regulating body temperature and sweating."
+            },
+            {
+            "type":"bullet",
+            "value":"Camouflage Clothing"
+            },
+            {
+            "type":"text",
+            "value":"Camouflage clothing is useful for blending into the environment and going unnoticed."
+            },
+            {
+            "type":"bullet",
+            "value":"Sunglasses"
+            },
+            {
+            "type":"text",
+            "value":"Sunglasses are necessary to protect the eyes from harmful UV rays."
+            },
+            {
+            "type":"bullet",
+            "value":"Neck Gaiter"
+            },
+            {
+            "type":"text",
+            "value":"The neck gaiter is useful for protecting the neck and face from the elements."
+            }
+            ]
+            }
+            ,
+            {
+            "id": "AAS",
+            "title": "Building a Bow in the Wilderness",
+            "mode": "advanced",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Building a bow and arrows is an important skill for wilderness survival. Whether you're a hunter or an adventurer seeking thrills, knowing how to make your own hunting equipment is essential. Not only does it allow you to become more self-sufficient, but it can also be a rewarding experience in itself. In this section, we will guide you through the necessary steps to build a bow and arrows from materials found in nature."
+            },
+            {
+            "type": "image",
+            "value": "bowmaking_fr_en"
+            },
+            {
+            "type": "text",
+            "value": "Find suitable wood: The first step is to find suitable wood for the construction of your bow. Commonly used types of wood are yew, maple, ash, walnut, juniper, and bamboo. It is important to find wood that is flexible and sturdy, but not too thick or heavy.\n\nShape the wood: Once you have found suitable wood, it's time to shape it into a bow shape. This involves cutting it to the desired length and gently bending it into the shape of a bow. You can use tools such as a knife, saw, rasp, and sandpaper to help shape the wood.\n\nAdd notches: Notches are notches made at each end of the bow to hold the bowstrings. You can make them with a knife or saw.\n\nMake the bowstring: The bowstring is made of natural fibers such as hemp or linen bowstring. It must be adjusted to properly hold the bow. To make it, you can use a twisting technique to braid the fibers together.\n\nMake the arrows: To make arrows, you will need wood for the shafts, feathers for the fletching, and tips for the arrowheads. Arrowheads can be made of materials such as stone, flint, or metal. Fletching can be attached with natural glue or resin.\n\nTest your equipment: Once you have made your bow and arrows, it is important to test them to ensure they are effective. You can test the flexibility of the bow by pulling on the string, and test the accuracy of the arrows by shooting them at a target."
+            }
+            ]
+            }
+            ,
+            {
+            "id": "AAT",
+            "title": "Hunting skill",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Hunting is an essential skill for survival in nature. Whether it's for food or protection, it's important to know how to hunt and trap effectively. However, this requires learning and regular practice."
+            },
+            {
+            "type": "text",
+            "value": "It's important to search for resources online, learn about the laws and regulations in your region, but also to seek advice from local residents. They may have specific knowledge and tips for hunting and trapping more effectively in the region."
+            },
+            {
+            "type": "text",
+            "value": "In addition, it's crucial to understand the seasons and behaviors of animals in order to hunt them effectively. For example, it's better to hunt deer during the rutting season, as they are more active and easier to approach. It's also important to respect the animals you hunt and use all parts of the animal to minimize waste."
+            },
+            {
+            "type": "text",
+            "value": "Finally, it's essential to master different hunting techniques, including bow hunting, crossbow hunting, rifle hunting, as well as trapping techniques. Regular training is important to develop and maintain these skills over time."
+            },
+            {
+            "type": "text",
+            "value": "In summary, hunting and trapping are important skills for survival in nature, but require learning and regular practice. It's important to learn about laws, animal behaviors, hunting techniques, and to respect the animals you hunt."
+            }
+            ]
+            }
+            ,
+            {
+            "id": "AAV",
+            "title": "Disease Detection",
+            "mode": "advanced",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Disease detection is vital for any hunter or person looking to forage in the wild. Knowing how to identify signs of disease in an animal is essential to avoid contracting potentially deadly illnesses. Additionally, it also helps prevent the spread of diseases between animals and preserve the health of wildlife. In this section, we will explore the different signs and symptoms to watch for when hunting and how to act accordingly to minimize the risk of disease transmission."
+            },
+            {
+            "type": "text",
+            "value": "Behavior: A sick animal may appear lethargic, weakened, disoriented, or disinterested in its surroundings. It may also be more aggressive or, conversely, more passive than usual.\n\nPhysical appearance: A sick animal may have damaged skin or fur, be thin, or have visible wounds or lesions. Its eyes may be swollen, red, or runny.\n\nOdors: Certain diseases can cause unpleasant or unusual odors, such as a smell of decay, mold, or pus.\n\nGlands: When an animal is harvested, its glands can be examined for possible infections or abnormalities. The most commonly examined glands are the anal glands in mammals, which can indicate bacterial or parasitic infections."
+            }
+            ]
+            }
+            ,
+            {
+            "id": "AAW",
+            "title": "Storage and Conservation",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "When hunting for food, it is important to know how to store and preserve meat so that it remains edible and does not spoil. Improper storage can quickly make the meat unfit for consumption and cause health problems. That's why having skills in meat storage and conservation is essential."
+            },
+            {
+            "type": "text",
+            "value": "Here are some examples of meat storage and preservation techniques:"
+            },
+            {
+            "type": "bullet",
+            "value": "Salting: Salt can be used to preserve meat by drying it out and preventing bacterial growth. The meat can be rubbed with salt or soaked in a brine."
+            },
+            {
+            "type": "bullet",
+            "value": "Drying: Meat can be dried in the open air or in a dehydrator to remove moisture and extend its shelf life. This technique is particularly useful for lean meats."
+            },
+            {
+            "type": "bullet",
+            "value": "Smoking: Meat can be smoked to enhance its flavor and shelf life. Smoke acts as a natural preservative and helps prevent bacterial growth."
+            },
+            {
+            "type": "bullet",
+            "value": "Freezing: Freezing is a common method of meat storage. However, it is important to ensure that the meat is properly packaged to avoid freezer burn and quality loss."
+            },
+            {
+            "type": "bullet",
+            "value": "Cooling: If you don't have a freezer, you can use the cooling technique to preserve meat for a few days. The meat should be kept at a temperature below 4 degrees Celsius."
+            },
+            {
+            "type": "text",
+            "value": "It is important to note that each preservation technique has its advantages and disadvantages, and it is important to choose the most appropriate method based on the meat and environmental conditions."
+            },
+            {
+            "type": "text",
+            "value": "Additionally, it is recommended to follow food hygiene and safety rules when handling meat. It is important to clean and disinfect all work surfaces, tools, and hands before handling meat. Finally, it is essential to know when meat is unfit for consumption, by monitoring signs of spoilage such as smell, texture, and color."
+            },
+            {
+            "type": "text",
+            "value": "In summary, learning how to store and preserve meat is an essential skill for any hunter or survivalist. This can make the difference between healthy, edible meat and spoiled, potentially dangerous meat."
+            }
+            ]
+            }
+            
+            
+        ],
+        "isPremium": true
+    },
+    {
+        "uid": "4",
+        "title": "Basic Products Manufacturing",
+        "subtitle": "Vinegar, baking soda, and many others..",
+        "image": "chemistry",
+        "links": [],
+        "descriptionShort": "Chemistry is ubiquitous in our daily lives, and we regularly use chemicals for many tasks, from cooking to cleaning and maintaining our health.\n\nWhether you're a chemistry enthusiast or just interested in producing your own chemical products, this section will provide you with useful information and advice to help you achieve your goals.",
+        "descriptionLong": "In case of survival or collapse, it is crucial to know how to make basic products from raw materials available in nature. The chemicals we use in our daily lives at home and in industry are often derived from petrochemicals, an industry that could be severely affected in the event of a major crisis. In addition, the supply of manufactured products could quickly run dry, leaving people on their own to find alternatives.\n\n Making basic products from natural raw materials can meet essential needs such as food preservation, water sanitation, medicine production, and many other things. Basic chemistry knowledge can also help avoid the dangers associated with handling unknown substances.\n\nBasic products such as vinegar, baking soda, salt, and others are essential to daily life, whether for cooking, cleaning, or health. By knowing how to make them from natural resources, we are better prepared to face situations where the supply of manufactured products is limited or nonexistent. This also allows for greater autonomy and no longer relying solely on the industry for our daily needs.",
+        "items": [
+            {
+            "id": "AAX",
+            "title": "Making Vinegar",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+                {
+                    "type": "text",
+                    "value": "Vinegar is a key ingredient in cooking and can also be very useful in a survival situation. It's often used for marinades, sauces, dressings, and also for preserving food by acidifying it."
+                },
+                {
+                    "type": "image",
+                    "value": "vinegar_fr_en"
+                },
+                {
+                    "type": "text",
+                    "value": "In a survival situation, vinegar can also serve as a disinfectant, cleaning product, and even for making some natural remedies. It can be made from various ingredients such as fruits, vegetables, wine, beer, or even stale bread.\n\nThe easiest method to make vinegar is by using apples, pears, or grapes, which naturally contain bacteria called acetobacteria. All you need to do is let them ferment with a little sugar and water in a warm and dark place for several weeks. The bacteria will transform the alcohol in the mixture into acetic acid, which is the main component of vinegar.\n\nIt's also possible to make vinegar from other ingredients such as wine, beer, or even stale bread. In all cases, the recipe involves letting the ingredient ferment with a little water and sugar in a sterilized container for several weeks. The acetic bacteria present in the air will then do the transformation work into vinegar.\n\nIn summary, vinegar is an essential ingredient in cooking, but can also be very useful in a survival situation as a disinfectant and cleaning product. It can be made from various ingredients and is easily achievable with some basic tools."
+                }
+            ]
+        },
+            {
+                "id": "AAY",
+                "title": "Making Baking Soda",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Baking soda is a very useful product for daily life. It can be used for cleaning, whitening, deodorizing, softening water, and even for cooking. It is also used as a personal care product for uses such as brushing teeth and as a natural deodorant. Baking soda is an alkaline compound that reacts with acids to form carbon dioxide, water, and a salt."
+                    },
+                    {
+                        "type": "image",
+                        "value": "bicarbonate_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "It is possible to make baking soda yourself by mixing sodium carbonate and carbonic acid. However, the most common method for producing baking soda is the one used by the chemical industry. It involves passing carbon dioxide through a solution of sodium carbonate, which yields crystalline baking soda. \n\nTo make baking soda yourself, you can mix sodium carbonate with vinegar or lemon juice to produce carbonic acid. When you mix sodium carbonate and carbonic acid, you produce baking soda. You can then dry and grind the mixture to obtain baking soda powder. \n\nIt is also possible to use baking soda to make soap or as an ingredient in cooking recipes. In these cases, it is important to follow precise recipes to obtain optimal results."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Sodium carbonate is a chemical compound that is rarely found in nature in its pure form. However, it can be produced from certain natural sources, such as trona deposits, a sedimentary rock formed by the evaporation of saltwater in lakes. These trona deposits are mainly found in desert regions of Africa, Asia, and South America. \n\nHowever, the production of sodium carbonate from these natural sources is a complex process that requires specific equipment and knowledge. Therefore, it is more common to purchase sodium carbonate in stores or online for everyday use."
+                    }
+                ]
+            },
+            {
+                "id": "AAZ",
+                "title": "Hydrogen Peroxide _2",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Hydrogen peroxide is a chemical product widely used for many applications, ranging from disinfecting wounds to lightening hair. It is also used as a bleaching and cleaning agent, as well as for sterilizing water and bleaching paper and fabric. In terms of health, hydrogen peroxide can help kill bacteria, viruses, and fungi."
+                    },
+                    {
+                        "type": "image",
+                        "value": "peroxyde_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "When it comes to manufacturing hydrogen peroxide, it is best to buy it from a specialized store, as its production is complex and dangerous. However, it is possible to make hydrogen peroxide from some household ingredients such as white vinegar, baking soda, and hydrogen peroxide. However, this method does not produce pure and concentrated hydrogen peroxide, which can affect its effectiveness.\n\nOne possible recipe for making hydrogen peroxide at home is as follows:"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Mix one cup of hydrogen peroxide (3%) with one tablespoon of baking soda in a bowl."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Slowly add one cup of white vinegar while stirring."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "The mixture will bubble and foam, continue to stir until the reaction is finished. You will get a solution of about 1% hydrogen peroxide."
+                    },
+                    {
+                        "type": "text",
+                        "value": "However, it is important to note that this manufacturing method is not reliable and can produce variable results in terms of purity and concentration. It is therefore recommended to buy hydrogen peroxide from a reliable supplier for precise and effective uses."
+                    }
+                ]
+            },
+            {
+                "id": "ABA",
+                "title": "Hydrogen Peroxide",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Hydrogen peroxide, also known as peroxide, is a chemical product commonly used for its antiseptic, disinfectant, and bleaching properties. It is also used in industry to bleach paper and fabrics. In terms of wilderness survival, hydrogen peroxide can be useful for disinfecting wounds, sterilizing water, and making cleaning products."
+                    },
+                    {
+                        "type": "image",
+                        "value": "eauoxygene_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "To make hydrogen peroxide, it is possible to use a laboratory process, but this requires specialized equipment. However, it is also possible to produce hydrogen peroxide using common ingredients such as sodium peroxide and hydrochloric acid, which can be found in industrial or chemical supply stores. Here is the recipe for making hydrogen peroxide using these ingredients:"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Mix 40g of sodium peroxide with 500mL of cold water."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Slowly add 300mL of hydrochloric acid while stirring the mixture."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Heat the mixture to about 70°C for one hour while stirring gently."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Let the mixture cool to room temperature."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Filter the mixture to remove impurities."
+                    },
+                    {
+                        "type": "text",
+                        "value": "It is important to note that this method of making hydrogen peroxide can be dangerous and must be done with caution and using appropriate protective equipment. It is recommended to learn about the precautions to take before attempting this method.\n\nIt is also possible to make hydrogen peroxide using natural ingredients such as honey and alfalfa, but this method is more complex and requires specialized knowledge. In any case, it is recommended to seek advice from professionals before attempting to make hydrogen peroxide oneself."
+                    }
+                ]
+            },
+            {
+                "id": "ABB",
+                "title": "Citric Acid",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Citric acid is a highly useful organic compound in many applications, including in the food industry, manufacturing of cleaning products, food preservation, and even medicine. It is commonly used as an acidifier, preservative, texture agent, and flavoring agent.\n\nCitric acid can be used to increase the acidity of foods such as jams and preserves, to prevent the proliferation of bacteria. It can also be used as a cleaning agent to remove rust and mineral deposits from surfaces. Finally, it can be used to soften water and eliminate unpleasant odors.\n\nTo produce citric acid, it is possible to perform natural fermentation from fruits rich in citric acid, such as lemon, lime, or grapefruit. Here is a simple recipe to produce citric acid at home:"
+                    },
+                    {
+                        "type": "image",
+                        "value": "citrique_fr_en"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Wash the fruits and cut them into small pieces."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "In a large saucepan, add the fruits, water, and sugar."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Heat gently for about 2 hours, stirring regularly."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Allow to cool and filter the obtained liquid to keep only the juice."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Add baking soda (about 100g per liter of juice) until the mixture no longer foams."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Let the mixture rest for 24 to 48 hours at room temperature, until crystals form at the bottom of the container."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Filter the liquid and let the crystals dry in the open air."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Once the crystals are dry, grind them to obtain powdered citric acid."
+                    },
+                    {
+                        "type": "text",
+                        "value": "It is important to note that this method takes time and requires some know-how to obtain a satisfactory result. If you are not comfortable with this technique, it is possible to buy citric acid in specialty stores or online."
+                    }
+                ]
+            },
+            {
+                "id": "ABC",
+                "title": "Soap",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Soap is an essential product for hygiene and cleanliness. It is used to wash hands, body, clothes, and even dishes. It helps to eliminate bacteria, viruses, and dirt. Making your own soap can be useful in case of shortage or for ecological reasons. Here's a simple recipe to make your own soap:"
+                    },
+                    {
+                        "type": "image",
+                        "value": "savon_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Ingredients: olive oil, coconut oil, caustic soda, water, essential oils (optional)"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Steps:"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "1. Mix 500g of olive oil and 250g of coconut oil in a saucepan and heat over low heat."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "2. In another container, mix 63g of caustic soda and 150ml of water (attention, this step must be done with protective gloves and in a well-ventilated area)."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "3. Slowly add the caustic soda solution to the oil saucepan, while stirring constantly."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "4. Continue to stir until the mixture reaches trace, meaning it thickens and begins to form patterns on the surface."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "5. Optionally, add a few drops of essential oils to fragrance the soap."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "6. Pour the mixture into a soap mold and let it harden for 24 hours."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "7. Unmold the soap and let it dry for about 4 weeks before using it."
+                    },
+                    {
+                        "type": "text",
+                        "value": "It's important to note that caustic soda is a corrosive and dangerous product. Therefore, it's important to take all necessary precautions when handling this substance. It's also possible to make soap without caustic soda using wood ash, but this method is more complex and requires more time."
+                    }
+                ]
+            },
+            {
+                "id": "ABD",
+                "title": "Glycerin",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Glycerin is a viscous, colorless, and odorless liquid. It is used in many industries, including cosmetics, pharmaceuticals, food, automotive, and even pyrotechnics. Glycerin is an important basic product in the chemical industry because it can be transformed into many other chemicals."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Here are some common uses of glycerin:"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "It is used in cosmetic products such as lotions, creams, and soaps to moisturize and soften the skin."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "It is used in medications, such as cough syrups, as a sweetening agent and to improve the taste."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "It is used in the food industry as a sweetener, preservative, and to prevent sugar from crystallizing."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "It is used in the automotive industry as a brake and coolant fluid."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "It is used in pyrotechnics as a component to create colored smoke."
+                    },
+                    {
+                        "type": "text",
+                        "value": "If you want to make your own glycerin, you can do so using caustic soda and vegetable oil. Here's the recipe:"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Mix 950 g of vegetable oil with 200 g of caustic soda in a heat-resistant glass container."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Place the container in a double boiler over low heat and stir until the mixture reaches a temperature of 80°C."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Let the mixture cool to room temperature for 24 hours."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Pour the mixture into another container and let it sit for an additional 24 hours to allow the glycerin to separate from the oil and caustic soda."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Filter the glycerin using a coffee filter or fine cloth to remove impurities."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Glycerin should be stored in an airtight glass container in a cool, dark place."
+                    }
+                ]
+            },
+            {
+                "id": "ABE",
+                "title": "Rubbing Alcohol",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Rubbing alcohol, also known as isopropyl alcohol, is a chemical product commonly used to clean surfaces and medical instruments. It is also useful for disinfecting wounds and preventing infections."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Here is the recipe to make rubbing alcohol at home:"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Materials needed:"
+                    },
+                    {
+                        "type": "text",
+                        "value": "To make rubbing alcohol, you will need:"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Protective gloves"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "99% isopropyl alcohol"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "A glass container with an airtight lid"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Distilled water"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "A spray bottle"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Here are the steps to follow to make rubbing alcohol at home:"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "1. Wear protective gloves to avoid direct contact with the alcohol."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "2. Pour 2/3 of 99% isopropyl alcohol and 1/3 distilled water into the glass container."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "3. Close the container tightly and gently shake it to mix the ingredients."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "4. Transfer the mixture to a spray bottle for convenient use."
+                    },
+                    {
+                        "type": "text",
+                        "value": "It is important to note that using rubbing alcohol can be dangerous and should be done with caution. It is also recommended to use 70% rubbing alcohol instead of 99% for maximum effectiveness."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Isopropyl alcohol is also known as isopropanol or IPA. It is commonly used as an antiseptic, disinfectant, solvent, and cleaner. Here are some options for obtaining isopropyl alcohol:"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Buy isopropyl alcohol online or in stores. It is often available in pharmacies, supermarkets, hardware stores, and specialty stores."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Use rubbing alcohol, which typically contains 70% or 91% isopropyl alcohol. It is important to check the label to ensure that the product does contain isopropyl alcohol and that it is safe for the intended use."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Make isopropyl alcohol by distilling ethanol from sources such as sugarcane, sugar beet, corn, or potatoes. Then, the product is mixed with water and distilled again to obtain pure isopropyl alcohol. However, this method can be dangerous and should be done with caution and in an appropriate environment."
+                    }
+                ]
+            },
+            {
+                "id": "ABF",
+                "title": "Essential Oil Production",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Essential oils are natural plant extracts that have been used for thousands of years for their therapeutic properties and fragrance. They are obtained by steam distillation or cold pressing of plant parts such as leaves, flowers, bark, or roots."
+                    },
+                    {
+                        "type": "image",
+                        "value": "oil_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Essential oils are used in a variety of fields such as alternative medicine, cosmetics, aromatherapy, cooking, perfumery, and more. They can be used to treat various conditions such as stress, headaches, muscle and joint pain, digestive problems, sleep disorders, infections, and many more."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "To make essential oils at home, you need to have distillation equipment such as a still or a steam distillation apparatus. The distillation process is quite complex and requires some expertise to obtain high-quality essential oils."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "It is also possible to make essential oils by maceration in a vegetable oil. To do this, the plants are left to macerate in a vegetable oil for several weeks. This method is simpler than distillation, but it does not allow for the production of pure and concentrated essential oils."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "To make lavender essential oil, for example, you need to pick lavender flowers and dry them for a few days. Then, put them in a still with water and heat the mixture. The steam carries the essential oils out of the flowers and into a container where they are collected."
+                    }
+                ]
+            },
+            {
+                "id": "ABG",
+                "title": "Making your own laundry detergent",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Laundry detergent is an essential product for cleaning our clothes and fabrics in general. It removes stains, dirt, and bad smells while leaving a pleasant smell of cleanliness. There are many recipes for homemade laundry detergent, often more environmentally friendly and healthier than industrial detergents, which often contain toxic chemicals. Here is a simple recipe to make your own homemade laundry detergent:"
+                    },
+                    {
+                        "type": "image",
+                        "value": "lessive_fr_en"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Ingredients:"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "100 g of Marseille soap flakes"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "2 liters of water"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "1 tablespoon of baking soda"
+                    },
+                    {
+                        "type": "text",
+                        "value": "It is possible to add a few drops of essential oils to scent the detergent, but this is optional."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Instructions:"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "1. In a saucepan, heat the water."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "2. Add the Marseille soap flakes and stir until completely dissolved."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "3. Add the baking soda and stir again."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "4. Remove the saucepan from the heat and let it cool."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "5. Once the detergent has cooled, pour it into a container, such as a glass bottle or jug."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "6. Shake the container well before each use."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Did you know that you can make laundry detergent with ivy? This plant contains natural saponins, substances that have cleaning and foaming properties. Here's how to do it:"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "1. Pick about twenty ivy leaves (fresh or dried) and wash them to remove any dirt."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "2. Put the leaves in a saucepan and add 1 liter of water."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "3. Boil for about twenty minutes, then let it cool."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "4. Strain the liquid using a strainer to remove the leaves."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "5. Pour the liquid into a glass bottle or airtight container."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "6. To wash your clothes, add about 100 ml of this liquid to your washing machine."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "7. You can add a few drops of your choice of essential oil to scent your laundry detergent."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "This natural laundry detergent is ecological, economical, and easy to make at home. In addition, it contains no harmful chemicals for the environment or health."
+                    }
+                ],
             }
         ],
         "isPremium": true

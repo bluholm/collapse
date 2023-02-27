@@ -35,7 +35,7 @@
                         "description": "Un tutoriel vidéo sur YouTube qui montre comment construire un filtre à eau à partir de matériaux simples et peu coûteux.",
                         "title": "Make YOUR Survival Water Filter"
                     }
-
+                    
                 ],
                 "content": [
                     {
@@ -379,14 +379,1361 @@
                     },
                     {
                         "type": "text",
-                        "value": "Il existe deux types de puits : les puits souterrains et les puits de surface. Les puits de surface sont les plus efficaces car ils recueillent davantage d'eau, mais les puits de surface peuvent être utiles si vous êtes extrêmement dépourvu d'énergie et que vous ne pouvez pas creuser un grand trou. Cliquez ici pour voir les instructions pour le faire (page 58)."
+                        "value": "Il existe deux types de puits : les puits souterrains et les puits de surface. Les puits de surface sont les plus efficaces car ils recueillent davantage d'eau, mais les puits de surface peuvent être utiles si vous êtes extrêmement dépourvu d'énergie et que vous ne pouvez pas creuser un grand trou."
                     },
                     {
                         "type": "text",
                         "value": "Fournitures : Récipient (le plus grand que vous avez), Feuille de plastique transparent, Outil de creusement, Roches"
                     }
                 ]
+            },
+            
+        ],
+        "isPremium": true
+    }
+    ,
+    {
+        "uid": "2",
+        "title": "Electricité en cas de survie",
+        "subtitle": "se préparer à une coupure de courant prolongée",
+        "image": "electricity",
+        "links": [],
+        "descriptionShort": "L'électricité est vitale pour notre vie quotidienne, et cela est particulièrement vrai en cas de survie. Que ce soit pour alimenter des appareils de chauffage, de cuisson, d'éclairage ou de communication, l'électricité peut faire la différence entre la vie et la mort. \n\nDans cette section, vous apprendrez pourquoi l'électricité est si importante en cas de survie et comment vous pouvez vous préparer à une coupure de courant prolongée.",
+        "descriptionLong": "L'électricité est un élément crucial de notre vie quotidienne, nous permettant de chauffer nos maisons, de cuisiner nos repas, de nous éclairer, de communiquer avec les autres, de travailler et même de nous divertir. Cependant, en cas de survie, l'électricité peut faire la différence entre la vie et la mort.\n\nPendant une situation de crise ou une catastrophe naturelle, telle qu'un ouragan, une tempête de neige ou une inondation, les lignes électriques peuvent être endommagées ou coupées, privant les gens d'accès à l'électricité. Dans ces situations, il est important de disposer de sources d'énergie alternatives pour répondre à vos besoins de base.\n\nLe manque d'électricité peut également causer des problèmes de sécurité, car les systèmes de sécurité tels que les alarmes, les caméras et les portes électriques peuvent ne plus fonctionner. Sans électricité, les pharmacies, les hôpitaux et les établissements de soins de longue durée peuvent être incapables de fournir des soins adéquats, ce qui peut entraîner des conséquences dramatiques pour les patients.\n\nPour être prêt à une coupure de courant prolongée, il est important de s'équiper d'un générateur électrique portable, de panneaux solaires, de batteries de stockage d'énergie et d'autres sources d'énergie alternatives. Les lampes solaires et les lanternes rechargeables sont également indispensables pour l'éclairage, tandis que les chargeurs de batterie pour voiture peuvent être utilisés pour recharger vos appareils électroniques.\n\nEn plus de disposer de sources d'énergie alternatives, il est important de connaître les compétences nécessaires pour réparer les circuits électriques simples, installer des panneaux solaires et des régulateurs de charge, et utiliser des outils de mesure électrique tels qu'un voltmètre et un ampèremètre. Il est également important d'apprendre à économiser l'énergie pour maximiser l'autonomie de vos systèmes électriques.\n\nEn conclusion, l'électricité est un élément crucial en cas de survie, car elle peut répondre à nos besoins de base et assurer notre sécurité. Il est donc important de se préparer à une coupure de courant prolongée en disposant de sources d'énergie alternatives et en acquérant les compétences nécessaires pour réparer et maintenir ces systèmes.",
+        "items": [
+            {
+                "id": "AAI",
+                "title": "Générateur électrique",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Un générateur électrique portable est un équipement essentiel pour quiconque souhaite se préparer à une coupure de courant prolongée en cas de survie."
+                    },
+                    {
+                        "type": "image",
+                        "value": "generator_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Un générateur électrique portable fonctionne en brûlant du carburant, généralement de l'essence ou du diesel, pour produire de l'électricité."
+                    },
+                    {
+                        "type": "text",
+                        "value": "La puissance d'un générateur électrique portable est mesurée en watts, et il existe des modèles allant de quelques centaines de watts à plusieurs milliers de watts."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les générateurs électriques portables peuvent alimenter une large gamme d'appareils, y compris des réfrigérateurs, des climatiseurs, des outils électriques, des lumières, des ordinateurs et des équipements de communication."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les générateurs électriques portables sont disponibles dans une gamme de prix, allant de quelques centaines à plusieurs milliers de dollars, en fonction de la puissance, de la qualité et de la marque."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Il est important de stocker suffisamment de carburant pour faire fonctionner votre générateur électrique pendant une période prolongée, ainsi que de stocker l'essence ou le diesel de manière sûre et sécurisée."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les générateurs électriques portables doivent être utilisés dans un endroit bien ventilé, à l'extérieur de la maison, pour éviter les risques d'incendie et d'intoxication au monoxyde de carbone."
+                    }
+                ]
+            },
+            {
+                "id": "AAJ",
+                "title": "Panneaux solaires",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Les panneaux solaires et les régulateurs de charge sont des équipements importants pour toute base de survie autonome en énergie. Voici quelques informations à ce sujet :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Pourquoi équiper sa base de survie avec des panneaux solaires ?"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les panneaux solaires sont une source d'énergie renouvelable et fiable, qui peuvent fournir de l'électricité en cas de coupure de courant prolongée. Ils sont également utiles pour les situations de survie en extérieur, où il n'y a pas d'autres sources d'énergie disponibles. Les panneaux solaires peuvent être utilisés pour alimenter des appareils tels que les lampes, les chargeurs de batteries, les radios, les ventilateurs et même les réfrigérateurs."
+                    },
+                    {
+                        "type": "image",
+                        "value": "solar_fr_en"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Combien de panneaux solaires faut-il pour une base de survie ?"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Le nombre de panneaux solaires nécessaires dépend de la quantité d'énergie dont vous avez besoin pour alimenter vos appareils. Il est recommandé de faire une estimation de votre consommation électrique et de choisir les panneaux solaires en conséquence. En général, les panneaux solaires ont une puissance de sortie allant de 100 à 400 watts, et vous pouvez en installer plusieurs pour augmenter la puissance de sortie."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Quelle est la durée de vie des panneaux solaires ?"
+                    },
+                    {
+                        "type": "text",
+                        "value": "La durée de vie des panneaux solaires dépend de plusieurs facteurs, tels que la qualité des matériaux utilisés, les conditions météorologiques et la maintenance régulière. En général, les panneaux solaires ont une durée de vie moyenne d'environ 25 à 30 ans. Il est important de garder les panneaux solaires propres et de les entretenir régulièrement pour maximiser leur efficacité et leur durée de vie."
+                    }
+                ]
+            },
+            {
+                "id": "AAK",
+                "title": "Batteries & stockage d'énergie",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Les batteries et le stockage d'énergie sont des éléments importants à considérer en cas de survie et d'effondrement, car ils permettent de stocker l'énergie produite par des sources renouvelables telles que les panneaux solaires ou les éoliennes, ou par des générateurs électriques. Voici quelques raisons pour lesquelles les batteries et le stockage d'énergie peuvent être importants en cas d'effondrement :"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Autonomie : Les batteries et le stockage d'énergie vous permettent d'avoir une source d'énergie autonome et fiable, qui peut vous permettre de continuer à utiliser des appareils électriques, même en cas de coupure de courant prolongée."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Mobilité : Les batteries portables peuvent être utilisées pour alimenter des appareils de communication, de navigation, des lampes ou des outils électriques lors de déplacements ou d'activités en plein air."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Sécurité : En cas d'urgence, les batteries et le stockage d'énergie peuvent être utilisés pour alimenter des équipements de secours tels que des radios, des chargeurs de téléphone portable, des éclairages de secours, ou même pour alimenter des pompes à eau."
+                    },
+                    {
+                        "type": "text",
+                        "value": "En ce qui concerne les types de batteries, il en existe plusieurs, chacun avec ses avantages et ses inconvénients. Voici quelques exemples de types de batteries que vous pouvez considérer :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Les batteries au plomb-acide : Elles sont économiques et ont une longue durée de vie, mais elles sont également lourdes et nécessitent une maintenance régulière."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Les batteries lithium-ion : Elles sont plus légères et ont une plus grande densité d'énergie, mais elles peuvent être plus coûteuses et nécessitent des précautions de sécurité supplémentaires."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Les batteries nickel-cadmium (NiCad) : Elles sont moins chères que les batteries lithium-ion, ont une longue durée de vie et peuvent être rechargées rapidement, mais elles sont également plus lourdes et peuvent avoir des problèmes de mémoire."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Enfin, en ce qui concerne la durée de vie des batteries, cela dépendra du type de batterie que vous utilisez, de la façon dont vous l'utilisez et de la manière dont vous l'entretenez. En général, les batteries ont une durée de vie qui peut varier de quelques années à plusieurs dizaines d'années selon le type et les conditions d'utilisation. Il est important de suivre les instructions du fabricant pour maximiser la durée de vie de votre batterie et la maintenir en bon état de fonctionnement."
+                    }
+                ]
+            },
+            {
+                "id": "AAL",
+                "title": "Objets à posseder",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "bullet",
+                        "value": "Lampes solaires et lanternes rechargeables: Pendant une coupure de courant prolongée, les lampes et les lanternes sont essentielles pour l'éclairage, surtout la nuit. Les lampes solaires sont une excellente option car elles ne nécessitent pas d'électricité pour fonctionner - elles se rechargent simplement à partir de la lumière du soleil. Les lanternes rechargeables peuvent également être une bonne option si elles peuvent être rechargées à partir d'une source d'énergie alternative, telle qu'un générateur ou un panneau solaire."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Câbles et connecteurs électriques: Si vous avez besoin de créer un système électrique en cas d'effondrement ou de survie, vous aurez besoin de câbles et de connecteurs pour relier les différents composants ensemble. Les câbles électriques de différentes tailles et épaisseurs peuvent être utilisés pour la transmission de l'énergie électrique, tandis que les connecteurs permettent de relier les différents composants, tels que les panneaux solaires et les batteries. Il est important de choisir des câbles et des connecteurs de qualité pour garantir une transmission de l'énergie fiable et sans danger."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Chargeurs de batterie pour voiture: Les batteries peuvent être une source d'énergie précieuse en cas d'effondrement ou de survie, car elles peuvent être utilisées pour alimenter une variété d'appareils. Cependant, pour utiliser une batterie, vous aurez besoin d'un chargeur de batterie. Les chargeurs de batterie pour voiture peuvent être une bonne option car ils peuvent être alimentés à partir d'un générateur ou d'un panneau solaire, et ils sont conçus pour charger rapidement les batteries de voiture. Vous pouvez également envisager d'acheter un chargeur de batterie portable pour une utilisation en déplacement."
+                    }
+                ]
+            },
+            {
+                "id": "AAM",
+                "title": "Quelques compétences",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "ces compétences parce qu'elles sont importantes pour assurer la disponibilité d'une source d'électricité fiable pendant une période prolongée en cas de survie. Voici pourquoi chacune de ces compétences est importante"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Installer des panneaux solaires et des régulateurs de charge"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les panneaux solaires sont une source d'énergie renouvelable qui peut être utilisée pour produire de l'électricité. Cependant, il est important de savoir comment les installer correctement et comment utiliser les régulateurs de charge pour éviter de les endommager ou de les surcharger."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Identifier les différents types de câblage électrique : "
+                    },
+                    {
+                        "type": "text",
+                        "value": "Cela est essentiel pour comprendre comment les différents composants électriques sont connectés les uns aux autres. Cela permet également de savoir quel type de câblage est nécessaire pour un projet électrique spécifique, de comprendre comment fonctionne un circuit électrique et comment le réparer en cas de panne."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Connaître les principes de base de l'électronique"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Comprendre les principes de base de l'électronique permet de comprendre comment fonctionnent les composants électriques et comment les réparer en cas de panne."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Utiliser des outils de mesure électrique, tels qu'un voltmètre et un ampèremètre"
+                    },
+                    {
+                        "type": "text",
+                        "value": " Savoir comment utiliser ces outils permet de mesurer la tension et le courant électrique, ce qui peut être utile pour déterminer si un circuit électrique fonctionne correctement et pour identifier les éventuelles pannes."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Économiser l'énergie pour maximiser l'autonomie de vos systèmes électriques."
+                    },
+                    {
+                        "type": "text",
+                        "value": "En apprenant à économiser l'énergie, vous pouvez maximiser l'autonomie de vos systèmes électriques et prolonger la durée de vie de vos batteries ou autres sources d'énergie. Cela peut être crucial pour une situation de survie où les sources d'énergie peuvent être limitées."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Réparer des circuits électriques simples"
+                    },
+                    {
+                        "type": "text",
+                        "value": "En sachant comment réparer les circuits électriques simples, vous pouvez économiser de l'argent en évitant de faire appel à un professionnel et être en mesure de rétablir rapidement une source d'électricité si nécessaire."
+                    }
+                ]
             }
+        ],
+        "isPremium": true
+    }
+    ,
+    {
+        "uid": "3",
+        "title": "Chasse et Pièges",
+        "subtitle": "Préparez-vous à la Chasse et à la Construction de Pièges",
+        "image": "hunting",
+        "links": [
+            {
+                "url": "https://fr.wikihow.com/recharger-soi-même-ses-munitions-utilisées",
+                "description": "Site Web",
+                "title": "Faire ses munitions"
+            },
+            {
+                "url": "https://fr.wikihow.com/tirer-au-fusil-de-chasse",
+                "description": "Site Web",
+                "title": "Comment tirer au fusil"
+            },
+            {
+                "url": "https://fr.wikihow.com/chasser-le-lapin",
+                "description": "Site Web",
+                "title": "Comment chasser le lapin"
+            },
+            {
+                "url": "https://cadets2600.com/media/2012/09/construction_collets.pdf",
+                "description": "pdf",
+                "title": "Apprendre à faire des pièges"
+            },
+            {
+                "url": "https://fr.wikihow.com/chasser-le-cerf",
+                "description": "Site Web",
+                "title": "Comment chasser le cerf"
+            }
+        ],
+        "descriptionShort": "En cas de survie, la chasse peut être une compétence vitale pour se nourrir et survivre dans la nature sauvage. En effet, la viande est une source importante de protéines, de nutriments et de calories nécessaires pour maintenir l'énergie et la santé. Apprendre à chasser et à construire des pièges peut également aider à éviter la faim et la malnutrition en cas de pénurie alimentaire.",
+        "descriptionLong": "En cas de survie, la chasse peut devenir une compétence vitale pour se nourrir et survivre dans la nature sauvage. Lorsque la nourriture et l'eau sont rares, la chasse peut être l'un des seuls moyens de se procurer les nutriments et l'énergie nécessaires pour maintenir la santé et la force physique.\n\nLa viande est une source importante de protéines, de nutriments et de calories nécessaires pour le corps. Les animaux chassés peuvent fournir de la viande, des abats et des os pour faire du bouillon. Les poissons peuvent également être une source importante de protéines et de nutriments, et peuvent être trouvés dans les rivières, les lacs et les étangs.\n\nEn apprenant à chasser et à construire des pièges, vous pouvez augmenter vos chances de survie et éviter la faim et la malnutrition en cas de pénurie alimentaire. Les pièges peuvent être construits pour capturer des animaux tels que des lapins, des écureuils, des oiseaux, des poissons, des rats et des souris. Les pièges peuvent être simples ou complexes, et peuvent inclure des pièges à lacet, des pièges à collet, des pièges à fosse et des pièges à filet.\n\nCependant, la chasse peut être dangereuse et nécessite une formation appropriée pour être pratiquée en toute sécurité. Les armes à feu et les arbalètes sont des outils couramment utilisés pour la chasse, mais ils doivent être utilisés avec prudence. Il est important de connaître les règles de sécurité des armes à feu et d'apprendre à manipuler ces armes en toute sécurité. Des compétences telles que la connaissance des techniques de chasse, l'approche silencieuse, le camouflage, la traque et la fabrication de munitions sont également importantes pour réussir à chasser en toute sécurité.\n\nEn plus des outils et des compétences nécessaires à la chasse, il est également important de se préparer en achetant des vêtements de chasse appropriés. Les vêtements de chasse doivent être durables, résistants aux intempéries et confortables pour une utilisation prolongée. Des bottes résistantes, des gants et des chapeaux de chasse peuvent également être nécessaires pour protéger contre les éléments.",
+        "items": [
+            {
+                "id": "AAN",
+                "title": "Arc & Arbalètes",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Les avantages de l'arc :"
+                    },
+                    {
+                        "type": "image",
+                        "value": "arc_fr"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Les arcs sont généralement plus légers que les arbalètes, ce qui les rend plus faciles à transporter sur de longues distances ou sur des terrains difficiles."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Les arcs sont plus silencieux que les arbalètes, ce qui peut être un avantage lors de la chasse, car cela évite d'effrayer les animaux proches."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Les arcs sont souvent moins chers que les arbalètes, car ils ne nécessitent pas autant de matériaux et de composants pour leur fabrication."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les avantages de l'arbalète :"
+                    },
+                    {
+                        "type": "image",
+                        "value": "arba_fr"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Les arbalètes sont généralement plus précises que les arcs, car elles ont une meilleure stabilité et une visée plus précise."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Les arbalètes sont plus faciles à utiliser que les arcs pour les débutants, car elles nécessitent moins de force physique et de compétences pour la manœuvrer et la viser."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Les arbalètes ont une portée plus longue que les arcs, ce qui peut être un avantage lors de la chasse à de plus grandes distances."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les avantages de l'arcs à poulies :"
+                    },
+                    {
+                        "type": "image",
+                        "value": "arc_poulie_fr"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Les arcs à poulies ont des poulies qui permettent de réduire l'effort nécessaire pour tenir la corde à pleine extension. Cela facilite la visée et permet une plus grande précision lors des tirs."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Les arcs à poulies ont également une plus grande force de tir que les arcs traditionnels, ce qui signifie qu'ils peuvent tirer des flèches plus rapidement et avec plus de force."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Les arcs à poulies sont souvent équipés de stabilisateurs, de viseurs et de déclencheurs, ce qui les rend plus faciles à utiliser et plus précis pour les débutants."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Cependant, les arcs à poulies ont également quelques inconvénients potentiels :\nIls sont plus lourds que les arcs traditionnels et peuvent être plus difficiles à transporter sur de longues distances.\nIls sont souvent plus chers que les arcs traditionnels en raison de leur complexité et de leur équipement supplémentaire."
+                    }
+                ]
+            }
+            ,
+            {
+                "id": "AAO",
+                "title": "Les munitions",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Les munitions sont un élément crucial pour la chasse, car elles fournissent l'énergie nécessaire pour abattre des animaux de manière efficace et rapide. En cas d'effondrement, les munitions peuvent devenir rares, ce qui rend leur stockage et leur fabrication importantes pour les chasseurs."
+                    },
+                    {
+                        "type": "text",
+                        "value": "La quantité de munitions que vous devriez stocker dépend de votre niveau de préparation et de vos compétences de chasse. Il est recommandé d'avoir au moins 100 à 200 munitions de calibre courant (comme le .22LR, le 12 gauge, le .308 Win, etc.) pour être prêt en cas d'urgence. Si vous prévoyez de chasser fréquemment, vous devriez stocker plus de munitions."
+                    },
+                    {
+                        "type": "text",
+                        "value": "La fabrication de munitions est une compétence importante pour les chasseurs en cas de pénurie de munitions. Cependant, cela nécessite des compétences spécifiques, des équipements et des matières premières appropriées. Il est important de noter que la fabrication de munitions peut être dangereuse si elle est mal réalisée. Il est donc fortement recommandé de recevoir une formation appropriée avant de se lancer dans la fabrication de munitions."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Fabrication de munitions:"
+                    },
+                    {
+                        "type": "image",
+                        "value": "munitions_fr"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Choisir le calibre approprié : Le choix du calibre dépend du type d'arme que vous possédez et de l'animal que vous chassez."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Sélectionner les composants : Les munitions sont composées de trois éléments principaux : la douille, l'amorce et la balle (ou la grenaille). Vous devrez sélectionner chaque élément en fonction de vos besoins et de vos compétences."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Préparer la douille : La douille est la partie en laiton qui contient la poudre et la balle. Elle doit être nettoyée, étirée et coupée à la bonne longueur."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Installer l'amorce : L'amorce est une petite capsule qui crée une étincelle pour allumer la poudre. Elle doit être installée avec précision dans la douille."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Ajouter la poudre : La poudre est ajoutée à la douille en utilisant un doseur à poudre. La quantité de poudre doit être précise pour garantir la sécurité et l'efficacité de la munition."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Installer la balle : La balle doit être installée avec précision sur la douille. Cela peut être fait en utilisant un outil appelé -sizer-."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Sertir la balle : Le sertissage consiste à serrer le col de la douille autour de la balle. Cela garantit que la balle reste en place lorsqu'elle est tirée."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Inspecter la munition : Une fois la munition assemblée, il est important de l'inspecter pour s'assurer qu'elle est correctement assemblée et qu'elle est sûre à utiliser."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Inspecter la munition : Une fois la munition assemblée, il est important de l'inspecter pour s'assurer qu'elle est correctement assemblée et qu'elle est sûre à utiliser."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Cela necessite aussi pas mal de matériel !"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Presse à recharger : C'est l'équipement de base pour la fabrication de munitions. Elle permet de fixer les amorces, de doser la poudre et de sertir les balles.\nJeu d'outils pour la presse : Cet ensemble d'outils comprend des outils pour la préparation des douilles, le sertissage et l'installation des balles.\nDoseur à poudre : Cet équipement permet de doser la quantité de poudre à mettre dans chaque douille.\nBalance à rechargement : Elle permet de peser précisément la quantité de poudre pour chaque douille.\nCalibre à collet : Il permet de mesurer la longueur et le diamètre de la douille pour une fabrication précise de la munition.\nBoîtes de rangement : Elles sont nécessaires pour stocker les composants de la munition, tels que les douilles, les balles et les amorces.\nMatières premières : Les composants nécessaires à la fabrication de la munition, tels que les douilles, les amorces, les balles et la poudre, doivent être achetés séparément."
+                    }
+                ]
+            }
+            ,
+            {
+                "id": "AAP",
+                "title": "matériel de base",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Voici une liste de matériel de base pour la chasse et la mise en place de pièges :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Du Fil de fer pour les pièges."
+                    }
+                    ,
+                    {
+                        "type": "bullet",
+                        "value": "Une boussole est essentielle pour s'orienter dans la nature et éviter de se perdre en forêt ou en montagne."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Une lampe de poche est importante pour éclairer son chemin en cas de déplacement nocturne ou pour fouiller des endroits sombres à la recherche de nourriture ou d'outils de survie."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Les jumelles sont un outil précieux pour observer la faune et repérer les proies potentielles à distance, sans avoir à s'approcher de trop près et risquer de les effrayer. Elles permettent également d'observer les mouvements des animaux à l'aube et au crépuscule, périodes où la chasse est souvent la plus fructueuse. Les jumelles sont donc un élément clé pour augmenter les chances de réussite lors de la chasse ou de la survie en milieu naturel."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Un couteau est un outil polyvalent qui peut servir à la fois pour la chasse (découper la viande), la préparation de nourriture et la fabrication d'outils de survie."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Hache"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Une hache est utile pour couper du bois et construire un abri, allumer un feu ou encore fabriquer des outils de survie."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Une petite scie est utile pour couper des branches ou des troncs d'arbres plus épais que ne le permet un couteau, afin de fabriquer des outils ou construire un abri."
+                    }
+                    
+                ]
+            }
+            ,
+            {
+                "id": "AAU",
+                "title": "Construction de pièges",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Pièges : Les pièges sont utiles pour capturer des petits animaux, tels que des lièvres, des écureuils et des ratons laveurs. Il existe de nombreux types de pièges :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "les collets"
+                    },
+                    {
+                        "type": "image",
+                        "value": "trap_2_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les pièges à collet sont des pièges qui capturent des animaux en leur bloquant le cou. Ils sont souvent utilisés pour capturer des petits animaux tels que des lapins, des lièvres et des écureuils. Voici les étapes pour mettre en place un piège à collet :\n\n1. Trouvez un endroit approprié : Les pièges à collet doivent être placés dans des endroits où les animaux passent régulièrement, comme le long d'un chemin de promenade, près d'un terrier ou d'un point d'eau.\n\n2. Préparez le collet : Le collet doit être fait avec un fil solide, comme du fil de fer, et être assez long pour envelopper le cou de l'animal. Le collet doit être attaché à un arbre ou à un piquet de terre pour empêcher l'animal de s'enfuir avec le piège.\n\n3. Installez le piège : Enterrer le collet dans le sol ou le placer sur une surface plane pour que l'animal passe à travers.\n\n4. Attendez : Il faut attendre que l'animal soit capturé par le piège. Les collets sont conçus pour se resserrer lorsqu'un animal passe à travers, capturant l'animal par le cou.\n\n5. Libérez l'animal : Si vous capturez un animal, il est important de le libérer rapidement et de le faire avec précaution. Tenir l'animal à l'aide d'un gant, retirer le collet et libérez-le."
+                    },
+                    {
+                        "type": "image",
+                        "value": "trap_1_fr_en"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "les pièges à mâchoires"
+                    },
+                    {
+                        "type": "image",
+                        "value": "trap_3_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les pièges à mâchoire sont des pièges de chasse qui fonctionnent en capturant l'animal entre deux mâchoires métalliques. Le piège est généralement installé sur un sentier fréquenté par l'animal ciblé, et une fois déclenché, les mâchoires se referment rapidement et violemment sur les membres ou le corps de l'animal, le maintenant ainsi captif. Les pièges à mâchoire ont été utilisés pendant des siècles pour capturer des animaux tels que les renards, les coyotes, les belettes, les ratons laveurs et les loups, et sont encore utilisés aujourd'hui pour la chasse et la gestion de la faune. Cependant, leur utilisation est souvent controversée en raison de la souffrance infligée à l'animal capturé."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Il est possible de fabriquer soi-même des pièges à mâchoire, mais cela nécessite des compétences avancées en mécanique et en fabrication de pièges, ainsi que des connaissances approfondies sur les animaux ciblés et les réglementations de chasse locales. De plus, il est important de noter que dans de nombreux endroits, l'utilisation de pièges à mâchoire est réglementée ou interdite pour des raisons de bien-être animal. Avant d'essayer de fabriquer un piège à mâchoire, il est donc essentiel de se renseigner sur les réglementations locales et de considérer les alternatives de chasse plus humaines et éthiques."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "les pièges à Lacets"
+                    },
+                    {
+                        "type": "image",
+                        "value": "trap_4_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les pièges à lacets sont des pièges de chasse simples qui fonctionnent en capturant l'animal par le cou ou la patte en utilisant un fil métallique ou une cordelette. Les pièges sont souvent installés sur des sentiers ou des zones de passage fréquents des animaux, et sont déclenchés lorsqu'un animal met la patte ou la tête dans le piège. Lorsque le piège est déclenché, il resserre le fil métallique ou la corde autour de la patte ou du cou de l'animal, le maintenant ainsi captif.\n\nLes pièges à lacets sont souvent utilisés pour capturer des petits animaux tels que les lapins, les lièvres, les rats et les écureuils. Cependant, leur utilisation est réglementée ou interdite dans de nombreux endroits en raison de la souffrance qu'ils peuvent infliger à l'animal capturé. Il est donc important de se renseigner sur les réglementations locales avant d'utiliser des pièges à lacets pour la chasse ou la gestion de la faune."
+                    }
+                ]
+            }
+            ,
+            {
+                "id": "AAQ",
+                "title": "Viande et découpe",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Lorsque l'on est confronté à une situation de survie, la chasse peut être une source vitale de nourriture. Cependant, une fois l'animal abattu, il est important de savoir comment préparer et conserver correctement la viande pour qu'elle puisse être consommée en toute sécurité. Dans cette section, nous allons explorer les techniques de découpe, de désossage, de conservation, de séchage et de fumage de la viande, ainsi que des conseils pratiques pour utiliser efficacement chaque partie de l'animal. Que vous soyez novice en matière de boucherie ou que vous cherchiez à améliorer vos compétences, cette section vous fournira les connaissances nécessaires pour maximiser votre récolte de viande et la conserver dans des conditions optimales."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Comment faire sécher ou fumer la viande"
+                    },
+                    {
+                        "type": "image",
+                        "value": "smoke_fr"
+                    },
+                    {
+                        "type": "text",
+                        "value": " : Pour faire sécher la viande, il suffit de la suspendre dans un endroit frais et sec et de la laisser sécher pendant plusieurs semaines jusqu'à ce qu'elle soit bien sèche. Pour fumer la viande, il faut utiliser un fumoir et exposer la viande à la fumée de bois pendant plusieurs heures jusqu'à ce qu'elle soit bien fumée."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "La façon de découper la viande"
+                    },
+                    {
+                        "type": "text",
+                        "value": ": Il est recommandé de découper la viande une fois qu'elle a été laissée à maturer pendant plusieurs jours pour permettre aux enzymes de la viande de la décomposer et la rendre plus tendre. La période de maturation dépendra du type de viande et des conditions de conservation, mais elle peut varier de quelques jours à plusieurs semaines. Il est également important de garder la viande fraîche et froide pendant le processus de découpe. Pour cela, il est conseillé de travailler avec la viande dans un endroit frais ou même dans un réfrigérateur."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "De la désosser et préparer"
+                    },
+                    {
+                        "type": "text",
+                        "value": " : Il est important de retirer les organes, les peaux et les plumes de la viande pour permettre un refroidissement rapide et éviter la contamination. Il est également conseillé de nettoyer la viande avec de l'eau froide pour éliminer toute saleté et tout sang restant. Ensuite, il est recommandé de laisser la viande reposer dans un endroit frais pendant quelques heures pour que la température de la viande atteigne celle de l'environnement."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "De la conserver"
+                    },
+                    {
+                        "type": "text",
+                        "value": " : Il existe différentes méthodes pour conserver la viande, notamment la conservation au sel, la conservation à froid et la conservation séchée ou fumée. Pour la conservation au sel, il suffit de recouvrir la viande de sel et de la laisser reposer pendant plusieurs semaines jusqu'à ce qu'elle soit bien conservée. Pour la conservation à froid, il est recommandé de garder la viande à une température de 0 à 5 degrés Celsius. Pour la conservation séchée ou fumée, la viande doit être suspendue dans un endroit frais et sec et exposée à la fumée pour aider à prévenir la croissance des bactéries."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Comment utiliser les différentes parties de l'animal"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Il est recommandé de connaître les différentes coupes de viande et comment les préparer pour des plats spécifiques. Par exemple, les parties les plus tendres de l'animal (comme le filet) sont idéales pour les grillades, tandis que les parties plus dures peuvent être utilisées pour des ragoûts ou des soupes. Il est également important de savoir comment utiliser les os et les restes de viande pour faire des bouillons ou des soupes."
+                    }
+                ]
+            }
+            ,
+            {
+                "id": "AAR",
+                "title": "Vêtements",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Que vous soyez un chasseur expérimenté ou que vous soyez nouveau dans ce domaine, il est essentiel de choisir les vêtements appropriés pour une expérience de chasse réussie. Les vêtements de chasse ne sont pas simplement des vêtements de plein air ordinaires, ils sont conçus pour vous offrir confort, protection et discrétion dans la nature. Dans cette section, nous allons vous présenter les différents types de vêtements de chasse, leurs caractéristiques et leurs avantages, ainsi que des conseils pratiques pour vous aider à choisir les vêtements appropriés en fonction de votre environnement de chasse et des conditions météorologiques."
+                    },
+                    {
+                        "type": "image",
+                        "value": "gear_fr_en"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Veste de chasse"
+                    },
+                    {
+                        "type": "text",
+                        "value": "La veste de chasse doit être imperméable et respirante pour protéger contre les intempéries et permettre une évacuation rapide de la transpiration."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Pantalon de chasse"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Le pantalon de chasse doit également être imperméable et respirant, avec des renforts aux genoux et aux fesses pour une durabilité accrue."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Bottes de chasse"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les bottes de chasse doivent être confortables, résistantes et imperméables pour garder les pieds au sec et au chaud."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Gants de chasse"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les gants de chasse doivent être résistants et imperméables, avec une bonne adhérence pour manier les armes et les pièges."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Casquette ou chapeau de chasse"
+                    },
+                    {
+                        "type": "text",
+                        "value": "La casquette ou le chapeau de chasse doit offrir une protection solaire et une visibilité accrue en portant une couleur vive pour être facilement repérable par les autres chasseurs."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Sous-vêtements techniques"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les sous-vêtements techniques sont importants pour réguler la température du corps et évacuer la transpiration."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Vêtements de camouflage"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les vêtements de camouflage sont utiles pour se fondre dans l'environnement et passer inaperçu."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Lunettes de soleil"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les lunettes de soleil sont nécessaires pour protéger les yeux contre les rayons UV nocifs."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Cache-cou"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Le cache-cou est utile pour protéger le cou et le visage contre les éléments."
+                    }
+                ]
+            }
+            ,
+            {
+                "id": "AAS",
+                "title": "Construire un arc en pleine nature",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "La construction d'un arc et de flèches est une compétence importante pour la survie en pleine nature. Que vous soyez un chasseur ou un aventurier en quête d'aventure, savoir comment fabriquer votre propre équipement de chasse est essentiel. Non seulement cela vous permet de devenir plus autonome, mais cela peut également être une expérience gratifiante en soi. Dans cette section, nous allons vous guider à travers les étapes nécessaires pour construire un arc et des flèches à partir de matériaux que l'on peut trouver dans la nature."
+                    },
+                    {
+                        "type": "image",
+                        "value": "bowmaking_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Trouvez un bois approprié : Le premier pas consiste à trouver un bois approprié pour la construction de votre arc. Les types de bois couramment utilisés sont l'if, l'érable, le frêne, le noyer, le genévrier et le bambou. Il est important de trouver un bois qui est flexible et résistant, mais qui n'est pas trop épais ou lourd.\n\nFaçonnez le bois : Une fois que vous avez trouvé le bois approprié, il est temps de le façonner en une forme d'arc. Cela implique de le couper à la longueur désirée et de le cintrer doucement pour qu'il prenne la forme de l'arc. Vous pouvez utiliser des outils tels qu'un couteau, une scie, une râpe et du papier de verre pour vous aider à façonner le bois.\n\nAjoutez des encoches : Les encoches sont des entailles faites à chaque extrémité de l'arc pour tenir les cordes de l'arc. Vous pouvez les faire avec un couteau ou une scie.\n\nFaites la corde de l'arc : La corde de l'arc est faite de fibres naturelles telles que le chanvre ou la corde d'arc en lin. Elle doit être ajustée pour tenir correctement l'arc. Pour la fabriquer, vous pouvez utiliser une technique de torsion pour tresser les fibres ensemble.\n\nFabriquez les flèches : Pour fabriquer des flèches, vous aurez besoin de bois pour les tiges, de plumes pour les empennages et de pointes pour les pointes de flèches. Les pointes de flèches peuvent être faites de matériaux tels que la pierre, le silex ou le métal. Les empennages peuvent être fixés avec de la colle naturelle ou de la résine.\n\nTestez votre équipement : Une fois que vous avez fabriqué votre arc et vos flèches, il est important de les tester pour vous assurer qu'ils sont efficaces. Vous pouvez tester la flexibilité de l'arc en tirant sur la corde, et tester la précision des flèches en les tirant sur une cible."
+                    }
+                ]
+            }
+            ,
+            {
+                "id": "AAT",
+                "title": "Compétence de chasse",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "La chasse est une compétence essentielle en cas de survie dans la nature. Que ce soit pour se nourrir ou se protéger, il est important de savoir comment chasser et piéger efficacement. Cependant, cela ne s'improvise pas et nécessite un apprentissage et une pratique régulière."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Il est important de rechercher des ressources sur internet, de se renseigner sur les lois et réglementations en vigueur dans votre région, mais également de demander des conseils à des anciens habitants du lieu où vous vous trouvez. Ils peuvent avoir des connaissances et des astuces spécifiques à la région pour chasser et piéger de manière plus efficace."
+                    },
+                    {
+                        "type": "text",
+                        "value": "De plus, il est crucial de comprendre les saisons et les comportements des animaux pour pouvoir les chasser efficacement. Par exemple, il est préférable de chasser les cerfs pendant les périodes de rut, car ils sont plus actifs et plus faciles à approcher. Il est également important de respecter les animaux que vous chassez et d'utiliser toutes les parties de l'animal pour minimiser le gaspillage."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Enfin, il est essentiel de maîtriser différentes techniques de chasse, notamment la chasse à l'arc, la chasse à l'arbalète, la chasse au fusil, ainsi que les techniques de piégeage. Il est important de s'entraîner régulièrement pour développer ces compétences et les maintenir au fil du temps."
+                    },
+                    {
+                        "type": "text",
+                        "value": "En somme, la chasse et le piégeage sont des compétences importantes pour la survie en pleine nature, mais nécessitent un apprentissage et une pratique régulière. Il est important de se renseigner sur les lois, les comportements des animaux, les techniques de chasse et de respecter les animaux que l'on chasse."
+                    }
+                ]
+            }
+            ,
+            {
+                "id": "AAV",
+                "title": "detections de Maladie",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Détection de maladies » est d'une importance vitale pour tout chasseur ou personne cherchant à se nourrir dans la nature. Savoir identifier les signes d'une maladie chez un animal est essentiel pour éviter de contracter des maladies potentiellement mortelles. De plus, cela permet également de prévenir la propagation de maladies entre les animaux et de préserver la santé de la faune sauvage. Dans cette section, nous explorerons les différents signes et symptômes à surveiller lors de la chasse et comment agir en conséquence pour minimiser les risques de transmission de maladies."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Le comportement : un animal malade peut sembler léthargique, affaibli, désorienté ou désintéressé de son environnement. Il peut également être plus agressif ou au contraire plus passif que d'habitude.\n\nL'apparence physique : un animal malade peut avoir une peau ou des poils en mauvais état, être maigre ou présenter des plaies ou des lésions visibles. Ses yeux peuvent être enflés, rouges ou coulants.\n\nLes odeurs : certaines maladies peuvent causer des odeurs désagréables ou inhabituelles, comme une odeur de pourriture, de moisi ou de pus.\n\nLes glandes : lorsqu'on abat un animal, il est possible d'examiner ses glandes pour détecter d'éventuelles infections ou anomalies. Les glandes les plus couramment examinées sont les glandes anales chez les mammifères, qui peuvent indiquer des infections bactériennes ou parasitaires."
+                    }
+                ]
+            }
+            ,
+            {
+                "id": "AAW",
+                "title": "Stockage et conservation",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Lorsqu'on chasse pour se nourrir, il est important de savoir comment stocker et conserver la viande pour qu'elle reste comestible et ne se gâte pas. En effet, une mauvaise conservation peut rapidement rendre la viande impropre à la consommation et causer des problèmes de santé. C'est pourquoi il est essentiel d'avoir des compétences en matière de stockage et de conservation de la viande."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Voici quelques exemples de techniques de stockage et de conservation de la viande :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Le salage : le sel peut être utilisé pour préserver la viande en la desséchant et en empêchant la croissance bactérienne. La viande peut être frottée avec du sel ou plongée dans une saumure."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Le séchage : la viande peut être séchée à l'air libre ou dans un déshydrateur pour enlever l'humidité et prolonger sa durée de conservation. Cette technique est particulièrement utile pour les viandes maigres."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "La fumaison : la viande peut être fumée pour améliorer son goût et sa durée de conservation. La fumée agit comme un agent de conservation naturel et aide à prévenir la croissance bactérienne."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "La congélation : la congélation est une méthode courante de stockage de la viande. Cependant, il est important de s'assurer que la viande est correctement emballée pour éviter les brûlures de congélation et les pertes de qualité."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Le refroidissement : si vous ne disposez pas d'un congélateur, vous pouvez utiliser la technique de refroidissement pour conserver la viande pendant quelques jours. La viande doit être conservée à une température inférieure à 4 degrés Celsius."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Il est important de noter que chaque technique de conservation a ses avantages et ses inconvénients, et qu'il est important de choisir la méthode la plus appropriée en fonction de la viande et des conditions environnementales."
+                    },
+                    {
+                        "type": "text",
+                        "value": "En outre, il est recommandé de suivre les règles d'hygiène et de sécurité alimentaire lors de la manipulation de la viande. Il est important de nettoyer et de désinfecter toutes les surfaces de travail, les outils et les mains avant de manipuler la viande. Enfin, il est essentiel de savoir quand la viande est impropre à la consommation, en surveillant les signes de détérioration tels que l'odeur, la texture et la couleur."
+                    },
+                    {
+                        "type": "text",
+                        "value": "En somme, apprendre à stocker et à conserver la viande est une compétence essentielle pour tout chasseur ou survivaliste. Cela peut faire la différence entre une viande saine et comestible, et une viande gâtée et dangereuse pour la santé."
+                    }
+                ]
+            }
+            
+            
+        ],
+        "isPremium": true
+    }
+    ,
+    {
+        "uid": "4",
+        "title": "Fabrication produits de bases",
+        "subtitle": "Vinaigre, bicarbonade de soude et bien d'autres...",
+        "image": "chemistry",
+        "links": [],
+        "descriptionShort": "La chimie est omniprésente dans notre vie quotidienne, et nous utilisons régulièrement des produits chimiques pour de nombreuses tâches, de la cuisine à la nettoyage en passant par l'entretien de notre santé.\n\nQue vous soyez un amateur de la chimie ou simplement intéressé par la production de vos propres produits chimiques, cette section vous fournira des informations et des conseils utiles pour y parvenir.",
+        "descriptionLong": "En cas de survie ou d'effondrement, il est primordial de savoir comment fabriquer des produits de base à partir de matières premières accessibles dans la nature. Les produits chimiques que nous utilisons au quotidien dans nos foyers et dans l'industrie sont souvent issus de la pétrochimie, une industrie qui pourrait être gravement affectée en cas de crise majeure. De plus, l'approvisionnement en produits manufacturés pourrait rapidement se tarir, laissant les personnes livrées à elles-mêmes pour trouver des alternatives.\n\nLa fabrication de produits de base à partir de matières premières naturelles permet de subvenir à des besoins essentiels tels que la conservation des aliments, l'assainissement de l'eau, la fabrication de médicaments et bien d'autres choses. La connaissance de la chimie de base peut également aider à éviter les dangers associés à la manipulation de substances inconnues.\n\nLes produits de base tels que le vinaigre, le bicarbonate, le sel et autres, sont essentiels à la vie quotidienne, que ce soit pour la cuisine, le nettoyage ou encore la santé. En sachant comment les fabriquer à partir de ressources naturelles, on est mieux préparé pour affronter des situations où l'approvisionnement en produits manufacturés est limité ou inexistant. Cela permet également de développer une plus grande autonomie et de ne plus dépendre uniquement de l'industrie pour nos besoins quotidiens.",
+        "items": [
+            {
+                "id": "AAX",
+                "title": "Création de Vinaigre",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Le vinaigre est un ingrédient clé dans la cuisine et peut également être très utile dans une situation de survie. Il est souvent utilisé pour faire des marinades, des sauces, des vinaigrettes, mais aussi pour conserver des aliments en les acidifiant."
+                    },
+                    {
+                        "type": "image",
+                        "value": "vinegar_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "En cas de survie, le vinaigre peut également servir de désinfectant, de produit de nettoyage, et même pour la fabrication de certains médicaments naturels. Il peut être fabriqué à partir de différents ingrédients, tels que des fruits, des légumes, du vin, de la bière, ou même du pain durci.\n\nLa méthode la plus simple pour fabriquer du vinaigre consiste à utiliser des pommes, des poires ou des raisins, qui contiennent naturellement des bactéries appelées acétobactéries. Il suffit de les laisser fermenter avec un peu de sucre et d'eau, dans un endroit chaud et sombre, pendant plusieurs semaines. Les bactéries vont transformer l'alcool présent dans le mélange en acide acétique, qui est le principal composant du vinaigre.\n\nIl est également possible de fabriquer du vinaigre à partir d'autres ingrédients, tels que du vin, de la bière ou même du pain durci. Dans tous les cas, la recette implique de laisser fermenter l'ingrédient avec un peu d'eau et de sucre, dans un récipient stérilisé, pendant plusieurs semaines. Les bactéries acétiques présentes dans l'air vont alors faire le travail de transformation en vinaigre.\n\nEn résumé, le vinaigre est un ingrédient essentiel dans la cuisine, mais peut également être très utile dans une situation de survie en tant que désinfectant et produit de nettoyage. Il peut être fabriqué à partir de différents ingrédients et est facilement réalisable avec quelques outils de base."
+                    }
+                ]
+            },
+            {
+                "id": "AAY",
+                "title": "Fabrication Bicarbonate de soude",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Le bicarbonate de soude est un produit très utile pour la vie quotidienne. Il peut être utilisé pour nettoyer, blanchir, désodoriser, adoucir l'eau et même pour la cuisine. Il est également utilisé en tant que produit de soin personnel pour des usages tels que le brossage des dents et comme déodorant naturel. Le bicarbonate de soude est un composé alcalin qui réagit avec les acides pour former du dioxyde de carbone, de l'eau et un sel."
+                    },
+                    {
+                        "type": "image",
+                        "value": "bicarbonate_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Il est possible de fabriquer du bicarbonate de soude soi-même en mélangeant du carbonate de sodium et de l'acide carbonique. Cependant, la méthode la plus courante pour produire du bicarbonate de soude est celle utilisée par l'industrie chimique. Elle consiste à faire passer du gaz carbonique à travers une solution de carbonate de sodium, ce qui donne du bicarbonate de soude en cristal.\n\nPour fabriquer du bicarbonate de soude soi-même, vous pouvez mélanger du carbonate de sodium avec du vinaigre ou du jus de citron pour produire de l'acide carbonique. Lorsque vous mélangez le carbonate de sodium et l'acide carbonique, vous produisez du bicarbonate de soude. Vous pouvez ensuite sécher le mélange et le broyer pour obtenir du bicarbonate de soude en poudre.\n\nIl est également possible d'utiliser du bicarbonate de soude pour fabriquer du savon ou comme ingrédient dans des recettes de cuisine. Dans ces cas, il est important de suivre des recettes précises pour obtenir des résultats optimaux."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Le carbonate de sodium est un composé chimique qui se trouve rarement à l'état naturel en pleine nature. Cependant, il peut être produit à partir de certaines sources naturelles, telles que les dépôts de trona, une roche sédimentaire formée par l'évaporation de l'eau salée dans les lacs. Ces dépôts de trona sont principalement présents dans les régions désertiques d'Afrique, d'Asie et d'Amérique du Sud.\n\nCependant, la production de carbonate de sodium à partir de ces sources naturelles est un processus complexe qui nécessite des équipements et des connaissances spécifiques. Il est donc plus courant d'acheter du carbonate de sodium dans des magasins ou en ligne pour une utilisation courante."
+                    }
+                ]
+            },
+            {
+                "id": "AAZ",
+                "title": "Le Peroxyde d'hydrogène",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Le peroxyde d'hydrogène est un produit chimique largement utilisé pour de nombreuses applications, allant de la désinfection des plaies à l'éclaircissement des cheveux. Il est également utilisé comme agent de blanchiment et de nettoyage, ainsi que pour la stérilisation de l'eau et la décoloration du papier et du tissu. En termes de santé, le peroxyde d'hydrogène peut aider à tuer les bactéries, les virus et les champignons."
+                    },
+                    {
+                        "type": "image",
+                        "value": "peroxyde_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "En ce qui concerne la fabrication du peroxyde d'hydrogène, il est préférable de l'acheter dans un magasin spécialisé, car sa fabrication est complexe et dangereuse. Toutefois, il est possible de fabriquer du peroxyde d'hydrogène à partir de certains ingrédients ménagers tels que le vinaigre blanc, le bicarbonate de soude et l'eau oxygénée. Cependant, cette méthode ne produit pas un peroxyde d'hydrogène pur et concentré, ce qui peut affecter son efficacité.\n\nUne recette possible pour fabriquer du peroxyde d'hydrogène à la maison est la suivante :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Mélangez une tasse d'eau oxygénée (3%) avec une cuillère à soupe de bicarbonate de soude dans un bol."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Ajoutez lentement une tasse de vinaigre blanc tout en mélangeant."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Le mélange va bouillonner et mousser, continuez à mélanger jusqu'à ce que la réaction soit terminée. Vous obtiendrez une solution d'environ 1% de peroxyde d'hydrogène."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Cependant, il est important de noter que cette méthode de fabrication n'est pas fiable et qu'elle peut produire des résultats variables en termes de pureté et de concentration. Il est donc recommandé d'acheter du peroxyde d'hydrogène auprès d'un fournisseur fiable pour des utilisations précises et efficaces."
+                    }
+                ]
+            },
+            {
+                "id": "ABA",
+                "title": "L'eau oxygénée",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "L'eau oxygénée, également appelée peroxyde d'hydrogène, est un produit chimique couramment utilisé pour ses propriétés antiseptiques, désinfectantes et blanchissantes. Elle est également utilisée dans l'industrie pour blanchir les papiers et les tissus. En termes de survie en pleine nature, l'eau oxygénée peut être utile pour la désinfection des plaies, la stérilisation de l'eau et la fabrication de produits de nettoyage."
+                    },
+                    {
+                        "type": "image",
+                        "value": "eauoxygene_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Pour fabriquer de l'eau oxygénée, il est possible d'utiliser un procédé de laboratoire, mais cela nécessite des équipements spécialisés. Cependant, il est également possible de produire de l'eau oxygénée en utilisant des ingrédients courants comme le peroxyde de sodium et l'acide chlorhydrique, qui peuvent être trouvés dans les magasins de fournitures industrielles ou chimiques.\n Voici la recette pour fabriquer de l'eau oxygénée en utilisant ces ingrédients :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Mélanger 40g de peroxyde de sodium avec 500mL d'eau froide."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Ajouter lentement 300mL d'acide chlorhydrique tout en remuant le mélange."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Chauffer le mélange à environ 70°C pendant une heure tout en remuant doucement."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Laisser refroidir le mélange à température ambiante."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Filtrer le mélange pour éliminer les impuretés."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Il est important de noter que cette méthode de fabrication de l'eau oxygénée peut être dangereuse et doit être réalisée avec précaution et en utilisant des équipements de protection appropriés. Il est recommandé de se renseigner sur les précautions à prendre avant de tenter cette méthode.\n\nIl est également possible de fabriquer de l'eau oxygénée en utilisant des ingrédients naturels tels que le miel et la luzerne, mais cette méthode est plus complexe et nécessite des connaissances spécialisées. Dans tous les cas, il est recommandé de se renseigner auprès de professionnels avant de tenter de fabriquer de l'eau oxygénée par soi-même."
+                    }
+                ]
+            },
+            {
+                "id": "ABB",
+                "title": "L'acide citrique",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "L'acide citrique est un composé organique très utile dans de nombreuses applications, notamment dans l'industrie alimentaire, la fabrication de produits de nettoyage, la conservation des aliments et même en médecine. Il est généralement utilisé comme agent acidifiant, conservateur, agent de texture et agent de saveur.\n\nL'acide citrique peut être utilisé pour augmenter l'acidité des aliments, comme les confitures et les conserves, pour empêcher la prolifération de bactéries. Il peut également être utilisé comme agent nettoyant pour enlever la rouille et les dépôts minéraux des surfaces. Enfin, il peut servir à adoucir l'eau et à éliminer les odeurs désagréables.\n\nPour fabriquer de l'acide citrique, il est possible de réaliser une fermentation naturelle à partir de fruits riches en acide citrique, comme le citron, la lime ou le pamplemousse. Voici une recette simple pour produire de l'acide citrique chez soi:"
+                    },
+                    {
+                        "type": "image",
+                        "value": "citrique_fr_en"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Lavez les fruits et coupez-les en petits morceaux."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Dans une grande casserole, ajoutez les fruits, l'eau et le sucre."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Faites chauffer à feu doux pendant environ 2 heures en remuant régulièrement."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Laissez refroidir et filtrez le liquide obtenu pour ne conserver que le jus."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Ajoutez du bicarbonate de soude (environ 100 g pour un litre de jus) jusqu'à ce que le mélange ne mousse plus."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Laissez le mélange reposer pendant 24 à 48 heures à température ambiante, jusqu'à ce que des cristaux se forment au fond du récipient."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Filtrez le liquide et laissez les cristaux sécher à l'air libre."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Une fois les cristaux secs, broyez-les pour obtenir de l'acide citrique en poudre."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Il est important de noter que cette méthode prend du temps et nécessite un certain savoir-faire pour obtenir un résultat satisfaisant. Si vous n'êtes pas à l'aise avec cette technique, il est possible d'acheter de l'acide citrique dans des magasins spécialisés ou en ligne."
+                    }
+                ]
+            },
+            {
+                "id": "ABC",
+                "title": "Le Savon",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Le savon est un produit essentiel pour l'hygiène et la propreté. Il est utilisé pour laver les mains, le corps, les vêtements et même la vaisselle. Il permet d'éliminer les bactéries, les virus et les saletés. En fabriquer soi-même peut être utile en cas de pénurie ou pour des raisons écologiques. Voici une recette simple pour fabriquer son propre savon :"
+                    },
+                    {
+                        "type": "image",
+                        "value": "savon_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Ingrédients : huile d'olive, huile de coco, soude caustique, eau, huiles essentielles (facultatif)"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Étapes :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "1. Mélanger 500g d'huile d'olive et 250g d'huile de coco dans une casserole et faire chauffer à feu doux."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "2. Dans un autre récipient, mélanger 63g de soude caustique et 150ml d'eau (attention, cette étape doit être réalisée avec des gants de protection et dans un endroit bien ventilé)."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "3. Ajouter lentement la solution de soude caustique à la casserole d'huiles, tout en mélangeant constamment."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "4. Continuer de mélanger jusqu'à ce que le mélange atteigne la trace, c'est-à-dire qu'il épaississe et commence à former des motifs à la surface."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "5. Ajouter éventuellement quelques gouttes d'huiles essentielles pour parfumer le savon."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "6. Verser le mélange dans un moule à savon et le laisser durcir pendant 24 heures."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "7. Démouler le savon et le laisser sécher pendant environ 4 semaines avant de l'utiliser."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Il est important de noter que la soude caustique est un produit corrosif et dangereux. Il est donc important de prendre toutes les précautions nécessaires lors de la manipulation de cette substance. Il est également possible de fabriquer du savon sans soude caustique en utilisant de la cendre de bois, mais cette méthode est plus complexe et nécessite plus de temps."
+                      }
+                ]
+            },
+            {
+                "id": "ABD",
+                "title": "La Glycérine",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                {
+                "type": "text",
+                "value": "La glycérine est un liquide visqueux, incolore et inodore. Elle est utilisée dans de nombreux domaines, tels que la cosmétique, la pharmaceutique, l'alimentaire, l'automobile et même la pyrotechnie. La glycérine est un produit de base important dans l'industrie chimique, car elle peut être transformée en de nombreux autres produits chimiques."
+                },
+                {
+                "type": "text",
+                "value": "Voici quelques utilisations courantes de la glycérine :"
+                },
+                {
+                "type": "bullet",
+                "value": "Elle est utilisée dans les produits cosmétiques tels que les lotions, les crèmes et les savons pour hydrater et adoucir la peau."
+                },
+                {
+                "type": "bullet",
+                "value": "Elle est utilisée dans les médicaments, tels que les sirops contre la toux, comme agent édulcorant et pour améliorer la saveur."
+                },
+                {
+                "type": "bullet",
+                "value": "Elle est utilisée dans l'industrie alimentaire comme édulcorant, conservateur et pour empêcher le sucre de cristalliser."
+                },
+                {
+                "type": "bullet",
+                "value": "Elle est utilisée dans l'industrie automobile comme liquide de frein et de refroidissement."
+                },
+                {
+                "type": "bullet",
+                "value": "Elle est utilisée dans la pyrotechnie comme composant pour créer des fumées colorées."
+                },
+                {
+                "type": "text",
+                "value": "Si vous voulez fabriquer votre propre glycérine, vous pouvez le faire en utilisant de la soude caustique et de l'huile végétale. Voici la recette :"
+                },
+                {
+                "type": "bullet",
+                "value": "Mélangez 950 g d'huile végétale avec 200 g de soude caustique dans un récipient en verre résistant à la chaleur."
+                },
+                {
+                "type": "bullet",
+                "value": "Placez le récipient dans un bain-marie à feu doux et remuez jusqu'à ce que le mélange atteigne une température de 80°C."
+                },
+                {
+                "type": "bullet",
+                "value": "Laissez refroidir le mélange à température ambiante pendant 24 heures."
+                },
+                {
+                "type": "bullet",
+                "value": "Versez le mélange dans un autre récipient et laissez reposer pendant 24 heures supplémentaires pour permettre à la glycérine de se séparer de l'huile et de la soude caustique."
+                },
+                {
+                "type": "bullet",
+                "value": "Filtrez la glycérine à l'aide d'un filtre à café ou d'un tissu fin pour éliminer les impuretés."
+                },
+                {
+                "type": "bullet",
+                "value": "La glycérine doit être conservée dans un récipient en verre hermétique dans un endroit frais et sombre."
+                }
+                ]
+            },
+            {
+                "id": "ABE",
+                "title": "Alcool à friction",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                {
+                "type": "text",
+                "value": "L'alcool à friction, également connu sous le nom d'alcool isopropylique, est un produit chimique couramment utilisé pour nettoyer les surfaces et les instruments médicaux. Il est également utile pour la désinfection des plaies et la prévention des infections."
+                },
+                {
+                "type": "text",
+                "value": "Voici la recette pour fabriquer de l'alcool à friction à la maison :"
+                },
+                {
+                "type": "bullet",
+                "value": "Matériel nécessaire :"
+                },
+                {
+                "type": "text",
+                "value": "Pour fabriquer de l'alcool à friction, vous aurez besoin de :"
+                },
+                {
+                "type": "bullet",
+                "value": "Des gants de protection"
+                },
+                {
+                "type": "bullet",
+                "value": "De l'alcool isopropylique à 99%"
+                },
+                {
+                "type": "bullet",
+                "value": "Un récipient en verre avec un couvercle hermétique"
+                },
+                {
+                "type": "bullet",
+                "value": "De l'eau distillée"
+                },
+                {
+                "type": "bullet",
+                "value": "Une bouteille de vaporisateur"
+                },
+                {
+                "type": "text",
+                "value": "Voici les étapes à suivre pour fabriquer de l'alcool à friction à la maison :"
+                },
+                {
+                "type": "bullet",
+                "value": "1. Portez des gants de protection pour éviter tout contact direct avec l'alcool."
+                },
+                {
+                "type": "bullet",
+                "value": "2. Versez 2/3 de l'alcool isopropylique à 99% et 1/3 d'eau distillée dans le récipient en verre."
+                },
+                {
+                "type": "bullet",
+                "value": "3. Fermez le récipient hermétiquement et secouez-le doucement pour mélanger les ingrédients."
+                },
+                {
+                "type": "bullet",
+                "value": "4. Transvasez le mélange dans une bouteille de vaporisateur pour une utilisation pratique."
+                },
+                {
+                "type": "text",
+                "value": "Il est important de noter que l'utilisation d'alcool à friction peut être dangereuse et doit être effectuée avec prudence. Il est également recommandé d'utiliser de l'alcool à friction à 70% plutôt qu'à 99% pour une efficacité maximale."
+                },
+                {
+                    "type": "text",
+                    "value": "L'alcool isopropylique est également connu sous le nom d'alcool isopropanol ou IPA. Il est couramment utilisé comme antiseptique, désinfectant, solvant et nettoyant. Voici quelques options pour obtenir de l'alcool isopropylique :"
+                  },
+                  {
+                    "type": "text",
+                    "value": "Acheter de l'alcool isopropylique en ligne ou en magasin. Il est souvent disponible dans les pharmacies, les supermarchés, les quincailleries et les magasins spécialisés."
+                  },
+                  {
+                    "type": "text",
+                    "value": "Utiliser de l'alcool à friction, qui contient généralement de l'alcool isopropylique à 70% ou 91%. Il est important de vérifier l'étiquette pour s'assurer que le produit contient bien de l'alcool isopropylique et qu'il est sûr pour l'utilisation prévue."
+                  },
+                  {
+                    "type": "text",
+                    "value": "Fabriquer de l'alcool isopropylique en distillant de l'éthanol à partir de sources telles que la canne à sucre, la betterave à sucre, le maïs ou les pommes de terre. Ensuite, le produit est mélangé avec de l'eau et distillé à nouveau pour obtenir de l'alcool isopropylique pur. Cependant, cette méthode peut être dangereuse et doit être effectuée avec prudence et dans un environnement approprié."
+                  }
+                ]
+            },
+            {
+                "id": "ABF",
+                "title": "Fabrications huiles essentielles",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                {
+                "type": "text",
+                "value": "Les huiles essentielles sont des extraits naturels de plantes utilisés depuis des milliers d'années pour leurs propriétés thérapeutiques et leur parfum. Elles sont obtenues par distillation à la vapeur d'eau ou par pression à froid des parties de plantes comme les feuilles, les fleurs, les écorces ou les racines."
+                },
+                {
+                "type": "image",
+                "value": "oil_fr_en"
+                },
+                {
+                "type": "text",
+                "value": "Les huiles essentielles sont utilisées dans une variété de domaines tels que la médecine alternative, la cosmétique, l'aromathérapie, la cuisine, la parfumerie et bien plus encore. Elles peuvent être utilisées pour traiter diverses affections telles que le stress, les maux de tête, les douleurs musculaires et articulaires, les problèmes digestifs, les troubles du sommeil, les infections et bien d'autres encore."
+                },
+                {
+                "type": "bullet",
+                "value": "Pour fabriquer des huiles essentielles chez soi, il faut disposer de matériel de distillation tel qu'un alambic ou un appareil de distillation à vapeur d'eau. Le processus de distillation est assez complexe et nécessite une certaine expertise pour obtenir des huiles essentielles de qualité."
+                },
+                {
+                "type": "bullet",
+                "value": "Il est également possible de faire des huiles essentielles par macération dans une huile végétale. Pour cela, il faut laisser macérer les plantes dans une huile végétale pendant plusieurs semaines. Cette méthode est plus simple que la distillation, mais elle ne permet pas d'obtenir une huile essentielle pure et concentrée."
+                },
+                {
+                "type": "bullet",
+                "value": "Pour faire une huile essentielle de lavande par exemple, il faut cueillir les fleurs de lavande et les faire sécher pendant quelques jours. Ensuite, on les met dans un alambic avec de l'eau et on fait chauffer le tout. La vapeur d'eau entraîne les huiles essentielles hors des fleurs et les fait passer dans un récipient où elles sont recueillies."
+                }
+                ]
+            },
+            {
+                "id": "ABG",
+                "title": "Faire sa lessive",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "La lessive est un produit essentiel pour nettoyer nos vêtements et tissus en général. Elle permet d'éliminer les taches, les saletés et les mauvaises odeurs, tout en laissant une agréable odeur de propreté. Il existe de nombreuses recettes de lessive maison, souvent plus respectueuses de l'environnement et de notre santé que les lessives industrielles qui contiennent souvent des produits chimiques toxiques. Voici une recette simple pour fabriquer votre propre lessive maison :"
+                    },
+                    {
+                        "type": "image",
+                        "value": "lessive_fr_en"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Ingrédients :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "100 g de savon de Marseille en copeaux"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "2 litres d'eau"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "1 cuillère à soupe de bicarbonate de soude"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Il est possible d'ajouter quelques gouttes d'huiles essentielles pour parfumer la lessive, mais cela reste facultatif."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Instructions :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "1. Dans une casserole, faire chauffer l'eau."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "2. Ajouter les copeaux de savon de Marseille et remuer jusqu'à ce qu'ils soient totalement dissous."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "3. Ajouter le bicarbonate de soude et remuer de nouveau."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "4. Retirer la casserole du feu et laisser refroidir."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "5. Une fois la lessive refroidie, la verser dans un bidon ou une bouteille en verre."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "6. Bien agiter le bidon avant chaque utilisation."
+                    },
+                    {
+                               "type": "text",
+                               "value": "Saviez-vous que vous pouvez faire de la lessive avec du lierre ? Cette plante contient des saponines naturelles, des substances qui ont des propriétés nettoyantes et moussantes. Voici comment procéder :"
+                           },
+                           {
+                               "type": "bullet",
+                               "value": "Cueillir une vingtaine de feuilles de lierre (fraîches ou séchées) et les laver pour enlever toute trace de saleté."
+                           },
+                           {
+                               "type": "bullet",
+                               "value": "Mettre les feuilles dans une casserole et ajouter 1 litre d'eau."
+                           },
+                           {
+                               "type": "bullet",
+                               "value": "Faire bouillir pendant une vingtaine de minutes, puis laisser refroidir."
+                           },
+                           {
+                               "type": "bullet",
+                               "value": "Filtrer le liquide à l'aide d'une passoire pour retirer les feuilles."
+                           },
+                           {
+                               "type": "bullet",
+                               "value": "Mettre le liquide obtenu dans une bouteille en verre ou un récipient hermétique."
+                           },
+                           {
+                               "type": "bullet",
+                               "value": "Pour laver votre linge, ajouter environ 100 ml de ce liquide à votre machine à laver."
+                           },
+                           {
+                               "type": "bullet",
+                               "value": "Vous pouvez ajouter quelques gouttes d'huile essentielle de votre choix pour parfumer votre lessive."
+                           },
+                           {
+                               "type": "text",
+                               "value": "Cette lessive naturelle est écologique, économique et facile à fabriquer chez soi. En plus, elle ne contient aucun produit chimique nocif pour l'environnement ou pour la santé."
+                           }
+                ]
+
+            },
+            
         ],
         "isPremium": true
     }

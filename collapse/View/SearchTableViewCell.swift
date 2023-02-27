@@ -31,7 +31,7 @@ final class SearchTableViewCell: UITableViewCell {
         for value in with.items {
             itemsText += "checklist:"+value.title
             itemsText += " & "+value.subtitle
-            //FIXME: - tlatla itemsText += ", description: "+value.
+            // FIXME: - tlatla itemsText += ", description: "+value.
         }
         
         let fullText = with.title+" & "+with.subtitle+", description: "+with.descriptionShort+" & description : "+with.descriptionLong+itemsText

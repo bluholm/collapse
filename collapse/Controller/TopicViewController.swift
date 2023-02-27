@@ -141,7 +141,7 @@ final class TopicViewController: UIViewController {
     }
     
     private func loadingTopic() {
-        subtitleLabel.text = topic.subtitle
+        subtitleLabel.text = topic.title
         imageView.image = UIImage(named: topic.image)
         shortDescriptionTextView.text = topic.descriptionShort
         longDescriptionTextView.text = topic.descriptionLong
