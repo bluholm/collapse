@@ -70,18 +70,29 @@ final class SettingsTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 5
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if indexPath.row == 1 {
-            guard let vc = storyboard?.instantiateViewController(withIdentifier: "disclaimerViewController") as? DisclaimerViewController else { return }
-            self.navigationController?.pushViewController(vc, animated: true)
-        }
         if indexPath.row == 0 {
             guard let vc = storyboard?.instantiateViewController(withIdentifier: "thanksViewController") as? ThanksViewController else { return }
             self.navigationController?.pushViewController(vc, animated: true)
         }
+        if indexPath.row == 1 {
+            if let url = URL(string: Constants.privacyPolicyLink) {
+                    UIApplication.shared.open(url)
+                }
+        }
+        if indexPath.row == 2 {
+            if let url = URL(string: Constants.eulaLink) {
+                    UIApplication.shared.open(url)
+                }
+        }
+        if indexPath.row == 3 {
+            guard let vc = storyboard?.instantiateViewController(withIdentifier: "disclaimerViewController") as? DisclaimerViewController else { return }
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
     }
     
 }
