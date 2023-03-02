@@ -1,5 +1,5 @@
 ##Version 1.0 
-[todo] ThanksVC.swift to be generated.
+[d] ThanksVC.swift to be generated.
 [todo] open a list pour les tips + FireBase 
 [todo] ajouter les liens dans la page items  
 [todo] slide version des le debut 3 pour expliquer ce que fait l'application
@@ -10,7 +10,7 @@
 [todo] presentation 3-slides at the launching game
 [todo] change le settings repositort (a faire lorsque le app in purhcase est mis en place)
 [todo] alimenter plein de liens vers achats etc...
-[todo] mode payant + privacy policy button + EULA button
+[todo] mode payant
 
 ##Features ?! 
 [todo] des tags

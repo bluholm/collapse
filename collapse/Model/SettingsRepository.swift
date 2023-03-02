@@ -16,6 +16,7 @@ final class SettingsRepository {
         static let userIsPremium = "userIsPremium"
         static let checkItem = "checkItem"
         static let mode = "mode"
+        static let didReadPresentation = "didReadPresentation"
         
     }
     
@@ -34,6 +35,15 @@ final class SettingsRepository {
         }
         set {
             userDefault.set(newValue, forKey: Keys.userIsPremium)
+        }
+    }
+    
+    static var didReadPresentation: Bool {
+        get {
+            return userDefault.bool(forKey: Keys.didReadPresentation)
+        }
+        set {
+            userDefault.set(newValue, forKey: Keys.didReadPresentation)
         }
     }
     

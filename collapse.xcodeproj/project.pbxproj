@@ -60,6 +60,8 @@
 		0ED3C4FF29932A4C005910CF /* JsonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4FE29932A4C005910CF /* JsonService.swift */; };
 		0ED3C5012993303C005910CF /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C5002993303C005910CF /* TopicTableViewCell.swift */; };
 		0ED3C50329937A7D005910CF /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C50229937A7D005910CF /* ItemTableViewCell.swift */; };
+		0EE3882129B08FD500C8696D /* StartScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE3882029B08FD500C8696D /* StartScrollViewController.swift */; };
+		0EE3882429B0904200C8696D /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = 0EE3882329B0904200C8696D /* LoremSwiftum */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +129,7 @@
 		0ED3C4FE29932A4C005910CF /* JsonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonService.swift; sourceTree = "<group>"; };
 		0ED3C5002993303C005910CF /* TopicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
 		0ED3C50229937A7D005910CF /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		0EE3882029B08FD500C8696D /* StartScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +146,7 @@
 			files = (
 				0E0D635529AF4E610017E1C2 /* FirebaseDatabaseSwift in Frameworks */,
 				0E0D635329AF4E610017E1C2 /* FirebaseDatabase in Frameworks */,
+				0EE3882429B0904200C8696D /* LoremSwiftum in Frameworks */,
 				0E0D635129AF4E610017E1C2 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,6 +321,7 @@
 				0E18B33929975741000F1A1F /* ThanksViewController.swift */,
 				0ED3390629999642006260AC /* PremiumViewController.swift */,
 				0E7F674C299E13CE006807EC /* ItemViewController.swift */,
+				0EE3882029B08FD500C8696D /* StartScrollViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -360,6 +365,7 @@
 				0E0D635029AF4E610017E1C2 /* FirebaseAnalytics */,
 				0E0D635229AF4E610017E1C2 /* FirebaseDatabase */,
 				0E0D635429AF4E610017E1C2 /* FirebaseDatabaseSwift */,
+				0EE3882329B0904200C8696D /* LoremSwiftum */,
 			);
 			productName = collapse;
 			productReference = 0ED3C4BD2992056E005910CF /* collapse.app */;
@@ -396,6 +402,7 @@
 			mainGroup = 0ED3C4B42992056E005910CF;
 			packageReferences = (
 				0E0D634F29AF4E610017E1C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				0EE3882229B0904200C8696D /* XCRemoteSwiftPackageReference "LoremSwiftum" */,
 			);
 			productRefGroup = 0ED3C4BE2992056E005910CF /* Products */;
 			projectDirPath = "";
@@ -485,6 +492,7 @@
 				0ED3C4F929931FF9005910CF /* TopicViewController.swift in Sources */,
 				0E7F675D299F1DA2006807EC /* ImageItemTableViewCell.swift in Sources */,
 				0ED2E7D629983EE800BD5B0F /* TopicCollectionViewCell.swift in Sources */,
+				0EE3882129B08FD500C8696D /* StartScrollViewController.swift in Sources */,
 				0E0350CB2995E33A00AEC8A2 /* ScoreService.swift in Sources */,
 				0E18B33629974D69000F1A1F /* Mode.swift in Sources */,
 				0ED3C4CB2992056E005910CF /* collapse.xcdatamodeld in Sources */,
@@ -810,6 +818,14 @@
 				kind = branch;
 			};
 		};
+		0EE3882229B0904200C8696D /* XCRemoteSwiftPackageReference "LoremSwiftum" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lukaskubanek/LoremSwiftum.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -827,6 +843,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0E0D634F29AF4E610017E1C2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseDatabaseSwift;
+		};
+		0EE3882329B0904200C8696D /* LoremSwiftum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0EE3882229B0904200C8696D /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
+			productName = LoremSwiftum;
 		};
 /* End XCSwiftPackageProductDependency section */
 
