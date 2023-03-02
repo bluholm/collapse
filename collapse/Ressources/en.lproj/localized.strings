@@ -62,3 +62,11 @@ Please note that emergency situations can change rapidly and the advice given ma
 // ThanksViewController.swift
 "THANKS_TEXT" = "Thanks";
 "THANKS_TITLE" = "Thank you to all artist from unsplash : ";
+
+//StartScrollViewController.swift
+"START_TITLE_1" = "Autonomy?";
+"START_TITLE2_" = "Are you ready?";
+"START_TITLE_3" = "Checklist!";
+"START_DESCRIPTION_1" = "Discover the essential skills for being self-sufficient in all circumstances.";
+"START_DESCRIPTION_2" = "The most prepared have a greater chance of success in times of crisis.";
+"START_DESCRIPTION_3" = "Don't forget anything in order to be ready to face an emergency situation with our complete list of equipment and skills.";

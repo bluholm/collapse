@@ -19,11 +19,13 @@ class PresentationScrollViewController: UIViewController {
     @IBOutlet var pageControl: UIPageControl!
     // constants & properties
     private let imageNames = ["presentation2", "presentation3", "presentation1"]
-    private let titles = [Lorem.words(3), Lorem.words(3), Lorem.words(3)]
-    private let messages = [Lorem.sentence, Lorem.sentence, Lorem.sentence]
+    private let titles = ["START_TITLE_1".localized(), "START_TITLE_2".localized(), "START_TITLE_3".localized()]
+    private let messages = ["START_DESCRIPTION_1".localized(),
+                            "START_DESCRIPTION_2".localized(),
+                            "START_DESCRIPTION_3".localized()]
     private let width = UIScreen.main.bounds.width
     private let heigt = UIScreen.main.bounds.height
-    private let imagePageControl = "heart.fill"
+    private let imagePageControl = "tree.fill"
     
     @available(iOS 14.0, *)
     open var preferredIndicatorImage: UIImage?

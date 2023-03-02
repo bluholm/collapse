@@ -63,3 +63,11 @@ Veuillez noter que les situations d'urgence peuvent changer rapidement et que le
 // ThanksViewController.swift
 "THANKS_TEXT" = "Merci à tous les auteurs splash qui ont contribué !";
 "THANKS_TITLE" = "Remerciements";
+
+//StartScrollViewController.swift
+"START_TITLE_1" = "Autonomie ?";
+"START_TITLE2" = "Êtes-vous prêt ?";
+"START_TITLE_3" = "Checklist !";
+"START_DESCRIPTION_1" = "Découvrez les compétences essentielles pour être autonome en toutes circonstances.";
+"START_DESCRIPTION_2" = "Les plus préparés ont plus de chances de réussir en cas de crises.";
+"START_DESCRIPTION_3" = "Ne rien oublier pour être prêt à affronter une situation d'urgence grâce à notre liste complète de matériel et de compétences.";
