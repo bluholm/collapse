@@ -13,12 +13,7 @@ final class ItemCustomTableViewCell: UITableViewCell {
     @IBOutlet var itemLabel: UILabel!
     @IBOutlet var switchItem: UISwitch!
     var itemId: String?
-    
-    // MARK: - ovverides
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
-    
+        
     // MARK: - Public
     func configure(with: Item) {
         if SettingsRepository.checkItem.keys.contains(with.id) {

@@ -19,6 +19,8 @@
 "MAIN_BUTTON_VIEW_ALL" = "Voir tout (%d)";
 "MAIN_INFORMATION_TITLE_MESSAGE" = "Informations";
 "MAIN_INFORMATION_ACTION_BUTTON" = "OK";
+"MAIN_TIPS_TITLE" = "ASTUCES";
+"MAIN_TIPS_DESCRIPTION" = "Voici un tips très important à voir pour ne pas vous tromper !";
 
 // Disclaimer.swift
 "DISCLAIMER_TITLE" = "Non-responsabilité";
@@ -57,3 +59,7 @@ Veuillez noter que les situations d'urgence peuvent changer rapidement et que le
 "TITLE_BOX_THREE" = "pour la vie";
 "PURCHASE_BUTTON_TITLE" = "Bientôt";
 "RESTORE_BUTTON_TITLE" = "restaurer mon achat";
+
+// ThanksViewController.swift
+"THANKS_TEXT" = "Merci à tous les auteurs splash qui ont contribué !";
+"THANKS_TITLE" = "Remerciements";

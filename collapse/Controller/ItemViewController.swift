@@ -77,7 +77,6 @@ extension NewItemViewController: UITableViewDataSource, UITableViewDelegate {
             cell.configure(with: item.content[indexPath.row].value)
             return cell
         } else {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
             return UITableViewCell()
         }
     }

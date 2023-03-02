@@ -626,8 +626,8 @@
         "image": "hunting",
         "links": [
             {
-                "url": "https://fr.wikihow.com/recharger-soi-même-ses-munitions-utilisées",
-                "description": "Site Web",
+                "url": "https://www.bensport.fr/wp-content/uploads/2019/03/Initiation-au-rechargement.pdf",
+                "description": "pdf",
                 "title": "Faire ses munitions"
             },
             {
@@ -1441,7 +1441,7 @@
                     {
                         "type": "text",
                         "value": "Il est important de noter que la soude caustique est un produit corrosif et dangereux. Il est donc important de prendre toutes les précautions nécessaires lors de la manipulation de cette substance. Il est également possible de fabriquer du savon sans soude caustique en utilisant de la cendre de bois, mais cette méthode est plus complexe et nécessite plus de temps."
-                      }
+                    }
                 ]
             },
             {
@@ -1452,62 +1452,62 @@
                 "image": "",
                 "links": [],
                 "content": [
-                {
-                "type": "text",
-                "value": "La glycérine est un liquide visqueux, incolore et inodore. Elle est utilisée dans de nombreux domaines, tels que la cosmétique, la pharmaceutique, l'alimentaire, l'automobile et même la pyrotechnie. La glycérine est un produit de base important dans l'industrie chimique, car elle peut être transformée en de nombreux autres produits chimiques."
-                },
-                {
-                "type": "text",
-                "value": "Voici quelques utilisations courantes de la glycérine :"
-                },
-                {
-                "type": "bullet",
-                "value": "Elle est utilisée dans les produits cosmétiques tels que les lotions, les crèmes et les savons pour hydrater et adoucir la peau."
-                },
-                {
-                "type": "bullet",
-                "value": "Elle est utilisée dans les médicaments, tels que les sirops contre la toux, comme agent édulcorant et pour améliorer la saveur."
-                },
-                {
-                "type": "bullet",
-                "value": "Elle est utilisée dans l'industrie alimentaire comme édulcorant, conservateur et pour empêcher le sucre de cristalliser."
-                },
-                {
-                "type": "bullet",
-                "value": "Elle est utilisée dans l'industrie automobile comme liquide de frein et de refroidissement."
-                },
-                {
-                "type": "bullet",
-                "value": "Elle est utilisée dans la pyrotechnie comme composant pour créer des fumées colorées."
-                },
-                {
-                "type": "text",
-                "value": "Si vous voulez fabriquer votre propre glycérine, vous pouvez le faire en utilisant de la soude caustique et de l'huile végétale. Voici la recette :"
-                },
-                {
-                "type": "bullet",
-                "value": "Mélangez 950 g d'huile végétale avec 200 g de soude caustique dans un récipient en verre résistant à la chaleur."
-                },
-                {
-                "type": "bullet",
-                "value": "Placez le récipient dans un bain-marie à feu doux et remuez jusqu'à ce que le mélange atteigne une température de 80°C."
-                },
-                {
-                "type": "bullet",
-                "value": "Laissez refroidir le mélange à température ambiante pendant 24 heures."
-                },
-                {
-                "type": "bullet",
-                "value": "Versez le mélange dans un autre récipient et laissez reposer pendant 24 heures supplémentaires pour permettre à la glycérine de se séparer de l'huile et de la soude caustique."
-                },
-                {
-                "type": "bullet",
-                "value": "Filtrez la glycérine à l'aide d'un filtre à café ou d'un tissu fin pour éliminer les impuretés."
-                },
-                {
-                "type": "bullet",
-                "value": "La glycérine doit être conservée dans un récipient en verre hermétique dans un endroit frais et sombre."
-                }
+                    {
+                        "type": "text",
+                        "value": "La glycérine est un liquide visqueux, incolore et inodore. Elle est utilisée dans de nombreux domaines, tels que la cosmétique, la pharmaceutique, l'alimentaire, l'automobile et même la pyrotechnie. La glycérine est un produit de base important dans l'industrie chimique, car elle peut être transformée en de nombreux autres produits chimiques."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Voici quelques utilisations courantes de la glycérine :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Elle est utilisée dans les produits cosmétiques tels que les lotions, les crèmes et les savons pour hydrater et adoucir la peau."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Elle est utilisée dans les médicaments, tels que les sirops contre la toux, comme agent édulcorant et pour améliorer la saveur."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Elle est utilisée dans l'industrie alimentaire comme édulcorant, conservateur et pour empêcher le sucre de cristalliser."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Elle est utilisée dans l'industrie automobile comme liquide de frein et de refroidissement."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Elle est utilisée dans la pyrotechnie comme composant pour créer des fumées colorées."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Si vous voulez fabriquer votre propre glycérine, vous pouvez le faire en utilisant de la soude caustique et de l'huile végétale. Voici la recette :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Mélangez 950 g d'huile végétale avec 200 g de soude caustique dans un récipient en verre résistant à la chaleur."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Placez le récipient dans un bain-marie à feu doux et remuez jusqu'à ce que le mélange atteigne une température de 80°C."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Laissez refroidir le mélange à température ambiante pendant 24 heures."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Versez le mélange dans un autre récipient et laissez reposer pendant 24 heures supplémentaires pour permettre à la glycérine de se séparer de l'huile et de la soude caustique."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Filtrez la glycérine à l'aide d'un filtre à café ou d'un tissu fin pour éliminer les impuretés."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "La glycérine doit être conservée dans un récipient en verre hermétique dans un endroit frais et sombre."
+                    }
                 ]
             },
             {
@@ -1518,82 +1518,82 @@
                 "image": "",
                 "links": [],
                 "content": [
-                {
-                "type": "text",
-                "value": "L'alcool à friction, également connu sous le nom d'alcool isopropylique, est un produit chimique couramment utilisé pour nettoyer les surfaces et les instruments médicaux. Il est également utile pour la désinfection des plaies et la prévention des infections."
-                },
-                {
-                "type": "text",
-                "value": "Voici la recette pour fabriquer de l'alcool à friction à la maison :"
-                },
-                {
-                "type": "bullet",
-                "value": "Matériel nécessaire :"
-                },
-                {
-                "type": "text",
-                "value": "Pour fabriquer de l'alcool à friction, vous aurez besoin de :"
-                },
-                {
-                "type": "bullet",
-                "value": "Des gants de protection"
-                },
-                {
-                "type": "bullet",
-                "value": "De l'alcool isopropylique à 99%"
-                },
-                {
-                "type": "bullet",
-                "value": "Un récipient en verre avec un couvercle hermétique"
-                },
-                {
-                "type": "bullet",
-                "value": "De l'eau distillée"
-                },
-                {
-                "type": "bullet",
-                "value": "Une bouteille de vaporisateur"
-                },
-                {
-                "type": "text",
-                "value": "Voici les étapes à suivre pour fabriquer de l'alcool à friction à la maison :"
-                },
-                {
-                "type": "bullet",
-                "value": "1. Portez des gants de protection pour éviter tout contact direct avec l'alcool."
-                },
-                {
-                "type": "bullet",
-                "value": "2. Versez 2/3 de l'alcool isopropylique à 99% et 1/3 d'eau distillée dans le récipient en verre."
-                },
-                {
-                "type": "bullet",
-                "value": "3. Fermez le récipient hermétiquement et secouez-le doucement pour mélanger les ingrédients."
-                },
-                {
-                "type": "bullet",
-                "value": "4. Transvasez le mélange dans une bouteille de vaporisateur pour une utilisation pratique."
-                },
-                {
-                "type": "text",
-                "value": "Il est important de noter que l'utilisation d'alcool à friction peut être dangereuse et doit être effectuée avec prudence. Il est également recommandé d'utiliser de l'alcool à friction à 70% plutôt qu'à 99% pour une efficacité maximale."
-                },
-                {
-                    "type": "text",
-                    "value": "L'alcool isopropylique est également connu sous le nom d'alcool isopropanol ou IPA. Il est couramment utilisé comme antiseptique, désinfectant, solvant et nettoyant. Voici quelques options pour obtenir de l'alcool isopropylique :"
-                  },
-                  {
-                    "type": "text",
-                    "value": "Acheter de l'alcool isopropylique en ligne ou en magasin. Il est souvent disponible dans les pharmacies, les supermarchés, les quincailleries et les magasins spécialisés."
-                  },
-                  {
-                    "type": "text",
-                    "value": "Utiliser de l'alcool à friction, qui contient généralement de l'alcool isopropylique à 70% ou 91%. Il est important de vérifier l'étiquette pour s'assurer que le produit contient bien de l'alcool isopropylique et qu'il est sûr pour l'utilisation prévue."
-                  },
-                  {
-                    "type": "text",
-                    "value": "Fabriquer de l'alcool isopropylique en distillant de l'éthanol à partir de sources telles que la canne à sucre, la betterave à sucre, le maïs ou les pommes de terre. Ensuite, le produit est mélangé avec de l'eau et distillé à nouveau pour obtenir de l'alcool isopropylique pur. Cependant, cette méthode peut être dangereuse et doit être effectuée avec prudence et dans un environnement approprié."
-                  }
+                    {
+                        "type": "text",
+                        "value": "L'alcool à friction, également connu sous le nom d'alcool isopropylique, est un produit chimique couramment utilisé pour nettoyer les surfaces et les instruments médicaux. Il est également utile pour la désinfection des plaies et la prévention des infections."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Voici la recette pour fabriquer de l'alcool à friction à la maison :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Matériel nécessaire :"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Pour fabriquer de l'alcool à friction, vous aurez besoin de :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Des gants de protection"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "De l'alcool isopropylique à 99%"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Un récipient en verre avec un couvercle hermétique"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "De l'eau distillée"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Une bouteille de vaporisateur"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Voici les étapes à suivre pour fabriquer de l'alcool à friction à la maison :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "1. Portez des gants de protection pour éviter tout contact direct avec l'alcool."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "2. Versez 2/3 de l'alcool isopropylique à 99% et 1/3 d'eau distillée dans le récipient en verre."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "3. Fermez le récipient hermétiquement et secouez-le doucement pour mélanger les ingrédients."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "4. Transvasez le mélange dans une bouteille de vaporisateur pour une utilisation pratique."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Il est important de noter que l'utilisation d'alcool à friction peut être dangereuse et doit être effectuée avec prudence. Il est également recommandé d'utiliser de l'alcool à friction à 70% plutôt qu'à 99% pour une efficacité maximale."
+                    },
+                    {
+                        "type": "text",
+                        "value": "L'alcool isopropylique est également connu sous le nom d'alcool isopropanol ou IPA. Il est couramment utilisé comme antiseptique, désinfectant, solvant et nettoyant. Voici quelques options pour obtenir de l'alcool isopropylique :"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Acheter de l'alcool isopropylique en ligne ou en magasin. Il est souvent disponible dans les pharmacies, les supermarchés, les quincailleries et les magasins spécialisés."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Utiliser de l'alcool à friction, qui contient généralement de l'alcool isopropylique à 70% ou 91%. Il est important de vérifier l'étiquette pour s'assurer que le produit contient bien de l'alcool isopropylique et qu'il est sûr pour l'utilisation prévue."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Fabriquer de l'alcool isopropylique en distillant de l'éthanol à partir de sources telles que la canne à sucre, la betterave à sucre, le maïs ou les pommes de terre. Ensuite, le produit est mélangé avec de l'eau et distillé à nouveau pour obtenir de l'alcool isopropylique pur. Cependant, cette méthode peut être dangereuse et doit être effectuée avec prudence et dans un environnement approprié."
+                    }
                 ]
             },
             {
@@ -1604,30 +1604,30 @@
                 "image": "",
                 "links": [],
                 "content": [
-                {
-                "type": "text",
-                "value": "Les huiles essentielles sont des extraits naturels de plantes utilisés depuis des milliers d'années pour leurs propriétés thérapeutiques et leur parfum. Elles sont obtenues par distillation à la vapeur d'eau ou par pression à froid des parties de plantes comme les feuilles, les fleurs, les écorces ou les racines."
-                },
-                {
-                "type": "image",
-                "value": "oil_fr_en"
-                },
-                {
-                "type": "text",
-                "value": "Les huiles essentielles sont utilisées dans une variété de domaines tels que la médecine alternative, la cosmétique, l'aromathérapie, la cuisine, la parfumerie et bien plus encore. Elles peuvent être utilisées pour traiter diverses affections telles que le stress, les maux de tête, les douleurs musculaires et articulaires, les problèmes digestifs, les troubles du sommeil, les infections et bien d'autres encore."
-                },
-                {
-                "type": "bullet",
-                "value": "Pour fabriquer des huiles essentielles chez soi, il faut disposer de matériel de distillation tel qu'un alambic ou un appareil de distillation à vapeur d'eau. Le processus de distillation est assez complexe et nécessite une certaine expertise pour obtenir des huiles essentielles de qualité."
-                },
-                {
-                "type": "bullet",
-                "value": "Il est également possible de faire des huiles essentielles par macération dans une huile végétale. Pour cela, il faut laisser macérer les plantes dans une huile végétale pendant plusieurs semaines. Cette méthode est plus simple que la distillation, mais elle ne permet pas d'obtenir une huile essentielle pure et concentrée."
-                },
-                {
-                "type": "bullet",
-                "value": "Pour faire une huile essentielle de lavande par exemple, il faut cueillir les fleurs de lavande et les faire sécher pendant quelques jours. Ensuite, on les met dans un alambic avec de l'eau et on fait chauffer le tout. La vapeur d'eau entraîne les huiles essentielles hors des fleurs et les fait passer dans un récipient où elles sont recueillies."
-                }
+                    {
+                        "type": "text",
+                        "value": "Les huiles essentielles sont des extraits naturels de plantes utilisés depuis des milliers d'années pour leurs propriétés thérapeutiques et leur parfum. Elles sont obtenues par distillation à la vapeur d'eau ou par pression à froid des parties de plantes comme les feuilles, les fleurs, les écorces ou les racines."
+                    },
+                    {
+                        "type": "image",
+                        "value": "oil_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les huiles essentielles sont utilisées dans une variété de domaines tels que la médecine alternative, la cosmétique, l'aromathérapie, la cuisine, la parfumerie et bien plus encore. Elles peuvent être utilisées pour traiter diverses affections telles que le stress, les maux de tête, les douleurs musculaires et articulaires, les problèmes digestifs, les troubles du sommeil, les infections et bien d'autres encore."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Pour fabriquer des huiles essentielles chez soi, il faut disposer de matériel de distillation tel qu'un alambic ou un appareil de distillation à vapeur d'eau. Le processus de distillation est assez complexe et nécessite une certaine expertise pour obtenir des huiles essentielles de qualité."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Il est également possible de faire des huiles essentielles par macération dans une huile végétale. Pour cela, il faut laisser macérer les plantes dans une huile végétale pendant plusieurs semaines. Cette méthode est plus simple que la distillation, mais elle ne permet pas d'obtenir une huile essentielle pure et concentrée."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Pour faire une huile essentielle de lavande par exemple, il faut cueillir les fleurs de lavande et les faire sécher pendant quelques jours. Ensuite, on les met dans un alambic avec de l'eau et on fait chauffer le tout. La vapeur d'eau entraîne les huiles essentielles hors des fleurs et les fait passer dans un récipient où elles sont recueillies."
+                    }
                 ]
             },
             {
@@ -1695,46 +1695,721 @@
                         "value": "6. Bien agiter le bidon avant chaque utilisation."
                     },
                     {
-                               "type": "text",
-                               "value": "Saviez-vous que vous pouvez faire de la lessive avec du lierre ? Cette plante contient des saponines naturelles, des substances qui ont des propriétés nettoyantes et moussantes. Voici comment procéder :"
-                           },
-                           {
-                               "type": "bullet",
-                               "value": "Cueillir une vingtaine de feuilles de lierre (fraîches ou séchées) et les laver pour enlever toute trace de saleté."
-                           },
-                           {
-                               "type": "bullet",
-                               "value": "Mettre les feuilles dans une casserole et ajouter 1 litre d'eau."
-                           },
-                           {
-                               "type": "bullet",
-                               "value": "Faire bouillir pendant une vingtaine de minutes, puis laisser refroidir."
-                           },
-                           {
-                               "type": "bullet",
-                               "value": "Filtrer le liquide à l'aide d'une passoire pour retirer les feuilles."
-                           },
-                           {
-                               "type": "bullet",
-                               "value": "Mettre le liquide obtenu dans une bouteille en verre ou un récipient hermétique."
-                           },
-                           {
-                               "type": "bullet",
-                               "value": "Pour laver votre linge, ajouter environ 100 ml de ce liquide à votre machine à laver."
-                           },
-                           {
-                               "type": "bullet",
-                               "value": "Vous pouvez ajouter quelques gouttes d'huile essentielle de votre choix pour parfumer votre lessive."
-                           },
-                           {
-                               "type": "text",
-                               "value": "Cette lessive naturelle est écologique, économique et facile à fabriquer chez soi. En plus, elle ne contient aucun produit chimique nocif pour l'environnement ou pour la santé."
-                           }
+                        "type": "text",
+                        "value": "Saviez-vous que vous pouvez faire de la lessive avec du lierre ? Cette plante contient des saponines naturelles, des substances qui ont des propriétés nettoyantes et moussantes. Voici comment procéder :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Cueillir une vingtaine de feuilles de lierre (fraîches ou séchées) et les laver pour enlever toute trace de saleté."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Mettre les feuilles dans une casserole et ajouter 1 litre d'eau."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Faire bouillir pendant une vingtaine de minutes, puis laisser refroidir."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Filtrer le liquide à l'aide d'une passoire pour retirer les feuilles."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Mettre le liquide obtenu dans une bouteille en verre ou un récipient hermétique."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Pour laver votre linge, ajouter environ 100 ml de ce liquide à votre machine à laver."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Vous pouvez ajouter quelques gouttes d'huile essentielle de votre choix pour parfumer votre lessive."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Cette lessive naturelle est écologique, économique et facile à fabriquer chez soi. En plus, elle ne contient aucun produit chimique nocif pour l'environnement ou pour la santé."
+                    }
                 ]
-
+                
             },
             
         ],
         "isPremium": true
     }
+    ,
+    {
+        "uid": "5",
+        "title": "La communication",
+        "subtitle": "Morse, Talkie, Radio ... ",
+        "image": "communication",
+        "links": [],
+        "descriptionShort": "Dans une situation de survie, la communication peut être vitale pour assurer votre sécurité et votre survie. Cela peut inclure la capacité de communiquer avec d'autres membres de votre groupe, d'appeler à l'aide ou de recevoir des informations sur la situation extérieure. Dans cette section, nous allons discuter de différents moyens de communication qui peuvent être utiles dans une situation de survie, notamment les talkies-walkies, les radios, le code morse, les téléphones satellitaires, les CB et bien plus encore. Nous vous fournirons des informations sur leur fonctionnement, leur portée et leur utilisation, ainsi que des conseils pour choisir le meilleur moyen de communication en fonction de votre situation.",
+        "descriptionLong": "La communication est un élément crucial en situation de survie. Elle peut permettre de signaler une situation d'urgence, d'appeler des secours, de communiquer avec d'autres personnes pour échanger des informations ou coordonner des actions, ou encore pour maintenir le moral et le lien social en groupe.\n\nIl existe différents moyens de communication adaptés à des situations et des besoins différents. Les talkies-walkies sont des appareils portatifs qui permettent une communication de courte distance entre deux ou plusieurs personnes, sans avoir besoin de réseau ou de ligne téléphonique. Ils sont utiles pour la communication à proximité immédiate, notamment dans un groupe de randonneurs ou de chasseurs.\n\nLes radios, quant à elles, sont des appareils plus sophistiqués qui peuvent permettre une communication à plus longue distance en utilisant des ondes radio. Elles sont utiles pour les situations où la distance entre les personnes à communiquer est plus importante, ou lorsque l'on est en déplacement et que l'on souhaite communiquer avec une base ou une équipe extérieure.\n\nLe code morse est un langage de communication universel utilisé depuis plus d'un siècle, notamment par les militaires et les marins, qui permet de transmettre des messages à travers des signaux sonores ou lumineux. Il est toujours utilisé de nos jours et peut être une alternative intéressante en cas de panne ou de défaillance des autres moyens de communication.\n\nLe téléphone satellitaire est un appareil plus avancé, qui permet de communiquer à distance dans des zones éloignées, où il n'y a pas de réseau téléphonique classique. Il peut être très utile en situation d'urgence, pour appeler des secours ou communiquer avec une équipe extérieure.\n\nEnfin, la CB (Citizen Band) est une autre forme de radio qui permet une communication sur des fréquences dédiées à des utilisateurs civils. Elle peut être utile pour la communication en groupe dans des situations de survie ou pour obtenir des informations auprès d'autres utilisateurs.\n\nIl est important de se renseigner sur les différentes options de communication disponibles en fonction de ses besoins et des situations envisagées. Il peut également être utile de se former aux différentes techniques et aux codes de communication appropriés pour chaque moyen utilisé.",
+        "items": [
+            {
+                "id": "ABH",
+                "title": "Le code Morse",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Le code Morse est une méthode de communication inventée au XIXe siècle par Samuel Morse. Elle permettait de transmettre des messages en utilisant des signaux sonores ou lumineux, en utilisant une combinaison de points et de tirets. Aujourd'hui, le code Morse est encore utilisé dans de nombreuses situations, notamment dans les transmissions radio.\n\nPour utiliser le code Morse, il est nécessaire de connaître la signification des points et des tirets, ainsi que les lettres et les chiffres correspondants. Voici la table du code Morse :"
+                    },
+                    {
+                        "type": "image",
+                        "value": "morse_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Il est important de pratiquer et de s'entraîner régulièrement pour maîtriser le code Morse. Cela peut se faire en écoutant des enregistrements audio ou en utilisant des applications sur votre téléphone ou votre ordinateur. Plus vous vous entraînez, plus vous serez à l'aise avec le code Morse et vous serez capable de transmettre et de recevoir des messages avec précision.\n\nLe code Morse peut être utilisé dans différentes situations, que ce soit pour la communication à distance, la signalisation ou en cas d'urgence. Il peut être utilisé pour transmettre des messages avec une lampe de poche, une radio ou tout autre moyen de communication qui permet de faire des signaux sonores ou lumineux. Il est important d'établir des codes clairs et faciles à comprendre pour éviter toute confusion.\n\nLe SOS est un signal d'urgence très important dans le code Morse. Il se compose de trois points, trois tirets et trois points, et il doit être répété trois fois de suite. Il est important de le connaître par cœur et de savoir l'utiliser en cas d'urgence.\n\nIl est également important de respecter les règles de la radio lorsque vous utilisez le code Morse. Vous devez toujours identifier clairement votre station et vous assurer que vous n'interférez pas avec d'autres transmissions. Il est également important de ne pas utiliser le code Morse à des fins illégales ou inappropriées.\n\nEn conclusion, le code Morse est une méthode de communication utile dans de nombreuses situations. Il est facile à apprendre et à utiliser, mais il nécessite de la pratique et de l'entraînement pour le maîtriser. Il est important de connaître les règles et les codes appropriés pour éviter toute confusion et assurer une communication efficace."
+                    }
+                ]
+            },
+            {
+                "id": "ABI",
+                "title": "Les Radio à onde courte",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Les radios sont des outils essentiels en cas d'effondrement ou de catastrophe naturelle. Elles peuvent être utilisées pour communiquer avec d'autres personnes, obtenir des informations vitales sur les conditions météorologiques et les dangers potentiels, et recevoir des instructions de sécurité."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Voici un exemple de Radio solaire / Dinamo !"
+                    },
+                    {
+                        "type": "image",
+                        "value": "radio_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Il existe différents types de radios disponibles sur le marché, allant des radios portatives et compactes aux radios plus sophistiquées dotées de fonctions supplémentaires. Les radios peuvent être alimentées par batterie, solaire, manivelle ou même en utilisant l'énergie cinétique.\n\nLes radios peuvent également être utilisées pour la communication à longue portée. Les radios à ondes courtes peuvent être utilisées pour communiquer avec des personnes situées à des milliers de kilomètres de distance. Cela peut être particulièrement utile dans les situations où les réseaux de communication traditionnels sont en panne ou inaccessibles.\n\nIl est important de noter que l'utilisation de radios peut être réglementée dans certaines régions et qu'il peut y avoir des exigences légales pour l'obtention d'une licence. Il est également important de respecter les règles de communication, telles que les procédures d'appel et de réponse, pour garantir une communication efficace et claire.\n\nDans le cadre d'une préparation pour un effondrement ou une situation de survie, il est important d'avoir une radio fiable, de la pratique pour utiliser les fonctions importantes et de savoir comment maintenir la radio et changer les batteries si nécessaire."
+                    }
+                ]
+            },
+            {
+                "id": "ABJ",
+                "title": "La CB",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "La Citizens Band (CB) est un système de radiocommunication utilisé pour les communications de courte distance. Bien que moins courante que par le passé, la CB peut être un outil précieux en cas d'effondrement ou de catastrophe naturelle, lorsque les communications traditionnelles peuvent être coupées ou indisponibles.\n\nL'utilisation de la CB peut être bénéfique pour plusieurs raisons. Tout d'abord, elle est relativement peu coûteuse et facilement accessible. Les équipements nécessaires pour l'utiliser sont souvent peu coûteux, et les émetteurs-récepteurs CB peuvent être achetés dans de nombreux magasins spécialisés ou en ligne.\n\nEn cas d'effondrement ou de situation d'urgence, la CB peut être utilisée pour communiquer avec d'autres personnes à proximité, notamment pour obtenir de l'aide ou des informations sur la situation. La portée de la CB varie en fonction des conditions, mais peut être étendue avec des antennes plus grandes ou des équipements plus puissants.\n\nIl est également possible de construire une alimentation solaire pour la CB, ce qui peut être utile pour les situations où l'électricité est indisponible.\n\nIl est important de noter que l'utilisation de la CB est soumise à des règles et des réglementations, notamment en termes de fréquences autorisées, de puissance de transmission et de contenu des messages. Il est important de se renseigner sur ces règles avant d'utiliser la CB pour éviter les problèmes légaux.\n\nEn résumé, bien que la CB ne soit peut-être pas aussi courante qu'auparavant, elle peut être un outil utile en cas d'urgence ou de situation d'effondrement. Il est important de se familiariser avec son utilisation, de respecter les règles et de s'entraîner à communiquer efficacement pour en tirer le meilleur parti."
+                    },
+                ]
+            },
+            {
+                "id": "ABK",
+                "title": "Les téléphones satellitaires",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Les téléphones satellitaires sont des dispositifs de communication critiques en cas de situations d'urgence ou de désastres naturels tels qu'un effondrement de la société. Contrairement aux téléphones portables traditionnels, les téléphones satellitaires sont capables de se connecter à des satellites en orbite autour de la Terre, offrant ainsi une couverture mondiale, même dans les endroits les plus reculés et isolés.\n\n Voici d'ailleurs un exemple avec Garmin: "
+                    },
+                    {
+                        "type": "image",
+                        "value": "garmin_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "En cas d'effondrement de la société, les réseaux de communication traditionnels tels que les téléphones portables et Internet peuvent être interrompus ou désactivés, rendant les communications difficiles voire impossibles. Les téléphones satellitaires, quant à eux, peuvent être utilisés pour communiquer avec le monde extérieur, obtenir des informations sur la situation, appeler des secours et coordonner les efforts de sauvetage.\n\nLes téléphones satellitaires sont également utiles pour les personnes qui travaillent dans des environnements isolés ou dans des zones à risque, telles que les explorateurs, les scientifiques, les travailleurs humanitaires, les journalistes et les aventuriers. En utilisant un téléphone satellitaire, ces personnes peuvent rester en contact avec le monde extérieur et demander de l'aide en cas d'urgence.\n\nCependant, les téléphones satellitaires ont quelques inconvénients. Ils sont souvent plus chers que les téléphones portables traditionnels et nécessitent un abonnement coûteux pour accéder aux services de communication. De plus, leur utilisation peut être limitée dans certaines régions en raison de conditions météorologiques extrêmes ou d'obstacles géographiques tels que les montagnes ou les forêts denses.\n\nEn résumé, les téléphones satellitaires peuvent être d'une grande utilité en cas d'effondrement de la société ou dans des environnements isolés, permettant aux utilisateurs de communiquer avec le monde extérieur et de demander de l'aide en cas d'urgence. Cependant, leur coût élevé et leur utilisation limitée dans certaines régions peuvent être des obstacles pour certains utilisateurs potentiels."
+                    }
+                ]
+            },
+            {
+                "id": "ABL",
+                "title": "Les talkies-walkies",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "image",
+                        "value": "talkies_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les talkies-walkies sont un moyen de communication très utile en cas d'effondrement ou de catastrophe naturelle, lorsqu'il peut être difficile de communiquer avec le monde extérieur. Ils sont également très utiles pour les randonneurs, les chasseurs, les amateurs de plein air et toute personne qui doit rester en contact avec un groupe de personnes sur une courte distance.\n\nLes talkies-walkies sont des radios portables qui fonctionnent sur une fréquence de radio dédiée, permettant aux utilisateurs de communiquer instantanément avec d'autres talkies-walkies situés dans la même zone. Ils sont généralement faciles à utiliser et offrent une gamme de fonctionnalités, notamment la capacité de changer de canal pour éviter les interférences, la fonction de balayage pour trouver les canaux disponibles et la fonction de surveillance pour écouter les conversations en cours.\n\nEn cas d'effondrement, les talkies-walkies peuvent être utilisés pour coordonner les secours, les évacuations et les efforts de réparation. Ils peuvent également être utilisés pour informer les personnes de la situation actuelle et des mesures à prendre pour assurer leur sécurité.\n\nIl est important de noter que les talkies-walkies ont une portée limitée, généralement de quelques kilomètres en terrain plat et dégagé. Ils ne peuvent donc pas remplacer les téléphones portables ou les radios plus puissantes pour une communication à longue distance. Cependant, ils peuvent être un complément utile à d'autres moyens de communication.\n\nIl est également important de se familiariser avec les règles de communication sur les talkies-walkies, comme l'utilisation de codes clairs et simples, le respect des autres utilisateurs et l'écoute des conversations en cours avant de parler.\n\nEn somme, les talkies-walkies peuvent être un outil très utile en cas d'effondrement ou pour les activités de plein air. Il est important de se familiariser avec leur utilisation et leurs limites, ainsi que de respecter les règles de communication pour une utilisation efficace et sécurisée."
+                    }
+                ]
+            },
+            {
+                "id": "ABM",
+                "title": "Les signaux de fumée",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Les signaux de fumée sont une méthode ancienne et efficace de communication à distance utilisée dans les situations de survie ou d'urgence. Les signaux de fumée sont générés en allumant un feu et en faisant varier la densité de la fumée produite. Cela peut être fait en ajoutant ou en retirant du bois du feu, ou en plaçant un objet au-dessus du feu pour modifier la sortie de la fumée."
+                    },
+                    {
+                        "type": "image",
+                        "value": "signal_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Les signaux de fumée sont une méthode ancienne et efficace de communication à distance utilisée dans les situations de survie ou d'urgence. Les signaux de fumée sont générés en allumant un feu et en faisant varier la densité de la fumée produite. Cela peut être fait en ajoutant ou en retirant du bois du feu, ou en plaçant un objet au-dessus du feu pour modifier la sortie de la fumée.\n\nIl existe différentes techniques pour produire des signaux de fumée en fonction de leur destination. Par exemple, les signaux de fumée pour les opérations de recherche et de sauvetage sont généralement produits en groupes de trois, avec une pause entre chaque groupe. Les signaux de fumée peuvent être vus de loin et peuvent être utilisés pour signaler une position, une direction, un besoin d'aide, ou pour indiquer une source d'eau ou de nourriture.\n\nIl est important de connaître les techniques de production de signaux de fumée en cas de survie ou d'urgence, car cette méthode est fiable, peu coûteuse et ne nécessite pas d'équipement sophistiqué. Cependant, il est également important de noter que l'utilisation de signaux de fumée peut être limitée par les conditions météorologiques et les vents, et peut ne pas être efficace dans toutes les situations.\n\nEn somme, la maîtrise des signaux de fumée est une compétence importante à posséder pour la communication en cas de survie ou d'urgence. Elle peut être utilisée pour signaler sa position, appeler à l'aide, ou indiquer une source de nourriture ou d'eau. C'est une méthode simple et efficace de communication à distance qui peut être utilisée dans une variété de situations."
+                    }
+                ]
+            },
+            {
+                "id": "ABN",
+                "title": "Les signaux lumineux",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "Les signaux lumineux peuvent être une méthode efficace pour communiquer en cas de survie ou d'urgence. Les signaux lumineux peuvent être utilisés la nuit ou dans des endroits sombres pour attirer l'attention des personnes se trouvant à distance.\n\nLes moyens les plus courants pour émettre des signaux lumineux sont les lampes de poche, les feux de signalisation, les feux de camp, les miroirs et les fusées éclairantes. Les lampes de poche sont très pratiques car elles sont légères et peuvent être facilement transportées. Les feux de signalisation sont également efficaces, surtout s'ils sont placés sur un endroit élevé, comme une colline ou un arbre. Les feux de camp sont également une option, car ils peuvent être vus à des kilomètres à la ronde. Les miroirs sont particulièrement utiles en plein jour pour refléter la lumière du soleil et créer des flashs visibles de loin. Les fusées éclairantes sont également une excellente option car elles peuvent être vues à une grande distance et sont très visibles la nuit.\n\n Il est important de connaître les codes de signaux lumineux et de s'y conformer lorsqu'on les utilise. Par exemple, un signal lumineux court et répété est généralement considéré comme un signal de détresse, tandis qu'un signal long et continu est généralement utilisé pour attirer l'attention.\n\n Il est également important d'être conscient de la direction dans laquelle on émet le signal. Il est recommandé d'émettre le signal vers le ciel, car cela permettra aux personnes se trouvant à une plus grande distance de voir le signal.\n\nEnfin, il est important de prévoir suffisamment de piles ou de sources d'alimentation pour alimenter les équipements de signalisation lumineuse en cas d'urgence. Les signaux lumineux peuvent être très utiles pour communiquer et attirer l'attention dans des situations de survie ou d'urgence, mais leur efficacité dépendra de la capacité à utiliser correctement les équipements et à connaître les codes de signaux lumineux."
+                    }
+                ]
+            }
+            
+        ],
+        "isPremium": true
+    }
+    ,
+    {
+        "uid": "6",
+        "title": "La planification",
+        "subtitle": "Du court au long terme : comment se préparer !",
+        "image": "planification",
+        "links": [],
+        "descriptionShort": "La planification est l'une des clés de la survie en cas de situation d'urgence ou d'effondrement. Il est essentiel d'avoir un plan en place pour pouvoir réagir rapidement et efficacement. Dans cette section, nous allons explorer différentes options de planification, allant d'un plan à court terme de quelques jours à un plan à long terme de plusieurs années. Nous aborderons également des sujets tels que la sélection de votre base de survie, la gestion des ressources, la production alimentaire, et bien plus encore. Que vous soyez débutant ou expérimenté en matière de survie, cette section vous offrira des conseils et des astuces pour vous aider à planifier votre survie en toute sécurité et efficacement.",
+        "descriptionLong": "La planification est l'un des éléments les plus importants de la survie ou de la préparation en cas d'effondrement. Il s'agit de se préparer à différentes situations et de prévoir des mesures pour faire face aux défis rencontrés. Il existe plusieurs niveaux de planification, allant d'un plan de survie de quelques jours à un plan à long terme pour vivre en autonomie.\n\nUn plan de survie de quelques jours est généralement axé sur l'évacuation rapide, en ayant à disposition un sac à dos d'urgence avec des fournitures essentielles pour survivre pendant quelques jours. Ce plan est particulièrement important en cas d'urgence telle qu'une évacuation forcée ou une catastrophe naturelle.\n\nUn plan sur trois semaines est plus axé sur la capacité à tenir le coup en cas de situation prolongée sans ressources. Cela implique une planification plus approfondie pour les fournitures, la nourriture, l'eau et la sécurité. Ce plan nécessite une préparation plus minutieuse et peut impliquer des compétences telles que la chasse, la pêche, la collecte d'eau, etc.\n\nUn plan sur trois mois est encore plus complexe et nécessite une planification à long terme pour la sécurité, la nourriture, l'eau, l'énergie et la santé. Cela implique généralement de posséder une base de repli où l'on peut vivre en autonomie pendant une période prolongée.\n\nEnfin, un plan sur trois ans implique une planification encore plus approfondie pour l'autonomie complète, en ayant à disposition une source d'eau durable, une alimentation stable et des compétences en matière de construction et d'énergie renouvelable.\n\nEn somme, la planification est un élément crucial pour la survie en cas d'urgence ou en cas d'effondrement, et doit être adaptée à chaque niveau de besoin en fonction de la durée de la situation.",
+        "items": [
+            {
+                "id": "ABO",
+                "title": "Le plan de survie sur 3 jours",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "image",
+                        "value": "backpack3days_fr_en"
+                    },
+                    {
+                        "type": "text",
+                        "value": "Le plan de survie sur 3 jours est souvent considéré comme le plan d'urgence immédiat. Il s'agit de la période où vous devez être prêt à partir rapidement avec l'essentiel pour votre survie. Cela peut inclure des articles tels qu'un sac à dos préparé avec de l'eau, de la nourriture, des vêtements chauds, une trousse de premiers soins, des outils de survie et une source de feu. Il est important de se rappeler que le contenu de votre sac à dos doit être adapté en fonction de la région dans laquelle vous vivez et des conditions environnementales auxquelles vous pourriez être confronté. Par exemple, si vous vivez dans un climat chaud et sec, vous devrez peut-être inclure plus d'eau et de vêtements légers pour vous protéger du soleil. En revanche, si vous vivez dans une région froide, vous devrez vous concentrer sur les vêtements chauds et les moyens de vous protéger contre le froid.\n\nEn plus de votre sac à dos de survie, il est important de planifier votre itinéraire d'évacuation. Vous devez connaître les routes à suivre pour quitter rapidement la zone si nécessaire, ainsi que les points de rassemblement d'urgence. Il est également important de communiquer avec votre famille et vos proches pour qu'ils sachent où vous êtes et ce que vous faites.\n\nEn somme, un plan de survie sur 3 jours doit inclure une préparation physique et mentale, ainsi qu'une connaissance approfondie des conditions environnementales de votre région et de la planification de votre itinéraire de secours. En prenant ces mesures, vous augmentez vos chances de survivre et de protéger votre famille en cas d'urgence."
+                    }
+                ]
+            },
+            {
+                "id": "ABP",
+                "title": "Observation des ressources",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                {
+                "type": "text",
+                "value": "La gestion des ressources est un aspect crucial de la survie en milieu naturel ou en cas d'effondrement. Il faut donc planifier et anticiper à l'avance en fonction de votre localisation.  celle-ci consiste à savoir comment utiliser de manière efficace et responsable les différentes ressources disponibles, que ce soit en termes de nourriture, d'eau, de combustible, de matériaux de construction, etc. La gestion des ressources permet de prolonger l'autonomie et la survie, en évitant le gaspillage et en préservant les ressources pour les moments où elles sont vraiment nécessaires."
+                },
+                {
+                "type": "bullet",
+                "value": "Identifier les ressources disponibles dans son environnement : il est important de savoir quelles sont les ressources disponibles dans son environnement immédiat, que ce soit en termes de nourriture, d'eau, de bois, de métaux, etc."
+                },
+                {
+                "type": "bullet",
+                "value": "Apprendre à récolter et à utiliser les ressources : il est nécessaire de savoir comment récolter et utiliser les différentes ressources, que ce soit en termes de pêche, de chasse, de cueillette, de construction, etc."
+                },
+                {
+                "type": "bullet",
+                "value": "Gérer les ressources de manière responsable : il est important de ne pas gaspiller les ressources et de les utiliser de manière responsable, en les préservant pour les moments où elles sont vraiment nécessaires."
+                },
+                {
+                "type": "bullet",
+                "value": "S'adapter aux ressources disponibles : il est important de savoir s'adapter aux ressources disponibles dans son environnement, en fonction des saisons, des conditions météorologiques, etc."
+                },
+                {
+                "type": "bullet",
+                "value": "Savoir stocker les ressources : il est important de savoir comment stocker les ressources pour les moments où elles seront nécessaires, en utilisant des techniques de conservation appropriées."
+                },
+                {
+                "type": "bullet",
+                "value": "Savoir échanger et partager les ressources : dans un contexte de survie en communauté, il est important de savoir échanger et partager les ressources de manière équitable et responsable."
+                },
+                {
+                "type": "text",
+                "value": "Voila un sujet vaste mais indispensable à maîtriser."
+                }
+                ]
+            },
+            {
+                "id": "ABQ",
+                "title": "L'autonomie",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "La planification de l'autonomie est un aspect important de la survie en cas d'effondrement ou de situations d'urgence. Elle consiste à se préparer à être autonome en matière de nourriture, d'eau, d'énergie et de sécurité, entre autres."
+                    },
+                    {
+                        "type": "text",
+                        "value": "La planification de l'autonomie peut être utilisée dans différentes situations, comme une panne de courant prolongée, une catastrophe naturelle, une pandémie, une guerre ou une situation d'effondrement économique ou social."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Voici quelques éléments à prendre en compte pour commencer la planification de l'autonomie :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Définir ses besoins en matière de nourriture, d'eau, d'énergie et de sécurité"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Identifier les ressources disponibles dans son environnement"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Acquérir les compétences nécessaires pour être autonome"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Construire un abri pour se protéger des éléments et des intrusions"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Stocker des aliments et de l'eau pour une période prolongée"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Installer des systèmes d'énergie renouvelable, comme des panneaux solaires ou des éoliennes"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Se préparer à l'autodéfense, en apprenant des techniques d'autodéfense ou en acquérant des armes légales"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Créer un réseau de soutien avec des personnes ayant des compétences complémentaires"
+                    }
+                ]
+
+                
+            },
+            {
+                "id": "ABR",
+                "title": "Plan sur 3 semaines",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                    {
+                        "type": "text",
+                        "value": "La planification sur 3 semaines est importante car elle permet de tenir le coup sur une période de temps plus longue que le plan d'évacuation d'urgence de 3 jours. Il est important de se préparer à différentes situations d'urgence et de savoir quoi faire en cas de besoin."
+                    },
+                    {
+                        "type": "text",
+                        "value": "Voici quelques éléments à prendre en compte pour se préparer à un plan de survie de 3 semaines :"
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Stockez suffisamment de nourriture et d'eau pour durer 3 semaines. Assurez-vous que l'eau est propre et potable en la filtrant et en la faisant bouillir si nécessaire."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Soyez prêt à faire face à des situations d'urgence médicale. Ayez une trousse de premiers soins et les connaissances nécessaires pour traiter les blessures mineures."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Soyez prêt à faire face à des conditions météorologiques extrêmes. Ayez des vêtements appropriés pour rester au sec et au chaud, même en cas de tempêtes ou de froid intense."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Ayez un plan d'évacuation d'urgence pour votre maison ou votre abri en cas d'incendie ou d'autres situations dangereuses."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Ayez une source d'énergie de secours, comme des panneaux solaires ou un générateur, pour recharger les appareils électroniques ou fournir de la lumière."
+                    },
+                    {
+                        "type": "bullet",
+                        "value": "Acquérez les compétences nécessaires pour survivre dans la nature, telles que la chasse, la pêche, la construction d'un abri, le démarrage d'un feu et la collecte d'eau."
+                    }
+                ]
+            },
+            {
+                "id": "ABS",
+                "title": "Plan sur 3 ans",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                  {
+                    "type": "text",
+                    "value": "La planification sur 3 ans est importante car elle permet de se préparer à vivre de manière autonome sur une longue période, en cas d'effondrement ou de catastrophe. Cela nécessite une préparation sérieuse en amont pour s'assurer d'avoir les compétences, les ressources et le lieu adéquat pour survivre et prospérer."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Acquérir des compétences pratiques : agriculture, élevage, construction, mécanique, etc."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Trouver un lieu de vie durable et sécurisé : une ferme, une maison isolée, une cabane en forêt, etc."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Construire une base de vie autonome : système d'énergie renouvelable, potager, élevage, système d'eau, etc."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Prévoir des réserves alimentaires et de fournitures pour une période de 3 ans minimum."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Se former aux techniques de défense et de sécurité pour protéger sa base et sa famille."
+                  }
+                ]
+
+                
+            },
+            {
+                "id": "ABT",
+                "title": "Planification de la sécurité",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                {
+                "type": "text",
+                "value": "La planification de la sécurité est un aspect crucial de la survie en cas d'effondrement. Il est important de comprendre les menaces potentielles et de se préparer en conséquence. Voici quelques éléments à prendre en compte :"
+                },
+                {
+                "type": "bullet",
+                "value": "Apprendre les compétences de base en matière de sécurité, telles que le tir, la défense personnelle et la reconnaissance des menaces."
+                },
+                {
+                "type": "bullet",
+                "value": "Acquérir et entretenir des armes de qualité, ainsi que des munitions et des équipements de protection personnelle."
+                },
+                {
+                "type": "bullet",
+                "value": "Mettre en place un système de surveillance efficace pour surveiller les alentours et détecter les menaces."
+                },
+                {
+                "type": "bullet",
+                "value": "Créer un plan d'évacuation d'urgence et des itinéraires alternatifs pour se déplacer en toute sécurité."
+                },
+                {
+                "type": "bullet",
+                "value": "Développer des compétences en communication pour être en mesure de contacter les autorités ou les membres de la communauté en cas de besoin."
+                },
+                {
+                "type": "bullet",
+                "value": "Établir des relations avec les voisins et les communautés environnantes pour créer un réseau de soutien en cas de besoin."
+                }
+                ]
+
+                
+            }
+        ],
+        "isPremium": true
+    }
+    ,
+    {
+        "uid": "7",
+        "title": "Camps de base",
+        "subtitle": "Emplacement idéal pour votre camp de survie",
+        "image": "location",
+        "links": [],
+        "descriptionShort": "Que vous cherchiez un lieu de camp pour une nuit ou un endroit pour établir une base à long terme, vous aurez besoin de competence dans ce domaine. Trouvez des zones riches en ressources naturelles, des zones sûres et protégées et découvrez comment évaluer les différents facteurs environnementaux pour établir votre camp de survie idéal. Explorez les cartes, les évaluations environnementales et les conseils d'experts pour vous aider à trouver le lieu de camp le plus adapté à vos besoins.",
+        "descriptionLong": "Lorsqu'on prépare une stratégie de survie, la localisation d'un camp de base est l'une des décisions les plus importantes à prendre. Que vous cherchiez à survivre pendant une courte période ou que vous planifiez une situation de survie à long terme, la sélection de l'emplacement approprié peut faire toute la différence. La localisation de votre camp de base doit tenir compte de plusieurs facteurs tels que la disponibilité des ressources naturelles, la sécurité, les conditions météorologiques et les risques environnementaux.\n\nCette section de l'application vous guidera à travers les différentes étapes à suivre pour localiser le site idéal pour votre camp de base en fonction de la durée de votre séjour. Nous explorerons les différents éléments à prendre en compte lors du choix d'un emplacement pour un camp de base à court terme, ainsi que les éléments à considérer lors de la sélection d'un site pour une installation à long terme.\n\nVous apprendrez également comment évaluer les différentes options de localisation et comment prendre une décision éclairée en fonction de vos besoins et de votre environnement. Nous aborderons des sujets tels que la richesse de la faune et de la flore, la proximité de l'eau, le climat, la sécurité et les risques naturels.\n\nEn fin de compte, la localisation de votre camp de base est un élément essentiel de votre stratégie de survie, et cette section de l'application vous aidera à prendre une décision informée et à planifier en conséquence pour assurer votre survie en cas de besoin.",
+        "items": [
+            {
+                "id": "ABU",
+                "title": "L'emplacement",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                {
+                "type": "text",
+                "value": "L'évaluation de l'emplacement est une étape cruciale dans la planification d'un camp de base. Elle permet de s'assurer que l'emplacement choisi est adapté aux besoins de l'utilisateur et garantit sa sécurité. Cette évaluation peut être effectuée en fonction de différents critères tels que la richesse de la faune et de la flore, la proximité de l'eau, le climat et bien d'autres encore."
+                },
+                {
+                "type": "text",
+                "value": "Pour qu'un emplacement soit considéré comme bon, il est indispensable qu'il réponde à certains critères, tels que :"
+                },
+                {
+                "type": "bullet",
+                "value": "La présence d'une source d'eau potable à proximité !"
+                },
+                {
+                "type": "bullet",
+                "value": "La richesse de la flore et de la faune pour assurer une source de nourriture."
+                },
+                {
+                "type": "bullet",
+                "value": "La présence de matériaux de construction pour bâtir un abri."
+                },
+                {
+                "type": "bullet",
+                "value": "La possibilité de démarrer un feu en toute sécurité."
+                },
+                {
+                "type": "bullet",
+                "value": "La facilité d'accès pour l'utilisateur tout en étant suffisamment éloigné des routes et des zones urbaines."
+                },
+                {
+                "type": "text",
+                "value": "En prenant en compte ces critères, vous pourrez évaluer différents emplacements potentiels et choisir celui qui convient le mieux à vos besoins et à votre sécurité."
+                }
+                ]
+            },
+            {
+                "id": "ABV",
+                "title": "Types de camps",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                  {
+                    "type": "text",
+                    "value": "Il est important de connaître les différents types de camps de base qui peuvent être utilisés en cas de survie ou d'effondrement. Chaque type de camp a ses avantages et ses inconvénients en fonction de la situation dans laquelle vous vous trouvez. Voici une liste des principaux types de camps de base :"
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Camp de base mobile : un camp de base mobile peut être facilement déplacé en fonction des besoins de survie. Il peut être un véhicule, une remorque ou un sac à dos. C'est une option idéale pour ceux qui prévoient d'être en mouvement constant ou qui ont besoin de se déplacer rapidement."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Camp de base semi-permanent : un camp de base semi-permanent est construit avec des matériaux durables tels que des planches, des tôles ou des bâches. Il peut être démonté et déplacé, mais il nécessite un peu plus de temps et d'efforts que le camp de base mobile. C'est une option idéale pour ceux qui prévoient de rester dans un endroit pendant une longue période."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Camp de base permanent : un camp de base permanent est construit pour durer. Il est généralement construit à partir de matériaux tels que le béton, la brique ou la pierre. Il est difficile à déplacer et nécessite beaucoup de temps et d'efforts pour construire, mais il offre une sécurité et une stabilité à long terme."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Camp de base souterrain : un camp de base souterrain est construit sous la surface du sol pour une protection maximale contre les intempéries et les événements catastrophiques. Il nécessite une construction et une planification minutieuses, mais il offre une sécurité et une protection maximales."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Camp de base flottant : un camp de base flottant peut être utilisé sur l'eau, comme un bateau ou une plateforme flottante. Il est idéal pour les situations où il y a des risques d'inondations ou lorsque l'eau est la seule option de transport. Cependant, il est important de savoir naviguer et de s'adapter aux conditions météorologiques."
+                  }
+                ]
+
+
+            },
+            {
+                "id": "ABW",
+                "title": "Selection d'équipement",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                {
+                "type": "text",
+                "value": "La sélection de l'équipement est une étape cruciale dans la préparation d'un camp de base, que ce soit pour une excursion de randonnée de plusieurs jours ou pour une situation de survie en pleine nature. Voici quelques raisons pour lesquelles cela est important :"
+                },
+                {
+                "type": "bullet",
+                "value": "L'équipement peut assurer votre sécurité en vous protégeant des intempéries et des éléments naturels"
+                },
+                {
+                "type": "bullet",
+                "value": "L'équipement peut améliorer votre confort en vous offrant des outils de cuisine, des sacs de couchage confortables et une tente adaptée à vos besoins"
+                },
+                {
+                "type": "bullet",
+                "value": "L'équipement peut vous aider à gérer les situations d'urgence en vous fournissant des outils de survie essentiels"
+                },
+                {
+                "type": "text",
+                "value": "En termes d'équipement, il existe plusieurs types d'articles qui sont nécessaires pour établir un camp de base. Voici une liste de certains des articles les plus importants :"
+                },
+                {
+                "type": "bullet",
+                "value": "Tente ou abri de survie"
+                },
+                {
+                "type": "bullet",
+                "value": "Sac de couchage"
+                },
+                {
+                "type": "bullet",
+                "value": "Tapis de sol"
+                },
+                {
+                "type": "bullet",
+                "value": "Réchaud de camping et combustible"
+                },
+                {
+                "type": "bullet",
+                "value": "Ustensiles de cuisine"
+                },
+                {
+                "type": "bullet",
+                "value": "Lampe frontale ou lampe de poche"
+                },
+                {
+                "type": "bullet",
+                "value": "Outils de survie comme un couteau, une hache ou une scie"
+                },
+                {
+                "type": "bullet",
+                "value": "Vêtements appropriés pour les conditions météorologiques"
+                },
+                {
+                "type": "bullet",
+                "value": "Chaussures de randonnée ou bottes de travail"
+                },
+                {
+                "type": "bullet",
+                "value": "Boussole et carte topographique"
+                },
+                {
+                "type": "bullet",
+                "value": "Système de purification de l'eau"
+                }
+                ]
+            },
+            {
+                "id": "ABX",
+                "title": "Sécurité personnelle",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                {
+                "type": "text",
+                "value": "Lors de la sélection et de l'utilisation d'un camp de base, il est important de maintenir votre sécurité personnelle en prenant des mesures pour éviter les animaux sauvages et les dangers naturels tels que les avalanches par exemple."
+                },
+                {
+                "type": "text",
+                "value": "Voici quelques mesures que vous pouvez prendre pour garantir votre sécurité personnelle :"
+                },
+                {
+                "type": "bullet",
+                "value": "Choisissez un emplacement approprié pour votre camp de base en évitant les zones à risque élevé, comme les zones de pente raide ou les zones propices aux avalanches."
+                },
+                {
+                "type": "bullet",
+                "value": "Gardez votre camp de base propre et bien rangé pour éviter d'attirer les animaux sauvages."
+                },
+                {
+                "type": "bullet",
+                "value": "Stockez correctement la nourriture et les déchets pour éviter d'attirer les animaux sauvages."
+                },
+                {
+                "type": "bullet",
+                "value": "Installez une clôture électrique pour dissuader les animaux sauvages de s'approcher de votre camp."
+                },
+                {
+                "type": "bullet",
+                "value": "Gardez un équipement de sécurité à portée de main, comme une trousse de premiers soins et un kit de survie."
+                },
+                {
+                "type": "bullet",
+                "value": "Apprenez à reconnaître les signes de danger, tels que les changements climatiques et les changements de comportement des animaux sauvages, et prenez les mesures appropriées en conséquence."
+                },
+                {
+                "type": "bullet",
+                "value": "Envisagez de porter un équipement de protection personnel, tel qu'un casque ou une veste pare-balles, si vous vous trouvez dans une zone à haut risque."
+                },
+                {
+                "type": "bullet",
+                "value": "Familiarisez-vous avec les techniques de survie en milieu sauvage et les méthodes de communication d'urgence."
+                }
+                ]
+            },
+            {
+                "id": "ABY",
+                "title": "Lecture et possessions de Cartes ",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                  {
+                    "type": "text",
+                    "value": "Savoir lire des cartes et posséder des cartes est une compétence importante pour la survie en milieu sauvage ou en cas d'effondrement. Voici pourquoi :"
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Les cartes permettent de se repérer dans un environnement inconnu ou peu connu, ce qui peut éviter de se perdre."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Les cartes permettent de planifier un itinéraire et de choisir les meilleurs chemins à emprunter en fonction de la situation."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Les cartes peuvent contenir des informations sur les ressources naturelles, telles que l'eau et la nourriture, ainsi que sur les dangers potentiels, tels que les zones à risque d'avalanche ou les zones de chasse."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Les cartes peuvent également aider à communiquer avec d'autres personnes, en leur indiquant précisément où se trouve votre position ou en leur fournissant des informations sur un itinéraire."
+                  },
+                  {
+                    "type": "text",
+                    "value": "Voici quelques points à prendre en compte pour la compétence de savoir lire des cartes et posséder des cartes :"
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Apprenez à lire une carte topographique et à utiliser une boussole."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Soyez en mesure de déterminer votre position sur une carte à l'aide de points de repère visibles ou d'autres méthodes."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Ayez plusieurs cartes à portée de main, y compris des cartes topographiques, des cartes routières et des cartes de navigation maritime, en fonction de l'environnement dans lequel vous vous trouvez."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Assurez-vous que vos cartes sont à jour et précises, car les changements dans le paysage peuvent rendre les cartes obsolètes."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Transportez vos cartes dans des pochettes étanches pour les protéger de l'eau et d'autres éléments."
+                  },
+                  {
+                    "type": "bullet",
+                    "value": "Entraînez-vous à utiliser vos cartes et votre boussole dans des situations réelles, en allant en randonnée ou en camping avec des amis qui ont des compétences similaires."
+                  }
+                ]
+
+            }
+            
+        ],
+        "isPremium": true
+    }
+    
 ]

@@ -21,9 +21,11 @@ final class MainViewController: UIViewController {
     @IBOutlet var premiumButton: UIButton!
     @IBOutlet var scoreProgressView: UIProgressView!
     @IBOutlet var tableView: UITableView!
-    
     @IBOutlet var collectionView: UICollectionView!
     @IBOutlet var premiumBarItem: UIBarButtonItem!
+    @IBOutlet var tipsUIView: UIView!
+    @IBOutlet var tipsTitleLabel: UILabel!
+    @IBOutlet var tipsDescriptionLabel: UILabel!
     // variables & constants
     private var topicList = [TopicElement]()
     private var topichighlight = [TopicElement]()
@@ -42,11 +44,9 @@ final class MainViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        topichighlight = SettingsRepository.userIsPremium ? ScoreService.sortTopicsByScore(with: topicList, using: 3) : ScoreService.sortTopicElementsByIsPremium(topicList)
+        loadHilightTopicDependingPremium()
         updateScorePercent()
-        if let selectedIndexPath = tableView.indexPathForSelectedRow {
-                tableView.deselectRow(at: selectedIndexPath, animated: true)
-            }
+        deselectDataTableView()
         tableView.reloadData()
         
     }
@@ -71,6 +71,15 @@ final class MainViewController: UIViewController {
     }
     
     // MARK: - Privates
+    private func deselectDataTableView() {
+        if let selectedIndexPath = tableView.indexPathForSelectedRow {
+                tableView.deselectRow(at: selectedIndexPath, animated: true)
+            }
+    }
+    private func loadHilightTopicDependingPremium() {
+        topichighlight = SettingsRepository.userIsPremium ? ScoreService.sortTopicsByScore(with: topicList, using: 3) : ScoreService.sortTopicElementsByIsPremium(topicList)
+    }
+    
     private func loadActionsPremium() {
         if SettingsRepository.userIsPremium {
             premiumButton.isHidden = true
@@ -101,6 +110,9 @@ final class MainViewController: UIViewController {
     }
     
     private func setUpView() {
+        tipsUIView.layer.cornerRadius = 8
+        tipsTitleLabel.text = "MAIN_TIPS_TITLE".localized()
+        tipsDescriptionLabel.text = "MAIN_TIPS_DESCRIPTION".localized()
         projectTitleLabel.text = "MAIN_PROJECT_TITLE".localized()
         projectSubtitleLabel.text = "MAIN_PROJECT_SUBTITLE".localized()
         premiumButton.setTitle("MAIN_BUTTON_PREMIUM_TITLE".localized(), for: .normal)
@@ -116,7 +128,6 @@ final class MainViewController: UIViewController {
         } else {
             premiumBarItem.isEnabled =  SettingsRepository.userIsPremium ? true : false
         }
-        
     }
 }
 
@@ -148,7 +159,6 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "topicTableViewCell", for: indexPath) as? TopicTableViewCell else { return UITableViewCell() }
-        
         let topic = topichighlight[indexPath.section]
         let percentage = ScoreService.calculateScoreForOneTopic(with: topic)
         cell.configure(topic: topic, percentage: CGFloat(percentage))

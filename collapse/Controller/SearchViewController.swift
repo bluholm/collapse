@@ -72,10 +72,10 @@ extension SearchViewController: UISearchBarDelegate {
       filteredTopic = searchText.isEmpty ? topicList : topicList.flatMap({ (topic: TopicElement) -> [TopicElement] in
         let items = topic.items.filter({ (item: Item) -> Bool in
           return item.title.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil ||
-            item.subtitle.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil ||
-            topic.title.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil ||
-            topic.descriptionShort.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil ||
-            topic.descriptionLong.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil
+                 item.subtitle.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil ||
+                 topic.title.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil ||
+                 topic.descriptionShort.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil ||
+                 topic.descriptionLong.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil
         })
           return items.isEmpty ? [] : [TopicElement(uid: topic.uid,
                                                     title: topic.title,

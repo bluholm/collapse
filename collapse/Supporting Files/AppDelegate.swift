@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import FirebaseCore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             SettingsRepository.mode = Mode.advanced.jsonReferenceName
             UserDefaults.standard.set(true, forKey: "launchedBefore")
         }
-        
+        FirebaseApp.configure()
         return true
     }
 
@@ -31,20 +32,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-    }
-
     // MARK: - Core Data stack
 
     lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation
-         creates and returns a container, having loaded the store for the
-         application to it. This property is optional since there are legitimate
-         error conditions that could cause the creation of the store to fail.
         */
         let container = NSPersistentContainer(name: "collapse")
         // swiftlint: disable unused_closure_parameter

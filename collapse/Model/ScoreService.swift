@@ -49,8 +49,8 @@ final class ScoreService {
     }
     
     static func sortTopicElementsByIsPremium(_ topicElements: [TopicElement]) -> [TopicElement] {
-        let nonPremiumElements = topicElements.filter { $0.isPremium == false }
-        let premiumElements = topicElements.filter { $0.isPremium == true }
+        let nonPremiumElements = topicElements.filter { !$0.isPremium }
+        let premiumElements = topicElements.filter { $0.isPremium }
         return nonPremiumElements + premiumElements
     }
     

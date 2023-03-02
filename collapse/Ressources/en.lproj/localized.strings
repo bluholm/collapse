@@ -7,7 +7,6 @@
 "STATUS_IN_PROGRESS" = "In progress";
 "STATUS_DONE" = "Done";
 
-
 // MainViewController.swift
 "MAIN_PROJECT_TITLE" = "SCORE";
 "MAIN_PROJECT_SUBTITLE" = "Are you ready for the collapse?";
@@ -19,6 +18,8 @@
 "MAIN_BUTTON_VIEW_ALL" = "View All (%d)";
 "MAIN_INFORMATION_TITLE_MESSAGE" = "Informations";
 "MAIN_INFORMATION_ACTION_BUTTON" = "Ok";
+"MAIN_TIPS_TITLE" = "Tips";
+"MAIN_TIPS_DESCRIPTION" = "Please find tips Number 1 !";
 
 // Disclaimer.swift
 "DISCLAIMER_TITLE" = "DISCLAIMER";
@@ -57,3 +58,7 @@ Please note that emergency situations can change rapidly and the advice given ma
 "TITLE_BOX_THREE" = "lifetime";
 "PURCHASE_BUTTON_TITLE" = "Coming soon";
 "RESTORE_BUTTON_TITLE" = "restore purchase";
+
+// ThanksViewController.swift
+"THANKS_TEXT" = "Thanks";
+"THANKS_TITLE" = "Thank you to all artist from unsplash : ";

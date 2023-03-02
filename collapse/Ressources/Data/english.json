@@ -1716,5 +1716,665 @@
             }
         ],
         "isPremium": true
+    },
+    {
+        "uid": "5",
+        "title": "Communication",
+        "subtitle": "Morse, Talkie-walkie, Radio...",
+        "image": "communication",
+        "links": [],
+        "descriptionShort": "In a survival situation, communication can be vital to ensure your safety and survival. This may include the ability to communicate with other members of your group, call for help, or receive information about the external situation. In this section, we will discuss different means of communication that can be useful in a survival situation, including walkie-talkies, radios, Morse code, satellite phones, CB radios, and more. We will provide information on their operation, range, and use, as well as tips for choosing the best means of communication based on your situation.",
+        "descriptionLong": "Communication is a crucial element in a survival situation. It can help signal an emergency, call for help, communicate with other people to exchange information or coordinate actions, or to maintain morale and social connection in a group.\n\nThere are different means of communication adapted to different situations and needs. Walkie-talkies are portable devices that allow short-distance communication between two or more people, without the need for a network or phone line. They are useful for immediate communication, especially in a group of hikers or hunters.\n\nRadios, on the other hand, are more sophisticated devices that can allow communication over longer distances using radio waves. They are useful for situations where the distance between the people to communicate is greater, or when one is on the move and wants to communicate with an external base or team.\n\nMorse code is a universal communication language used for more than a century, especially by the military and sailors, which allows messages to be transmitted through sound or light signals. It is still used today and can be an interesting alternative in case of failure or malfunction of other means of communication.\n\nSatellite phones are more advanced devices that allow remote communication in remote areas where there is no traditional phone network. It can be very useful in emergency situations to call for help or communicate with an external team.\n\nFinally, the Citizen Band (CB) is another form of radio that allows communication on frequencies dedicated to civilian users. It can be useful for group communication in survival situations or to obtain information from other users.\n\nIt is important to research the different communication options available based on your needs and anticipated situations. It can also be useful to train in the different techniques and appropriate communication codes for each means used.",
+        "items": [
+            {
+            "id": "ABH",
+            "title": "Morse Code",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "The Morse code is a communication method invented in the 19th century by Samuel Morse. It allowed messages to be transmitted using sound or light signals, using a combination of dots and dashes. Today, Morse code is still used in many situations, especially in radio transmissions.\n\nTo use Morse code, it is necessary to know the meaning of dots and dashes, as well as the corresponding letters and numbers. Here is the Morse code table:"
+            },
+            {
+            "type": "image",
+            "value": "morse_fr_en"
+            },
+            {
+            "type": "text",
+            "value": "It is important to practice and train regularly to master Morse code. This can be done by listening to audio recordings or using applications on your phone or computer. The more you practice, the more comfortable you will be with Morse code and you will be able to transmit and receive messages accurately.\n\nMorse code can be used in different situations, whether for remote communication, signaling, or in emergencies. It can be used to transmit messages with a flashlight, radio, or any other means of communication that allows for sound or light signals. It is important to establish clear and easy-to-understand codes to avoid confusion.\n\nSOS is a very important emergency signal in Morse code. It consists of three dots, three dashes, and three dots, and must be repeated three times in a row. It is important to know it by heart and know how to use it in case of emergency.\n\nIt is also important to follow radio rules when using Morse code. You must always clearly identify your station and ensure that you do not interfere with other transmissions. It is also important not to use Morse code for illegal or inappropriate purposes.\n\nIn conclusion, Morse code is a useful communication method in many situations. It is easy to learn and use, but it requires practice and training to master. It is important to know the appropriate rules and codes to avoid confusion and ensure effective communication."
+            }
+            ]
+            },
+            {
+            "id": "ABI",
+            "title": "Shortwave Radios",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Radios are essential tools in the event of a collapse or natural disaster. They can be used to communicate with other people, obtain vital information about weather conditions and potential hazards, and receive safety instructions."
+            },
+            {
+            "type": "text",
+            "value": "Here is an example of a solar/dynamo radio!"
+            },
+            {
+            "type": "image",
+            "value": "radio_fr_en"
+            },
+            {
+            "type": "text",
+            "value": "There are different types of radios available on the market, ranging from portable and compact radios to more sophisticated radios with additional features. Radios can be powered by battery, solar, crank, or even by using kinetic energy.\n\nRadios can also be used for long-range communication. Shortwave radios can be used to communicate with people located thousands of kilometers away. This can be particularly useful in situations where traditional communication networks are down or inaccessible.\n\nIt is important to note that the use of radios may be regulated in certain regions and there may be legal requirements for obtaining a license. It is also important to follow communication rules, such as call and response procedures, to ensure effective and clear communication.\n\nAs part of preparation for a collapse or survival situation, it is important to have a reliable radio, practice using important functions, and know how to maintain the radio and change batteries if necessary."
+            }
+            ]
+            },
+            {
+            "id": "ABJ",
+            "title": "The CB",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Citizens Band (CB) is a radio communication system used for short-distance communications. Although less common than in the past, CB can be a valuable tool in the event of a collapse or natural disaster when traditional communications may be disrupted or unavailable.\n\nThe use of CB can be beneficial for several reasons. First, it is relatively inexpensive and easily accessible. The equipment required to use it is often inexpensive, and CB transceivers can be purchased at many specialty stores or online.\n\nIn the event of a collapse or emergency situation, CB can be used to communicate with other people nearby, especially to obtain help or information about the situation. The range of CB varies depending on conditions, but can be extended with larger antennas or more powerful equipment.\n\nIt is also possible to build a solar power supply for CB, which can be useful for situations where electricity is unavailable.\n\nIt is important to note that the use of CB is subject to rules and regulations, including in terms of authorized frequencies, transmission power, and message content. It is important to learn about these rules before using CB to avoid legal problems.\n\nIn summary, while CB may not be as common as it once was, it can be a useful tool in the event of an emergency or collapse situation. It is important to become familiar with its use, respect the rules, and practice effective communication to get the most out of it."
+            }
+            ]
+            },
+            {
+            "id": "ABK",
+            "title": "Satellite Phones",
+            "mode": "advanced",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Satellite phones are critical communication devices in emergency situations or natural disasters such as a societal collapse. Unlike traditional cell phones, satellite phones are capable of connecting to satellites orbiting the Earth, providing global coverage, even in the most remote and isolated locations.\n\nHere's an example with Garmin:"
+            },
+            {
+            "type": "image",
+            "value": "garmin_fr_en"
+            },
+            {
+            "type": "text",
+            "value": "In the event of a societal collapse, traditional communication networks such as cell phones and the internet may be disrupted or disabled, making communication difficult or even impossible. Satellite phones, on the other hand, can be used to communicate with the outside world, obtain information about the situation, call for help, and coordinate rescue efforts.\n\nSatellite phones are also useful for people who work in isolated environments or in high-risk areas, such as explorers, scientists, humanitarian workers, journalists, and adventurers. By using a satellite phone, these people can stay in touch with the outside world and call for help in case of emergency.\n\nHowever, satellite phones have some drawbacks. They are often more expensive than traditional cell phones and require costly subscriptions to access communication services. Additionally, their use may be limited in certain regions due to extreme weather conditions or geographical obstacles such as mountains or dense forests.\n\nIn summary, satellite phones can be of great use in the event of a societal collapse or in isolated environments, allowing users to communicate with the outside world and call for help in case of emergency. However, their high cost and limited use in certain regions may be obstacles for some potential users."
+            }
+            ]
+            },
+            {
+            "id": "ABL",
+            "title": "Walkie-talkies",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "image",
+            "value": "talkies_fr_en"
+            },
+            {
+            "type": "text",
+            "value": "Walkie-talkies are a very useful means of communication in case of collapse or natural disaster, when it can be difficult to communicate with the outside world. They are also very useful for hikers, hunters, outdoor enthusiasts, and anyone who needs to stay in contact with a group of people over a short distance.\n\nWalkie-talkies are portable radios that operate on a dedicated radio frequency, allowing users to instantly communicate with other walkie-talkies located in the same area. They are generally easy to use and offer a range of features, including the ability to change channels to avoid interference, the scanning function to find available channels, and the monitoring function to listen to ongoing conversations.\n\nIn the event of a collapse, walkie-talkies can be used to coordinate rescue, evacuation, and repair efforts. They can also be used to inform people of the current situation and what measures to take to ensure their safety.\n\nIt is important to note that walkie-talkies have a limited range, usually only a few kilometers in flat and open terrain. They cannot replace cell phones or more powerful radios for long-distance communication. However, they can be a useful supplement to other means of communication.\n\nIt is also important to familiarize oneself with the rules of communication on walkie-talkies, such as the use of clear and simple codes, respect for other users, and listening to ongoing conversations before speaking.\n\nIn summary, walkie-talkies can be a very useful tool in the event of a collapse or for outdoor activities. It is important to familiarize oneself with their use and limitations, as well as to respect communication rules for effective and safe use."
+            }
+            ]
+            },
+            {
+            "id": "ABM",
+            "title": "Smoke Signals",
+            "mode": "advanced",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Smoke signals are an ancient and effective method of long-distance communication used in survival or emergency situations. Smoke signals are generated by lighting a fire and varying the density of the smoke produced. This can be done by adding or removing wood from the fire, or by placing an object over the fire to modify the smoke output."
+            },
+            {
+            "type": "image",
+            "value": "signal_fr_en"
+            },
+            {
+            "type": "text",
+            "value": "There are different techniques for producing smoke signals depending on their intended destination. For example, smoke signals for search and rescue operations are typically produced in groups of three, with a pause between each group. Smoke signals can be seen from a distance and can be used to signal a position, a direction, a need for help, or to indicate a source of water or food.\n\nIt is important to know how to produce smoke signals in case of survival or emergency, as this method is reliable, inexpensive, and does not require sophisticated equipment. However, it is also important to note that the use of smoke signals may be limited by weather conditions and winds, and may not be effective in all situations.\n\nIn summary, mastering smoke signals is an important skill to have for communication in survival or emergency situations. It can be used to signal one's position, call for help, or indicate a source of food or water. It is a simple and effective method of long-distance communication that can be used in a variety of situations."
+            }
+            ]
+            },
+            {
+            "id": "ABN",
+            "title": "Light signals",
+            "mode": "advanced",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Light signals can be an effective method for communicating in survival or emergency situations. Light signals can be used at night or in dark places to attract the attention of people at a distance.\n\nThe most common ways to emit light signals are flashlights, signal fires, campfires, mirrors, and flares. Flashlights are very convenient as they are lightweight and can be easily carried. Signal fires are also effective, especially if placed in a high place like a hill or tree. Campfires are also an option because they can be seen for miles around. Mirrors are particularly useful in daylight to reflect sunlight and create visible flashes from a distance. Flares are also an excellent option as they can be seen from a great distance and are very visible at night.\n\nIt is important to know light signal codes and comply with them when using them. For example, a short, repeated light signal is generally considered a distress signal, while a long, continuous signal is generally used to attract attention.\n\nIt is also important to be aware of the direction in which the signal is emitted. It is recommended to emit the signal towards the sky as this will allow people at a greater distance to see the signal.\n\nFinally, it is important to provide enough batteries or power sources to power light signaling equipment in case of an emergency. Light signals can be very useful for communicating and attracting attention in survival or emergency situations, but their effectiveness will depend on the ability to use the equipment correctly and know the light signal codes."
+            }
+            ]
+            }
+        ],
+        "isPremium": true
+    },
+    {
+        "uid": "6",
+        "title": "The planning",
+        "subtitle": "Du court au long terme : comment se préparer !",
+        "image": "planification",
+        "links": [],
+        "descriptionShort": "Planning is one of the keys to survival in the event of an emergency or collapse. It is essential to have a plan in place to be able to react quickly and efficiently. In this section, we will explore different planning options, ranging from a short-term plan of a few days to a long-term plan of several years. We will also cover topics such as selecting your survival base, resource management, food production, and much more. Whether you are a beginner or experienced in survival, this section will offer you tips and tricks to help you plan your survival safely and effectively.",
+        "descriptionLong": "Planning is one of the most important elements of survival or preparation in the event of a collapse. It involves preparing for different situations and anticipating measures to overcome challenges. There are several levels of planning, ranging from a survival plan for a few days to a long-term plan for living autonomously.\n\nA survival plan for a few days is usually focused on a quick evacuation, having an emergency backpack with essential supplies to survive for a few days. This plan is particularly important in the event of an emergency such as forced evacuation or a natural disaster.\n\nA three-week plan is more focused on the ability to hold out in a prolonged situation without resources. This involves more thorough planning for supplies, food, water, and security. This plan requires more meticulous preparation and may involve skills such as hunting, fishing, water collection, etc.\n\nA three-month plan is even more complex and requires long-term planning for security, food, water, energy, and health. This usually involves owning a fallback base where one can live autonomously for an extended period.\n\nFinally, a three-year plan involves even more thorough planning for complete autonomy, having a sustainable water source, stable food supply, and skills in construction and renewable energy.\n\nIn summary, planning is a crucial element for survival in an emergency or in the event of a collapse, and must be adapted to each level of need based on the duration of the situation.",
+        "items": [
+            {
+            "id": "ABO",
+            "title": "The 3-day survival plan",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "image",
+            "value": "backpack3days_fr_en"
+            },
+            {
+            "type": "text",
+            "value": "The 3-day survival plan is often considered the immediate emergency plan. This is the period when you need to be ready to leave quickly with the essentials for your survival. This may include items such as a prepared backpack with water, food, warm clothing, a first aid kit, survival tools, and a source of fire. It is important to remember that the contents of your backpack should be tailored to the region in which you live and the environmental conditions you may face. For example, if you live in a hot and dry climate, you may need to include more water and light clothing to protect yourself from the sun. On the other hand, if you live in a cold region, you will need to focus on warm clothing and ways to protect yourself from the cold.\n\nIn addition to your survival backpack, it is important to plan your evacuation route. You need to know the routes to take to quickly leave the area if necessary, as well as emergency gathering points. It is also important to communicate with your family and loved ones so they know where you are and what you are doing.\n\nIn summary, a 3-day survival plan should include physical and mental preparation, as well as a thorough understanding of the environmental conditions in your region and the planning of your backup route. By taking these measures, you increase your chances of surviving and protecting your family in an emergency."
+            }
+            ]
+            },
+            {
+            "id": "ABP",
+            "title": "Resource Management",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Resource management is a crucial aspect of survival in natural environments or in case of collapse. Planning and anticipation in advance based on your location is necessary. This involves knowing how to effectively and responsibly use the various resources available, whether it's food, water, fuel, building materials, etc. Resource management extends autonomy and survival by avoiding waste and preserving resources for when they are truly needed."
+            },
+            {
+            "type": "bullet",
+            "value": "Identify the available resources in your environment: It is important to know what resources are available in your immediate environment, whether it's food, water, wood, metals, etc."
+            },
+            {
+            "type": "bullet",
+            "value": "Learn to harvest and use resources: It is necessary to know how to harvest and use different resources, whether it's fishing, hunting, gathering, construction, etc."
+            },
+            {
+            "type": "bullet",
+            "value": "Manage resources responsibly: It is important not to waste resources and to use them responsibly, preserving them for when they are truly needed."
+            },
+            {
+            "type": "bullet",
+            "value": "Adapt to available resources: It is important to know how to adapt to the resources available in your environment, based on seasons, weather conditions, etc."
+            },
+            {
+            "type": "bullet",
+            "value": "Know how to store resources: It is important to know how to store resources for when they will be needed, using appropriate conservation techniques."
+            },
+            {
+            "type": "bullet",
+            "value": "Know how to exchange and share resources: In a community survival context, it is important to know how to exchange and share resources fairly and responsibly."
+            },
+            {
+            "type": "text",
+            "value": "This is a vast subject, but it is essential to master."
+            }
+            ]
+            },
+            {
+            "id": "ABQ",
+            "title": "Autonomy",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Planning for autonomy is an important aspect of survival in the event of collapse or emergency situations. It involves preparing to be self-sufficient in areas such as food, water, energy, and security, among others."
+            },
+            {
+            "type": "text",
+            "value": "Autonomy planning can be applied in various situations such as prolonged power outages, natural disasters, pandemics, war, or economic or social collapse."
+            },
+            {
+            "type": "text",
+            "value": "Here are some factors to consider when starting autonomy planning:"
+            },
+            {
+            "type": "bullet",
+            "value": "Define needs in terms of food, water, energy, and security"
+            },
+            {
+            "type": "bullet",
+            "value": "Identify resources available in the environment"
+            },
+            {
+            "type": "bullet",
+            "value": "Acquire necessary skills to be self-sufficient"
+            },
+            {
+            "type": "bullet",
+            "value": "Build shelter to protect oneself from the elements and intrusions"
+            },
+            {
+            "type": "bullet",
+            "value": "Store food and water for extended periods"
+            },
+            {
+            "type": "bullet",
+            "value": "Install renewable energy systems such as solar panels or wind turbines"
+            },
+            {
+            "type": "bullet",
+            "value": "Prepare for self-defense by learning self-defense techniques or acquiring legal weapons"
+            },
+            {
+            "type": "bullet",
+            "value": "Create a support network with people who have complementary skills"
+            }
+            ]
+            },
+            {
+            "id": "ABR",
+            "title": "The 3-Week Survival Plan",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Planning for three weeks is important because it allows you to sustain yourself for a longer period of time than a 3-day emergency evacuation plan. It's important to prepare for different emergency situations and know what to do when the need arises."
+            },
+            {
+            "type": "text",
+            "value": "Here are some things to consider when preparing for a three-week survival plan:"
+            },
+            {
+            "type": "bullet",
+            "value": "Stock up on enough food and water to last for three weeks. Make sure the water is clean and drinkable by filtering and boiling it if necessary."
+            },
+            {
+            "type": "bullet",
+            "value": "Be prepared to handle medical emergencies. Have a first aid kit and the necessary knowledge to treat minor injuries."
+            },
+            {
+            "type": "bullet",
+            "value": "Be prepared to handle extreme weather conditions. Have appropriate clothing to stay dry and warm, even in the case of storms or intense cold."
+            },
+            {
+            "type": "bullet",
+            "value": "Have an emergency evacuation plan for your home or shelter in case of fire or other dangerous situations."
+            },
+            {
+            "type": "bullet",
+            "value": "Have a backup source of energy, such as solar panels or a generator, to recharge electronic devices or provide light."
+            },
+            {
+            "type": "bullet",
+            "value": "Acquire the necessary skills to survive in the wilderness, such as hunting, fishing, building a shelter, starting a fire, and collecting water."
+            }
+            ]
+            },
+            {
+            "id": "ABS",
+            "title": "3-Year Plan",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Planning for three years is important because it allows you to prepare to live autonomously for an extended period of time in the event of collapse or disaster. This requires serious preparation in advance to ensure that you have the skills, resources, and proper location to survive and thrive."
+            },
+            {
+            "type": "bullet",
+            "value": "Acquire practical skills: agriculture, livestock, construction, mechanics, etc."
+            },
+            {
+            "type": "bullet",
+            "value": "Find a sustainable and secure living location: a farm, an isolated house, a cabin in the woods, etc."
+            },
+            {
+            "type": "bullet",
+            "value": "Build an autonomous base of life: renewable energy system, vegetable garden, livestock, water system, etc."
+            },
+            {
+            "type": "bullet",
+            "value": "Prepare food and supply reserves for a minimum period of three years."
+            },
+            {
+            "type": "bullet",
+            "value": "Train in defense and security techniques to protect your base and family."
+            }
+            ]
+            },
+            {
+            "id": "ABT",
+            "title": "Security Planning",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Security planning is a crucial aspect of survival in the event of a collapse. It's important to understand potential threats and prepare accordingly. Here are some things to consider:"
+            },
+            {
+            "type": "bullet",
+            "value": "Learn basic security skills, such as shooting, self-defense, and threat recognition."
+            },
+            {
+            "type": "bullet",
+            "value": "Acquire and maintain quality weapons, as well as ammunition and personal protective equipment."
+            },
+            {
+            "type": "bullet",
+            "value": "Establish an effective surveillance system to monitor surroundings and detect threats."
+            },
+            {
+            "type": "bullet",
+            "value": "Create an emergency evacuation plan and alternate routes for safe travel."
+            },
+            {
+            "type": "bullet",
+            "value": "Develop communication skills to be able to contact authorities or community members when needed."
+            },
+            {
+            "type": "bullet",
+            "value": "Build relationships with neighbors and surrounding communities to create a support network when needed."
+            }
+            ]
+            }
+        ],
+        "isPremium": true
+    },
+    {
+        "uid": "7",
+        "title": "Base Camp",
+        "subtitle": "Ideal location for your survival camp",
+        "image": "location",
+        "links": [],
+        "descriptionShort": "Whether you're looking for a campsite for a night or a place to establish a long-term base, you'll need skills in this area. Find areas rich in natural resources, safe and protected areas, and learn how to assess different environmental factors to establish your ideal survival camp. Explore maps, environmental assessments, and expert advice to help you find the campsite that best suits your needs.",
+        "descriptionLong": "When preparing a survival strategy, the location of a base camp is one of the most important decisions to make. Whether you're looking to survive for a short period or planning for a long-term survival situation, selecting the appropriate location can make all the difference. The location of your base camp should take into account several factors such as the availability of natural resources, safety, weather conditions, and environmental risks.\n\nThis section of the application will guide you through the different steps to locate the ideal site for your base camp depending on the length of your stay. We will explore the different elements to consider when choosing a location for a short-term base camp, as well as the elements to consider when selecting a site for a long-term facility.\n\nYou will also learn how to assess different location options and how to make an informed decision based on your needs and environment. We will cover topics such as the richness of fauna and flora, proximity to water, climate, safety, and natural risks.\n\nUltimately, the location of your base camp is an essential element of your survival strategy, and this section of the application will help you make an informed decision and plan accordingly to ensure your survival when needed.",
+        "items": [
+            {
+            "id": "ABU",
+            "title": "The Location",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Assessing the location is a crucial step in planning a base camp. It ensures that the chosen location is suitable for the user's needs and ensures their safety. This assessment can be based on various criteria such as the richness of wildlife and flora, proximity to water, climate, and much more."
+            },
+            {
+            "type": "text",
+            "value": "For a location to be considered good, it is essential that it meets certain criteria such as:"
+            },
+            {
+            "type": "bullet",
+            "value": "The presence of a source of drinking water nearby"
+            },
+            {
+            "type": "bullet",
+            "value": "The richness of flora and fauna to ensure a source of food."
+            },
+            {
+            "type": "bullet",
+            "value": "The presence of building materials to construct a shelter."
+            },
+            {
+            "type": "bullet",
+            "value": "The possibility of starting a fire safely."
+            },
+            {
+            "type": "bullet",
+            "value": "Ease of access for the user while being sufficiently far from roads and urban areas."
+            },
+            {
+            "type": "text",
+            "value": "By considering these criteria, you can evaluate different potential locations and choose the one that best suits your needs and safety."
+            }
+            ]
+            },
+            {
+            "id": "ABV",
+            "title": "Types of camps",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "It is important to know the different types of base camps that can be used in survival or collapse scenarios. Each type of camp has its advantages and disadvantages depending on the situation you find yourself in. Here is a list of the main types of base camps:"
+            },
+            {
+            "type": "bullet",
+            "value": "Mobile base camp: a mobile base camp can be easily moved according to survival needs. It can be a vehicle, trailer, or backpack. This is an ideal option for those who plan to be constantly on the move or need to move quickly."
+            },
+            {
+            "type": "bullet",
+            "value": "Semi-permanent base camp: a semi-permanent base camp is built with durable materials such as planks, metal sheets, or tarps. It can be dismantled and moved, but it requires a bit more time and effort than the mobile base camp. This is an ideal option for those who plan to stay in one location for an extended period."
+            },
+            {
+            "type": "bullet",
+            "value": "Permanent base camp: a permanent base camp is built to last. It is usually constructed from materials such as concrete, brick, or stone. It is difficult to move and requires a lot of time and effort to build, but it offers long-term security and stability."
+            },
+            {
+            "type": "bullet",
+            "value": "Underground base camp: an underground base camp is built beneath the surface of the ground for maximum protection against weather and catastrophic events. It requires careful construction and planning, but it offers maximum security and protection."
+            },
+            {
+            "type": "bullet",
+            "value": "Floating base camp: a floating base camp can be used on water, such as a boat or floating platform. It is ideal for situations where there is a risk of flooding or when water is the only transportation option. However, it is important to know how to navigate and adapt to weather conditions."
+            }
+            ]
+            },
+            {
+            "id": "ABW",
+            "title": "Equipment selection",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Equipment selection is a crucial step in preparing for a base camp, whether it's for a multi-day hiking trip or a survival situation in the wilderness. Here are some reasons why it's important:"
+            },
+            {
+            "type": "bullet",
+            "value": "Equipment can ensure your safety by protecting you from weather and natural elements."
+            },
+            {
+            "type": "bullet",
+            "value": "Equipment can improve your comfort by providing you with cooking tools, comfortable sleeping bags, and a tent that meets your needs."
+            },
+            {
+            "type": "bullet",
+            "value": "Equipment can help you manage emergency situations by providing essential survival tools."
+            },
+            {
+            "type": "text",
+            "value": "In terms of equipment, there are several types of items that are necessary to establish a base camp. Here is a list of some of the most important items:"
+            },
+            {
+            "type": "bullet",
+            "value": "Tent or survival shelter"
+            },
+            {
+            "type": "bullet",
+            "value": "Sleeping bag"
+            },
+            {
+            "type": "bullet",
+            "value": "Ground mat"
+            },
+            {
+            "type": "bullet",
+            "value": "Camping stove and fuel"
+            },
+            {
+            "type": "bullet",
+            "value": "Cooking utensils"
+            },
+            {
+            "type": "bullet",
+            "value": "Headlamp or flashlight"
+            },
+            {
+            "type": "bullet",
+            "value": "Survival tools such as a knife, hatchet, or saw"
+            },
+            {
+            "type": "bullet",
+            "value": "Appropriate clothing for weather conditions"
+            },
+            {
+            "type": "bullet",
+            "value": "Hiking shoes or work boots"
+            },
+            {
+            "type": "bullet",
+            "value": "Compass and topographic map"
+            },
+            {
+            "type": "bullet",
+            "value": "Water purification system"
+            }
+            ]
+            },
+            {
+            "id": "ABX",
+            "title": "Personal Safety",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "When selecting and using a base camp, it's important to maintain your personal safety by taking measures to avoid wildlife and natural hazards such as avalanches."
+            },
+            {
+            "type": "text",
+            "value": "Here are some measures you can take to ensure your personal safety:"
+            },
+            {
+            "type": "bullet",
+            "value": "Choose an appropriate location for your base camp by avoiding high-risk areas, such as steep slopes or avalanche-prone areas."
+            },
+            {
+            "type": "bullet",
+            "value": "Keep your base camp clean and tidy to avoid attracting wildlife."
+            },
+            {
+            "type": "bullet",
+            "value": "Store food and waste properly to avoid attracting wildlife."
+            },
+            {
+            "type": "bullet",
+            "value": "Install an electric fence to deter wildlife from approaching your camp."
+            },
+            {
+            "type": "bullet",
+            "value": "Keep safety equipment on hand, such as a first aid kit and survival kit."
+            },
+            {
+            "type": "bullet",
+            "value": "Learn to recognize signs of danger, such as weather changes and changes in wildlife behavior, and take appropriate action."
+            },
+            {
+            "type": "bullet",
+            "value": "Consider wearing personal protective equipment, such as a helmet or bulletproof vest, if you're in a high-risk area."
+            },
+            {
+            "type": "bullet",
+            "value": "Familiarize yourself with wilderness survival techniques and emergency communication methods."
+            }
+            ]
+            },
+            {
+            "id": "ABY",
+            "title": "Reading and Owning Maps",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Knowing how to read and own maps is an important skill for survival in the wilderness or in case of a collapse. Here's why:"
+            },
+            {
+            "type": "bullet",
+            "value": "Maps allow you to navigate through unfamiliar or poorly known environments, which can help you avoid getting lost."
+            },
+            {
+            "type": "bullet",
+            "value": "Maps allow you to plan a route and choose the best paths to take based on the situation."
+            },
+            {
+            "type": "bullet",
+            "value": "Maps can contain information about natural resources, such as water and food, as well as potential hazards, such as avalanche-prone areas or hunting zones."
+            },
+            {
+            "type": "bullet",
+            "value": "Maps can also help you communicate with others by showing them exactly where your position is or by providing them with information about a route."
+            },
+            {
+            "type": "text",
+            "value": "Here are some points to consider for the skill of reading and owning maps:"
+            },
+            {
+            "type": "bullet",
+            "value": "Learn how to read a topographic map and use a compass."
+            },
+            {
+            "type": "bullet",
+            "value": "Be able to determine your position on a map using visible landmarks or other methods."
+            },
+            {
+            "type": "bullet",
+            "value": "Have multiple maps on hand, including topographic maps, road maps, and nautical charts, depending on the environment you're in."
+            },
+            {
+            "type": "bullet",
+            "value": "Make sure your maps are up-to-date and accurate, as changes in the landscape can render maps obsolete."
+            },
+            {
+            "type": "bullet",
+            "value": "Carry your maps in waterproof sleeves to protect them from water and other elements."
+            },
+            {
+            "type": "bullet",
+            "value": "Practice using your maps and compass in real-life situations, such as going hiking or camping with friends who have similar skills."
+            }
+            ]
+            }
+        ],
+        "isPremium": true
     }
 ]

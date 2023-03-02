@@ -10,8 +10,8 @@ import UIKit
 final class AllTopicsViewController: UIViewController {
 
     // MARK: - Properties
-    private var topicList = [TopicElement]()
     @IBOutlet var tableView: UITableView!
+    private var topicList = [TopicElement]()
     
     // MARK: - LifeCycle
     override func viewDidLoad() {

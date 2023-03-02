@@ -36,10 +36,7 @@ final class TopicTableViewCell: UITableViewCell {
         
         imageTopic.image = UIImage(named: topic.image)
         subtitleLabel.text = topic.subtitle
-        if percentage != nil {
-            percentLabel.text = "\(String(Int(percentage*100)))%"
-        }
-        
+        percentLabel.text = "\(String(Int(percentage*100)))%"
         
         percentageCircle.percentage = percentage*100
         percentageCircle.setNeedsDisplay()

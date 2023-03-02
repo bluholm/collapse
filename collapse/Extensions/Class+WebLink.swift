@@ -11,6 +11,7 @@ import UIKit
 final class WebLink {
     
     static func createLink(link: String, title: String) -> NSAttributedString {
+        print(link)
         let color: UIColor = .systemBlue
         let url: String = extractDomainName(from: link)
         let linkString = NSMutableAttributedString(string: "[\(url)] ")
@@ -21,7 +22,7 @@ final class WebLink {
         
         let range = NSRange(location: 0, length: linkString.length - title.count - 2)
         linkString.addAttribute(NSAttributedString.Key.foregroundColor, value: color, range: range)
-        
+        print(linkString)
         return linkString
     }
     

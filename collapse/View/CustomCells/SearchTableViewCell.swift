@@ -15,12 +15,6 @@ final class SearchTableViewCell: UITableViewCell {
     @IBOutlet var imageUIImageView: UIImageView!
     @IBOutlet var premiumImage: UIImageView!
     
-    // MARK: - Overrides
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
-    
     // MARK: - Publics
     func configure(with: TopicElement, word: String) {
 
@@ -31,7 +25,11 @@ final class SearchTableViewCell: UITableViewCell {
         for value in with.items {
             itemsText += "checklist:"+value.title
             itemsText += " & "+value.subtitle
-            // FIXME: - tlatla itemsText += ", description: "+value.
+            itemsText += " - content - "
+            for content in value.content {
+                itemsText += content.value
+                itemsText += "\n\n"
+            }
         }
         
         let fullText = with.title+" & "+with.subtitle+", description: "+with.descriptionShort+" & description : "+with.descriptionLong+itemsText
