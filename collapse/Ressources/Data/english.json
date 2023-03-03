@@ -382,7 +382,7 @@
                 ]
             }
         ],
-        "isPremium": true
+        "isPremium": false
     },
     {
         "uid": "2",
@@ -609,7 +609,7 @@
                 ]
             }
         ],
-        "isPremium": true
+        "isPremium": false
         
     },
     {

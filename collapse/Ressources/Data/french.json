@@ -389,7 +389,7 @@
             },
             
         ],
-        "isPremium": true
+        "isPremium": false
     }
     ,
     {
@@ -616,7 +616,7 @@
                 ]
             }
         ],
-        "isPremium": true
+        "isPremium": false
     }
     ,
     {

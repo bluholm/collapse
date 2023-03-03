@@ -17,7 +17,17 @@ final class SettingsRepository {
         static let checkItem = "checkItem"
         static let mode = "mode"
         static let didReadPresentation = "didReadPresentation"
+        static let launchedBefore = "launchedBefore"
         
+    }
+    
+    static var launchedBefore: Bool {
+        get {
+            return userDefault.bool(forKey: Keys.launchedBefore)
+        }
+        set {
+            userDefault.set(newValue, forKey: Keys.launchedBefore)
+        }
     }
     
     static var mode: String {

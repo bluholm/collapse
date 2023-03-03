@@ -325,7 +325,7 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="Pas encore Premium ? clique ici! ">
                                                     <backgroundConfiguration key="background" cornerRadius="8"/>
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="0.0"/>
-                                                    <color key="baseForegroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <color key="baseBackgroundColor" name="MainColor"/>
                                                 </buttonConfiguration>
                                                 <connections>
@@ -626,7 +626,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SERVICES EMERGENCY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXD-Zu-CJ2">
                                                     <rect key="frame" x="90.000000000000014" y="15" width="154.33333333333337" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <color key="textColor" name="success"/>
+                                                    <color key="textColor" name="MainColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="les soins , les premiers secours ..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8E-3H-H2p">
@@ -1961,7 +1961,7 @@ Veuillez noter que les situations d'urgence peuvent changer rapidement et que le
                     <viewLayoutGuide key="frameLayoutGuide" id="nRv-3Z-BZw"/>
                 </scrollView>
             </objects>
-            <point key="canvasLocation" x="2419" y="-1025"/>
+            <point key="canvasLocation" x="2349" y="-1025"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2KY-nU-Cz2">
@@ -2010,9 +2010,6 @@ Veuillez noter que les situations d'urgence peuvent changer rapidement et que le
         </namedColor>
         <namedColor name="premiumColor">
             <color red="0.89803921568627454" green="0.77254901960784317" blue="0.32156862745098042" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-        </namedColor>
-        <namedColor name="success">
-            <color red="0.13333333333333333" green="0.47450980392156861" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

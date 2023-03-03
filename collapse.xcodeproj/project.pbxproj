@@ -251,8 +251,8 @@
 			isa = PBXGroup;
 			children = (
 				0E0D634C29AF40C00017E1C2 /* UIView */,
-				0E0D634B29AF40AE0017E1C2 /* Storyboards */,
 				0E0D634A29AF409B0017E1C2 /* CustomCells */,
+				0E0D634B29AF40AE0017E1C2 /* Storyboards */,
 			);
 			path = View;
 			sourceTree = "<group>";

@@ -1,16 +1,15 @@
 ##Version 1.0 
-[d] ThanksVC.swift to be generated.
-[d] Load 1 tips on MainViewContorller 
 [todo] ajouter les liens dans la page items  
-[d] slide version des le debut 3 pour expliquer ce que fait l'application
 [bug] bug lenght-bullets : "La présence d'une source d'eau potable à proximité" dans emplacement dans base camps  
 [bug] j'ai l'impression que les tri sur le premier ecran d'accueil ne se fait pas bien .... 
+[todo] Unit Test à faire ... 
+
 
 ##Version 2.0
 [todo] presentation 3-slides at the launching game
-[todo] change le settings repositort (a faire lorsque le app in purhcase est mis en place)
+[todo] change le settings repositori when API load
 [todo] alimenter plein de liens vers achats etc...
-[todo] mode payant
+[todo] mode API
 
 ##Features ?! 
 [todo] des tags

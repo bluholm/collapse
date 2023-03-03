@@ -128,7 +128,9 @@ final class MainViewController: UIViewController {
     private func loadActionsPremium() {
         if SettingsRepository.userIsPremium {
             premiumButton.isHidden = true
+            tipsUIView.isHidden = false
         } else {
+            tipsUIView.isHidden = true
             premiumButton.isHidden = false
         }
         fetchTipsFireBase()
@@ -171,11 +173,15 @@ final class MainViewController: UIViewController {
         alertMessage = "MAIN_INFORMATION_BUTTON_MESSAGE".localized()
         alertTitle = "MAIN_INFORMATION_TITLE_MESSAGE".localized()
         alertAction = "MAIN_INFORMATION_ACTION_BUTTON".localized()
+#if DEBUG
+#else
         if #available(iOS 16.0, *) {
             premiumBarItem.isHidden =  SettingsRepository.userIsPremium ? true : false
         } else {
             premiumBarItem.isEnabled =  SettingsRepository.userIsPremium ? true : false
         }
+#endif
+        
     }
 }
 
