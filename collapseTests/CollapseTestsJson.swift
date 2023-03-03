@@ -25,37 +25,7 @@ final class JsonCollapseTests: XCTestCase {
         return topicList
     }
     
-    func testGivenGoodDataWhenParseThenExpectSuccess() {
-            // Arrange
-            let fileName = "french"
-            let bundle = Bundle(for: type(of: self))
-            guard let url = bundle.url(forResource: fileName, withExtension: "json"),
-                    // swiftlint: disable unused_optional_binding
-                    let _ = try? Data(contentsOf: url) else {
-                XCTFail("Fichier JSON invalide")
-                return
-            }
-            
-            // Act
-            var parsedData: [TopicElement]?
-            var parseError: Error?
-            let expectation = self.expectation(description: "parse")
-        JsonService.parse(file: fileName) { result in
-                switch result {
-                case .success(let data):
-                    parsedData = data
-                case .failure(let error):
-                    parseError = error
-                }
-                expectation.fulfill()
-            }
-            waitForExpectations(timeout: 5, handler: nil)
-            
-            // Assert
-            XCTAssertNotNil(parsedData, "Les données parsées ne devraient pas être nil")
-            XCTAssertNil(parseError, "Il ne devrait pas y avoir d'erreur lors du parsing")
-            // Ajoutez d'autres assertions spécifiques à votre cas d'utilisation
-        }
+    
     
     func testIfSameTopicCountInFrenchAndInEnglish() {
         var topicListFrench = [TopicElement]()
@@ -223,5 +193,37 @@ final class JsonCollapseTests: XCTestCase {
             }
         }
     }
+    
+    func testGivenGoodDataWhenParseThenExpectSuccess() {
+            // Arrange
+            let fileName = "french"
+            let bundle = Bundle(for: type(of: self))
+            guard let url = bundle.url(forResource: fileName, withExtension: "json"),
+                    // swiftlint: disable unused_optional_binding
+                    let _ = try? Data(contentsOf: url) else {
+                XCTFail("Fichier JSON invalide")
+                return
+            }
+            
+            // Act
+            var parsedData: [TopicElement]?
+            var parseError: Error?
+            let expectation = self.expectation(description: "parse")
+        JsonService.parse(file: fileName) { result in
+                switch result {
+                case .success(let data):
+                    parsedData = data
+                case .failure(let error):
+                    parseError = error
+                }
+                expectation.fulfill()
+            }
+            waitForExpectations(timeout: 5, handler: nil)
+            
+            // Assert
+            XCTAssertNotNil(parsedData, "Les données parsées ne devraient pas être nil")
+            XCTAssertNil(parseError, "Il ne devrait pas y avoir d'erreur lors du parsing")
+            // Ajoutez d'autres assertions spécifiques à votre cas d'utilisation
+        }
     
 }

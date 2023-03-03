@@ -14,4 +14,6 @@ class Constants {
     
     // privacyPolicyLink
     static let privacyPolicyLink = "https://barmarcantoine.wixsite.com/aupi-me/general-5"
+    
+    static let fireBasePath = "tips"
 }

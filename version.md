@@ -10,6 +10,7 @@
 [todo] change le settings repositori when API load
 [todo] alimenter plein de liens vers achats etc...
 [todo] mode API
+[todo] longue scroll view avec des statistiques pour alerter les gens sur le besoin!!!
 
 ##Features ?! 
 [todo] des tags

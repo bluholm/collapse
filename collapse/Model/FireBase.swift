@@ -13,10 +13,9 @@ class Firebase {
     var ref: DatabaseReference!
     
     func readData(callback: @escaping(DataSnapshot) -> Void ) {
-        self.ref = Database.database().reference(withPath: "tips")
+        self.ref = Database.database().reference(withPath: Constants.fireBasePath)
         self.ref.observe(.value, with: { snapshot in
             callback(snapshot)
         })
     }
 }
-

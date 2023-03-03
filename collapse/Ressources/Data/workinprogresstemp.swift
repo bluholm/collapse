@@ -1,17 +1,5 @@
 // swiftlint:disable all
-JEUDI //  • Richesses naturelles
-//    • forets
-//    • faire de l’elevage
-savoir lire des cartes / avoir des cartes
-JEUDI // defenses
-//    • mur barbelés
-//    • Hauts murs garni de picots
-//    • alarmes diverses
-//    • fenetre berau
-//    • porte blindés
-//    • coffre fort
-//    • panique room
-//    • chien de garde
+
 VENDREDI // peche
 //    • materiel de base
 //    • Filet
@@ -131,7 +119,8 @@ LUNDI //  • occupations
 MARDI //  • stockage de valeurs
 //    • or
 //    • argent
-//
+//wikipedia
+//kiwix
 
 So'irneter : dans la nature et ailleurs etc.... '
 
@@ -164,218 +153,18 @@ les bullets : sont des "points" , des étapes numérotés ou pas .
                     }
                 ]
 
-{
-    "uid": "4",
-    "title": "Produits de bases",
-    "subtitle": "",
-    "image": "chemistry",
-    "links": [],
-    "descriptionShort": "",
-    "descriptionLong": "",
-    "items": [
-        {
-            "id": "",
-            "title": "",
-            "mode": "",
-            "subtitle": "",
-            "image": "",
-            "links": [],
-            "content": [
-                {
-                    "type": "",
-                    "value": ""
-                }
-            ]
-        }
-    ],
-    "isPremium": true
-}
-,
-{
-    "uid": "5",
-    "title": "Feu & Chauffage",
-    "subtitle": "",
-    "image": "fireHeat",
-    "links": [],
-    "descriptionShort": "",
-    "descriptionLong": "",
-    "items": [
-        {
-            "id": "",
-            "title": "",
-            "mode": "",
-            "subtitle": "",
-            "image": "",
-            "links": [],
-            "content": [
-                {
-                    "type": "",
-                    "value": ""
-                }
-            ]
-        }
-    ],
-    "isPremium": true
-}
-,
-{
-    "uid": "6",
-    "title": "Premiers Soins",
-    "subtitle": "",
-    "image": "firstAid",
-    "links": [],
-    "descriptionShort": "",
-    "descriptionLong": "",
-    "items": [
-        {
-            "id": "",
-            "title": "",
-            "mode": "",
-            "subtitle": "",
-            "image": "",
-            "links": [],
-            "content": [
-                {
-                    "type": "",
-                    "value": ""
-                }
-            ]
-        }
-    ],
-    "isPremium": true
-}
-,
-{
-    "uid": "7",
-    "title": "Jardin et permaculture",
-    "subtitle": "",
-    "image": "garden",
-    "links": [],
-    "descriptionShort": "",
-    "descriptionLong": "",
-    "items": [
-        {
-            "id": "",
-            "title": "",
-            "mode": "",
-            "subtitle": "",
-            "image": "",
-            "links": [],
-            "content": [
-                {
-                    "type": "",
-                    "value": ""
-                }
-            ]
-        }
-    ],
-    "isPremium": true
-}
-,
-{
-    "uid": "8",
-    "title": "Nourriture",
-    "subtitle": "les bases, le stockage ,la conservation",
-    "image": "food",
-    "links": [],
-    "descriptionShort": "",
-    "descriptionLong": "",
-    "items": [
-        {
-            "id": "",
-            "title": "",
-            "mode": "",
-            "subtitle": "",
-            "image": "",
-            "links": [],
-            "content": [
-                {
-                    "type": "",
-                    "value": ""
-                }
-            ]
-        }
-    ],
-    "isPremium": true
-}
-,
-{
-    "uid": "9",
-    "title": "La planification",
-    "subtitle": "",
-    "image": "planification",
-    "links": [],
-    "descriptionShort": "",
-    "descriptionLong": "",
-    "items": [
-        {
-            "id": "",
-            "title": "",
-            "mode": "",
-            "subtitle": "",
-            "image": "",
-            "links": [],
-            "content": [
-                {
-                    "type": "",
-                    "value": ""
-                }
-            ]
-        }
-    ],
-    "isPremium": true
-}
-,
-{
-    "uid": "11",
-    "title": "Protection",
-    "subtitle": "",
-    "image": "protection",
-    "links": [],
-    "descriptionShort": "",
-    "descriptionLong": "",
-    "items": [
-        {
-            "id": "",
-            "title": "",
-            "mode": "",
-            "subtitle": "",
-            "image": "",
-            "links": [],
-            "content": [
-                {
-                    "type": "",
-                    "value": ""
-                }
-            ]
-        }
-    ],
-    "isPremium": true
-}
-,
-{
-    "uid": "12",
-    "title": "La pêche",
-    "subtitle": "",
-    "image": "fishing",
-    "links": [],
-    "descriptionShort": "",
-    "descriptionLong": "",
-    "items": [
-        {
-            "id": "",
-            "title": "",
-            "mode": "",
-            "subtitle": "",
-            "image": "",
-            "links": [],
-            "content": [
-                {
-                    "type": "",
-                    "value": ""
-                }
-            ]
-        }
-    ],
-    "isPremium": true
-}
+
+
+Sécuriser les abords de la maison :
+Installer des systèmes d'éclairage extérieur pour dissuader les intrus
+Planter des buissons épineux pour rendre l'accès à la maison plus difficile
+S'assurer que les portails et les clôtures sont bien verrouillés
+Savoir comment réagir en cas d'intrusion :
+Élaborer un plan d'évacuation en cas d'urgence
+Savoir quoi faire et à qui appeler en cas d'intrusion
+Envisager la possibilité de s'enfermer dans une pièce sécurisée (comme une chambre forte ou une panic room)
+Avoir une attitude vigilante :
+Être attentif à son environnement et aux personnes qui s'y trouvent
+Ne pas hésiter à contacter les autorités en cas de suspicion ou de danger
+Éviter de divulguer des informations sensibles sur les réseaux sociaux ou en public
+

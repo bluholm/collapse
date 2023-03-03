@@ -11,7 +11,6 @@
 // MainViewController.swift
 "MAIN_PROJECT_TITLE" = "SCORE";
 "MAIN_PROJECT_SUBTITLE" = "Êtes vous prêt pour l'effondrement?";
-"MAIN_BUTTON_PREMIUM_TITLE" = "Pas encore Premium ? clique ici!";
 "MAIN_INFORMATION_BUTTON_MESSAGE" = "Les calculs de score sont effectués en fonction des modes sélectionnés pour chaque sujet. Si vous avez coché tous les éléments dans le mode avancé, vous obtiendrez un score de 100%. il faut donc être en mode advanced pour obtenir le score maximal.";
 "MAIN_PROJECT_GENERAL_TITLE" = "Vos sujets";
 "MAIN_PROJECT_FIRST_SECTION_TITLE" = "En cours";

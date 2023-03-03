@@ -2376,5 +2376,300 @@
             }
         ],
         "isPremium": true
+    },
+    {
+        "uid": "8",
+        "title": "Defense and security",
+        "subtitle": "Prepare to protect your home and family in case of emergency.",
+        "image": "protection",
+        "links": [],
+        "descriptionShort": "Security is an essential element of any survival strategy. In case of emergency, it is crucial to protect your home and family against external threats such as intruders, wild animals, or natural disasters. In this section, you will find practical tips to strengthen the security of your home, including the use of barbed wire fences, reinforced doors and windows, safes, and panic rooms. You will also discover how guard animals such as dogs and donkeys can help protect your property. Finally, you will learn how to work in groups to ensure watch rotations and increase the security of your community in times of crisis. With this knowledge and these skills, you can feel more confident and prepared to face any emergency situation.",
+        "descriptionLong": "The Defense section is a crucial part of any survival or collapse preparation. It includes security measures to protect your home, family, and group. In this section, you will learn how to ensure the safety of your property, including reinforcing walls, installing alarm systems, and adopting animals that can act as guardians.\n\nProtecting your home is an absolute priority. In the event of a collapse or emergency situation, it is important to ensure that your home is protected against intruders and external attacks. Here, you will learn how to strengthen your property's walls and fences with barbed wire or spikes, how to install bulletproof windows, armored doors, and safes, and how to create a secure room (also known as a \"panic room\") in case of emergency.\n\n In addition to property protection measures, this section also addresses the issue of animals that can act as guardians. Guard dogs are a common choice, but there are also other animals that can be useful, such as donkeys, geese, or chickens. These animals can provide additional protection and can be trained to signal the presence of intruders or other threats.\n\nFinally, this section also addresses the importance of being part of a group in an emergency situation. By joining a survival group or creating your own, you can set up guard shifts and rotations to monitor your property constantly. This can also provide emotional and psychological support in times of stress or difficult situations.\n\nThe Defense section is, therefore, an essential element of any survival or collapse preparation. By learning how to protect your home, how to adopt useful animals, and how to be part of a group, you can maximize your chances of staying safe and protecting your family in difficult situations.",
+        "items": [
+            {
+            "id": "ABZ",
+            "title": "My house is protected",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Protecting your house is crucial in case of crisis or natural disaster. It can also serve to deter intruders or burglars in normal times. The following elements can be used to protect your house:"
+            },
+            {
+            "type": "bullet",
+            "value": "Barbed wire fences: barbed wires can be installed on existing walls to deter intruders."
+            },
+            {
+            "type": "bullet",
+            "value": "High walls with spikes: high walls with spikes on top can prevent intruders from entering your property."
+            },
+            {
+            "type": "bullet",
+            "value": "Various alarms: alarm systems can be installed to alert occupants of the house in case of intrusion."
+            },
+            {
+            "type": "bullet",
+            "value": "Barred windows: barred windows are windows embedded in the wall with bars to prevent intruders from entering."
+            },
+            {
+            "type": "bullet",
+            "value": "Reinforced door: a reinforced door is a stronger door that is more difficult to break into than standard doors."
+            },
+            {
+            "type": "bullet",
+            "value": "Safe: a safe is a secure place to store valuable items and important documents."
+            },
+            {
+            "type": "bullet",
+            "value": "Panic room: a panic room is a secure room in a house that can be used to hide or protect oneself in case of intrusion or disaster."
+            }
+            ]
+            },
+            {
+            "id": "ACA",
+            "title": "I have animals to help me",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Adopting animals for security is important because they can serve as a natural alarm system and deter intruders. Animals can also alert you to potential dangers and protect your home or campsite. Here are some options to consider:"
+            },
+            {
+            "type": "text",
+            "value": "1. Guard dog: Guard dogs are a popular option for security, as they are known to be loyal and protective of their family. They have a natural instinct to protect their territory and can be trained to attack on command or bark to alert owners."
+            },
+            {
+            "type": "text",
+            "value": "2. Donkeys: Donkeys are a surprising but effective choice for security, as they have a strong protective instinct towards their herd. They also have excellent hearing and can detect strange noises and smells. Donkeys can be trained to attack with their hooves and powerful bite."
+            }
+            ]
+            },
+            {
+            "id":"ACB",
+            "title":"I am part of a group",
+            "mode":"essential",
+            "subtitle":"",
+            "image":"",
+            "links":[],
+            "content":[
+            {
+            "type":"text",
+            "value":"Being part of a group is important because it allows for mutual assistance and benefits from everyone's skills and resources. By working together, group members can share tasks and lighten the burden on each other, which increases the chances of survival. Here are some advantages to consider:"
+            },
+            {
+            "type":"text",
+            "value":"1. Watch duty: being part of a group makes it easier to organize watch duties to ensure the safety of the camp. This allows for rest knowing that other group members are keeping an eye out."
+            },
+            {
+            "type":"text",
+            "value":"2. Skill sharing: depending on the group members, it is possible to benefit from useful survival skills such as hunting, fishing, gathering, construction, or medicine. Members can also learn from each other to improve their individual skills."
+            },
+            {
+            "type":"text",
+            "value":"3. Advance planning: by working in a group, it is possible to plan in advance for actions to take in case of emergency or crisis. This allows for quicker decision-making and better management of stressful situations."
+            },
+            {
+            "type":"text",
+            "value":"4. Trust: being part of a group composed of trusted individuals, such as friends or family, can help maintain a positive attitude and strengthen motivation to survive. Emotional support is also important in difficult situations."
+            }
+            ]
+            },
+            {
+            "id": "ACC",
+            "title": "I know self-defense techniques",
+            "mode": "advanced",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Learning self-defense techniques is crucial for anyone who wants to protect themselves and their family in case of an attack or aggression. Here's why:"
+            },
+            {
+            "type": "bullet",
+            "value": "Reducing the risk of aggression: by knowing how to react to a dangerous situation, you can avoid ending up in a vulnerable position."
+            },
+            {
+            "type": "bullet",
+            "value": "Building self-confidence: by learning to defend oneself, one develops greater confidence in their physical and mental abilities."
+            },
+            {
+            "type": "bullet",
+            "value": "Improving physical condition: most self-defense techniques involve some form of physical exercise, which can help strengthen muscles and improve endurance."
+            },
+            {
+            "type": "bullet",
+            "value": "Acquiring useful skills: self-defense techniques can be used in various situations in daily life, such as stress management and conflict resolution."
+            },
+            {
+            "type": "text",
+            "value": "Here are some examples of self-defense techniques:"
+            },
+            {
+            "type": "bullet",
+            "value": "Martial arts: martial arts such as karate, judo, or taekwondo can help develop strength, flexibility, and agility."
+            },
+            {
+            "type": "bullet",
+            "value": "Boxing: boxing is an excellent way to improve physical condition and learn striking techniques."
+            },
+            {
+            "type": "bullet",
+            "value": "Krav Maga: Krav Maga is a self-defense method that aims to quickly neutralize an aggressor using simple and effective movements."
+            },
+            {
+            "type": "bullet",
+            "value": "Disarmament techniques: these techniques involve disarming an armed aggressor, such as a knife or gun."
+            }
+            ]
+            },
+            {
+            "id": "ACD",
+            "title": "I have access to self-defense weapons",
+            "mode": "advanced",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Having access to self-defense weapons can be important for security in certain situations. Here are some reasons why it can be useful:"
+            },
+            {
+            "type": "bullet",
+            "value": "Personal protection: In the event of an attack or intrusion on your property, a weapon can be used to protect yourself, your family, and your property."
+            },
+            {
+            "type": "bullet",
+            "value": "Food hunting: In the event of a need for food, a weapon can be used to hunt and kill animals for food."
+            },
+            {
+            "type": "bullet",
+            "value": "Deterrence: Simply owning a weapon can deter criminals from attacking you or your property."
+            },
+            {
+            "type": "text",
+            "value": "It is important to note that owning weapons must be legal and it is important to follow rules and regulations regarding the possession and use of weapons. Here are some examples of self-defense weapons:"
+            },
+            {
+            "type": "bullet",
+            "value": "Handguns: Handguns are lightweight and portable firearms that can be used for personal defense."
+            },
+            {
+            "type": "bullet",
+            "value": "Rifles: Rifles are larger and more powerful firearms that can be used for hunting or personal defense."
+            },
+            {
+            "type": "bullet",
+            "value": "Non-lethal weapons: Non-lethal weapons like pepper spray, stun guns, and telescoping batons can be used for personal defense without causing serious injury."
+            },
+            {
+            "type": "text",
+            "value": "It is important to receive proper training on the use and safety of weapons before using them. Additionally, it is essential to securely store weapons to prevent unauthorized or accidental access, especially if children are present in the home."
+            }
+            ]
+            },
+            {
+            "id": "ACE",
+            "title": "I know how to react to intrusion",
+            "mode": "intermediate",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Knowing how to react in case of intrusion is crucial to ensure the safety of your home and its occupants. It is important to have an action plan in place to be able to react quickly and effectively when needed."
+            },
+            {
+            "type": "text",
+            "value": "Here are some points to consider when developing an emergency evacuation plan:"
+            },
+            {
+            "type": "bullet",
+            "value": "Have a clearly identified and accessible emergency exit for each room"
+            },
+            {
+            "type": "bullet",
+            "value": "Plan a safe meeting point outside the house"
+            },
+            {
+            "type": "bullet",
+            "value": "Ensure that everyone in the house knows the evacuation plan and knows how to execute it if needed"
+            },
+            {
+            "type": "text",
+            "value": "In case of intrusion, it is important to know what to do and who to call. Here are some examples:"
+            },
+            {
+            "type": "bullet",
+            "value": "Call the police immediately by dialing the emergency number"
+            },
+            {
+            "type": "bullet",
+            "value": "Barricade yourself in a secure room if possible"
+            },
+            {
+            "type": "bullet",
+            "value": "Make noise to alert neighbors and deter the intruder"
+            },
+            {
+            "type": "text",
+            "value": "Consider the possibility of locking yourself in a secure room, such as a safe room or a panic room. These rooms can be equipped with armored doors, reinforced locks, and other security devices to protect the occupants in case of intrusion."
+            }
+            ]
+            },
+            {
+            "id": "ACF",
+            "title": "I know what \"a vigilant attitude\" means",
+            "mode": "essential",
+            "subtitle": "",
+            "image": "",
+            "links": [],
+            "content": [
+            {
+            "type": "text",
+            "value": "Having a vigilant attitude is essential to ensure one's own safety. Indeed, being attentive to one's surroundings and the people in them allows you to quickly identify any potentially dangerous situation. Similarly, not hesitating to contact authorities in case of suspicion or danger can help avoid even more serious situations. Finally, it is important to avoid disclosing sensitive information on social media or in public in order to avoid drawing the attention of malicious individuals."
+            },
+            {
+            "type": "text",
+            "value": "Here are some examples and details for each point:"
+            },
+            {
+            "type": "bullet",
+            "value": "Being attentive to one's surroundings and the people in them:"
+            },
+            {
+            "type": "text",
+            "value": "This can include monitoring people around you in public places, paying attention to movements around your home or vehicle, or recognizing signs of suspicious behavior."
+            },
+            {
+            "type": "bullet",
+            "value": "Not hesitating to contact authorities in case of suspicion or danger:"
+            },
+            {
+            "type": "text",
+            "value": "It is important not to minimize signs of danger or think that it does not concern us. When in doubt, it is better to contact the competent authorities to report any suspicious behavior or potential danger."
+            },
+            {
+            "type": "bullet",
+            "value": "Avoid disclosing sensitive information on social media or in public:"
+            },
+            {
+            "type": "text",
+            "value": "The information we share on social media can be used against us. It is therefore important not to post personal or sensitive information such as phone numbers, addresses, real-time vacation photos, or information about one's property or finances."
+            }
+            ]
+            }
+            
+        ],
+        "isPremium": true
     }
 ]

@@ -2411,5 +2411,302 @@
         ],
         "isPremium": true
     }
+    ,
+    {
+        "uid": "8",
+        "title": "Défense et sécurité",
+        "subtitle": "Préparez-vous à protéger votre maison et votre famille en cas d'urgence",
+        "image": "protection",
+        "links": [],
+        "descriptionShort": "La sécurité est un élément essentiel de toute stratégie de survie. En cas d'urgence, il est crucial de protéger votre maison et votre famille contre les menaces extérieures telles que les intrus, les animaux sauvages ou les catastrophes naturelles. Dans cette section, vous trouverez des conseils pratiques pour renforcer la sécurité de votre maison, notamment en utilisant des murs barbelés, des portes et fenêtres blindées, des coffres-forts et des salles de panique. Vous découvrirez également comment les animaux de garde, tels que les chiens et les ânes, peuvent vous aider à protéger votre propriété. Enfin, vous apprendrez comment travailler en groupe pour assurer des tours de garde et augmenter la sécurité de votre communauté en temps de crise. Avec ces connaissances et ces compétences, vous pouvez vous sentir plus confiant et préparé à faire face à toute situation d'urgence.",
+        "descriptionLong": "La section Défense est une partie cruciale de toute préparation à la survie ou à une situation d'effondrement. Elle comprend des mesures de sécurité pour protéger votre maison, votre famille et votre groupe. Dans cette section, vous apprendrez comment assurer la sécurité de votre propriété, notamment en renforçant les murs, en installant des systèmes d'alarme et en adoptant des animaux qui peuvent agir comme des gardiens.\n\nLa protection de votre maison est une priorité absolue. En cas d'effondrement ou de situation d'urgence, il est important de s'assurer que votre maison est protégée contre les intrus et les attaques extérieures. Vous apprendrez ici comment renforcer les murs et les clôtures de votre propriété avec des barbelés ou des picots, comment installer des fenêtres blindées, des portes blindées et des coffres-forts, et comment créer une pièce sécurisée (aussi appelée « panic room ») en cas d'urgence.\n\nOutre les mesures de protection de votre propriété, cette section aborde également la question des animaux qui peuvent agir comme des gardiens. Les chiens de garde sont un choix courant, mais il existe également d'autres animaux qui peuvent être utiles, tels que les ânes, les oies ou les poules. Ces animaux peuvent fournir une protection supplémentaire et peuvent être formés pour signaler la présence d'intrus ou d'autres menaces.\n\nEnfin, cette section aborde également la question de l'importance de faire partie d'un groupe dans une situation d'urgence. En rejoignant un groupe de survie ou en créant votre propre groupe, vous pouvez mettre en place des tours de garde et des rotations pour surveiller votre propriété en permanence. Cela peut également fournir un soutien émotionnel et psychologique en cas de stress ou de situation difficile.\n\nLa section Défense est donc un élément essentiel de toute préparation à la survie ou à une situation d'effondrement. En apprenant comment protéger votre maison, comment adopter des animaux utiles et comment faire partie d'un groupe, vous pouvez maximiser vos chances de rester en sécurité et de protéger votre famille dans des situations difficiles.",
+        "items": [
+            {
+                "id": "ABZ",
+                "title": "Ma maison est protégée",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                {
+                "type": "text",
+                "value": "La protection de la maison est cruciale en cas de crise ou de catastrophe naturelle. Elle peut également servir à dissuader les intrus ou les cambrioleurs en temps normal. Les éléments suivants peuvent être utilisés pour protéger votre maison :"
+                },
+                {
+                "type": "bullet",
+                "value": "Mur barbelés : des fils barbelés peuvent être installés sur des murs existants pour dissuader les intrus."
+                },
+                {
+                "type": "bullet",
+                "value": "Hauts murs garni de picots : des murs hauts avec des pointes sur le dessus peuvent empêcher les intrus d'entrer dans votre propriété."
+                },
+                {
+                "type": "bullet",
+                "value": "Alarmes diverses : des systèmes d'alarme peuvent être installés pour avertir les occupants de la maison en cas d'intrusion."
+                },
+                {
+                "type": "bullet",
+                "value": "Fenêtre à barreaux : les fenêtres à barreaux sont des fenêtres encastrées dans le mur avec des barreaux pour empêcher les intrus d'entrer."
+                },
+                {
+                "type": "bullet",
+                "value": "Porte blindée : une porte blindée est une porte renforcée qui est plus difficile à forcer que les portes standard."
+                },
+                {
+                "type": "bullet",
+                "value": "Coffre-fort : un coffre-fort est un endroit sûr pour stocker des objets de valeur et des documents importants."
+                },
+                {
+                "type": "bullet",
+                "value": "Panic room : une panic room est une pièce sécurisée dans une maison qui peut être utilisée pour se cacher ou se protéger en cas d'intrusion ou de catastrophe."
+                }
+                ]
+            },
+            {
+                "id": "ACA",
+                "title": "J'ai des animaux pour m'aider",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                {
+                "type": "text",
+                "value": "L'adoption d'animaux pour la sécurité est importante car ils peuvent servir de système d'alarme naturel et dissuader les intrus. Les animaux peuvent également vous avertir des dangers potentiels et protéger votre maison ou votre campement. Voici quelques options à considérer :"
+                },
+                {
+                "type": "text",
+                "value": "1. Chien de garde : les chiens de garde sont une option populaire pour la sécurité, car ils sont connus pour être fidèles et protecteurs envers leur famille. Ils ont un instinct naturel pour protéger leur territoire et peuvent être dressés pour attaquer sur commande ou aboyer pour alerter les propriétaires."
+                },
+                {
+                "type": "text",
+                "value": "2. Ânes : les ânes sont un choix surprenant mais efficace pour la sécurité, car ils ont un fort instinct de protection envers leur troupeau. Ils ont également une excellente ouïe et sont capables de détecter les bruits de pas et les odeurs étranges. Les ânes peuvent être dressés pour attaquer avec leurs sabots et leur morsure puissante."
+                }
+                ]
+            },
+            {
+                "id": "ACB",
+                "title": "Je fais partie d'un groupe",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                {
+                "type": "text",
+                "value": "Faire partie d'un groupe est important car cela permet de s'entraider et de bénéficier des compétences et des ressources de chacun. En travaillant ensemble, les membres du groupe peuvent partager les tâches et alléger la charge de chacun, ce qui augmente les chances de survie. Voici quelques avantages à considérer :"
+                },
+                {
+                "type": "text",
+                "value": "1. Tour de garde : en faisant partie d'un groupe, il est plus facile d'organiser des tours de garde pour assurer la sécurité du campement. Cela permet de se reposer en sachant que d'autres membres du groupe surveillent les environs."
+                },
+                {
+                "type": "text",
+                "value": "2. Partage des compétences : en fonction des membres du groupe, il est possible de bénéficier de compétences utiles à la survie, telles que la chasse, la pêche, la cueillette, la construction ou la médecine. Les membres peuvent également apprendre les uns des autres pour améliorer leurs compétences individuelles."
+                },
+                {
+                "type": "text",
+                "value": "3. Planification préalable : en travaillant en groupe, il est possible de planifier à l'avance les actions à prendre en cas de situation d'urgence ou de crise. Cela permet de prendre des décisions plus rapidement et de mieux gérer les situations stressantes."
+                },
+                {
+                "type": "text",
+                "value": "4. Confiance : faire partie d'un groupe composé de personnes de confiance, comme des amis ou de la famille, peut aider à maintenir une attitude positive et à renforcer la motivation à survivre. Le soutien émotionnel est également important dans les situations difficiles."
+                }
+                ]
+            },
+            {
+                "id": "ACC",
+                "title": "Je connais des techniques de self-defense",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                {
+                "type": "text",
+                "value": "Apprendre les techniques de self-defense est crucial pour toute personne qui souhaite se protéger et protéger sa famille en cas d'attaque ou d'agression. Voici pourquoi :"
+                },
+                {
+                "type": "bullet",
+                "value": "Réduire les risques d'agression : en sachant comment réagir face à une situation dangereuse, vous pouvez éviter de vous retrouver dans une position vulnérable."
+                },
+                {
+                "type": "bullet",
+                "value": "Renforcer la confiance en soi : en apprenant à se défendre, on développe une plus grande confiance en ses capacités physiques et mentales."
+                },
+                {
+                "type": "bullet",
+                "value": "Améliorer la condition physique : la plupart des techniques de self-defense impliquent une certaine forme d'exercice physique, ce qui peut aider à renforcer les muscles et à améliorer l'endurance."
+                },
+                {
+                "type": "bullet",
+                "value": "Acquérir des compétences utiles : les techniques de self-defense peuvent être utilisées dans diverses situations de la vie quotidienne, comme la gestion du stress et la résolution de conflits."
+                },
+                {
+                "type": "text",
+                "value": "Voici quelques exemples de techniques de self-defense :"
+                },
+                {
+                "type": "bullet",
+                "value": "Les arts martiaux : les arts martiaux comme le karaté, le judo ou le taekwondo peuvent aider à développer la force, la souplesse et l'agilité."
+                },
+                {
+                "type": "bullet",
+                "value": "La boxe : la boxe est une excellente façon d'améliorer la condition physique et d'apprendre des techniques de frappe."
+                },
+                {
+                "type": "bullet",
+                "value": "Le krav-maga : le krav-maga est une méthode de self-defense qui vise à neutraliser rapidement un agresseur en utilisant des mouvements simples et efficaces."
+                },
+                {
+                "type": "bullet",
+                "value": "Les techniques de désarmement : ces techniques consistent à désarmer un agresseur armé, comme un couteau ou un pistolet."
+                }
+                ]
+            },
+            {
+                "id": "ACD",
+                "title": "j'ai accès à des armes de défense",
+                "mode": "advanced",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                {
+                "type": "text",
+                "value": "Avoir accès à des armes de défense peut être important pour la sécurité dans certaines situations. Voici quelques raisons pour lesquelles cela peut être utile :"
+                },
+                {
+                "type": "bullet",
+                "value": "Protection personnelle : En cas d'attaque ou d'intrusion dans votre propriété, une arme peut être utilisée pour vous protéger, protéger votre famille et votre propriété."
+                },
+                {
+                "type": "bullet",
+                "value": "Chasse alimentaire : En cas de besoin de se nourrir, une arme peut être utilisée pour chasser et tuer des animaux pour la nourriture."
+                },
+                {
+                "type": "bullet",
+                "value": "Dissuasion : Le simple fait de posséder une arme peut dissuader les criminels de s'attaquer à vous ou à votre propriété."
+                },
+                {
+                "type": "text",
+                "value": "Il est important de noter que la possession d'armes doit être légale et qu'il est important de suivre les règles et les réglementations en matière de possession et d'utilisation d'armes. Voici quelques exemples d'armes de défense :"
+                },
+                {
+                "type": "bullet",
+                "value": "Pistolets : Les pistolets sont des armes de poing légères et portables qui peuvent être utilisées pour la défense personnelle."
+                },
+                {
+                "type": "bullet",
+                "value": "Fusils : Les fusils sont des armes à feu plus grandes et plus puissantes qui peuvent être utilisées pour la chasse ou la défense personnelle."
+                },
+                {
+                "type": "bullet",
+                "value": "Armes non létales : Les armes non létales comme les sprays au poivre, les pistolets à impulsions électriques et les bâtons télescopiques peuvent être utilisées pour la défense personnelle sans causer de blessures graves."
+                },
+                {
+                "type": "text",
+                "value": "Il est important de suivre une formation adéquate sur l'utilisation et la sécurité des armes avant de les utiliser. En outre, il est essentiel de stocker les armes en toute sécurité pour éviter tout accès non autorisé ou accidentel, en particulier si des enfants sont présents dans la maison."
+                }
+                ]
+            },
+            {
+                "id": "ACE",
+                "title": "Je sais réagir à l'intrusion",
+                "mode": "intermediate",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                {
+                "type": "text",
+                "value": "Savoir comment réagir en cas d'intrusion est crucial pour assurer la sécurité de votre maison et de ses occupants. Il est important d'avoir un plan d'action en place pour pouvoir réagir rapidement et efficacement en cas de besoin."
+                },
+                {
+                "type": "text",
+                "value": "Voici quelques points à considérer pour élaborer un plan d'évacuation en cas d'urgence :"
+                },
+                {
+                "type": "bullet",
+                "value": "Avoir une sortie de secours clairement identifiée et accessible pour chaque pièce"
+                },
+                {
+                "type": "bullet",
+                "value": "Prévoir un point de rassemblement sûr à l'extérieur de la maison"
+                },
+                {
+                "type": "bullet",
+                "value": "S'assurer que tout le monde dans la maison connaît le plan d'évacuation et sait comment l'exécuter en cas de besoin"
+                },
+                {
+                "type": "text",
+                "value": "En cas d'intrusion, il est important de savoir quoi faire et à qui appeler. Voici quelques exemples :"
+                },
+                {
+                "type": "bullet",
+                "value": "Appeler la police immédiatement en composant le numéro d'urgence"
+                },
+                {
+                "type": "bullet",
+                "value": "Se barricader dans une pièce sécurisée si possible"
+                },
+                {
+                "type": "bullet",
+                "value": "Faire du bruit pour alerter les voisins et dissuader l'intrus"
+                },
+                {
+                "type": "text",
+                "value": "Envisager la possibilité de s'enfermer dans une pièce sécurisée, comme une chambre forte ou une panic room. Ces pièces peuvent être équipées de portes blindées, de verrous renforcés et d'autres dispositifs de sécurité pour protéger les occupants en cas d'intrusion."
+                }
+                ]
+            },
+            {
+                "id": "ACF",
+                "title": "Je sais ce qu'est \"une attitude vigilante\"",
+                "mode": "essential",
+                "subtitle": "",
+                "image": "",
+                "links": [],
+                "content": [
+                {
+                "type": "text",
+                "value": "Avoir une attitude vigilante est essentiel pour assurer sa propre sécurité. En effet, être attentif à son environnement et aux personnes qui s'y trouvent permet de repérer rapidement toute situation potentiellement dangereuse. De même, ne pas hésiter à contacter les autorités en cas de suspicion ou de danger peut permettre d'éviter des situations encore plus graves. Enfin, il est important d'éviter de divulguer des informations sensibles sur les réseaux sociaux ou en public afin de ne pas attirer l'attention des personnes mal intentionnées."
+                },
+                {
+                "type": "text",
+                "value": "Voici quelques exemples et détails pour chaque point :"
+                },
+                {
+                "type": "bullet",
+                "value": "Être attentif à son environnement et aux personnes qui s'y trouvent :"
+                },
+                {
+                "type": "text",
+                "value": "Cela peut inclure de surveiller les personnes autour de soi dans les lieux publics, de prêter attention aux mouvements autour de sa maison ou de son véhicule, ou encore de reconnaître les signes de comportements suspects."
+                },
+                {
+                "type": "bullet",
+                "value": "Ne pas hésiter à contacter les autorités en cas de suspicion ou de danger :"
+                },
+                {
+                "type": "text",
+                "value": "Il est important de ne pas minimiser les signes de danger ou de penser que cela ne nous concerne pas. En cas de doute, il est préférable de contacter les autorités compétentes pour signaler tout comportement suspect ou tout danger potentiel."
+                },
+                {
+                "type": "bullet",
+                "value": "Éviter de divulguer des informations sensibles sur les réseaux sociaux ou en public :"
+                },
+                {
+                "type": "text",
+                "value": "Les informations que nous partageons sur les réseaux sociaux peuvent être utilisées pour nous nuire. Il est donc important de ne pas publier des informations personnelles ou sensibles telles que des numéros de téléphone, adresses, photos de vacances en temps réel, ou des informations sur ses biens ou ses finances."
+                }
+                ]
+            }
+            
+        ],
+        "isPremium": true
+    }
+    
     
 ]

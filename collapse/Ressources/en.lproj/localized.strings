@@ -10,7 +10,6 @@
 // MainViewController.swift
 "MAIN_PROJECT_TITLE" = "SCORE";
 "MAIN_PROJECT_SUBTITLE" = "Are you ready for the collapse?";
-"MAIN_BUTTON_PREMIUM_TITLE" = "Start and unlock all topics and features !";
 "MAIN_INFORMATION_BUTTON_MESSAGE" = "Score calculations are performed based on the selected modes for each subject. If you have checked all the items in the advanced mode, you will receive a score of 100%. Therefore, you must be in advanced mode to achieve the maximum score.";
 "MAIN_PROJECT_GENERAL_TITLE" = "Your topics";
 "MAIN_PROJECT_FIRST_SECTION_TITLE" = "In progress";

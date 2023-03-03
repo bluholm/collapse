@@ -19,7 +19,6 @@ final class MainViewController: UIViewController {
     @IBOutlet var projectFirstSectionLabel: UILabel!
     @IBOutlet var projectSecondSectionLabel: UILabel!
     @IBOutlet var projectViewAllButton: UIButton!
-    @IBOutlet var premiumButton: UIButton!
     @IBOutlet var scoreProgressView: UIProgressView!
     @IBOutlet var tableView: UITableView!
     @IBOutlet var collectionView: UICollectionView!
@@ -40,8 +39,9 @@ final class MainViewController: UIViewController {
     // MARK: - Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
-        setUpView()
         loadDataFromJson()
+        setUpView()
+        fetchTipsFireBase()
         loadActionsPremium()
         addObserverNotification()
     }
@@ -126,14 +126,6 @@ final class MainViewController: UIViewController {
     }
     
     private func loadActionsPremium() {
-        if SettingsRepository.userIsPremium {
-            premiumButton.isHidden = true
-            tipsUIView.isHidden = false
-        } else {
-            tipsUIView.isHidden = true
-            premiumButton.isHidden = false
-        }
-        fetchTipsFireBase()
         collectionView.reloadData()
         tableView.reloadData()
     }
@@ -165,7 +157,6 @@ final class MainViewController: UIViewController {
         tipsDescriptionLabel.text = ""
         projectTitleLabel.text = "MAIN_PROJECT_TITLE".localized()
         projectSubtitleLabel.text = "MAIN_PROJECT_SUBTITLE".localized()
-        premiumButton.setTitle("MAIN_BUTTON_PREMIUM_TITLE".localized(), for: .normal)
         projectTitleLabel.text = "MAIN_PROJECT_GENERAL_TITLE".localized()
         projectFirstSectionLabel.text = "MAIN_PROJECT_FIRST_SECTION_TITLE".localized()
         projectSecondSectionLabel.text = "MAIN_PROJECT_SECOND_SECTION_TITLE".localized()

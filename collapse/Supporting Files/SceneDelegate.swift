@@ -21,6 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let initialViewController = storyboard.instantiateViewController(withIdentifier: "dashboard")
             let window = UIWindow(windowScene: windowScene)
             let navigationController = UINavigationController(rootViewController: initialViewController)
+            navigationController.navigationBar.tintColor = UIColor.darkGray
             window.rootViewController = navigationController
             self.window = window
             window.makeKeyAndVisible()
