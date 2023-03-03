@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 final class MainViewController: UIViewController {
     
@@ -26,8 +27,11 @@ final class MainViewController: UIViewController {
     @IBOutlet var tipsUIView: UIView!
     @IBOutlet var tipsTitleLabel: UILabel!
     @IBOutlet var tipsDescriptionLabel: UILabel!
+    @IBOutlet var tipsViewActivityController: UIActivityIndicatorView!
+    
     // variables & constants
     private var topicList = [TopicElement]()
+    private var tipsList = [Tips]()
     private var topichighlight = [TopicElement]()
     private var alertMessage: String!
     private var alertTitle: String!
@@ -36,10 +40,10 @@ final class MainViewController: UIViewController {
     // MARK: - Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
+        setUpView()
         loadDataFromJson()
         loadActionsPremium()
-        setUpView()
-        NotificationCenter.default.addObserver(self, selector: #selector(handleNotificationWhenDismiss), name: NSNotification.Name("dismissModal"), object: nil)
+        addObserverNotification()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -48,7 +52,6 @@ final class MainViewController: UIViewController {
         updateScorePercent()
         deselectDataTableView()
         tableView.reloadData()
-        
     }
     
     deinit {
@@ -71,11 +74,53 @@ final class MainViewController: UIViewController {
     }
     
     // MARK: - Privates
+    private func fetchTipsFireBase() {
+        tipsViewActivityController.isHidden = false
+        Firebase().readData { data in
+            DispatchQueue.main.async {
+                for child in data.children {
+                    
+                    guard let snapshot = child as? DataSnapshot else {
+                        return
+                    }
+                    guard let value = snapshot.value as? [String: AnyObject],
+                          let title = value["title"] as? String,
+                          let langage = value["langage"] as? String,
+                          let icon = value["icon"] as? String,
+                          let idTips = value["id"] as? String,
+                          let highlight = value["highlight"] as? Bool,
+                          let description = value["description"] as? String
+                    else {
+                        return
+                    }
+                    let dataTip = Tips(title: title, highlight: highlight, icon: icon, langage: langage, id: idTips, description: description)
+                    
+                    self.tipsList.append(dataTip)
+                    if highlight && langage == SettingScheme.langage() {
+                        self.tipsViewActivityController.isHidden = true
+                        self.updateTipsUiView()
+                    }
+                }
+            }
+            
+        }
+    }
+    
+    private func updateTipsUiView() {
+        tipsTitleLabel.text = tipsList[0].title
+        tipsDescriptionLabel.text = tipsList[0].description
+    }
+    
+    private func addObserverNotification() {
+        NotificationCenter.default.addObserver(self, selector: #selector(handleNotificationWhenDismiss), name: NSNotification.Name("dismissModal"), object: nil)
+    }
+    
     private func deselectDataTableView() {
         if let selectedIndexPath = tableView.indexPathForSelectedRow {
                 tableView.deselectRow(at: selectedIndexPath, animated: true)
             }
     }
+    
     private func loadHilightTopicDependingPremium() {
         topichighlight = SettingsRepository.userIsPremium ? ScoreService.sortTopicsByScore(with: topicList, using: 3) : ScoreService.sortTopicElementsByIsPremium(topicList)
     }
@@ -86,6 +131,7 @@ final class MainViewController: UIViewController {
         } else {
             premiumButton.isHidden = false
         }
+        fetchTipsFireBase()
         collectionView.reloadData()
         tableView.reloadData()
     }
@@ -99,7 +145,7 @@ final class MainViewController: UIViewController {
     }
     
     private func loadDataFromJson() {
-        JsonService.parse(file: SettingScheme.loadLangageScheme()) { result in
+        JsonService.parse(file: SettingScheme.returnNameSchemeLangageFile()) { result in
             switch result {
             case .success(let table):
                 self.topicList = table
@@ -110,9 +156,11 @@ final class MainViewController: UIViewController {
     }
     
     private func setUpView() {
+        tipsViewActivityController.isHidden = false
+        tipsViewActivityController.startAnimating()
         tipsUIView.layer.cornerRadius = 8
-        tipsTitleLabel.text = "MAIN_TIPS_TITLE".localized()
-        tipsDescriptionLabel.text = "MAIN_TIPS_DESCRIPTION".localized()
+        tipsTitleLabel.text = ""
+        tipsDescriptionLabel.text = ""
         projectTitleLabel.text = "MAIN_PROJECT_TITLE".localized()
         projectSubtitleLabel.text = "MAIN_PROJECT_SUBTITLE".localized()
         premiumButton.setTitle("MAIN_BUTTON_PREMIUM_TITLE".localized(), for: .normal)

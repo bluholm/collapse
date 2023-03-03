@@ -336,29 +336,49 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gjJ-ks-cbM">
                                                 <rect key="frame" x="24" y="298" width="345" height="75"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lightbulb" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="fb0-hY-RMt">
-                                                        <rect key="frame" x="8" y="7" width="32" height="60"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <color key="tintColor" name="SecondColor"/>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightbulb" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="fb0-hY-RMt">
+                                                        <rect key="frame" x="8" y="3.3333333333333286" width="35" height="68"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="35" id="pte-xs-zcm"/>
+                                                        </constraints>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TIPS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xco-fo-uM0">
-                                                        <rect key="frame" x="43" y="8" width="259" height="21"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TIPS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xco-fo-uM0">
+                                                        <rect key="frame" x="47" y="4" width="290" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                                        <color key="textColor" name="SecondColor"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Voici un tips très important à voir pour ne pas vous tromper ! " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGq-9E-RKM">
-                                                        <rect key="frame" x="43" y="31" width="267" height="36"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
-                                                        <color key="textColor" name="SecondColor"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gGq-9E-RKM">
+                                                        <rect key="frame" x="47" y="27" width="290" height="44"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="44" id="uSq-lG-Kow"/>
+                                                        </constraints>
+                                                        <string key="text">Voici un tips très important à voir pour ne pas vous tromper !  Hell Voici un tips très important à voir pour ne pas vous tromper !  Hell</string>
+                                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
+                                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="feN-QH-dxW">
+                                                        <rect key="frame" x="162.66666666666666" y="27.666666666666686" width="20" height="20"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="color" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </activityIndicatorView>
                                                 </subviews>
                                                 <color key="backgroundColor" name="MainColor"/>
                                                 <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="gGq-9E-RKM" secondAttribute="trailing" constant="8" id="5WJ-ud-1As"/>
+                                                    <constraint firstAttribute="bottom" secondItem="gGq-9E-RKM" secondAttribute="bottom" constant="4" id="7ss-Vh-fR5"/>
+                                                    <constraint firstItem="gGq-9E-RKM" firstAttribute="leading" secondItem="fb0-hY-RMt" secondAttribute="trailing" constant="4" id="9uI-ch-OfA"/>
                                                     <constraint firstAttribute="height" constant="75" id="HmT-K2-OKx"/>
+                                                    <constraint firstItem="fb0-hY-RMt" firstAttribute="leading" secondItem="gjJ-ks-cbM" secondAttribute="leading" constant="8" id="IMJ-kW-KId"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Xco-fo-uM0" secondAttribute="trailing" constant="8" id="JE1-YW-9gx"/>
+                                                    <constraint firstItem="fb0-hY-RMt" firstAttribute="top" secondItem="gjJ-ks-cbM" secondAttribute="top" constant="4" id="VJf-Et-9yp"/>
+                                                    <constraint firstItem="feN-QH-dxW" firstAttribute="centerX" secondItem="gjJ-ks-cbM" secondAttribute="centerX" id="Woh-Sc-XrS"/>
+                                                    <constraint firstItem="Xco-fo-uM0" firstAttribute="top" secondItem="gjJ-ks-cbM" secondAttribute="top" constant="4" id="Y4j-fw-4p0"/>
+                                                    <constraint firstItem="Xco-fo-uM0" firstAttribute="leading" secondItem="fb0-hY-RMt" secondAttribute="trailing" constant="4" id="gdU-Za-ODB"/>
+                                                    <constraint firstItem="feN-QH-dxW" firstAttribute="centerY" secondItem="gjJ-ks-cbM" secondAttribute="centerY" id="niQ-Jm-kGb"/>
+                                                    <constraint firstAttribute="bottom" secondItem="fb0-hY-RMt" secondAttribute="bottom" constant="4" id="uXd-QT-Vny"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -460,6 +480,7 @@
                         <outlet property="tipsDescriptionLabel" destination="gGq-9E-RKM" id="OEo-p0-mo9"/>
                         <outlet property="tipsTitleLabel" destination="Xco-fo-uM0" id="gfc-mj-1Qx"/>
                         <outlet property="tipsUIView" destination="gjJ-ks-cbM" id="pnl-Rk-A3K"/>
+                        <outlet property="tipsViewActivityController" destination="feN-QH-dxW" id="biP-cC-CWc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jEJ-gJ-qBz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1173,7 +1194,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="uFt-rZ-9sL">
-                                                    <rect key="frame" x="337" y="15.999999999999993" width="16" height="12.333333333333357"/>
+                                                    <rect key="frame" x="337" y="15.999999999999995" width="16" height="12.333333333333352"/>
                                                     <color key="tintColor" systemColor="systemGray2Color"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="J1g-xB-8n8"/>
@@ -1204,7 +1225,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Dq7-dx-chW">
-                                                    <rect key="frame" x="337" y="15.999999999999993" width="16" height="12.333333333333357"/>
+                                                    <rect key="frame" x="337" y="15.999999999999995" width="16" height="12.333333333333352"/>
                                                     <color key="tintColor" systemColor="systemGray2Color"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="itB-kp-rPT"/>
@@ -1235,7 +1256,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="035-vB-W51">
-                                                    <rect key="frame" x="337" y="15.999999999999995" width="16" height="12.333333333333352"/>
+                                                    <rect key="frame" x="337" y="15.999999999999993" width="16" height="12.333333333333357"/>
                                                     <color key="tintColor" systemColor="systemGray2Color"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="16" id="An6-1Z-l01"/>
@@ -1266,7 +1287,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Qaw-y5-ovJ">
-                                                    <rect key="frame" x="337" y="15.999999999999995" width="16" height="12.333333333333352"/>
+                                                    <rect key="frame" x="337" y="15.999999999999993" width="16" height="12.333333333333357"/>
                                                     <color key="tintColor" systemColor="systemGray2Color"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="A0B-1m-vXc"/>
@@ -1858,7 +1879,7 @@ Veuillez noter que les situations d'urgence peuvent changer rapidement et que le
         <!--Presentation Scroll View Controller-->
         <scene sceneID="xaX-Jg-wFt">
             <objects>
-                <viewController id="zcX-97-IsG" customClass="PresentationScrollViewController" customModule="sincerity" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zcX-97-IsG" customClass="PresentationScrollViewController" customModule="collapse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gw5-tn-PVi">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

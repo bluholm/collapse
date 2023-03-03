@@ -1,0 +1,18 @@
+{
+    "TIPS001": {
+        "id": "001",
+        "langage": "fr",
+        "title": "Décoche l'option qui supprime tes apps !",
+        "description": "Dans Réglages>Général>Stockage : Appuyez sur l’interrupteur Désinstaller les apps inutilisées pour désactiver la fonction.",
+        "icon": "bulb.fill",
+        "highlight": true
+    },
+    "TIPS002": {
+        "id": "002",
+        "language": "en",
+        "title": "Turn off the option that deletes your apps!",
+        "description": "In Settings>General>Storage: Turn off the Offload Unused Apps switch to disable the feature.",
+        "icon": "bulb.fill",
+        "highlight": true
+    }
+}

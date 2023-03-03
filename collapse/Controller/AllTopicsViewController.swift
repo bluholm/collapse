@@ -29,7 +29,7 @@ final class AllTopicsViewController: UIViewController {
     
     // MARK: - Privates
     private func loadDataFromJson() {
-        JsonService.parse(file: SettingScheme.loadLangageScheme()) { result in
+        JsonService.parse(file: SettingScheme.returnNameSchemeLangageFile()) { result in
             switch result {
             case .success(let table):
                 self.topicList = table

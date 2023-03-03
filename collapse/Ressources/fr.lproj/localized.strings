@@ -66,7 +66,7 @@ Veuillez noter que les situations d'urgence peuvent changer rapidement et que le
 
 //StartScrollViewController.swift
 "START_TITLE_1" = "Autonomie ?";
-"START_TITLE2" = "Êtes-vous prêt ?";
+"START_TITLE_2" = "Êtes-vous prêt ?";
 "START_TITLE_3" = "Checklist !";
 "START_DESCRIPTION_1" = "Découvrez les compétences essentielles pour être autonome en toutes circonstances.";
 "START_DESCRIPTION_2" = "Les plus préparés ont plus de chances de réussir en cas de crises.";

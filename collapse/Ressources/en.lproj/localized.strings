@@ -65,7 +65,7 @@ Please note that emergency situations can change rapidly and the advice given ma
 
 //StartScrollViewController.swift
 "START_TITLE_1" = "Autonomy?";
-"START_TITLE2_" = "Are you ready?";
+"START_TITLE_2" = "Are you ready?";
 "START_TITLE_3" = "Checklist!";
 "START_DESCRIPTION_1" = "Discover the essential skills for being self-sufficient in all circumstances.";
 "START_DESCRIPTION_2" = "The most prepared have a greater chance of success in times of crisis.";

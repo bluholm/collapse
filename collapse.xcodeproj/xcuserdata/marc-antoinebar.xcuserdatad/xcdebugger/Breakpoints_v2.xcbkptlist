@@ -3,4 +3,54 @@
    uuid = "56C36FEB-F79E-4AC6-8A81-FB0CA766195F"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2FA4279C-1304-4C7A-A044-4F101AE3E841"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "collapse/Controller/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "fetchTipsFireBase()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2FA4279C-1304-4C7A-A044-4F101AE3E841 - cfe880ed5aace3b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRDataSnapshot) -&gt; () in collapse.MainViewController.fetchTipsFireBase() -&gt; ()"
+                  moduleName = "collapse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marc-antoinebar/My%20Mac/swift/personal%20projects/collapse/collapse/Controller/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "2FA4279C-1304-4C7A-A044-4F101AE3E841 - aaa89cbad090648f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (__C.FIRDataSnapshot) -&gt; () in collapse.MainViewController.fetchTipsFireBase() -&gt; ()"
+                  moduleName = "collapse"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/marc-antoinebar/My%20Mac/swift/personal%20projects/collapse/collapse/Controller/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

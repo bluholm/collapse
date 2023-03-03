@@ -57,6 +57,7 @@ identifier_name:
     - key
     - for
     - row
+    - ref
     - url
     - app
     - URL

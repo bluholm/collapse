@@ -38,6 +38,9 @@
 		0E900623299DC89F00683094 /* JsonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4FE29932A4C005910CF /* JsonService.swift */; };
 		0E900624299DC8D600683094 /* Topic+Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3C4FC299326B1005910CF /* Topic+Json.swift */; };
 		0E90062C299DE11800683094 /* thanks.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E90062B299DE11800683094 /* thanks.json */; };
+		0EBC327529B164920096C8DB /* FireBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBC327429B164920096C8DB /* FireBase.swift */; };
+		0EBC327729B1705F0096C8DB /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBC327629B1705F0096C8DB /* Tips.swift */; };
+		0EBC327929B173BB0096C8DB /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 0EBC327829B173BB0096C8DB /* tips.json */; };
 		0ED2E7D629983EE800BD5B0F /* TopicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2E7D529983EE800BD5B0F /* TopicCollectionViewCell.swift */; };
 		0ED2E7F82998C95200BD5B0F /* Extension+UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2E7F72998C95200BD5B0F /* Extension+UILabel.swift */; };
 		0ED3390729999642006260AC /* PremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED3390629999642006260AC /* PremiumViewController.swift */; };
@@ -106,6 +109,9 @@
 		0E900627299DD50D00683094 /* inprogress.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = inprogress.json; sourceTree = "<group>"; };
 		0E900629299DD8C300683094 /* workinprogresstemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workinprogresstemp.swift; sourceTree = "<group>"; };
 		0E90062B299DE11800683094 /* thanks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = thanks.json; sourceTree = "<group>"; };
+		0EBC327429B164920096C8DB /* FireBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBase.swift; sourceTree = "<group>"; };
+		0EBC327629B1705F0096C8DB /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		0EBC327829B173BB0096C8DB /* tips.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		0ED2E7D529983EE800BD5B0F /* TopicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCollectionViewCell.swift; sourceTree = "<group>"; };
 		0ED2E7F72998C95200BD5B0F /* Extension+UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UILabel.swift"; sourceTree = "<group>"; };
 		0ED3390629999642006260AC /* PremiumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumViewController.swift; sourceTree = "<group>"; };
@@ -291,6 +297,7 @@
 				0E900627299DD50D00683094 /* inprogress.json */,
 				0E900629299DD8C300683094 /* workinprogresstemp.swift */,
 				0E90062B299DE11800683094 /* thanks.json */,
+				0EBC327829B173BB0096C8DB /* tips.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -304,6 +311,8 @@
 				0E18B32F2996E613000F1A1F /* SettingsScheme.swift */,
 				0ED3C4FC299326B1005910CF /* Topic+Json.swift */,
 				0E161D03299D7D4F00C61DEA /* PremiumService.swift */,
+				0EBC327429B164920096C8DB /* FireBase.swift */,
+				0EBC327629B1705F0096C8DB /* Tips.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -427,6 +436,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EBC327929B173BB0096C8DB /* tips.json in Resources */,
 				0ED3C4EE2992ECF8005910CF /* .swiftlint.yml in Resources */,
 				0E161CF6299B713A00C61DEA /* localized.strings in Resources */,
 				0ED3C4E929920F62005910CF /* english.json in Resources */,
@@ -501,6 +511,7 @@
 				0ED3C50329937A7D005910CF /* ItemTableViewCell.swift in Sources */,
 				0E18B33C29975F4D000F1A1F /* Class+Alert.swift in Sources */,
 				0ED3390729999642006260AC /* PremiumViewController.swift in Sources */,
+				0EBC327729B1705F0096C8DB /* Tips.swift in Sources */,
 				0E18B334299707D3000F1A1F /* Extension+String.swift in Sources */,
 				0ED3C4FF29932A4C005910CF /* JsonService.swift in Sources */,
 				0E18B33A29975741000F1A1F /* ThanksViewController.swift in Sources */,
@@ -512,6 +523,7 @@
 				0E18B3302996E613000F1A1F /* SettingsScheme.swift in Sources */,
 				0ED3C4C12992056E005910CF /* AppDelegate.swift in Sources */,
 				0E7F674D299E13CE006807EC /* ItemViewController.swift in Sources */,
+				0EBC327529B164920096C8DB /* FireBase.swift in Sources */,
 				0ED3C4C32992056E005910CF /* SceneDelegate.swift in Sources */,
 				0E161CEC299B0C9D00C61DEA /* SearchTableViewCell.swift in Sources */,
 				0E18B33829975399000F1A1F /* SettingsViewController.swift in Sources */,

@@ -1,8 +1,8 @@
 ##Version 1.0 
 [d] ThanksVC.swift to be generated.
-[todo] open a list pour les tips + FireBase 
+[d] Load 1 tips on MainViewContorller 
 [todo] ajouter les liens dans la page items  
-[todo] slide version des le debut 3 pour expliquer ce que fait l'application
+[d] slide version des le debut 3 pour expliquer ce que fait l'application
 [bug] bug lenght-bullets : "La présence d'une source d'eau potable à proximité" dans emplacement dans base camps  
 [bug] j'ai l'impression que les tri sur le premier ecran d'accueil ne se fait pas bien .... 
 
