@@ -48,17 +48,6 @@ Veuillez noter que les situations d'urgence peuvent changer rapidement et que le
 "TOPIC_ITEMS_TITLE" = "Listes";
 "TOPIC_LINKS_TITLE" = "Liens";
 
-// PremiumViewController.swift
-"PREMIUM_TITLE" = "Accès à tout le contenu";
-"FIRST_LINE_TITLE" = "45 Sujets prêt et complets";
-"SECOND_LINE_TITLE" = "300  sous catégories";
-"THIRD_LINE_TITLE" = "Mode OffLine total , tout est sur votre iphone en tout temps";
-"TITLE_BOX_ONE" = "/ semaine";
-"TITLE_BOX_TWO" = "/ mois";
-"TITLE_BOX_THREE" = "pour la vie";
-"PURCHASE_BUTTON_TITLE" = "Bientôt";
-"RESTORE_BUTTON_TITLE" = "restaurer mon achat";
-
 // ThanksViewController.swift
 "THANKS_TEXT" = "Merci à tous les auteurs splash qui ont contribué !";
 "THANKS_TITLE" = "Remerciements";
@@ -70,3 +59,7 @@ Veuillez noter que les situations d'urgence peuvent changer rapidement et que le
 "START_DESCRIPTION_1" = "Découvrez les compétences essentielles pour être autonome en toutes circonstances.";
 "START_DESCRIPTION_2" = "Les plus préparés ont plus de chances de réussir en cas de crises.";
 "START_DESCRIPTION_3" = "Ne rien oublier pour être prêt à affronter une situation d'urgence grâce à notre liste complète de matériel et de compétences.";
+
+//SearchViewController.swift
+"DESCRIPTION_1" = ", description: ";
+"DESCRIPTION_2" = " & description : ";

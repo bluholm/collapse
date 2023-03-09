@@ -19,7 +19,6 @@ final class SettingsRepository {
     
     enum Keys {
         
-        static let userIsPremium = "userIsPremium"
         static let checkItem = "checkItem"
         static let mode = "mode"
         static let didReadPresentation = "didReadPresentation"
@@ -43,15 +42,6 @@ final class SettingsRepository {
         }
         set {
             userDefault.set(newValue, forKey: Keys.mode)
-        }
-    }
-    /// A boolean value that indicates whether the user is a premium user.
-    static var userIsPremium: Bool {
-        get {
-            return userDefault.bool(forKey: Keys.userIsPremium)
-        }
-        set {
-            userDefault.set(newValue, forKey: Keys.userIsPremium)
         }
     }
     /// A boolean value that indicates whether the user has read the app presentation.

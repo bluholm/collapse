@@ -72,25 +72,18 @@ extension AllTopicsViewController: UITableViewDelegate, UITableViewDataSource {
                 
     }
     
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let selectedtopic = topicList[indexPath.section]
-        if PremiumService.isTopicAccessible(topic: selectedtopic, isUserPremium: SettingsRepository.userIsPremium) {
-            if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
-                vc.topic = topicList[indexPath.section]
-                navigationController?.pushViewController(vc, animated: true)
-            }
-        } else {
-            
-            if let vc = storyboard?.instantiateViewController(withIdentifier: "premiumViewController") as? PremiumViewController {
-                present(vc, animated: true)
-            }
-        }
-    }
-    
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         let backgroundView = UIView()
         backgroundView.backgroundColor = .white
         cell.selectedBackgroundView = backgroundView
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedtopic = topicList[indexPath.section]
+             if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
+                 vc.topic = selectedtopic
+                 navigationController?.pushViewController(vc, animated: true)
+         }
     }
     
 }

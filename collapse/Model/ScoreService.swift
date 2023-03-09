@@ -73,16 +73,6 @@ final class ScoreService {
         return with.filter { newDictionary.keys.contains($0.uid) }
     }
     
-    /// Sorts an array of `TopicElement` objects by their `isPremium` property, with non-premium elements first followed by premium elements.
-    ///
-    /// - Parameter topicElements: An array of `TopicElement` objects to be sorted.
-    /// - Returns: A new array of `TopicElement` objects sorted by their `isPremium` property.
-    static func sortTopicElementsByIsPremium(_ topicElements: [TopicElement]) -> [TopicElement] {
-        let nonPremiumElements = topicElements.filter { !$0.isPremium }
-        let premiumElements = topicElements.filter { $0.isPremium }
-        return nonPremiumElements + premiumElements
-    }
-    
     /// Sorts a dictionary by its values.
     ///
     /// This function takes a dictionary and returns a new dictionary where the key-value pairs are sorted by their values.

@@ -14,16 +14,22 @@ final class SearchTableViewCell: UITableViewCell {
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var descriptionLabel: UILabel!
     @IBOutlet var imageUIImageView: UIImageView!
-    @IBOutlet var premiumImage: UIImageView!
     
     // MARK: - Publics
-    func configure(with: TopicElement, word: String) {
-
-        titleLabel.text = with.title.uppercased()
-        imageUIImageView.image = UIImage(named: with.image)
-        
+    func configure(topic: TopicElement, word: String) {
+        titleLabel.text = topic.title.uppercased()
+        imageUIImageView.image = UIImage(named: topic.image)
+        let fullText = generateText(topic: topic)
+        let text = changeString(text: fullText, word: word, length: 35)
+        descriptionLabel.attributedText = highlightWord(in: text, word: word)
+        if word.isEmpty {
+            descriptionLabel.attributedText = NSAttributedString(string: topic.subtitle)
+        }
+    }
+    
+    func generateText(topic: TopicElement) -> String {
         var itemsText = ""
-        for value in with.items {
+        for value in topic.items {
             itemsText += "checklist:"+value.title
             itemsText += " - content - "
             for content in value.content {
@@ -31,20 +37,14 @@ final class SearchTableViewCell: UITableViewCell {
                 itemsText += "\n\n"
             }
         }
-        
-        let fullText = with.title+" & "+with.subtitle+", description: "+with.descriptionShort+" & description : "+with.descriptionLong+itemsText
-        let text = changeString(text: fullText, word: word, length: 35)
-        descriptionLabel.attributedText = highlightWord(in: text, word: word)
-        
-        if word.isEmpty {
-            descriptionLabel.attributedText = NSAttributedString(string: with.subtitle)
-        }
-        
-        if PremiumService.isTopicAccessible(topic: with, isUserPremium: SettingsRepository.userIsPremium) {
-            premiumImage.isHidden = true
-        } else {
-            premiumImage.isHidden = false
-        }
+        var fullText = topic.title
+        fullText += " & "
+        fullText += topic.subtitle
+        fullText += "DESCRIPTION_1".localized()
+        fullText += topic.descriptionShort
+        fullText += "DESCRIPTION_2".localized()
+        fullText += topic.descriptionLong+itemsText
+        return fullText
     }
     
     func changeString(text: String, word: String, length: Int) -> String {

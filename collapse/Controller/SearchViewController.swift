@@ -45,22 +45,16 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard  let cell = tableView.dequeueReusableCell(withIdentifier: "topicCell") as? SearchTableViewCell else { return UITableViewCell() }
         
-        cell.configure(with: filteredTopic[indexPath.row], word: searchWord)
+        cell.configure(topic: filteredTopic[indexPath.row], word: searchWord)
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
        let selectedtopic = filteredTopic[indexPath.row]
-        if PremiumService.isTopicAccessible(topic: selectedtopic, isUserPremium: SettingsRepository.userIsPremium) {
             if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
                 vc.topic = selectedtopic
                 navigationController?.pushViewController(vc, animated: true)
             }
-        } else {
-            if let vc = storyboard?.instantiateViewController(withIdentifier: "premiumViewController") as? PremiumViewController {
-                present(vc, animated: true)
-            }
-        }
     }
     
 }
@@ -84,8 +78,7 @@ extension SearchViewController: UISearchBarDelegate {
                                                     descriptionShort: topic.descriptionShort,
                                                     descriptionLong: topic.descriptionLong,
                                                     items: items,
-                                                    links: topic.links,
-                                                    isPremium: topic.isPremium)]
+                                                    links: topic.links)]
       })
 
       tableView.reloadData()

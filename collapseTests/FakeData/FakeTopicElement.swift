@@ -20,8 +20,7 @@ class FakeTopicElement {
                              descriptionShort: "",
                              descriptionLong: "",
                              items: [item1, item2, item3],
-                             links: [],
-                             isPremium: false)
+                             links: [])
     static let topic1 = TopicElement(uid: "topic1",
                              title: "Topic 1",
                              subtitle: "",
@@ -29,8 +28,7 @@ class FakeTopicElement {
                              descriptionShort: "",
                              descriptionLong: "",
                              items: [],
-                             links: [],
-                             isPremium: false)
+                             links: [])
     static let topic2 = TopicElement(uid: "topic2",
                              title: "Topic 2",
                              subtitle: "",
@@ -38,8 +36,7 @@ class FakeTopicElement {
                              descriptionShort: "",
                              descriptionLong: "",
                              items: [],
-                             links: [],
-                             isPremium: true)
+                             links: [])
     static let topic3 = TopicElement(uid: "topic3",
                              title: "Topic 3",
                              subtitle: "",
@@ -47,8 +44,7 @@ class FakeTopicElement {
                              descriptionShort: "",
                              descriptionLong: "",
                              items: [],
-                             links: [],
-                             isPremium: false)
+                             links: [])
     static let topic4 = TopicElement(uid: "topic1",
                              title: "Topic 1",
                              subtitle: "",
@@ -56,8 +52,7 @@ class FakeTopicElement {
                              descriptionShort: "",
                              descriptionLong: "",
                              items: [],
-                             links: [],
-                             isPremium: true)
+                             links: [])
     static let topic5 = TopicElement(uid: "topic4",
                              title: "Topic 4",
                              subtitle: "",
@@ -65,6 +60,5 @@ class FakeTopicElement {
                              descriptionShort: "",
                              descriptionLong: "",
                              items: [],
-                             links: [],
-                             isPremium: false)
+                             links: [])
 }

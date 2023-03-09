@@ -33,10 +33,7 @@ struct TopicElement: Decodable, Equatable {
     
     /// links: an array of Link objects that represent links related to the topic
     let links: [Link]
-    
-    /// isPremium: a Boolean value that indicates whether the topic is only available to premium users
-    let isPremium: Bool
-    
+
     static func == (lhs: TopicElement, rhs: TopicElement) -> Bool {
                 return lhs.uid == rhs.uid &&
                     lhs.title == rhs.title &&
@@ -45,8 +42,7 @@ struct TopicElement: Decodable, Equatable {
                     lhs.descriptionShort == rhs.descriptionShort &&
                     lhs.descriptionLong == rhs.descriptionLong &&
                     lhs.items == rhs.items &&
-                    lhs.links == rhs.links &&
-                    lhs.isPremium == rhs.isPremium
+                    lhs.links == rhs.links
     }
 }
 

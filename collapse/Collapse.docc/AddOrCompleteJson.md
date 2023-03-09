@@ -20,8 +20,7 @@ To add a new element to the Json, you will need to add the following Json.
     "links": [],
     "descriptionShort": "",
     "descriptionLong": "",
-    "items": [],
-    "isPremium": false
+    "items": []
 }
 ```
 

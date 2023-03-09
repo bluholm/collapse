@@ -24,7 +24,6 @@ final class MainViewController: UIViewController {
     @IBOutlet var scoreProgressView: UIProgressView!
     @IBOutlet var tableView: UITableView!
     @IBOutlet var collectionView: UICollectionView!
-    @IBOutlet var premiumBarItem: UIBarButtonItem!
     @IBOutlet var tipsUIView: UIView!
     @IBOutlet var tipsTitleLabel: UILabel!
     @IBOutlet var tipsDescriptionLabel: UILabel!
@@ -42,34 +41,19 @@ final class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         loadDataFromJson()
+        topichighlight = ScoreService.sortTopicsByScore(with: topicList, using: 3, checkedItems: SettingsRepository.checkItem)
         setUpView()
         fetchTipsFireBase()
-        loadActionsPremium()
-        addObserverNotification()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        loadHilightTopicDependingPremium()
         updateScorePercent()
         deselectDataTableView()
         tableView.reloadData()
     }
     
-    deinit {
-            NotificationCenter.default.removeObserver(self)
-        }
-    
     // MARK: - Actions
-    @objc func handleNotificationWhenDismiss() {
-       loadActionsPremium()
-    }
-     
-    @IBAction func didTapPremiumButton(_ sender: Any) {
-        if let vc = storyboard?.instantiateViewController(withIdentifier: "premiumViewController") as? PremiumViewController {
-            present(vc, animated: true)
-        }
-    }
     
     @IBAction func didTappedInformationButton(_ sender: Any) {
         self.presentSimpleAlert(message: alertMessage, title: alertTitle, actionTitle: alertAction)
@@ -113,31 +97,15 @@ final class MainViewController: UIViewController {
         tipsDescriptionLabel.text = tipsList[0].description
     }
     
-    private func addObserverNotification() {
-        NotificationCenter.default.addObserver(self, selector: #selector(handleNotificationWhenDismiss), name: NSNotification.Name("dismissModal"), object: nil)
-    }
-    
     private func deselectDataTableView() {
         if let selectedIndexPath = tableView.indexPathForSelectedRow {
                 tableView.deselectRow(at: selectedIndexPath, animated: true)
             }
     }
     
-    private func loadHilightTopicDependingPremium() {
-        let topicsByScore = ScoreService.sortTopicsByScore(with: topicList, using: 3, checkedItems: SettingsRepository.checkItem)
-        let topicByIsUser = ScoreService.sortTopicElementsByIsPremium(topicList)
-        topichighlight = SettingsRepository.userIsPremium ? topicsByScore : topicByIsUser
-    }
-    
-    private func loadActionsPremium() {
-        collectionView.reloadData()
-        tableView.reloadData()
-    }
-    
     private func updateScorePercent() {
-        let score = ScoreService.calculateTotalScore(for: topichighlight, checkedItems: SettingsRepository.checkItem)
-        var scorePercent = 0
-        scorePercent = Int(score*100)
+        let score = ScoreService.calculateTotalScore(for: topicList, checkedItems: SettingsRepository.checkItem)
+        let scorePercent = Int(score*100)
         scorePercentLabel.text = "\(scorePercent)%"
         scoreProgressView.progress = score
     }
@@ -168,14 +136,6 @@ final class MainViewController: UIViewController {
         alertMessage = "MAIN_INFORMATION_BUTTON_MESSAGE".localized()
         alertTitle = "MAIN_INFORMATION_TITLE_MESSAGE".localized()
         alertAction = "MAIN_INFORMATION_ACTION_BUTTON".localized()
-#if DEBUG
-#else
-        if #available(iOS 16.0, *) {
-            premiumBarItem.isHidden =  SettingsRepository.userIsPremium ? true : false
-        } else {
-            premiumBarItem.isEnabled =  SettingsRepository.userIsPremium ? true : false
-        }
-#endif
         
     }
 }
@@ -217,15 +177,9 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
        let selectedtopic = topichighlight[indexPath.section]
-        if PremiumService.isTopicAccessible(topic: selectedtopic, isUserPremium: SettingsRepository.userIsPremium) {
             if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
                 vc.topic = selectedtopic
                 navigationController?.pushViewController(vc, animated: true)
-            }
-        } else {
-            if let vc = storyboard?.instantiateViewController(withIdentifier: "premiumViewController") as? PremiumViewController {
-                present(vc, animated: true)
-            }
         }
     }
     
@@ -254,15 +208,9 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let selectedtopic = topicList[indexPath.row]
-        if PremiumService.isTopicAccessible(topic: selectedtopic, isUserPremium: SettingsRepository.userIsPremium) {
             if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
                 vc.topic = selectedtopic
                 navigationController?.pushViewController(vc, animated: true)
-            }
-        } else {
-            if let vc = storyboard?.instantiateViewController(withIdentifier: "premiumViewController") as? PremiumViewController {
-                present(vc, animated: true)
-            }
         }
     }
 }

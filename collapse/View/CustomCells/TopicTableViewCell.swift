@@ -16,7 +16,6 @@ final class TopicTableViewCell: UITableViewCell {
     @IBOutlet var imageTopic: UIImageView!
     @IBOutlet var preparationLabel: UILabel!
     @IBOutlet var percentLabel: UILabel!
-    @IBOutlet var premiumImage: UIImageView!
     @IBOutlet var percentageCircle: PercentCircleUIView!
     
     // MARK: - Override
@@ -28,12 +27,6 @@ final class TopicTableViewCell: UITableViewCell {
     // MARK: - Public
     func configure(topic: TopicElement, percentage: CGFloat) {
         titleLabel.text = topic.title.uppercased()
-        
-        if PremiumService.isTopicAccessible(topic: topic, isUserPremium: SettingsRepository.userIsPremium) {
-            premiumImage.isHidden = true
-        } else {
-            premiumImage.isHidden = false
-        }
         
         imageTopic.image = UIImage(named: topic.image)
         subtitleLabel.text = topic.subtitle

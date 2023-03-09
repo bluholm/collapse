@@ -47,17 +47,6 @@ Please note that emergency situations can change rapidly and the advice given ma
 "TOPIC_ITEMS_TITLE" = "CheckList";
 "TOPIC_LINKS_TITLE" = "Links";
 
-// PremiumViewController.swift
-"PREMIUM_TITLE" = "Unlock All features";
-"FIRST_LINE_TITLE" = "45 topics ready to serve you";
-"SECOND_LINE_TITLE" = "300 checklists items";
-"THIRD_LINE_TITLE" = "Full Offline Mode, everything is on your phone fir life.";
-"TITLE_BOX_ONE" = "weekly";
-"TITLE_BOX_TWO" = "montlhy";
-"TITLE_BOX_THREE" = "lifetime";
-"PURCHASE_BUTTON_TITLE" = "Coming soon";
-"RESTORE_BUTTON_TITLE" = "restore purchase";
-
 // ThanksViewController.swift
 "THANKS_TEXT" = "Thanks";
 "THANKS_TITLE" = "Thank you to all artist from unsplash : ";
@@ -69,3 +58,7 @@ Please note that emergency situations can change rapidly and the advice given ma
 "START_DESCRIPTION_1" = "Discover the essential skills for being self-sufficient in all circumstances.";
 "START_DESCRIPTION_2" = "The most prepared have a greater chance of success in times of crisis.";
 "START_DESCRIPTION_3" = "Don't forget anything in order to be ready to face an emergency situation with our complete list of equipment and skills.";
+
+//SearchViewController.swift
+"DESCRIPTION_1" = ", description: ";
+"DESCRIPTION_2" = " & description : ";

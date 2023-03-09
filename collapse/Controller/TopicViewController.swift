@@ -57,7 +57,6 @@ final class TopicViewController: UIViewController {
     }
     
     // MARK: - Actions
-    // FIXME: - a mettre dans un modèle.
     @IBAction func didTappedSharedButton(_ sender: Any) {
         var text = topic.title+"\n\n"
         text += topic.subtitle+"\n\n"
