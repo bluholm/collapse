@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This class is a view controller that displays settings in a table view.
 final class SettingsTableViewController: UITableViewController {
     
     // MARK: - Properties

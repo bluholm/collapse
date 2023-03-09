@@ -1,9 +1,5 @@
 // swiftlint:disable all
 
-VENDREDI // peche
-//    • materiel de base
-//    • Filet
-//    • Connaissance sur les pieges à poissons
 SAMEDI //  • vehicules
 //    • vielle voiture
 //    • charette  / remorque
@@ -12,10 +8,6 @@ SAMEDI //  • vehicules
 //    • pieces détaché
 //    • connaissance mecanique
 //    • le cheval
-DIMANCHE // PLanification
-//    • de repli
-//    • de protection
-//    • Un sac d’évacuation
 LUNDI // Nourriture
 //    • Reserves
 //      • produits secs
@@ -121,6 +113,7 @@ MARDI //  • stockage de valeurs
 //    • argent
 //wikipedia
 //kiwix
+// Noeud competence 
 
 So'irneter : dans la nature et ailleurs etc.... '
 
@@ -168,3 +161,50 @@ Avoir une attitude vigilante :
 Ne pas hésiter à contacter les autorités en cas de suspicion ou de danger
 Éviter de divulguer des informations sensibles sur les réseaux sociaux ou en public
 
+
+{
+    "id": "",
+    "title": "",
+    "mode": "",
+    "subtitle": "",
+    "image": "",
+    "links": [],
+    "content": [
+        {
+            "type": "",
+            "value": ""
+        },
+        {
+            "type": "",
+            "value": ""
+        },
+        {
+            "type": "",
+            "value": ""
+        },
+        {
+            "type": "",
+            "value": ""
+        },
+        {
+            "type": "",
+            "value": ""
+        },
+        {
+            "type": "",
+            "value": ""
+        }
+    ]
+}
+
+       
+LINKS SSSSSS
+{
+    "url": "",
+    "description": "",
+    "title": ""
+}
+
+
+https://apprendre-preparer-survivre.com
+https://www.blogsurvivalisme.com/les-noeuds-de-survie-fiables-que-vous-devez-absolument-connaitre/

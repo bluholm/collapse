@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This class is a view controller that allows the user to search for items.
 final class SearchViewController: UIViewController {
 
     // MARK: - Properties
@@ -50,7 +51,7 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
        let selectedtopic = filteredTopic[indexPath.row]
-        if PremiumService.isTopicAccessible(topic: selectedtopic) {
+        if PremiumService.isTopicAccessible(topic: selectedtopic, isUserPremium: SettingsRepository.userIsPremium) {
             if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
                 vc.topic = selectedtopic
                 navigationController?.pushViewController(vc, animated: true)
@@ -72,7 +73,6 @@ extension SearchViewController: UISearchBarDelegate {
       filteredTopic = searchText.isEmpty ? topicList : topicList.flatMap({ (topic: TopicElement) -> [TopicElement] in
         let items = topic.items.filter({ (item: Item) -> Bool in
           return item.title.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil ||
-                 item.subtitle.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil ||
                  topic.title.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil ||
                  topic.descriptionShort.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil ||
                  topic.descriptionLong.range(of: searchText, options: .caseInsensitive, range: nil, locale: nil) != nil

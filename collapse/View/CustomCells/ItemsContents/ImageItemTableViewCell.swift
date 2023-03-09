@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This class is a table view cell that displays an image item in ``Content``
 final class ImageItemTableViewCell: UITableViewCell {
 
     var myImageView = UIImageView()

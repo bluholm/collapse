@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// wThis class contains constants used throughout the application, such as colors, font sizes, and strings.
 class Constants {
     
     // eula links

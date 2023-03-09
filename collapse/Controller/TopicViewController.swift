@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This class is a view controller that displays a list of items for a specific topic.
 final class TopicViewController: UIViewController {
     
     // MARK: - Porperties
@@ -43,7 +44,7 @@ final class TopicViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.loadingTopic()
-        filteredItems =  PremiumService.loadFilteredItemsForTableView(with: topic)
+        filteredItems =  TopicService.loadFilteredItemsForTableView(with: topic)
         tableViewRegular.reloadData()
         self.tableHeightAddObserver()
         self.autoSizeContentView()
@@ -56,6 +57,7 @@ final class TopicViewController: UIViewController {
     }
     
     // MARK: - Actions
+    // FIXME: - a mettre dans un modèle.
     @IBAction func didTappedSharedButton(_ sender: Any) {
         var text = topic.title+"\n\n"
         text += topic.subtitle+"\n\n"
@@ -98,7 +100,7 @@ final class TopicViewController: UIViewController {
         
     }
     private func updateScorePercent() {
-        let score = ScoreService.calculateScoreForOneTopic(with: topic)
+        let score = ScoreService.calculateScoreForOneTopic(for: topic, checkedItems: SettingsRepository.checkItem)
         let scorePercent = Int(score*100)
         scorePercentLabel.text = "\(scorePercent)%"
         scoreProgressView.progress = score
@@ -117,7 +119,7 @@ final class TopicViewController: UIViewController {
         shortDescriptionHeightConstraint.constant = blocShortDecriptionHeight
         let blocLongDecriptionHeight = textViewHeightCalcultate(textView: longDescriptionTextView)
         longDescriptionConstraintHeight.constant = blocLongDecriptionHeight
-        let bloc1Height = CGFloat(32+250+16+80)
+        let bloc1Height = CGFloat(32+150+16+80)
         let blocTitleHeight = CGFloat(24+24+8)*3
         let blocTableViewSectionsHeight = CGFloat(3*60)
         let blocTableViewRowsHeight = CGFloat(topic.items.count*50)
@@ -127,7 +129,6 @@ final class TopicViewController: UIViewController {
         total += blocTableViewRowsHeight+blocTableViewSectionsHeight+blocLongDecriptionHeight
         total += blocTableViewLinksRowsHeight+blocTableViewLinksSectionHeight
         contentViewConstraintHeight.constant = total
-        
     }
     
     private func tableHeightAddObserver() {
@@ -202,7 +203,7 @@ extension TopicViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if tableView == tableViewRegular {
-            guard let vc = storyboard?.instantiateViewController(withIdentifier: "newItemVc") as? NewItemViewController else { return }
+            guard let vc = storyboard?.instantiateViewController(withIdentifier: "newItemVc") as? ItemViewController else { return }
             vc.item = filteredItems[indexPath.section][indexPath.row]
             self.navigationController?.pushViewController(vc, animated: true)
         } else {

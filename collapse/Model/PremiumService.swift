@@ -7,31 +7,22 @@
 
 import Foundation
 
+/// This class provides services related to premium features, such as managing subscriptions and unlocking premium content.
 final class PremiumService {
     
-    static func isTopicAccessible(topic: TopicElement) -> Bool {
-        if !topic.isPremium || ( SettingsRepository.userIsPremium && topic.isPremium) {
+    /// Determines whether a topic is accessible for the current user.
+    ///
+    /// A topic is considered accessible if it is not marked as premium, or if the user is premium.
+    ///
+    /// - Parameters:
+    /// - topic: The TopicElement to check accessibility for.
+    ///
+    /// - Returns: true if the topic is accessible, false otherwise.
+    static func isTopicAccessible(topic: TopicElement, isUserPremium: Bool) -> Bool {
+        if isUserPremium || (!isUserPremium && !topic.isPremium) {
             return true
         }
-        return false
+            return false
     }
     
-    static func loadFilteredItemsForTableView(with: TopicElement) -> [[Item]] {
-        var filteredItems = [[Item]]()
-        let userMode = SettingsRepository.mode
-        let regularItems = with.items.filter { $0.mode == Mode.essential.jsonReferenceName }.sorted { $0.title < $1.title }
-        let intermediateItems = with.items.filter { $0.mode == Mode.intermediate.jsonReferenceName }.sorted { $0.title < $1.title }
-        let advancedItems = with.items.filter { $0.mode == Mode.advanced.jsonReferenceName }.sorted { $0.title < $1.title }
-        
-        if !regularItems.isEmpty {
-            filteredItems.append(regularItems)
-        }
-        if !intermediateItems.isEmpty && (userMode == Mode.advanced.jsonReferenceName || userMode == Mode.intermediate.jsonReferenceName ) {
-            filteredItems.append(intermediateItems)
-        }
-        if !advancedItems.isEmpty && SettingsRepository.mode == Mode.advanced.jsonReferenceName {
-            filteredItems.append(advancedItems)
-        }
-        return filteredItems
-    }
 }

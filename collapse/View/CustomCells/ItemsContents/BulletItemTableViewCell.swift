@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This class is a table view cell that displays a bullet point item in ``Content``
 class BulletItemTableViewCell: UITableViewCell {
 
     let bulletImageView = UIImageView()

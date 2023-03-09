@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This class is a view controller that displays a thank-you message after the user completes an action.
 final class ThanksViewController: UIViewController {
     
     // MARK: - Properties
@@ -44,7 +45,7 @@ final class ThanksViewController: UIViewController {
     }
     
     private func setupView() {
-        allThanksTextView.font = UIFont(name: "Arial", size: 12)
+        allThanksTextView.font = UIFont.systemFont(ofSize: 12)
         allThanksTextView.textAlignment = .justified
         titleLabel.text = "THANKS_TITLE".localized()
         

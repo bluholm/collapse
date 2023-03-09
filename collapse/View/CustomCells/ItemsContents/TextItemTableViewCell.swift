@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This class is a table view cell that displays a text item in ``Content``
 class TextItemTableViewCell: UITableViewCell {
     
     var myTextLabel = UILabel()

@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This class is a custom UIView that displays information about a project with customizable content.
 final class ProjectUIView: UIView {
 
     // MARK: - drawings

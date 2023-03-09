@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// ViewController Allows to display the disclaimer localized
 final class DisclaimerViewController: UIViewController {
 
     @IBOutlet var disclaimerTextlabel: UITextView!

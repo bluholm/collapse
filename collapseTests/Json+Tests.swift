@@ -1,4 +1,4 @@
-//
+// swiftlint:disable:next
 //  collapseTests.swift
 //  collapseTests
 //
@@ -24,9 +24,6 @@ final class JsonCollapseTests: XCTestCase {
         }
         return topicList
     }
-    
-    
-    
     func testIfSameTopicCountInFrenchAndInEnglish() {
         var topicListFrench = [TopicElement]()
         topicListFrench = loadFiles(langage: "french")
@@ -77,20 +74,16 @@ final class JsonCollapseTests: XCTestCase {
     func testIfTitleOrSubtitleISEmptyInFrenchFiles() {
         var topicList = [TopicElement]()
         topicList = loadFiles(langage: "french")
-        for topic in topicList {
-            if topic.title.count <= 3 || topic.subtitle.count <= 3 {
+        for topic in topicList where (topic.title.count <= 3 || topic.subtitle.count <= 3) {
                 XCTFail("fail because size title")
-            }
         }
     }
     
     func testIfTitleOrSubtitleISEmptyInEnglishFiles() {
         var topicList = [TopicElement]()
         topicList = loadFiles(langage: "english")
-        for topic in topicList {
-            if topic.title.count <= 3 || topic.subtitle.count <= 3 {
+        for topic in topicList where (topic.title.count <= 3 || topic.subtitle.count <= 3) {
                 XCTFail("fail because size title")
-            }
         }
     }
     
@@ -165,13 +158,8 @@ final class JsonCollapseTests: XCTestCase {
         topicListFrench = loadFiles(langage: "french")
         for topic in topicListFrench {
             for item in topic.items {
-                for text in item.content {
-                    if text.type == "bullet" || text.type == "text" || text.type == "image" {
-                        
-                    } else {
-                        
-                        XCTFail("fail in beacause:\(text.type) FALSE$ \(topic.title) : \(item.title) = \(text.value)")
-                    }
+                for text in item.content where !(text.type == "bullet" || text.type == "text" || text.type == "image") {
+                    XCTFail("fail in beacause:\(text.type) FALSE$ \(topic.title) : \(item.title) = \(text.value)")
                 }
             }
         }
@@ -182,30 +170,22 @@ final class JsonCollapseTests: XCTestCase {
         topicListFrench = loadFiles(langage: "english")
         for topic in topicListFrench {
             for item in topic.items {
-                for text in item.content {
-                    if text.type == "bullet" || text.type == "text" || text.type == "image" {
-                        
-                    } else {
-                        
-                        XCTFail("fail in beacause:\(text.type) FALSE$ \(topic.title) : \(item.title) = \(text.value)")
-                    }
+                for text in item.content where !(text.type == "bullet" || text.type == "text" || text.type == "image") {
+                    XCTFail("fail in beacause:\(text.type) FALSE$ \(topic.title) : \(item.title) = \(text.value)")
                 }
             }
         }
     }
     
     func testGivenGoodDataWhenParseThenExpectSuccess() {
-            // Arrange
             let fileName = "french"
             let bundle = Bundle(for: type(of: self))
             guard let url = bundle.url(forResource: fileName, withExtension: "json"),
-                    // swiftlint: disable unused_optional_binding
+                    // swiftlint: disable unused_optional_binding optional_try
                     let _ = try? Data(contentsOf: url) else {
                 XCTFail("Fichier JSON invalide")
                 return
             }
-            
-            // Act
             var parsedData: [TopicElement]?
             var parseError: Error?
             let expectation = self.expectation(description: "parse")
@@ -219,11 +199,32 @@ final class JsonCollapseTests: XCTestCase {
                 expectation.fulfill()
             }
             waitForExpectations(timeout: 5, handler: nil)
-            
-            // Assert
-            XCTAssertNotNil(parsedData, "Les données parsées ne devraient pas être nil")
-            XCTAssertNil(parseError, "Il ne devrait pas y avoir d'erreur lors du parsing")
-            // Ajoutez d'autres assertions spécifiques à votre cas d'utilisation
+            XCTAssertNotNil(parsedData)
+            XCTAssertNil(parseError)
         }
     
+    func testGivenIncorrectDataWhenParseThenExpectError() {
+        let fileName = "FakeJsonData"
+        JsonService.parse(file: fileName) { result in
+            switch result {
+            case .success:
+                XCTFail("expected failure")
+            case .failure(let error):
+                XCTAssertNotNil(error)
+            }
+        }
+    }
+    
+    func testGivenBadFileWhenTryToParseThenExpectError() {
+        let fileName = "NoFile"
+        JsonService.parse(file: fileName) { result in
+            switch result {
+            case .success:
+                XCTFail("expected failure")
+            case .failure(let error):
+                XCTAssertNotNil(error)
+            }
+        }
+    }
+
 }

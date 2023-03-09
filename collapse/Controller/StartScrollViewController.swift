@@ -8,6 +8,7 @@
 import UIKit
 import LoremSwiftum
 
+/// This class is a view controller that displays a scrollable presentation with multiple sections.
 class PresentationScrollViewController: UIViewController {
     
     // MARK: - Properties

@@ -7,11 +7,17 @@
 
 import Foundation
 
+/// The SettingsRepository class is a Swift class that serves as a repository for storing and retrieving user settings data in an iOS app.
+///
+/// It provides a set of static properties that enable the app to access and manipulate the user settings data that has been stored in the UserDefaults object.
+/// The SettingsRepository class is a final class, which means that it cannot be subclassed.
+/// It has a private static property called userDefault, which is an instance of the UserDefaults class that is used to store and retrieve user settings data.
+
 final class SettingsRepository {
     
     static private let userDefault = UserDefaults.standard
     
-    private enum Keys {
+    enum Keys {
         
         static let userIsPremium = "userIsPremium"
         static let checkItem = "checkItem"
@@ -21,6 +27,7 @@ final class SettingsRepository {
         
     }
     
+    /// A boolean value that indicates whether the app has been launched before.
     static var launchedBefore: Bool {
         get {
             return userDefault.bool(forKey: Keys.launchedBefore)
@@ -29,7 +36,7 @@ final class SettingsRepository {
             userDefault.set(newValue, forKey: Keys.launchedBefore)
         }
     }
-    
+    /// A string value that specifies the mode of the app.
     static var mode: String {
         get {
             return userDefault.string(forKey: Keys.mode) ?? ""
@@ -38,7 +45,7 @@ final class SettingsRepository {
             userDefault.set(newValue, forKey: Keys.mode)
         }
     }
-    
+    /// A boolean value that indicates whether the user is a premium user.
     static var userIsPremium: Bool {
         get {
             return userDefault.bool(forKey: Keys.userIsPremium)
@@ -47,7 +54,7 @@ final class SettingsRepository {
             userDefault.set(newValue, forKey: Keys.userIsPremium)
         }
     }
-    
+    /// A boolean value that indicates whether the user has read the app presentation.
     static var didReadPresentation: Bool {
         get {
             return userDefault.bool(forKey: Keys.didReadPresentation)
@@ -56,7 +63,7 @@ final class SettingsRepository {
             userDefault.set(newValue, forKey: Keys.didReadPresentation)
         }
     }
-    
+    /// A dictionary that stores a boolean value for each item that the user has checked.
     static var checkItem: [String: Bool] {
         get {
             return userDefault.object(forKey: Keys.checkItem) as? [String: Bool] ?? [:]

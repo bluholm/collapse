@@ -8,7 +8,8 @@
 import UIKit
 import WebKit
 
-final class NewItemViewController: UIViewController {
+/// This class is a view controller that displays details about a single ``Item``.
+final class ItemViewController: UIViewController {
     
     // MARK: - Properties
     @IBOutlet var titleLabel: UILabel!
@@ -18,27 +19,29 @@ final class NewItemViewController: UIViewController {
     // MARK: - Override
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupView()
+    }
+    
+    // MARK: - Actions
+    @IBAction func didSharedButtonTapped(_ sender: Any) {
+        var text = item.title+"\n\n"
+        for content in item.content {
+            text += "-"+content.value+"\n"
+        }
+        text += "ITEM_LINK_TITLE".localized()
+        shareContent(text: [text])
+    }
+    
+    // MARK: - Privates
+    private func setupView() {
         tableView.separatorStyle = .none
         tableView.allowsSelection = false
         titleLabel.text = item.title
     }
     
-    @IBAction func didSharedButtonTapped(_ sender: Any) {
-        var text = item.title+"\n\n"
-        text += item.subtitle+"\n\n"
-        for content in item.content {
-            text += "-"+content.value+"\n"
-        }
-        text += "ITEM_LINK_TITLE".localized()
-        for link in item.links {
-            text += "-"+link.title+"\n"
-            text += "-"+link.description+"\n"
-        }
-        shareContent(text: [text])
-    }
 }
 
-extension NewItemViewController: UITableViewDataSource, UITableViewDelegate {
+extension ItemViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         item.content.count

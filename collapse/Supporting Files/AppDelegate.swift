@@ -9,6 +9,7 @@ import UIKit
 import CoreData
 import FirebaseCore
 
+/// This class is the application delegate and manages the main window and overall lifecycle of the application.
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -26,6 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
+        // swiftlint: disable non_localized_string
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
 

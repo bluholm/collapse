@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This class is a table view cell that displays a topic with customizable content.
 final class TopicTableViewCell: UITableViewCell {
 
     // MARK: - Properties
@@ -28,7 +29,7 @@ final class TopicTableViewCell: UITableViewCell {
     func configure(topic: TopicElement, percentage: CGFloat) {
         titleLabel.text = topic.title.uppercased()
         
-        if PremiumService.isTopicAccessible(topic: topic) {
+        if PremiumService.isTopicAccessible(topic: topic, isUserPremium: SettingsRepository.userIsPremium) {
             premiumImage.isHidden = true
         } else {
             premiumImage.isHidden = false

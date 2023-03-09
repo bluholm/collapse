@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This class is a collection view cell that displays a topic with customizable content.
 final class TopicCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet var image: UIImageView!
@@ -17,7 +18,7 @@ final class TopicCollectionViewCell: UICollectionViewCell {
     
     func configure(with: TopicElement, percentage: CGFloat) {
         
-        if PremiumService.isTopicAccessible(topic: with) {
+        if PremiumService.isTopicAccessible(topic: with, isUserPremium: SettingsRepository.userIsPremium) {
             premiumImage.isHidden = true
         } else {
             premiumImage.isHidden = false

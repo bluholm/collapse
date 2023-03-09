@@ -1069,16 +1069,16 @@
             </objects>
             <point key="canvasLocation" x="3546" y="-382"/>
         </scene>
-        <!--New Item View Controller-->
+        <!--Item View Controller-->
         <scene sceneID="NTO-MW-6En">
             <objects>
-                <viewController storyboardIdentifier="newItemVc" id="84F-oO-GJH" customClass="NewItemViewController" customModule="collapse" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="newItemVc" id="84F-oO-GJH" customClass="ItemViewController" customModule="collapse" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8ZS-jY-zyZ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZdH-ow-J1D">
-                                <rect key="frame" x="0.0" y="186" width="393" height="666"/>
+                                <rect key="frame" x="0.0" y="196" width="393" height="656"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="textCell" id="zAi-i5-Y9v" customClass="TextItemTableViewCell" customModule="collapse" customModuleProvider="target">
@@ -1121,12 +1121,13 @@
                         <viewLayoutGuide key="safeArea" id="7ES-ag-YHv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="ZdH-ow-J1D" secondAttribute="bottom" id="TbF-Hh-nd5"/>
+                            <constraint firstItem="ZdH-ow-J1D" firstAttribute="leading" secondItem="7ES-ag-YHv" secondAttribute="leading" id="9dU-Ex-BA4"/>
+                            <constraint firstItem="ZdH-ow-J1D" firstAttribute="top" secondItem="e2c-kT-j9J" secondAttribute="bottom" constant="29" id="GKv-Vu-98Y"/>
+                            <constraint firstItem="ZdH-ow-J1D" firstAttribute="trailing" secondItem="7ES-ag-YHv" secondAttribute="trailing" id="KRc-IS-0nJ"/>
                             <constraint firstItem="e2c-kT-j9J" firstAttribute="leading" secondItem="7ES-ag-YHv" secondAttribute="leading" constant="16" id="VGd-l2-dfX"/>
-                            <constraint firstItem="ZdH-ow-J1D" firstAttribute="trailing" secondItem="7ES-ag-YHv" secondAttribute="trailing" id="WVv-4d-pFf"/>
                             <constraint firstItem="e2c-kT-j9J" firstAttribute="top" secondItem="7ES-ag-YHv" secondAttribute="top" constant="32" id="ahG-DM-Gxh"/>
-                            <constraint firstItem="ZdH-ow-J1D" firstAttribute="top" secondItem="e2c-kT-j9J" secondAttribute="bottom" constant="19" id="iTV-sB-CEy"/>
-                            <constraint firstItem="ZdH-ow-J1D" firstAttribute="leading" secondItem="7ES-ag-YHv" secondAttribute="leading" id="lJs-EA-g3b"/>
+                            <constraint firstItem="7ES-ag-YHv" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="e2c-kT-j9J" secondAttribute="trailing" symbolic="YES" id="gbi-xH-xj9"/>
+                            <constraint firstAttribute="bottom" secondItem="ZdH-ow-J1D" secondAttribute="bottom" id="i6R-9u-z5E"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="WLa-VR-eiG">
@@ -1137,7 +1138,6 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <size key="freeformSize" width="393" height="852"/>
                     <connections>
                         <outlet property="tableView" destination="ZdH-ow-J1D" id="VyS-Lm-K0T"/>
                         <outlet property="titleLabel" destination="e2c-kT-j9J" id="84i-cc-fDJ"/>
@@ -1145,7 +1145,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wXf-2d-mPc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5818" y="-382"/>
+            <point key="canvasLocation" x="5817.5572519083971" y="-382.3943661971831"/>
         </scene>
         <!--Settings Table View Controller-->
         <scene sceneID="Xj5-Fq-qDh">
@@ -1172,7 +1172,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="uFt-rZ-9sL">
-                                                    <rect key="frame" x="337" y="15.999999999999995" width="16" height="12.333333333333352"/>
+                                                    <rect key="frame" x="337" y="15.999999999999993" width="16" height="12.333333333333357"/>
                                                     <color key="tintColor" systemColor="systemGray2Color"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="J1g-xB-8n8"/>
@@ -1203,7 +1203,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Dq7-dx-chW">
-                                                    <rect key="frame" x="337" y="15.999999999999995" width="16" height="12.333333333333352"/>
+                                                    <rect key="frame" x="337" y="15.999999999999993" width="16" height="12.333333333333357"/>
                                                     <color key="tintColor" systemColor="systemGray2Color"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="itB-kp-rPT"/>
@@ -1234,7 +1234,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="035-vB-W51">
-                                                    <rect key="frame" x="337" y="15.999999999999993" width="16" height="12.333333333333357"/>
+                                                    <rect key="frame" x="337" y="15.999999999999995" width="16" height="12.333333333333352"/>
                                                     <color key="tintColor" systemColor="systemGray2Color"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="16" id="An6-1Z-l01"/>
@@ -1265,7 +1265,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Qaw-y5-ovJ">
-                                                    <rect key="frame" x="337" y="15.999999999999993" width="16" height="12.333333333333357"/>
+                                                    <rect key="frame" x="337" y="15.999999999999995" width="16" height="12.333333333333352"/>
                                                     <color key="tintColor" systemColor="systemGray2Color"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="16" id="A0B-1m-vXc"/>
@@ -1394,14 +1394,14 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="QQ6-xq-UsC" userLabel="numberLinks">
-                                                <rect key="frame" x="0.0" y="94.666666666666686" width="221.33333333333334" height="20.333333333333329"/>
+                                                <rect key="frame" x="0.0" y="94.666666666666686" width="156.33333333333334" height="20.333333333333329"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="xie-8N-uLP">
                                                         <rect key="frame" x="0.0" y="2.3333333333333321" width="18.333333333333332" height="16.333333333333336"/>
                                                         <color key="tintColor" name="SecondColor"/>
                                                     </imageView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 250 links , books, news..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lk-eI-hj4">
-                                                        <rect key="frame" x="29.333333333333343" y="0.0" width="192" height="20.333333333333332"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Offline Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lk-eI-hj4">
+                                                        <rect key="frame" x="29.333333333333343" y="0.0" width="127" height="20.333333333333332"/>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>

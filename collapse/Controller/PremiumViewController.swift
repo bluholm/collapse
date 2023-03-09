@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+/// This class is a view controller that displays information about premium features and allows the user to subscribe.
 final class PremiumViewController: UIViewController {
     
     // MARK: - properties

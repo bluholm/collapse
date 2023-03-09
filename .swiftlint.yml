@@ -12,9 +12,6 @@ opt_in_rules: # some rules are turned off by default, so you need to opt-in
 
 cyclomatic_complexity:
   warning: 10
-  
-unused_closure_parameter: true
-unused_optional_binding: true
 
 excluded: # paths to ignore during linting. Takes precedence over `included`.
   - Carthage
@@ -57,6 +54,8 @@ identifier_name:
     - key
     - for
     - row
+    - lhs
+    - rhs
     - ref
     - url
     - app
@@ -69,29 +68,20 @@ custom_rules:
     regex: '(class|struct|enum|extension)((?-s)\s.*\{$\n)(?!^\s*$)'
     message: "Empty line required after main declarations"
     severity: warning
-custom_rules:
-numbers_smell:
-    regex: '(return |case |\w\(|: |\?\? |\, |== |<=? |>=? |\+= |\-= |\/= |\*= |%= |\w\.\w+ = )\(*-?\d{2,}'
-    message: "Numbers smell; define a constant instead."
-    excluded: '.*Tests/'
-custom_rules:
-    non_localized_string:
+  non_localized_string:
     regex: '(?<!NSLocalizedString\(|fatalError\(|assertionFailure\(|preconditionFailure\(|assert\(false, |format: |separator: |deprecated, message: |\w|\")(?:"[^" \n]+ [^"\n]*"|"[[:upper:]][[:lower:]]+"|""".*?""")'
     message: "Wrap string in NSLocalizedString()"
     match_kinds: string
     excluded: '.*Tests/'
-custom_rules:
   auto_generated_leftovers:
     regex: 'func [^\n]*\{\n(\s*super\.[^\n]*\n(\s*\/\/[^\n]*\n)*|(\s*\/\/[^\n]*\n)+)\s*\}'
     message: "Delete auto-generated functions that you don't use"
-custom_rules:
   already_true:
     regex: "== true"
     message: "Don't compare to true, just use the bool value."
   already_bool:
     regex: "== false"
     message: "Don't compare to false, just use !value."
-custom_rules:
   commented_code:
     regex: '(?&lt;!:|\/)\/\/\h*[a-z.](?!wiftlint)'
     message: "Comment starting with lowercase letter - did you forget to delete old code?"
@@ -99,84 +89,68 @@ custom_rules:
     regex: '^\s*[a-z]'
     match_kinds: comment
     message: "Comment starting with lowercase letter - did you forget to delete old code?"
-
-custom_rules:
-custom_todo:
-  included: ".*.swift"
-  name: "TODO Violation"
-  regex: "(TODO).(?!.*(https&)).(?!.*issues)"
-  match_kinds: comment
-  message: "TODOs must include a link to the github issue."
-  severity: warning
-multiple_empty_lines:
-  included: ".*.swift"
-  name: "Multiple Empty Lines"
-  regex: '((?:\s*\n){3,})'
-  message: "There are too many line breaks"
-  severity: error
-non_weak_delegate_datasource:
-  included: ".*.swift"
-  name: "Retain Cycle"
-  regex: '^\ *var\ *(delegate)'
-  message: "Delegate/datasource may be weak."
-  severity: warning
-no_fatal_errors:
-  included: ".*.swift"
-  name: "!!Crash!!"
-  regex: "fatalError"
-  message: "Don't use fatalError()"
-  severity: error
-swiftlint_file_disabling:
-  included: ".*.swift"
-  name: "SwiftLint File Disabling"
-  regex: "swiftlint:disable\\s"
-  match_kinds:
-    - comment
-  message: "Prefer swiftlint:disable:next or swiftlint:disable:this"
-  severity: warning
-optional_try:
-  included: ".*.swift"
-  name: "Optional Try"
-  regex: "(try[!,?])"
-  message: "You should wrap a `try` in a `do/catch` loop rather than forcibly or optionally attempting it."
-  severity: error
-
-string_literal:
-  included: ".*.swift"
-  excluded: ".*(?i)(Constant|Model|DAO)(|s).swift"
-  name: "String Literal"
-  regex: '"(.*?)"'
-  message: "Don't use string lietral directly. Refer them using Constants file."
-  severity: error
-protocol_conformance:
-  included: ".*.swift"
-  name: "Protocol Conformance"
-  message: "Protocol conformance should be declared in separate extensions in the same file"
-  regex: "(class|struct|extension)[[:space:]]+(?i:(?![^d]*delegate:))[^'\"()<>{},!?:]+:([^'\"<>(){},!?:]+,)+[^'\"<>(){},!?:]*\\{"
-  match_kinds:
-    - keyword
-  severity: warning
-public_ui_model:
-  included: ".*.swift"
-  name: "Public UIModel"
-  regex: "^(open |private |internal |)(class|struct) [a-zA-Z]+(?i)UI(Model|DAO)"
-  message: "UIModel must be public only."
-  severity: error
-non_public_datamodel:
-  included: ".*.swift"
-  name: "Non Public Data Model"
-  regex: "^(open |private |public )(class|struct) [a-zA-Z]+(?i)(Request|Response)(Model|DAO|)"
-  message: "Data Model must be internal only."
-  severity: error
-non_public_datasource:
-  included: ".*.swift"
-  name: "Non Public DataSource"
-  regex: "^(open |private |public )(class|struct) [a-zA-Z]+(?i)DataSource"
-  message: "Data Source must be internal only."
-  severity: error
-dont_import_uikit:
-  included: ".*(?i)(ViewModel|Model|DataSource).swift"
-  name: "Don't import UIKit in ViewModel"
-  regex: "^import (UIKit)$"
-  message: "Don't import UIKit in ViewModel/ Model / DataSource"
-  severity: error
+  custom_todo:
+    included: ".*.swift"
+    name: "TODO Violation"
+    regex: "(TODO).(?!.*(https&)).(?!.*issues)"
+    match_kinds: comment
+    message: "TODOs must include a link to the github issue."
+    severity: warning
+  multiple_empty_lines:
+    included: ".*.swift"
+    name: "Multiple Empty Lines"
+    regex: '((?:\s*\n){3,})'
+    message: "There are too many line breaks"
+    severity: error
+  non_weak_delegate_datasource:
+    included: ".*.swift"
+    name: "Retain Cycle"
+    regex: '^\ *var\ *(delegate)'
+    message: "Delegate/datasource may be weak."
+    severity: warning
+  swiftlint_file_disabling:
+    included: ".*.swift"
+    name: "SwiftLint File Disabling"
+    regex: "swiftlint:disable\\s"
+    match_kinds:
+      - comment
+    message: "Prefer swiftlint:disable:next or swiftlint:disable:this"
+    severity: warning
+  optional_try:
+    included: ".*.swift"
+    name: "Optional Try"
+    regex: "(try[!,?])"
+    message: "You should wrap a `try` in a `do/catch` loop rather than forcibly or optionally attempting it."
+    severity: error
+  protocol_conformance:
+    included: ".*.swift"
+    name: "Protocol Conformance"
+    message: "Protocol conformance should be declared in separate extensions in the same file"
+    regex: "(class|struct|extension)[[:space:]]+(?i:(?![^d]*delegate:))[^'\"()<>{},!?:]+:([^'\"<>(){},!?:]+,)+[^'\"<>(){},!?:]*\\{"
+    match_kinds:
+      - keyword
+    severity: warning
+  public_ui_model:
+    included: ".*.swift"
+    name: "Public UIModel"
+    regex: "^(open |private |internal |)(class|struct) [a-zA-Z]+(?i)UI(Model|DAO)"
+    message: "UIModel must be public only."
+    severity: error
+  non_public_datamodel:
+    included: ".*.swift"
+    name: "Non Public Data Model"
+    regex: "^(open |private |public )(class|struct) [a-zA-Z]+(?i)(Request|Response)(Model|DAO|)"
+    message: "Data Model must be internal only."
+    severity: error
+  non_public_datasource:
+    included: ".*.swift"
+    name: "Non Public DataSource"
+    regex: "^(open |private |public )(class|struct) [a-zA-Z]+(?i)DataSource"
+    message: "Data Source must be internal only."
+    severity: error
+  dont_import_uikit:
+    included: ".*(?i)(ViewModel|Model|DataSource).swift"
+    name: "Don't import UIKit in ViewModel"
+    regex: "^import (UIKit)$"
+    message: "Don't import UIKit in ViewModel/ Model / DataSource"
+    severity: error

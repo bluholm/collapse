@@ -8,6 +8,8 @@
 import UIKit
 import Firebase
 
+/// This page is the main page, the viewcontroller on which the initial controller is set up during the second connection to the application.
+/// It includes all the general menus: settings, topics, etc....
 final class MainViewController: UIViewController {
     
     // MARK: - Properties
@@ -122,7 +124,9 @@ final class MainViewController: UIViewController {
     }
     
     private func loadHilightTopicDependingPremium() {
-        topichighlight = SettingsRepository.userIsPremium ? ScoreService.sortTopicsByScore(with: topicList, using: 3) : ScoreService.sortTopicElementsByIsPremium(topicList)
+        let topicsByScore = ScoreService.sortTopicsByScore(with: topicList, using: 3, checkedItems: SettingsRepository.checkItem)
+        let topicByIsUser = ScoreService.sortTopicElementsByIsPremium(topicList)
+        topichighlight = SettingsRepository.userIsPremium ? topicsByScore : topicByIsUser
     }
     
     private func loadActionsPremium() {
@@ -131,7 +135,7 @@ final class MainViewController: UIViewController {
     }
     
     private func updateScorePercent() {
-        let score = ScoreService.calculateTotalScore(with: topichighlight)
+        let score = ScoreService.calculateTotalScore(for: topichighlight, checkedItems: SettingsRepository.checkItem)
         var scorePercent = 0
         scorePercent = Int(score*100)
         scorePercentLabel.text = "\(scorePercent)%"
@@ -205,7 +209,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "topicTableViewCell", for: indexPath) as? TopicTableViewCell else { return UITableViewCell() }
         let topic = topichighlight[indexPath.section]
-        let percentage = ScoreService.calculateScoreForOneTopic(with: topic)
+        let percentage = ScoreService.calculateScoreForOneTopic(for: topic, checkedItems: SettingsRepository.checkItem)
         cell.configure(topic: topic, percentage: CGFloat(percentage))
         return cell
                 
@@ -213,7 +217,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
        let selectedtopic = topichighlight[indexPath.section]
-        if PremiumService.isTopicAccessible(topic: selectedtopic) {
+        if PremiumService.isTopicAccessible(topic: selectedtopic, isUserPremium: SettingsRepository.userIsPremium) {
             if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
                 vc.topic = selectedtopic
                 navigationController?.pushViewController(vc, animated: true)
@@ -243,14 +247,14 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "topicCell", for: indexPath) as? TopicCollectionViewCell else { return UICollectionViewCell() }
         let topic = topicList[indexPath.row]
-        let percentage = ScoreService.calculateScoreForOneTopic(with: topic)
+        let percentage = ScoreService.calculateScoreForOneTopic(for: topic, checkedItems: SettingsRepository.checkItem)
         cell.configure(with: topicList[indexPath.row], percentage: CGFloat(percentage))
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let selectedtopic = topicList[indexPath.row]
-        if PremiumService.isTopicAccessible(topic: selectedtopic) {
+        if PremiumService.isTopicAccessible(topic: selectedtopic, isUserPremium: SettingsRepository.userIsPremium) {
             if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
                 vc.topic = selectedtopic
                 navigationController?.pushViewController(vc, animated: true)

@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This class is a view controller that displays app settings and allows the user to customize them.
 final class SettingsViewController: UIViewController {
 
     // MARK: - Properties

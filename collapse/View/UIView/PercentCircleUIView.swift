@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This class is a custom UIView that displays a circle graph with a percentage value.
 final class PercentCircleUIView: UIView {
     
     // MARK: - properties

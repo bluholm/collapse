@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This class is a table view cell that displays a search result.
 final class SearchTableViewCell: UITableViewCell {
 
     // MARK: - Properties
@@ -24,7 +25,6 @@ final class SearchTableViewCell: UITableViewCell {
         var itemsText = ""
         for value in with.items {
             itemsText += "checklist:"+value.title
-            itemsText += " & "+value.subtitle
             itemsText += " - content - "
             for content in value.content {
                 itemsText += content.value
@@ -40,7 +40,7 @@ final class SearchTableViewCell: UITableViewCell {
             descriptionLabel.attributedText = NSAttributedString(string: with.subtitle)
         }
         
-        if PremiumService.isTopicAccessible(topic: with) {
+        if PremiumService.isTopicAccessible(topic: with, isUserPremium: SettingsRepository.userIsPremium) {
             premiumImage.isHidden = true
         } else {
             premiumImage.isHidden = false

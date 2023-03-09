@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// This class manages the window and lifecycle of the application scene on devices running iOS 13 and later.
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -16,8 +17,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         if SettingsRepository.didReadPresentation {
+            // swiftlint: disable non_localized_string
+            let storyBoardName = "Main"
             guard let windowScene = (scene as? UIWindowScene) else { return }
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let storyboard = UIStoryboard(name: storyBoardName, bundle: nil)
             let initialViewController = storyboard.instantiateViewController(withIdentifier: "dashboard")
             let window = UIWindow(windowScene: windowScene)
             let navigationController = UINavigationController(rootViewController: initialViewController)

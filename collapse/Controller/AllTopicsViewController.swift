@@ -6,6 +6,10 @@
 //
 
 import UIKit
+/// AllTopicsViewController.swift, contains the code for a view controller in the collapse app.
+/// The purpose of this view controller is to display a list of topics related to survival and collapse preparation.
+/// The topics are loaded from a JSON file using a private method called loadDataFromJson().
+/// The topicList property is an array of TopicElement objects which represent each topic.
 
 final class AllTopicsViewController: UIViewController {
 
@@ -62,7 +66,7 @@ extension AllTopicsViewController: UITableViewDelegate, UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "topicTableViewCell", for: indexPath) as? TopicTableViewCell else { return UITableViewCell() }
         
         let topic = topicList[indexPath.section]
-        let percentage = ScoreService.calculateScoreForOneTopic(with: topic)
+        let percentage = ScoreService.calculateScoreForOneTopic(for: topic, checkedItems: SettingsRepository.checkItem)
         cell.configure(topic: topic, percentage: CGFloat(percentage))
         return cell
                 
@@ -70,7 +74,7 @@ extension AllTopicsViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedtopic = topicList[indexPath.section]
-        if PremiumService.isTopicAccessible(topic: selectedtopic) {
+        if PremiumService.isTopicAccessible(topic: selectedtopic, isUserPremium: SettingsRepository.userIsPremium) {
             if let vc = storyboard?.instantiateViewController(withIdentifier: "TopicViewController") as? TopicViewController {
                 vc.topic = topicList[indexPath.section]
                 navigationController?.pushViewController(vc, animated: true)
