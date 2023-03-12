@@ -80,21 +80,22 @@ final class MainViewController: UIViewController {
                         return
                     }
                     let dataTip = Tips(title: title, highlight: highlight, icon: icon, langage: langage, id: idTips, description: description)
-                    
                     self.tipsList.append(dataTip)
-                    if highlight && langage == SettingScheme.langage() {
-                        self.tipsViewActivityController.isHidden = true
-                        self.updateTipsUiView()
-                    }
                 }
+                self.tipsViewActivityController.isHidden = true
+                self.updateTipsUiView(langage: SettingScheme.langage())
             }
             
         }
     }
     
-    private func updateTipsUiView() {
-        tipsTitleLabel.text = tipsList[0].title
-        tipsDescriptionLabel.text = tipsList[0].description
+    private func updateTipsUiView(langage: String) {
+        var value = 1
+        if langage == "fr" {
+            value = 0
+        }
+        tipsTitleLabel.text = tipsList[value].title
+        tipsDescriptionLabel.text = tipsList[value].description
     }
     
     private func deselectDataTableView() {
@@ -129,7 +130,7 @@ final class MainViewController: UIViewController {
         tipsDescriptionLabel.text = ""
         projectTitleLabel.text = "MAIN_PROJECT_TITLE".localized()
         projectSubtitleLabel.text = "MAIN_PROJECT_SUBTITLE".localized()
-        projectTitleLabel.text = "MAIN_PROJECT_GENERAL_TITLE".localized()
+        projectGeneralTitleLabel.text = "MAIN_PROJECT_GENERAL_TITLE".localized()
         projectFirstSectionLabel.text = "MAIN_PROJECT_FIRST_SECTION_TITLE".localized()
         projectSecondSectionLabel.text = "MAIN_PROJECT_SECOND_SECTION_TITLE".localized()
         projectViewAllButton.setTitle("MAIN_BUTTON_VIEW_ALL".localized(topicList.count), for: .normal)
