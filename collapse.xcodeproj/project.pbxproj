@@ -267,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				0E3E820A29B9AAA7003E0830 /* README.md */,
+				0E0D634D29AF4BD00017E1C2 /* GoogleService-Info.plist */,
 				0ED3C4ED2992ECF8005910CF /* .swiftlint.yml */,
 				0ED3C4BF2992056E005910CF /* collapse */,
 				0E0350B22994E14C00AEC8A2 /* collapseTests */,
@@ -313,7 +314,6 @@
 			isa = PBXGroup;
 			children = (
 				0ED3C4D12992056F005910CF /* Info.plist */,
-				0E0D634D29AF4BD00017E1C2 /* GoogleService-Info.plist */,
 				0ED3C4C02992056E005910CF /* AppDelegate.swift */,
 				0ED3C4C22992056E005910CF /* SceneDelegate.swift */,
 			);
